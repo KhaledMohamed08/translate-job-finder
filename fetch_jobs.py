@@ -13,6 +13,7 @@ import re
 import smtplib
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
@@ -421,15 +422,21 @@ def src_jsearch():
         raise FeedSkipped("monthly request budget used")
     out = []
     for q in queries:
-        url = "https://jsearch.p.rapidapi.com/search?" + urllib.parse.urlencode(
-            {**q, "page": 1, "num_pages": 1, "date_posted": "week"})
+        url = "https://jsearch.p.rapidapi.com/search-v2?" + urllib.parse.urlencode(
+            {**q, "page": 1, "date_posted": "week"})
         try:
             d = http_json(url, retries=0, headers={"x-rapidapi-key": key,
                                                    "x-rapidapi-host": "jsearch.p.rapidapi.com"})
+        except urllib.error.HTTPError as e:
+            raise FeedSkipped(f"request failed: {e.code} {e.read()[:150]!r}", ok=False)
         except Exception as e:
             raise FeedSkipped(f"request failed: {e}", ok=False)
         JSEARCH["used"] += 1
-        for j in d.get("data", []):
+        results = d.get("data", [])
+        if isinstance(results, dict):
+            results = results.get("jobs", [])
+        print(f"JSearch {q['query']!r}: {len(results)} results, keys {sorted(d)[:6]}", file=sys.stderr)
+        for j in results:
             egypt = j.get("job_country") == "EG"
             place = [j.get("job_city"), "Egypt" if egypt else j.get("job_country")]
             out.append(job("Google Jobs", j.get("employer_name"), j.get("job_title"),
