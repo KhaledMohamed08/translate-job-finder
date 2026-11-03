@@ -402,7 +402,7 @@ def jsearch_queries():
     rotating = ["Arabic", "French", "Korean"][NOW.timetuple().tm_yday % 3]
     return [
         {"query": "translator in Egypt", "country": "eg"},
-        {"query": "مترجم في مصر", "country": "eg"},
+        {"query": "English Arabic translator Cairo", "country": "eg"},
         {"query": f"{rotating} translator remote", "work_from_home": "true"},
     ]
 
@@ -444,8 +444,10 @@ def src_jsearch():
             egypt = j.get("job_country") == "EG"
             place = [j.get("job_city"), "Egypt" if egypt else j.get("job_country")]
             location = j.get("job_location") or ", ".join(x for x in place if x)
-            if not location and q.get("country") == "eg":
-                location = "Egypt"  # the search itself was limited to Egypt
+            if q.get("country") == "eg" and not HOME.search(location):
+                location = f"{location}, Egypt".strip(", ")  # the search itself was limited to Egypt
+            if location == "Anywhere":
+                location = "Remote (check eligibility)"  # Google's "Anywhere" is often one country only
             out.append(job("Google Jobs", j.get("employer_name"), j.get("job_title"),
                            j.get("job_apply_link"), location=location,
                            text=j.get("job_description", ""), remote=bool(j.get("job_is_remote")),
