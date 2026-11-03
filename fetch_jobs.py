@@ -394,7 +394,7 @@ class FeedSkipped(Exception):
 
 
 # The free JSearch plan is a hard 100 requests a month, so 3 a day, once a day.
-JSEARCH_MONTHLY_BUDGET = 93
+JSEARCH_MONTHLY_BUDGET = 90
 JSEARCH = {"month": "", "used": 0, "last_day": ""}  # loaded from / saved to jobs.json
 
 
@@ -420,18 +420,20 @@ def src_jsearch():
     queries = jsearch_queries()
     if JSEARCH["used"] + len(queries) > JSEARCH_MONTHLY_BUDGET:
         raise FeedSkipped("monthly request budget used")
-    out = []
+    out, errors = [], []
     for q in queries:
         url = "https://jsearch.p.rapidapi.com/search-v2?" + urllib.parse.urlencode(
-            {**q, "page": 1, "date_posted": "week"})
+            {**q, "page": 1, "date_posted": "month"})
+        JSEARCH["used"] += 1  # failed requests can count against the plan too
         try:
-            d = http_json(url, retries=0, headers={"x-rapidapi-key": key,
-                                                   "x-rapidapi-host": "jsearch.p.rapidapi.com"})
+            d = http_json(url, retries=0, timeout=90, headers={"x-rapidapi-key": key,
+                                                               "x-rapidapi-host": "jsearch.p.rapidapi.com"})
         except urllib.error.HTTPError as e:
-            raise FeedSkipped(f"request failed: {e.code} {e.read()[:150]!r}", ok=False)
+            errors.append(f"{e.code} {e.read()[:150]!r}")
+            continue
         except Exception as e:
-            raise FeedSkipped(f"request failed: {e}", ok=False)
-        JSEARCH["used"] += 1
+            errors.append(str(e))
+            continue
         results = d.get("data", [])
         if isinstance(results, dict):
             results = results.get("jobs", [])
@@ -444,7 +446,11 @@ def src_jsearch():
                            text=j.get("job_description", ""), remote=bool(j.get("job_is_remote")),
                            deadline=j.get("job_offer_expiration_datetime_utc"),
                            posted=j.get("job_posted_at_datetime_utc")))
+    if len(errors) == len(queries):
+        raise FeedSkipped(f"request failed: {errors[0]}", ok=False)
     JSEARCH["last_day"] = today
+    if errors:
+        print(f"JSearch: {len(errors)} of {len(queries)} searches failed: {errors[0]}", file=sys.stderr)
     return out
 
 
