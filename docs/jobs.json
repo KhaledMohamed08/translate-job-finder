@@ -1,57 +1,58 @@
 {
- "updated": "2026-11-03T22:21:54Z",
+ "updated": "2026-11-03T22:24:17Z",
  "sources": {
   "Remotive": {
    "ok": true,
    "count": 10
   },
-  "Jobicy": {
-   "ok": true,
-   "count": 100
-  },
-  "RemoteOK": {
-   "ok": true,
-   "count": 99
-  },
   "Working Nomads": {
    "ok": true,
    "count": 35
-  },
-  "UNICEF": {
-   "ok": true,
-   "count": 544
-  },
-  "Translation agencies": {
-   "ok": true,
-   "count": 201
   },
   "Company boards": {
    "ok": true,
    "count": 233
   },
-  "UNESCO": {
+  "RemoteOK": {
    "ok": true,
-   "count": 0
+   "count": 99
+  },
+  "Jobicy": {
+   "ok": true,
+   "count": 100
   },
   "Himalayas": {
    "ok": true,
    "count": 126
   },
+  "Translation agencies": {
+   "ok": true,
+   "count": 201
+  },
+  "UNICEF": {
+   "ok": true,
+   "count": 544
+  },
+  "ReliefWeb": {
+   "ok": false,
+   "count": 0,
+   "error": "returned no jobs (site may have changed)"
+  },
   "UN Careers": {
    "ok": true,
    "count": 430
   },
-  "UNDP": {
+  "UNESCO": {
    "ok": true,
-   "count": 12
-  },
-  "ReliefWeb": {
-   "ok": true,
-   "count": 85
+   "count": 0
   },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
    "count": 23
+  },
+  "UNDP": {
+   "ok": true,
+   "count": 12
   },
   "Impactpool": {
    "ok": true,
@@ -120,7 +121,7 @@
    "egypt": false,
    "intl": true,
    "deadline": "2026-11-06T04:59:00Z",
-   "posted": "2026-10-28T21:00:00Z",
+   "posted": "2026-10-29T00:00:00Z",
    "score": 72,
    "reasons": [
     "Mentions translation",
@@ -813,7 +814,7 @@
    "egypt": false,
    "intl": true,
    "deadline": "2026-11-09T04:59:00Z",
-   "posted": "2026-10-28T21:00:00Z",
+   "posted": "2026-10-29T00:00:00Z",
    "score": 45,
    "reasons": [
     "Remote / home-based"
@@ -882,7 +883,7 @@
    "egypt": false,
    "intl": true,
    "deadline": "2026-11-10T16:09:00Z",
-   "posted": "2026-10-26T21:00:00Z",
+   "posted": "2026-10-27T00:00:00Z",
    "score": 45,
    "reasons": [
     "Remote / home-based"
