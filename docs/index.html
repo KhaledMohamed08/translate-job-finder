@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Job Radar</title>
+<meta name="description" content="UN, international and remote jobs matched for a translator (Arabic, English, French, Korean).">
+<meta name="theme-color" content="#0b5cab">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<style>
+:root{
+  --bg:#f4f6fa; --card:#fff; --ink:#14213d; --muted:#5b6478; --line:#e3e7ef;
+  --brand:#0b5cab; --brand-soft:#e6f0fb; --good:#11845b; --good-soft:#e4f5ec;
+  --warn:#b45309; --warn-soft:#fdf1e2; --bad:#b42318; --bad-soft:#fdecea;
+  --chip:#eef1f6; --shadow:0 1px 2px rgba(16,24,40,.06),0 4px 14px rgba(16,24,40,.05);
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0e1420; --card:#161e2d; --ink:#e7ecf5; --muted:#9aa5ba; --line:#263247;
+  --brand:#5aa2f0; --brand-soft:#16304f; --good:#45c48f; --good-soft:#143a2b;
+  --warn:#f0a44b; --warn-soft:#3d2a12; --bad:#f2776b; --bad-soft:#3d1a17;
+  --chip:#1f2a3d; --shadow:none;
+}}
+:root[data-theme="dark"]{
+  --bg:#0e1420; --card:#161e2d; --ink:#e7ecf5; --muted:#9aa5ba; --line:#263247;
+  --brand:#5aa2f0; --brand-soft:#16304f; --good:#45c48f; --good-soft:#143a2b;
+  --warn:#f0a44b; --warn-soft:#3d2a12; --bad:#f2776b; --bad-soft:#3d1a17;
+  --chip:#1f2a3d; --shadow:none;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans","Noto Sans Arabic",sans-serif}
+a{color:var(--brand)}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px calc(90px + env(safe-area-inset-bottom))}
+
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 8px;border-bottom:1px solid var(--line)}
+.top{display:flex;align-items:center;gap:10px}
+.logo{width:34px;height:34px;flex:none}
+h1{font-size:20px;margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:12.5px}
+.top .sp{flex:1}
+.iconbtn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;
+  width:38px;height:38px;font-size:17px;cursor:pointer}
+
+.search{margin-top:12px;position:relative}
+.search input{width:100%;padding:11px 12px 11px 38px;border-radius:12px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink);font-size:16px;outline:none}
+.search input:focus{border-color:var(--brand);box-shadow:0 0 0 3px var(--brand-soft)}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);opacity:.5}
+
+.chips{display:flex;gap:7px;overflow-x:auto;padding:10px 0 4px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;
+  padding:7px 12px;font-size:13.5px;cursor:pointer;white-space:nowrap}
+.chip[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:#fff}
+.chip .n{opacity:.7;margin-left:4px;font-variant-numeric:tabular-nums}
+
+.bar{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 0 4px;color:var(--muted);font-size:13px}
+.bar select{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:5px 8px;font-size:13px}
+
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px;margin:10px 0;box-shadow:var(--shadow)}
+.card.new{border-left:4px solid var(--brand)}
+.card.hidden-job{opacity:.55}
+.row{display:flex;gap:12px;align-items:flex-start}
+.score{flex:none;width:46px;height:46px;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:15px;
+  background:conic-gradient(var(--c) calc(var(--p)*1%), var(--chip) 0)}
+.score span{width:36px;height:36px;border-radius:50%;background:var(--card);display:grid;place-items:center}
+.body{min-width:0;flex:1}
+.title{font-weight:650;font-size:15.5px;line-height:1.3;margin:0 0 3px;overflow-wrap:anywhere}
+.title a{color:inherit;text-decoration:none}
+.meta{color:var(--muted);font-size:13px;overflow-wrap:anywhere}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.tag{font-size:12px;padding:3px 8px;border-radius:999px;background:var(--chip);color:var(--ink)}
+.tag.g{background:var(--good-soft);color:var(--good)}
+.tag.b{background:var(--brand-soft);color:var(--brand)}
+.tag.w{background:var(--warn-soft);color:var(--warn)}
+.tag.r{background:var(--bad-soft);color:var(--bad)}
+.snip{color:var(--muted);font-size:13.5px;margin:9px 0 0;display:none}
+.card.open .snip{display:block}
+.actions{display:flex;gap:6px;margin-top:12px;align-items:center}
+.actions .primary{flex:1;justify-content:center}
+.btn.ico{padding:8px 10px;min-width:38px;justify-content:center}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:8px 11px;
+  font-size:13.5px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:5px}
+.btn.primary{background:var(--brand);color:#fff;border-color:var(--brand)}
+.btn.on{background:var(--good-soft);color:var(--good);border-color:transparent}
+.btn.more{margin-left:auto}
+.status{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:10px;padding:7px 8px;font-size:13.5px}
+.status.set{background:var(--good-soft);color:var(--good);border-color:transparent;font-weight:600}
+
+.empty{text-align:center;color:var(--muted);padding:50px 10px}
+.foot{color:var(--muted);font-size:12px;margin-top:20px;line-height:1.6}
+.foot b{color:var(--ink)}
+.dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:4px;vertical-align:middle}
+
+dialog{border:none;border-radius:16px;padding:18px;max-width:420px;width:calc(100% - 32px);background:var(--card);color:var(--ink)}
+dialog::backdrop{background:rgba(0,0,0,.4)}
+dialog textarea{width:100%;height:110px;border-radius:10px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:8px;font:12px ui-monospace,monospace}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="top">
+      <svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#0b5cab"/><circle cx="32" cy="32" r="19" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="3"/><circle cx="32" cy="32" r="8" fill="none" stroke="#fff" stroke-opacity=".7" stroke-width="3"/><path d="M32 32 L52 16" stroke="#fff" stroke-width="4" stroke-linecap="round"/><circle cx="45" cy="22" r="4" fill="#ffd166"/></svg>
+      <div>
+        <h1>Job Radar</h1>
+        <div class="sub" id="updated">Loading…</div>
+      </div>
+      <div class="sp"></div>
+      <button class="iconbtn" id="syncBtn" title="Sync saved jobs between phones" aria-label="Sync">⇅</button>
+      <button class="iconbtn" id="themeBtn" title="Light / dark" aria-label="Toggle theme">◐</button>
+    </div>
+    <label class="search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search title, organization, place…" autocomplete="off">
+    </label>
+    <div class="chips" id="chips" role="toolbar" aria-label="Filters"></div>
+  </header>
+
+  <div class="bar">
+    <span id="count"></span>
+    <select id="sort" aria-label="Sort">
+      <option value="score">Best match</option>
+      <option value="new">Newest first</option>
+      <option value="deadline">Closing soon</option>
+    </select>
+  </div>
+
+  <main id="list"></main>
+  <div class="foot" id="foot"></div>
+</div>
+
+<dialog id="sync">
+  <h3 style="margin:0 0 6px">Sync between phones</h3>
+  <p class="meta" style="margin:0 0 10px">Saved / applied jobs are stored on this phone. To copy them to the other phone, tap <b>Copy code</b>, send it to yourself (e.g. WhatsApp), and paste it there.</p>
+  <textarea id="syncText" spellcheck="false"></textarea>
+  <div class="actions">
+    <button class="btn primary" id="copyCode">Copy code</button>
+    <button class="btn" id="importCode">Import pasted code</button>
+    <button class="btn more" id="closeSync">Close</button>
+  </div>
+</dialog>
+
+<script>
+const STATUSES = ["", "Saved", "Applied", "Interview", "Offer", "Not for me"];
+const store = {
+  get(k, d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+let track = store.get("jr.track", {});          // id -> {s: status, t: time}
+let lastVisit = null;  // "New" = first seen after the previous data update this phone saw
+let data = {jobs: [], sources: {}};
+let filter = store.get("jr.filter", "all");
+const sortSel = document.getElementById("sort");
+sortSel.value = store.get("jr.sort", "score");
+
+const DAY = 864e5;
+const daysLeft = d => d ? Math.ceil((new Date(d) - Date.now()) / DAY) : null;
+const isNew = j => lastVisit && j.first_seen > lastVisit;
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const st = j => (track[j.id] || {}).s || "";
+
+const FILTERS = [
+  ["all", "All", j => st(j) !== "Not for me"],
+  ["new", "🆕 New", j => isNew(j)],
+  ["role", "✍️ Translation", j => j.role],
+  ["un", "🇺🇳 UN & Intl", j => j.intl],
+  ["remote", "🏠 Remote", j => j.remote],
+  ["egypt", "🇪🇬 Egypt", j => j.egypt],
+  ["Arabic", "Arabic", j => j.langs.includes("Arabic")],
+  ["French", "French", j => j.langs.includes("French")],
+  ["Korean", "Korean", j => j.langs.includes("Korean")],
+  ["soon", "⏳ Closing soon", j => { const d = daysLeft(j.deadline); return d !== null && d <= 7; }],
+  ["saved", "⭐ My list", j => st(j) && st(j) !== "Not for me"],
+  ["hidden", "Hidden", j => st(j) === "Not for me"],
+];
+
+function scoreColor(s){ return s >= 80 ? "var(--good)" : s >= 60 ? "var(--brand)" : "var(--warn)"; }
+function ago(iso){
+  if(!iso) return "";
+  const h = Math.round((Date.now() - new Date(iso)) / 36e5);
+  return h < 1 ? "just now" : h < 24 ? `${h}h ago` : `${Math.round(h/24)}d ago`;
+}
+
+function renderChips(){
+  const el = document.getElementById("chips");
+  el.innerHTML = FILTERS.map(([k, label, fn]) => {
+    const n = data.jobs.filter(fn).length;
+    if (k !== "all" && k !== filter && !n) return "";
+    return `<button class="chip" data-f="${k}" aria-pressed="${k === filter}">${label}<span class="n">${n}</span></button>`;
+  }).join("");
+}
+
+function card(j){
+  const d = daysLeft(j.deadline);
+  const tags = [];
+  if (isNew(j)) tags.push(`<span class="tag b">New</span>`);
+  if (j.role) tags.push(`<span class="tag g">Translation role</span>`);
+  j.langs.forEach(l => tags.push(`<span class="tag g">${l}</span>`));
+  if (j.remote) tags.push(`<span class="tag b">Remote</span>`);
+  if (j.egypt) tags.push(`<span class="tag b">${j.remote ? "Open to Egypt" : "In Egypt"}</span>`);
+  if (d !== null) tags.push(`<span class="tag ${d <= 3 ? "r" : d <= 7 ? "w" : ""}">${d <= 0 ? "Closes today" : `Closes in ${d}d`}</span>`);
+  j.reasons.filter(r => /Senior|Needs|7\+|eligibility/.test(r))
+    .forEach(r => tags.push(`<span class="tag w">${esc(r)}</span>`));
+  const s = st(j);
+  return `<article class="card ${isNew(j) ? "new" : ""} ${s === "Not for me" ? "hidden-job" : ""}" data-id="${esc(j.id)}">
+    <div class="row">
+      <div class="score" style="--p:${j.score};--c:${scoreColor(j.score)}" title="Match score"><span>${j.score}</span></div>
+      <div class="body">
+        <h2 class="title"><a href="${esc(j.url)}" target="_blank" rel="noopener">${esc(j.title)}</a></h2>
+        <div class="meta">${esc(j.org)} · ${esc(j.location || (j.remote ? "Remote" : ""))}</div>
+        <div class="meta">via ${esc(j.source)}${j.posted ? " · posted " + ago(j.posted) : ""}</div>
+      </div>
+    </div>
+    <div class="tags">${tags.join("")}</div>
+    <p class="snip">${esc(j.snippet)}…</p>
+    <div class="actions">
+      <a class="btn primary" href="${esc(j.url)}" target="_blank" rel="noopener">Open job ↗</a>
+      <select class="status ${s ? "set" : ""}" data-act="status" aria-label="Tracking status">
+        ${STATUSES.map(x => `<option value="${x}" ${x === s ? "selected" : ""}>${x || "☆ Track…"}</option>`).join("")}
+      </select>
+      <button class="btn ico" data-act="share" aria-label="Share" title="Share">⤴</button>
+      <button class="btn ico" data-act="more" aria-label="Details" title="Details">▾</button>
+    </div>
+  </article>`;
+}
+
+function render(){
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const fn = (FILTERS.find(f => f[0] === filter) || FILTERS[0])[2];
+  let jobs = data.jobs.filter(fn);
+  if (q) jobs = jobs.filter(j => `${j.title} ${j.org} ${j.location} ${j.source} ${j.langs.join(" ")}`.toLowerCase().includes(q));
+  const sort = sortSel.value;
+  if (sort === "new") jobs.sort((a, b) => (b.first_seen + (b.posted||"")).localeCompare(a.first_seen + (a.posted||"")));
+  if (sort === "deadline") jobs.sort((a, b) => (a.deadline || "9").localeCompare(b.deadline || "9"));
+  document.getElementById("count").textContent = `${jobs.length} job${jobs.length === 1 ? "" : "s"}`;
+  document.getElementById("list").innerHTML = jobs.length ? jobs.map(card).join("")
+    : `<div class="empty">No jobs here right now.<br>Try another filter — new jobs arrive every morning.</div>`;
+  renderChips();
+}
+
+function renderFoot(){
+  const src = Object.entries(data.sources || {});
+  const ok = src.filter(([, v]) => v.ok).length;
+  document.getElementById("foot").innerHTML =
+    `<b>Sources (${ok}/${src.length} working):</b> ` +
+    src.map(([k, v]) => `<span title="${esc(v.error || v.count + " jobs checked")}"><span class="dot" style="background:${v.ok ? "var(--good)" : "var(--bad)"}"></span>${esc(k)}</span>`).join(" &nbsp; ") +
+    `<br>Score = how well a job fits: translation role, Arabic / French / Korean, remote or in Egypt, UN organization, and level. Always check eligibility on the original posting.`;
+}
+
+document.getElementById("chips").addEventListener("click", e => {
+  const b = e.target.closest(".chip"); if (!b) return;
+  filter = b.dataset.f; store.set("jr.filter", filter); render();
+  window.scrollTo({top: 0, behavior: "smooth"});
+});
+document.getElementById("q").addEventListener("input", render);
+sortSel.addEventListener("change", () => { store.set("jr.sort", sortSel.value); render(); });
+
+document.getElementById("list").addEventListener("click", async e => {
+  const el = e.target.closest("[data-act]"); if (!el) return;
+  const c = el.closest(".card"), j = data.jobs.find(x => x.id === c.dataset.id);
+  if (el.dataset.act === "more") { c.classList.toggle("open"); el.textContent = c.classList.contains("open") ? "▴" : "▾"; }
+  if (el.dataset.act === "share") {
+    const text = `${j.title} — ${j.org}`;
+    try { if (navigator.share) await navigator.share({title: j.title, text, url: j.url});
+          else { await navigator.clipboard.writeText(`${text}\n${j.url}`); el.textContent = "✓"; } } catch {}
+  }
+});
+document.getElementById("list").addEventListener("change", e => {
+  if (e.target.dataset.act !== "status") return;
+  const id = e.target.closest(".card").dataset.id;
+  if (e.target.value) track[id] = {s: e.target.value, t: Date.now()}; else delete track[id];
+  store.set("jr.track", track); render();
+});
+
+// theme
+const themeBtn = document.getElementById("themeBtn");
+const applyTheme = t => t ? document.documentElement.setAttribute("data-theme", t) : document.documentElement.removeAttribute("data-theme");
+applyTheme(store.get("jr.theme", null));
+themeBtn.onclick = () => {
+  const dark = document.documentElement.dataset.theme ? document.documentElement.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  const t = dark ? "light" : "dark"; store.set("jr.theme", t); applyTheme(t);
+};
+
+// sync tracker between phones via a copy/paste code
+const dlg = document.getElementById("sync"), ta = document.getElementById("syncText");
+document.getElementById("syncBtn").onclick = () => { ta.value = btoa(unescape(encodeURIComponent(JSON.stringify(track)))); dlg.showModal(); };
+document.getElementById("closeSync").onclick = () => dlg.close();
+document.getElementById("copyCode").onclick = async e => { try { await navigator.clipboard.writeText(ta.value); e.target.textContent = "Copied ✓"; } catch { ta.select(); } };
+document.getElementById("importCode").onclick = () => {
+  try {
+    const incoming = JSON.parse(decodeURIComponent(escape(atob(ta.value.trim()))));
+    for (const [id, v] of Object.entries(incoming)) if (!track[id] || track[id].t < v.t) track[id] = v;
+    store.set("jr.track", track); dlg.close(); render();
+  } catch { alert("That code doesn't look right — copy it again from the other phone."); }
+};
+
+fetch("jobs.json?t=" + Date.now()).then(r => r.json()).then(d => {
+  data = d;
+  const seen = store.get("jr.seenUpdate", null);
+  if (seen !== d.updated) { store.set("jr.prevUpdate", seen); store.set("jr.seenUpdate", d.updated); }
+  lastVisit = store.get("jr.prevUpdate", null);
+  document.getElementById("updated").textContent = `${d.jobs.length} matches · updated ${ago(d.updated)}`;
+  render(); renderFoot();
+}).catch(() => {
+  document.getElementById("updated").textContent = "Could not load jobs";
+  document.getElementById("list").innerHTML = `<div class="empty">Couldn't load the job list. Pull to refresh in a moment.</div>`;
+});
+</script>
+</body>
+</html>

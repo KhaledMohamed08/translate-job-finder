@@ -1,0 +1,836 @@
+{
+ "updated": "2026-11-03T17:11:36Z",
+ "sources": {
+  "Remotive": {
+   "ok": true,
+   "count": 10
+  },
+  "RemoteOK": {
+   "ok": true,
+   "count": 99
+  },
+  "Working Nomads": {
+   "ok": true,
+   "count": 35
+  },
+  "Jobicy": {
+   "ok": true,
+   "count": 100
+  },
+  "UNICEF": {
+   "ok": true,
+   "count": 564
+  },
+  "Company boards": {
+   "ok": true,
+   "count": 236
+  },
+  "Himalayas": {
+   "ok": true,
+   "count": 126
+  },
+  "UNHCR + WFP": {
+   "ok": true,
+   "count": 0
+  },
+  "UN Careers": {
+   "ok": true,
+   "count": 417
+  },
+  "ReliefWeb": {
+   "ok": true,
+   "count": 86
+  }
+ },
+ "jobs": [
+  {
+   "id": "expertaudiotranscribersaidiarabicperlesystems",
+   "title": "Expert Audio Transcriber, Sa'idi Arabic",
+   "org": "Perle Systems",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/perle-systems/jobs/expert-audio-transcriber-sa-idi-arabic?utm_source=api",
+   "location": "Egypt",
+   "remote": true,
+   "egypt": true,
+   "intl": false,
+   "deadline": "2026-12-16T17:44:48Z",
+   "posted": "2026-10-17T17:44:48Z",
+   "score": 100,
+   "reasons": [
+    "Translation / language role",
+    "Open to Egypt",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "About Perle Perle is an AI infrastructure company building expert-driven training data, evaluation systems, and applied AI products for the world's leading labs and enterprises. Our partners include xAI, Samsung, ELM, and Unisys. Headquartered in San Francisco with experts across more than forty markets, we specialize in the work that requires real human judgment: domain expertise, linguistic nuance, and cultural fid",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "expertaudiotranscriberegyptianarabicperlesystems",
+   "title": "Expert Audio Transcriber, Egyptian Arabic",
+   "org": "Perle Systems",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/perle-systems/jobs/expert-audio-transcriber-egyptian-arabic?utm_source=api",
+   "location": "Egypt",
+   "remote": true,
+   "egypt": true,
+   "intl": false,
+   "deadline": "2026-12-16T17:44:49Z",
+   "posted": "2026-10-17T17:44:49Z",
+   "score": 100,
+   "reasons": [
+    "Translation / language role",
+    "Open to Egypt",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "ABOUT PERLE Perle is an AI infrastructure company building expert-driven training data, evaluation systems, and applied AI products for the world's leading labs and enterprises. Our partners include xAI, Samsung, ELM, and Unisys. Headquartered in San Francisco with experts across more than forty markets, we specialize in the work that requires real human judgment: domain expertise, linguistic nuance, and cultural fid",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "koreanlanguagedatacontributormultimodalfreelanceaitrainerprojectinvisibletechnol",
+   "title": "Korean Language Data Contributor (Multimodal) – Freelance AI Trainer Project",
+   "org": "Invisible Technologies",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/inv/jobs/korean-language-data-contributor-multimodal-freelance-ai-trainer-project?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": "2026-12-17T16:56:48Z",
+   "posted": "2026-11-01T13:13:16Z",
+   "score": 100,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "snippet": "Are you a Korean language expert eager to shape the future of AI? Large‑scale language models are evolving from clever chatbots into powerful engines of linguistic discovery. With high‑quality training data, tomorrow’s AI can democratize world‑class education, keep pace with cutting‑edge research, and streamline communication for Korean speakers everywhere. That training data begins with you—we need your expertise to",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "koreanlanguagespecialistfreelanceaitrainerprojectinvisibletechnologi",
+   "title": "Korean Language Specialist - Freelance AI Trainer Project",
+   "org": "Invisible Technologies",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/inv/jobs/korean-language-specialist-freelance-ai-trainer-project?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": "2026-11-15T04:42:56Z",
+   "posted": "2026-11-01T12:58:59Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "snippet": "Are you a Korean language expert eager to shape the future of AI? Large‑scale language models are evolving from clever chatbots into powerful engines of linguistic discovery. With high‑quality training data, tomorrow’s AI can democratize world‑class education, keep pace with cutting‑edge research, and streamline communication for Korean speakers everywhere. That training data begins with you—we need your expertise to",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "arabicemiratilanguagespecialistaitrainerinvisibletechnologi",
+   "title": "Arabic (Emirati) Language Specialist - AI Trainer",
+   "org": "Invisible Technologies",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/inv/jobs/arabic-emirati-language-specialist-ai-trainer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": "2026-12-12T06:29:47Z",
+   "posted": "2026-11-01T12:15:17Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Are you an Arabic (Emirati) language expert eager to shape the future of AI? Large‑scale language models are evolving from clever chatbots into powerful engines of linguistic discovery. With high‑quality training data, tomorrow’s AI can democratize world‑class education, keep pace with cutting‑edge research, and streamline communication and translation for speakers of Arabic everywhere. That training data begins with",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "procurementofficerp3unitednationsoffic",
+   "title": "Procurement Officer, P3",
+   "org": "United Nations Office On Drugs And Crime",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287410?language=en",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": "2026-12-02T04:59:59Z",
+   "posted": "2026-11-02T05:00:00Z",
+   "score": 72,
+   "reasons": [
+    "Mentions translation",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Region",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "editorforpapersoninvestinginchildrenconsultantnationalandinternational115monthsh",
+   "title": "Editor for Papers on Investing in Children Consultant (National and International)11.5 months, Home based, UNICEF-Lesotho Social Policy section -Maseru",
+   "org": "UNICEF",
+   "source": "UNICEF",
+   "url": "https://jobs.unicef.org/en-us/job/596556/editor-for-papers-on-investing-in-children-consultant-national-and-international115-months-home-based-uniceflesotho-social-policy-section-maseru",
+   "location": "Lesotho",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-10T21:55:00Z",
+   "posted": null,
+   "score": 70,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [],
+   "role": true,
+   "snippet": "The purpose of this consultancy is to provide professional editing, copy-editing, structural review and publication-readiness support for 15 papers that will form book chapters developed under the UNICEF Lesotho Thought Leadership Series. The consultant will support UNICEF Lesotho to transform selected full papers into polished, accessible and policy-relevant manuscripts suitable for presentation at the 2027 National",
+   "first_seen": "2026-11-03T17:11:07Z"
+  },
+  {
+   "id": "newswritingmultimediaproductionpublicinformationinternnewsandcontentarabicdepart",
+   "title": "News writing / Multimedia production - Public Information Intern - News and Content - Arabic",
+   "org": "Department Of Global Communications",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/285818?language=en",
+   "location": "New York or remote",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-12-01T04:59:59Z",
+   "posted": "2026-11-01T04:00:00Z",
+   "score": 67,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Work Location New York or remote Expected duration The desired start date is February 2027. The internship is for a minimum of 2 months full-time with possibility for extension to a total of 6 months based on the needs of the office and availability of the candidate. The modality is hybrid. Duties and Responsibilities This position is located in the Arabic Unit, News Section, News and Content Branch, News and Media D",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "fieldinterpretermultiplepositionsindependentinvestig",
+   "title": "Field Interpreter (multiple positions)",
+   "org": "Independent Investigative Mechanism For Myanmar",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/286979?language=en",
+   "location": "Remotely",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-04T04:59:59Z",
+   "posted": "2026-10-22T04:00:00Z",
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [],
+   "role": true,
+   "snippet": "Result of Service 1. Quality of interpretation and related work; and 2. Observance of delivery deadlines Work Location Remotely Expected duration Up to 10 months Duties and Responsibilities Under the direct supervision of the Front Office and/or the Collection, Analysis and Sharing Section (CASS) of the IIMM, the Interpreter shall be responsible for providing interpretation from one of the following languages of Myan",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "arabiciraqilanguageexpertaitrainerinvisibletechnologi",
+   "title": "Arabic (Iraqi) Language Expert - AI Trainer",
+   "org": "Invisible Technologies",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/inv/jobs/arabic-iraqi-language-expert-ai-trainer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": "2026-12-12T06:29:12Z",
+   "posted": "2026-11-01T12:15:40Z",
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based",
+    "Senior level"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Are you an Arabic (Iraqi) language expert eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into powerful tools for communication, education, and cultural understanding. With high-quality training data, tomorrow’s AI can accurately capture Iraqi Arabic vocabulary, dialects, grammar, idiomatic expressions, and cultural context—helping preserve linguistic heritage and suppor",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "arabiclevantinelanguageexpertaitrainerinvisibletechnologi",
+   "title": "Arabic (Levantine) Language Expert - AI Trainer",
+   "org": "Invisible Technologies",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/inv/jobs/arabic-levantine-language-expert-ai-trainer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": "2026-12-12T06:29:24Z",
+   "posted": "2026-11-01T12:15:31Z",
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based",
+    "Senior level"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Are you an Arabic (Levantine) language expert eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into powerful tools for communication, education, and cultural understanding. With high-quality training data, tomorrow’s AI can accurately capture Levantine Arabic vocabulary, dialects, grammar, idiomatic expressions, and cultural context—helping preserve linguistic heritage an",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "arabiclevantinelanguagespecialistaitrainerinvisibletechnologi",
+   "title": "Arabic (Levantine) Language Specialist - AI Trainer",
+   "org": "Invisible Technologies",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/inv/jobs/arabic-levantine-language-specialist-ai-trainer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": "2026-12-12T06:29:39Z",
+   "posted": "2026-11-01T12:15:21Z",
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based",
+    "Senior level"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Are you an Arabic (Levantine) language specialist eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into powerful tools for communication, education, and cultural understanding. With high-quality training data, tomorrow’s AI can accurately capture Levantine Arabic vocabulary, dialects, grammar, idiomatic expressions, and cultural context—helping preserve linguistic heritag",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "arabicgulflanguageexpertaitrainerinvisibletechnologi",
+   "title": "Arabic (Gulf) Language Expert - AI Trainer",
+   "org": "Invisible Technologies",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/inv/jobs/arabic-gulf-language-expert-ai-trainer?utm_source=api",
+   "location": "Worldwide",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": "2026-12-12T06:29:45Z",
+   "posted": "2026-11-01T12:15:18Z",
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based",
+    "Senior level"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Are you an Arabic (Gulf) language expert eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into powerful tools for communication, education, and cultural understanding. With high-quality training data, tomorrow’s AI can accurately capture Gulf Arabic vocabulary, dialects, grammar, idiomatic expressions, and cultural context—helping preserve linguistic heritage and support ",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "internetresourcesinternpublicationforrosterpurposessyriainternational",
+   "title": "Internet Resources Intern (Publication for roster purposes)",
+   "org": "Syria International, Impartial And Independent Mechanism",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/273246?language=en",
+   "location": "Internships are available as full-time and can be conducted remotely or in-person",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2027-03-05T04:59:59Z",
+   "posted": "2026-03-05T05:00:00Z",
+   "score": 60,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Work Location Internships are available as full-time and can be conducted remotely or in-person Expected duration The duration of this internship is expected to be for a maximum of six months to start between 1 August 2026 and 31 July 2027. The start date and duration may be adjusted at the request of the successful candidate. Duties and Responsibilities The International, Impartial and Independent Mechanism (IIIM) w",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "consultantonsyriancriminallawandproceduresyriainternational",
+   "title": "Consultant on Syrian Criminal Law and Procedure",
+   "org": "Syria International, Impartial And Independent Mechanism",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287245?language=en",
+   "location": "The hiring office location is in Geneva, Switzerland. This contract is intended to be full-time and to be executed remotely.",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-10T04:59:59Z",
+   "posted": "2026-10-28T04:00:00Z",
+   "score": 57,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Result of Service An authoritative expert assessment of selected aspects of Syrian criminal law and criminal procedure, including their interpretation and application in practice and relevant developments over time, supported by a comprehensive collection of primary and authoritative Syrian legal sources. Work Location The hiring office location is in Geneva, Switzerland. This contract is intended to be full-time and",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "communicationspecialistinternofficeforthecoord",
+   "title": "Communication Specialist Intern",
+   "org": "Office For The Coordination Of Humanitarian Affairs",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/286519?language=en",
+   "location": "Doha, Full-time, Part-time, In-person, Remote and Hybrid.",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-13T04:59:59Z",
+   "posted": "2026-10-30T04:00:00Z",
+   "score": 57,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Work Location Doha, Full-time, Part-time, In-person, Remote and Hybrid. Expected duration 6 Months Duties and Responsibilities The United Nations (UN) Office for the Coordination of Humanitarian Affairs (OCHA) is the UN Secretariat department responsible for bringing together humanitarian actors to ensure a coherent response to complex emergencies and natural disasters. OCHA's mission is to mobilize and coordinate ef",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "evaluationofenhancingmsmessoftinfrastructureinternationalisationincountriesfacin",
+   "title": "Evaluation of Enhancing MSMEs soft infrastructure & internationalisation in countries facing security, financial, or political transition challenges in the Arab Region",
+   "org": "Economic And Social Commission For Western Asia",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287247?language=en",
+   "location": "Remote / Hybrid",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-16T04:59:59Z",
+   "posted": "2026-10-27T04:00:00Z",
+   "score": 57,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in MSMEs project contributed to achieving its intended results, the pathway to these results, and the elements that contributed most significantly to their achievement. It will also consider any unintended results",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "humanrightsinternofficeofthehighc",
+   "title": "Human Rights Intern",
+   "org": "Office Of The High Commissioner For Human Rights",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/280477?language=en",
+   "location": "Internships are available in full-time and part-time and can be conducted remote or in-person.",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2027-01-02T04:59:59Z",
+   "posted": "2026-07-03T04:00:00Z",
+   "score": 57,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Work Location Internships are available in full-time and part-time and can be conducted remote or in-person. Expected duration This is a GJO used to build a pool of qualified candidates and will be used to fill internship vacancies between 1 July 2026 and 30 June 2027. This Internship is for a minimum of 3 months and maximum of 6 months and designed to be in person and remote. The duration and modality can be adjuste",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "languagespecialistimerittechnology",
+   "title": "Language specialist",
+   "org": "iMerit Technology",
+   "source": "Working Nomads",
+   "url": "https://www.workingnomads.com/job/go/1939844/",
+   "location": "Global",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-10-14T04:32:03Z",
+   "score": 55,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [],
+   "role": true,
+   "snippet": "Remote Language Projects – Native & Fluent Speakers Remote | Independent Contractor iMerit, an EXL Company, is looking for native or fluent speakers of Burmese, Persian, Khmer, Maltese, and Slovenian for upcoming remote language projects. How to Apply Complete the short form and select only the language you are proficient in and wish to be assessed for . Our team will review your submission and share the relevant app",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "ecosystembasedadaptationexpertunitednationshuman",
+   "title": "Ecosystem-Based Adaptation Expert",
+   "org": "United Nations Human Settlements Programme",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287189?language=en",
+   "location": "Home based",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-06T04:59:59Z",
+   "posted": "2026-10-27T04:00:00Z",
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Result of Service The ultimate results of this consultancy are: ● A finalized national policy brief providing strategic recommendations for integrating EbA into national legal and policy Instruments, targeting MoEnv and ASEZA, validated by relevant national stakeholders. ● A finalized legal instrument for mainstreaming EbA into GAM's planning and regulatory processes, validated by GAM and relevant stakeholders, inclu",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "legalcontractorofficeofadministra",
+   "title": "Legal Contractor",
+   "org": "Office Of Administration Of Justice",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/283619?language=en",
+   "location": "In-person or Remote or Hybrid",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-13T04:59:59Z",
+   "posted": "2026-10-30T04:00:00Z",
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Result of Service a) Provision of efficient, timely and high-quality substantive technical and administrative support for the adjudication of cases by UNDT judges. b) undertaking assignments as mandated by OAJ. Work Location In-person or Remote or Hybrid Expected duration 6 months Duties and Responsibilities The Registry is part of the independent Office of Administration of Justice (OAJ) and supports the United Nati",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "evaluationofextrabudgetprojecttoenhancetheoperationalizationoftheclimatesdgsdebt",
+   "title": "Evaluation of Extra Budget Project – To enhance the operationalization of the “Climate/SDGs Debt Swap – Donor Nexus Initiative”",
+   "org": "Economic And Social Commission For Western Asia",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/285702?language=en",
+   "location": "Remotely",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-16T04:59:59Z",
+   "posted": "2026-10-28T04:00:00Z",
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in debt swap project contributed to achieving its intended results, the pathway to these results, and the elements that contributed most significantly to their achievement. It will also consider any unintended res",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "aitechnicalspecialistiraqhighereducationaiworkforcereadinessdevelopmentgateway",
+   "title": "AI Technical Specialist: Iraq Higher Education AI Workforce Readiness",
+   "org": "Development Gateway",
+   "source": "ReliefWeb",
+   "url": "https://reliefweb.int/job/4236425/ai-technical-specialist-iraq-higher-education-ai-workforce-readiness",
+   "location": "Iraq",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-23T00:00:00Z",
+   "posted": "2026-10-30T17:19:53Z",
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Country: Iraq Organization: Development Gateway Closing date: 23 Nov 2026 AI Technical Specialist: Iraq Higher Education AI Workforce Readiness Full-Time in Baghdad, IQ - Remote (within locations) Terms of Reference: Development Gateway AI Technical Specialist for the Iraq Higher Education AI Workforce Readiness Program About Development Gateway and the Program Development Gateway: An IREX Venture (DG) is an internat",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "evaluationofdevelopmentaccountprojectexpandingthepotentialofsmallandmediumsizede",
+   "title": "Evaluation of Development Account Project – Expanding the potential of small and medium-sized enterprises in the Arab region",
+   "org": "Economic And Social Commission For Western Asia",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287255?language=en",
+   "location": "Remote / Hybrid",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-27T04:59:59Z",
+   "posted": "2026-10-28T04:00:00Z",
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in the Dynamic Simulators to Address Ranking Deficiencies of International Indices Platforms in the Arab Region project contributed to achieving its intended results, the pathway to these results, and the elements",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "evaluationspecialistunitednationssecre",
+   "title": "Evaluation Specialist",
+   "org": "United Nations Secretariat",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/235518?language=en",
+   "location": "While the locations will vary according to the requirements of the hiring office engaging the Evaluation Specialist, in some instances, it is expected that work might be performed remotely.",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2027-01-01T04:59:59Z",
+   "posted": "2024-06-24T04:00:00Z",
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Result of Service Consultants hired using this GJO are expected to conduct evaluations of various projects and/or programmes and/or sub-programmes and/or any other substantive and/or operational component, and/or office and/or unit of work, and/or strategy and/or thematic topic for the UN Secretariat. Work Location While the locations will vary according to the requirements of the hiring office engaging the Evaluatio",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "qualityassuranceraterfrenchspeakersinfrancetelusdigital",
+   "title": "Quality Assurance Rater - French speakers in France",
+   "org": "TELUS Digital",
+   "source": "Working Nomads",
+   "url": "https://www.workingnomads.com/job/go/1957803/",
+   "location": "Global",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-10-20T11:40:27Z",
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Join our elite team of Senior Raters as a critical contributor to high-quality validation data that directly influences product development and quality assurance for leading search engines and AI technologies. This flexible, remote opportunity allows you to apply your analytical and research skills to evaluate search results and AI-generated content while contributing to the development of high-quality AI systems. A ",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "arabiccontentspecialistfullyremoteupto29hrmercor",
+   "title": "Arabic Content Specialist - Fully Remote | Upto $29/hr",
+   "org": "mercor",
+   "source": "Himalayas",
+   "url": "https://himalayas.app/companies/mercor/jobs/arabic-content-specialist-fully-remote-upto-29-hr-1638411041?utm_source=api",
+   "location": "Algeria, Bahrain, Djibouti, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Mauritania, Morocco, Oman, Palestine, State of, Qatar, Saudi Arabia, Somalia, Sudan, Syrian Arab Republic, Tunisia, United Arab Emirates, Yemen",
+   "remote": true,
+   "egypt": true,
+   "intl": false,
+   "deadline": "2026-12-09T17:13:58Z",
+   "posted": "2026-11-01T13:15:50Z",
+   "score": 50,
+   "reasons": [
+    "Open to Egypt",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Moonlight MCQA - Arabic Generalist Type: Contract Compensation: $24–$30/hour Location: Remote Role Responsibilities Draft original, general-knowledge multiple-choic",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "communicationsinterndepartmentofpoliti",
+   "title": "Communications Intern",
+   "org": "Department Of Political And Peacebuilding Affairs",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/284716?language=en",
+   "location": "In person and/or Remote",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-04T04:59:59Z",
+   "posted": "2026-10-26T04:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Work Location In person and/or Remote Expected duration 3 months, with a possibility of extension to 6 months in total. Desired start date is 1 December 2026. Duties and Responsibilities The Peacebuilding and Peace Support Office (PBPSO) in the departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO) supports nationally owned efforts to prevent conflict, build and sustain peace, and strength",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "consultantforinformalconflictresolutionofficeoftheunited",
+   "title": "Consultant for Informal Conflict Resolution",
+   "org": "Office Of The United Nations Ombudsman And Mediation Services",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/285163?language=en",
+   "location": "Remotely",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-05T04:59:59Z",
+   "posted": "2026-09-23T04:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based",
+    "Asks 7+ years"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Result of Service The consultant for conflict resolution is expected to provide the full range of informal dispute resolution services to UN personnel through in-person and virtual engagement. These services shall be provided in a confidential manner. As needed the consultant is required to provide systemic feedback to the Ombudsman, the Chief of Service or the Regional Ombudsman should there be an observable conflic",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "consultanttoprepareabackgroundpaperonmultidimensionalpovertyandsocialprotectioni",
+   "title": "Consultant to prepare a background paper on ‘Multidimensional Poverty and Social Protection in the Arab Region’",
+   "org": "Economic And Social Commission For Western Asia",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287421?language=en",
+   "location": "Beirut / Remote",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-06T04:59:59Z",
+   "posted": "2026-10-30T04:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Result of Service The expert should deliver a consolidated background paper that sets out the evidence, methodological considerations and policy options for integrating multidimensional poverty information into social protection policies and services delivery in the Arab region, delivered in a timely manner. The expert should address all comments provided by the Poverty Project and the Social Protection Team leaders,",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "unepfinanceinitiativeunepfipollutionandcirculareconomysupportinternshipunitednat",
+   "title": "UNEP Finance Initiative (UNEP FI) Pollution and Circular Economy Support Internship",
+   "org": "United Nations Environment Programme",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/286691?language=en",
+   "location": "Remote or in Geneva, Switzerland",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-09T04:59:59Z",
+   "posted": "2026-10-21T04:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Work Location Remote or in Geneva, Switzerland Expected duration 6 months Duties and Responsibilities The United Nations Environment Programme (UNEP) is the leading global environmental authority that sets the global environmental agenda, promotes the coherent implementation of the environmental dimension of sustainable development within the United Nations system and serves as an authoritative advocate for the globa",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "transportlogisticsandsupplychainmanagementinternunitednationsconfe",
+   "title": "Transport, Logistics and Supply Chain Management Intern",
+   "org": "United Nations Conference On Trade And Development",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287208?language=en",
+   "location": "In-person/Remote",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-11T04:59:59Z",
+   "posted": "2026-10-28T04:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Work Location In-person/Remote Expected duration 3 months Duties and Responsibilities The positions are at United Nations Trade and Development (UNCTAD). The Internship Programme is unpaid and full-time, i.e. interns are expected to work five days per week (40 hours). The internships are offered either on an in-person or remote basis. For in-person internships, interns must have a valid visa. All costs of travel, acc",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "internhumanitarianaffairsofficeforthecoord",
+   "title": "Intern - Humanitarian Affairs",
+   "org": "Office For The Coordination Of Humanitarian Affairs",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/286946?language=en",
+   "location": "Doha, Full-time, Part-time, In-person, Remote and Hybrid.",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-13T04:59:59Z",
+   "posted": "2026-10-30T04:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Work Location Doha, Full-time, Part-time, In-person, Remote and Hybrid. Expected duration 6 Months Duties and Responsibilities The United Nations (UN) Office for the Coordination of Humanitarian Affairs (OCHA) is the UN Secretariat department responsible for bringing together humanitarian actors to ensure a coherent response to complex emergencies and natural disasters. OCHA's mission is to mobilize and coordinate ef",
+   "first_seen": "2026-11-03T17:07:43Z"
+  }
+ ]
+}

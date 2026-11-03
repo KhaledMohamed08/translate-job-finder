@@ -1,0 +1,40 @@
+{
+  "_help": "Edit this file to tune matching. Patterns are lowercase regular expressions.",
+
+  "home_country": ["egypt", "cairo", "alexandria", "giza"],
+
+  "role_keywords": [
+    "translat", "interpret", "locali[sz]", "linguist", "language", "proofread",
+    "subtitl", "caption", "terminolog", "transcri", "reviser", "revisor",
+    "(?<!video )(?<!photo )(?<!graphic )editor\\b", "copy ?edit", "precis", "verbatim", "multilingual", "bilingual"
+  ],
+
+  "languages": {
+    "Arabic":  { "patterns": ["arabic", "\\barabe\\b", "عربي"], "weight": 15 },
+    "French":  { "patterns": ["french", "fran[cç]ais", "francophone"], "weight": 15 },
+    "Korean":  { "patterns": ["korean", "\\bcoréen\\b", "한국어"], "weight": 20 }
+  },
+
+  "other_languages": [
+    "spanish", "chinese", "mandarin", "cantonese", "russian", "portuguese", "german",
+    "italian", "japanese", "polish", "dutch", "turkish", "persian", "farsi", "dari",
+    "pashto", "urdu", "hindi", "bengali", "swahili", "amharic", "somali", "hausa",
+    "burmese", "rohingya", "thai", "vietnamese", "indonesian", "ukrainian", "romanian",
+    "greek", "hebrew", "czech", "swedish", "norwegian", "danish", "finnish", "hungarian",
+    "tigrinya", "kurdish", "tagalog", "malay", "tamil", "nepali", "lingala", "kinyarwanda"
+  ],
+
+  "senior_patterns": [
+    "\\bsenior\\b", "\\bchief\\b", "\\bhead of\\b", "\\bprincipal\\b", "\\bdirector\\b",
+    "\\blead\\b", "\\bp-?[45]\\b", "\\bd-?[12]\\b", "\\bmanager\\b"
+  ],
+  "junior_patterns": [
+    "\\bassistant\\b", "\\bassociate\\b", "\\bjunior\\b", "\\bintern", "\\bg-?[4-7]\\b",
+    "\\bgs-?[4-7]\\b", "\\bno-?[ab]\\b", "\\bp-?[12]\\b", "\\bconsultan", "volunteer",
+    "\\bentry", "individual contractor", "roster"
+  ],
+
+  "min_score": 45,
+  "notify_min_score": 55,
+  "max_age_days": 45
+}
