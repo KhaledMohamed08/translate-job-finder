@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:45:22Z",
+ "updated": "2026-11-03T23:18:28Z",
  "sources": {
   "Remotive": {
    "ok": true,
@@ -23,7 +23,7 @@
   },
   "UNICEF": {
    "ok": true,
-   "count": 544
+   "count": 530
   },
   "Translation agencies": {
    "ok": true,
@@ -31,11 +31,11 @@
   },
   "Himalayas": {
    "ok": true,
-   "count": 126
+   "count": 125
   },
   "UN Careers": {
    "ok": true,
-   "count": 430
+   "count": 443
   },
   "ReliefWeb": {
    "ok": false,
@@ -46,13 +46,19 @@
    "ok": true,
    "count": 0
   },
+  "UNHCR, WFP, IMF, Welocalize": {
+   "ok": true,
+   "count": 23
+  },
   "UNDP": {
    "ok": true,
    "count": 12
   },
-  "UNHCR, WFP, IMF, Welocalize": {
-   "ok": true,
-   "count": 23
+  "Google Jobs": {
+   "ok": false,
+   "count": 0,
+   "kept": true,
+   "error": "request failed: The read operation timed out"
   },
   "Impactpool": {
    "ok": true,
@@ -514,31 +520,6 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "legalcontractorofficeofadministrati",
-   "title": "Legal Contractor",
-   "org": "Office Of Administration Of Justice",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/283619?language=en",
-   "location": "In-person or Remote or Hybrid",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-13T04:59:59Z",
-   "posted": "2026-10-30T04:00:00Z",
-   "score": 52,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "snippet": "Result of Service a) Provision of efficient, timely and high-quality substantive technical and administrative support for the adjudication of cases by UNDT judges. b) undertaking assignments as mandated by OAJ. Work Location In-person or Remote or Hybrid Expected duration 6 months Duties and Responsibilities The Registry is part of the independent Office of Administration of Justice (OAJ) and supports the United Nati",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
    "id": "evaluationofextrabudgetprojecttoenhancetheoperationalizationoftheclimatesdgsdebt",
    "title": "Evaluation of Extra Budget Project – To enhance the operationalization of the “Climate/SDGs Debt Swap – Donor Nexus Initiative”",
    "org": "Economic And Social Commission For Western Asia",
@@ -569,7 +550,7 @@
    "org": "Economic And Social Commission For Western Asia",
    "source": "UN Careers",
    "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287255?language=en",
+   "url": "https://careers.un.org/jobSearchDescription/287254?language=en",
    "location": "Remote / Hybrid",
    "remote": true,
    "egypt": false,
@@ -585,7 +566,7 @@
     "Arabic"
    ],
    "role": false,
-   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in the Dynamic Simulators to Address Ranking Deficiencies of International Indices Platforms in the Arab Region project contributed to achieving its intended results, the pathway to these results, and the elements",
+   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in the Expanding the potential of small and medium-sized enterprises in the Arab region project contributed to achieving its intended results, the pathway to these results, and the elements that contributed most s",
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
@@ -1144,5 +1125,10 @@
   "jiuresearchandanalysisintern": "2026-11-03T22:17:21Z",
   "strategicaccountexecutivemenagitlab": "2026-11-03T22:09:00Z",
   "vacancynoticesecretaryadminsectionlocalagentgroup3": "2026-11-03T22:17:21Z"
+ },
+ "jsearch": {
+  "month": "2026-11",
+  "used": 1,
+  "last_day": ""
  }
 }
