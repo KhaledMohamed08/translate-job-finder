@@ -385,6 +385,62 @@ def src_translation_agencies():
     return out
 
 
+class FeedSkipped(Exception):
+    """Source deliberately not fetched this run: don't retry, keep its previous jobs."""
+    def __init__(self, message, ok=True):
+        super().__init__(message)
+        self.ok = ok
+
+
+# The free JSearch plan is a hard 100 requests a month, so 3 a day, once a day.
+JSEARCH_MONTHLY_BUDGET = 93
+JSEARCH = {"month": "", "used": 0, "last_day": ""}  # loaded from / saved to jobs.json
+
+
+def jsearch_queries():
+    rotating = ["Arabic", "French", "Korean"][NOW.timetuple().tm_yday % 3]
+    return [
+        {"query": "translator in Egypt", "country": "eg"},
+        {"query": "مترجم في مصر", "country": "eg"},
+        {"query": f"{rotating} translator remote", "work_from_home": "true"},
+    ]
+
+
+def src_jsearch():
+    """Google's job listings via JSearch: the way to reach Egypt jobs on sites that block us."""
+    key = os.environ.get("RAPIDAPI_KEY")
+    if not key:
+        raise FeedSkipped("no RAPIDAPI_KEY set")
+    today, month = NOW.strftime("%Y-%m-%d"), NOW.strftime("%Y-%m")
+    if JSEARCH["month"] != month:
+        JSEARCH.update(month=month, used=0)
+    if JSEARCH["last_day"] == today:
+        raise FeedSkipped("already searched today")
+    queries = jsearch_queries()
+    if JSEARCH["used"] + len(queries) > JSEARCH_MONTHLY_BUDGET:
+        raise FeedSkipped("monthly request budget used")
+    out = []
+    for q in queries:
+        url = "https://jsearch.p.rapidapi.com/search?" + urllib.parse.urlencode(
+            {**q, "page": 1, "num_pages": 1, "date_posted": "week"})
+        try:
+            d = http_json(url, retries=0, headers={"x-rapidapi-key": key,
+                                                   "x-rapidapi-host": "jsearch.p.rapidapi.com"})
+        except Exception as e:
+            raise FeedSkipped(f"request failed: {e}", ok=False)
+        JSEARCH["used"] += 1
+        for j in d.get("data", []):
+            egypt = j.get("job_country") == "EG"
+            place = [j.get("job_city"), "Egypt" if egypt else j.get("job_country")]
+            out.append(job("Google Jobs", j.get("employer_name"), j.get("job_title"),
+                           j.get("job_apply_link"), location=", ".join(x for x in place if x),
+                           text=j.get("job_description", ""), remote=bool(j.get("job_is_remote")),
+                           deadline=j.get("job_offer_expiration_datetime_utc"),
+                           posted=j.get("job_posted_at_datetime_utc")))
+    JSEARCH["last_day"] = today
+    return out
+
+
 def src_himalayas():
     out, seen = [], set()
     for q in ["translation", "translator", "interpreter", "localization", "arabic", "french", "korean"]:
@@ -459,13 +515,13 @@ def src_company_boards():
 
 
 # These only return plausible matches, so 0 can be normal (they raise if the site itself fails).
-PREFILTERED = {"UNHCR, WFP, IMF, Welocalize", "UNDP", "UNESCO", "Impactpool"}
+PREFILTERED = {"UNHCR, WFP, IMF, Welocalize", "UNDP", "UNESCO", "Impactpool", "Google Jobs"}
 SOURCES = {
     "UN Careers": src_un_careers, "ReliefWeb": src_reliefweb, "UNICEF": src_unicef,
     "UNHCR, WFP, IMF, Welocalize": src_workday, "Impactpool": src_impactpool, "UNDP": src_undp,
     "UNESCO": src_unesco, "Translation agencies": src_translation_agencies, "Himalayas": src_himalayas, "Remotive": src_remotive,
     "RemoteOK": src_remoteok, "Working Nomads": src_workingnomads, "Jobicy": src_jobicy,
-    "Company boards": src_company_boards,
+    "Company boards": src_company_boards, "Google Jobs": src_jsearch,
 }
 
 
@@ -597,6 +653,8 @@ def run_source(fn):
         got = fn()
         if got:
             return got
+    except FeedSkipped:
+        raise
     except Exception:
         pass
     time.sleep(5)
@@ -616,6 +674,7 @@ def main():
             old_data = json.loads(OUT.read_text(encoding="utf-8"))
             previous = {p["id"]: p for p in old_data["jobs"]}
             seen = old_data.get("seen", {})
+            JSEARCH.update(old_data.get("jsearch", {}))
         except Exception:
             pass
     # Every job ever listed -> when it was first seen, so a job that vanishes for a
@@ -635,6 +694,8 @@ def main():
                 status[name] = {"ok": bool(got) or name in PREFILTERED, "count": len(got)}
                 if not status[name]["ok"]:
                     status[name]["error"] = "returned no jobs (site may have changed)"
+            except FeedSkipped as e:
+                status[name] = {"ok": e.ok, "count": 0, "kept": True, "error": str(e)[:200]}
             except Exception as e:
                 status[name] = {"ok": False, "error": str(e)[:200]}
             print(f"{name:16} {status[name]}", file=sys.stderr)
@@ -663,7 +724,7 @@ def main():
         }
 
     # A source that failed today keeps yesterday's jobs instead of emptying the list.
-    failed = {name for name, st in status.items() if not st["ok"]}
+    failed = {name for name, st in status.items() if not st["ok"] or st.get("kept")}
     for k, p in previous.items():
         if k not in jobs and p.get("feed", p["source"]) in failed and (p["deadline"] or "9") >= iso(NOW):
             jobs[k] = p
@@ -674,7 +735,8 @@ def main():
     seen.update({j["id"]: j["first_seen"] for j in ordered})
     cutoff = iso(NOW - timedelta(days=SEEN_DAYS))
     seen = {i: t for i, t in seen.items() if t >= cutoff or i in jobs}
-    OUT.write_text(json.dumps({"updated": iso(NOW), "sources": status, "jobs": ordered, "seen": seen},
+    OUT.write_text(json.dumps({"updated": iso(NOW), "sources": status, "jobs": ordered, "seen": seen,
+                               "jsearch": JSEARCH},
                               ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(raw)} fetched -> {len(ordered)} matches ({len(new)} new) -> {OUT}", file=sys.stderr)
     notify([j for j in new if j["score"] >= PROFILE["notify_min_score"]], len(ordered))

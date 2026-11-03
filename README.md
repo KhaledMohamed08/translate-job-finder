@@ -18,6 +18,7 @@ Everything is free: GitHub runs it daily and hosts the page, and Telegram bots c
 | Impactpool | Jobs from nearly every UN agency, the EU and development banks (WHO, FAO, ILO, UNOPS…) |
 | UNICEF, UNDP, UNESCO, UNHCR, WFP, IMF | Their own career sites |
 | TransPerfect, Welocalize, RWS, Keywords Studios | Translation and localization agencies |
+| Google Jobs (via JSearch) | Egypt and remote translator jobs from sites that block direct access. Free plan: 100 requests a month, so the tool uses 3 a day, once a day, and stops at 93 a month |
 | Himalayas, Remotive, RemoteOK, Working Nomads, Jobicy | Remote jobs (translation, localization, Arabic/French/Korean AI-language work) |
 | DeepL, Phrase, Smartling, Lokalise, Duolingo, ElevenLabs, Rev | Language-tech companies' job boards |
 

@@ -1,10 +1,10 @@
 {
   "_help": "Edit this file to tune matching. Patterns are lowercase regular expressions.",
 
-  "home_country": ["egypt", "cairo", "alexandria", "giza"],
+  "home_country": ["egypt", "cairo", "alexandria", "giza", "مصر", "القاهرة"],
 
   "role_keywords": [
-    "translat", "interpret", "locali[sz]", "linguist", "language", "proofread",
+    "translat", "مترجم", "ترجمة", "interpret", "locali[sz]", "linguist", "language", "proofread",
     "subtitl", "caption", "terminolog", "transcri", "reviser", "revisor",
     "(?<!video )(?<!photo )(?<!graphic )editor\\b", "copy ?edit", "precis", "verbatim", "multilingual", "bilingual"
   ],
