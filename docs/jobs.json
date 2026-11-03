@@ -1,45 +1,46 @@
 {
- "updated": "2026-11-03T22:10:04Z",
+ "updated": "2026-11-03T22:10:45Z",
  "sources": {
   "Remotive": {
    "ok": true,
    "count": 10
   },
-  "Jobicy": {
+  "RemoteOK": {
    "ok": true,
-   "count": 100
+   "count": 99
   },
   "Working Nomads": {
    "ok": true,
    "count": 35
   },
-  "RemoteOK": {
+  "Company boards": {
    "ok": true,
-   "count": 99
+   "count": 233
+  },
+  "Jobicy": {
+   "ok": true,
+   "count": 100
   },
   "UNICEF": {
    "ok": true,
    "count": 554
   },
-  "UNHCR + WFP": {
+  "Himalayas": {
    "ok": true,
-   "count": 0
+   "count": 126
   },
   "UN Careers": {
    "ok": true,
    "count": 430
   },
-  "Himalayas": {
-   "ok": true,
-   "count": 126
-  },
-  "Company boards": {
-   "ok": true,
-   "count": 233
-  },
   "ReliefWeb": {
+   "ok": false,
+   "count": 0,
+   "error": "returned no jobs (site may have changed)"
+  },
+  "UNHCR + WFP": {
    "ok": true,
-   "count": 85
+   "count": 0
   }
  },
  "jobs": [
