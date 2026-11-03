@@ -42,6 +42,9 @@ Everything is free: GitHub runs it daily and hosts the page, and Telegram bots c
 
 *(Optional) Email instead of or as well as Telegram: create a Gmail **App password** (Google Account → Security → 2-Step Verification → App passwords), then add the secrets `SMTP_USER` (your Gmail address), `SMTP_PASSWORD` (the app password) and `EMAIL_TO` (one or more addresses, comma-separated).*
 
+### ReliefWeb (recommended, free)
+ReliefWeb blocks its public feed for GitHub's servers. Request a free **app name** at <https://apidoc.reliefweb.int/parameters#appname> (any name, e.g. `translate-job-finder`). Once it's approved, add the secret `RELIEFWEB_APPNAME` with that name.
+
 ### 4. First run
 **Actions → Daily job search → Run workflow.** After that it runs every day at about 7–8 am Cairo time. Telegram only messages you when there are **new** jobs scoring 55 or higher.
 

@@ -139,10 +139,19 @@ def src_un_careers():
     return out
 
 
+RELIEFWEB_QUERIES = ["translator OR translation OR interpreter OR linguist", "Arabic", "French",
+                     "Korean", "Egypt", "home-based", "remote"]
+
+
 def src_reliefweb():
-    """ReliefWeb (UN OCHA): jobs from UN agencies + NGOs worldwide, via RSS."""
-    queries = ["translator OR translation OR interpreter OR linguist", "Arabic", "French",
-               "Korean", "Egypt", "home-based", "remote"]
+    """ReliefWeb (UN OCHA): jobs from UN agencies + NGOs worldwide.
+
+    Uses the official API when RELIEFWEB_APPNAME is set (free, approved by ReliefWeb),
+    otherwise the public RSS feed (which can block cloud servers such as GitHub's)."""
+    appname = os.environ.get("RELIEFWEB_APPNAME")
+    if appname:
+        return reliefweb_api(appname)
+    queries = RELIEFWEB_QUERIES
     seen, out = set(), []
     for q in queries:
         for page in range(2):
@@ -162,6 +171,29 @@ def src_reliefweb():
                 out.append(job("ReliefWeb", orgs, title, link, location=country, text=body,
                                remote=looks_remote(title, body[:1500]), deadline=closing,
                                posted=g("pubDate"), intl=True, check_location=False))
+    return out
+
+
+def reliefweb_api(appname):
+    seen, out = set(), []
+    for q in RELIEFWEB_QUERIES:
+        d = http_json("https://api.reliefweb.int/v2/jobs?appname=" + urllib.parse.quote(appname), {
+            "query": {"value": q}, "limit": 100, "sort": ["date.created:desc"],
+            "fields": {"include": ["title", "url", "source.name", "country.name",
+                                   "date.closing", "date.created", "body"]}})
+        for item in d.get("data", []):
+            f = item.get("fields", {})
+            url = f.get("url")
+            if not url or url in seen:
+                continue
+            seen.add(url)
+            body = f.get("body", "")
+            out.append(job("ReliefWeb", ", ".join(x.get("name", "") for x in f.get("source", [])),
+                           f.get("title", ""), url,
+                           location=", ".join(x.get("name", "") for x in f.get("country", [])),
+                           text=body, remote=looks_remote(f.get("title", ""), body[:1500]),
+                           deadline=(f.get("date") or {}).get("closing"),
+                           posted=(f.get("date") or {}).get("created"), intl=True, check_location=False))
     return out
 
 
