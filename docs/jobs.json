@@ -1,6 +1,10 @@
 {
- "updated": "2026-11-03T17:11:36Z",
+ "updated": "2026-11-03T17:24:29Z",
  "sources": {
+  "Working Nomads": {
+   "ok": true,
+   "count": 35
+  },
   "Remotive": {
    "ok": true,
    "count": 10
@@ -9,9 +13,9 @@
    "ok": true,
    "count": 99
   },
-  "Working Nomads": {
+  "Company boards": {
    "ok": true,
-   "count": 35
+   "count": 236
   },
   "Jobicy": {
    "ok": true,
@@ -21,25 +25,22 @@
    "ok": true,
    "count": 564
   },
-  "Company boards": {
-   "ok": true,
-   "count": 236
-  },
   "Himalayas": {
    "ok": true,
    "count": 126
   },
-  "UNHCR + WFP": {
-   "ok": true,
-   "count": 0
+  "ReliefWeb": {
+   "ok": false,
+   "count": 0,
+   "error": "returned no jobs (site may have changed)"
   },
   "UN Careers": {
    "ok": true,
-   "count": 417
+   "count": 430
   },
-  "ReliefWeb": {
+  "UNHCR + WFP": {
    "ok": true,
-   "count": 86
+   "count": 0
   }
  },
  "jobs": [
@@ -359,6 +360,30 @@
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
+   "id": "travelassistantg5unitednationsoffic",
+   "title": "Travel Assistant, G5",
+   "org": "United Nations Office On Drugs And Crime",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287422?language=en",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": "2026-11-18T04:59:59Z",
+   "posted": "2026-11-03T05:00:00Z",
+   "score": 62,
+   "reasons": [
+    "Mentions translation",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA), Division for Operations (DO), United Nations Office on Drugs and Crime (UNODC). The incumbent will report directly to the UNOV/UNODC Travel lead General Support Section (GSS), Division for Management (DM), United Nations Office at Vienna (UNOV), in Vienna, and under the administrative supervision ",
+   "first_seen": "2026-11-03T17:24:29Z"
+  },
+  {
    "id": "internetresourcesinternpublicationforrosterpurposessyriainternational",
    "title": "Internet Resources Intern (Publication for roster purposes)",
    "org": "Syria International, Impartial And Independent Mechanism",
@@ -573,30 +598,6 @@
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
-   "id": "aitechnicalspecialistiraqhighereducationaiworkforcereadinessdevelopmentgateway",
-   "title": "AI Technical Specialist: Iraq Higher Education AI Workforce Readiness",
-   "org": "Development Gateway",
-   "source": "ReliefWeb",
-   "url": "https://reliefweb.int/job/4236425/ai-technical-specialist-iraq-higher-education-ai-workforce-readiness",
-   "location": "Iraq",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-23T00:00:00Z",
-   "posted": "2026-10-30T17:19:53Z",
-   "score": 52,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "snippet": "Country: Iraq Organization: Development Gateway Closing date: 23 Nov 2026 AI Technical Specialist: Iraq Higher Education AI Workforce Readiness Full-Time in Baghdad, IQ - Remote (within locations) Terms of Reference: Development Gateway AI Technical Specialist for the Iraq Higher Education AI Workforce Readiness Program About Development Gateway and the Program Development Gateway: An IREX Venture (DG) is an internat",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
    "id": "evaluationofdevelopmentaccountprojectexpandingthepotentialofsmallandmediumsizede",
    "title": "Evaluation of Development Account Project – Expanding the potential of small and medium-sized enterprises in the Arab region",
    "org": "Economic And Social Commission For Western Asia",
@@ -691,6 +692,31 @@
    "role": false,
    "snippet": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Moonlight MCQA - Arabic Generalist Type: Contract Compensation: $24–$30/hour Location: Remote Role Responsibilities Draft original, general-knowledge multiple-choic",
    "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "internationalconsultanttosupporttheimplementationoftherangelandsflagshipinitiati",
+   "title": "International Consultant to support the implementation of the Rangelands Flagship Initiative",
+   "org": "Convention To Combat Desertification",
+   "source": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/287681?language=en",
+   "location": "Home-based.",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-11T04:59:59Z",
+   "posted": "2026-11-03T05:00:00Z",
+   "score": 47,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based",
+    "Asks 7+ years"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": false,
+   "snippet": "Result of Service To support the implementation and operationalization of the Rangelands Flagship Initiative, with a particular focus on project pipeline development, private sector engagement and resource mobilization. Work Location Home-based. Expected duration 12 months, starting November 2026 Duties and Responsibilities Background note: The Global Mechanism (GM) is an institution of the UNCCD, mandated to assist ",
+   "first_seen": "2026-11-03T17:24:29Z"
   },
   {
    "id": "communicationsinterndepartmentofpoliti",
