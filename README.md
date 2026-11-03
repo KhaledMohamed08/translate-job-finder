@@ -15,7 +15,9 @@ Everything is free: GitHub runs it daily and hosts the page, and Telegram bots c
 |---|---|
 | UN Careers | UN Secretariat: all departments, consultancies, internships, language jobs |
 | ReliefWeb | UN agencies + NGOs worldwide (UNDP, IOM, UNFPA, NRC, IRC…) |
-| UNICEF, UNHCR, WFP | Their own career sites |
+| Impactpool | Jobs from nearly every UN agency, the EU and development banks (WHO, FAO, ILO, UNOPS…) |
+| UNICEF, UNDP, UNESCO, UNHCR, WFP, IMF | Their own career sites |
+| TransPerfect, Welocalize, RWS, Keywords Studios | Translation and localization agencies |
 | Himalayas, Remotive, RemoteOK, Working Nomads, Jobicy | Remote jobs (translation, localization, Arabic/French/Korean AI-language work) |
 | DeepL, Phrase, Smartling, Lokalise, Duolingo, ElevenLabs, Rev | Language-tech companies' job boards |
 

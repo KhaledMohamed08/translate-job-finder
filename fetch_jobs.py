@@ -71,7 +71,7 @@ def parse_date(s):
         return datetime.fromisoformat(s.replace("Z", "+00:00")).astimezone(timezone.utc)
     except ValueError:
         pass
-    for fmt in ("%d %b %Y", "%d %B %Y", "%Y-%m-%d"):
+    for fmt in ("%d %b %Y", "%d %B %Y", "%Y-%m-%d", "%B %d, %Y", "%d/%m/%Y"):
         try:
             return datetime.strptime(s, fmt).replace(tzinfo=timezone.utc)
         except ValueError:
@@ -214,11 +214,15 @@ def src_unicef():
     return out
 
 
-WORKDAY = [  # (label, list endpoint, public site base)
+WORKDAY = [  # (label, list endpoint, public site base, international organization?)
     ("UNHCR", "https://unhcr.wd3.myworkdayjobs.com/wday/cxs/unhcr/External",
-     "https://unhcr.wd3.myworkdayjobs.com/External"),
+     "https://unhcr.wd3.myworkdayjobs.com/External", True),
     ("WFP", "https://wd3.myworkdaysite.com/wday/cxs/wfp/job_openings",
-     "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings"),
+     "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings", True),
+    ("IMF", "https://imf.wd5.myworkdayjobs.com/wday/cxs/imf/IMF",
+     "https://imf.wd5.myworkdayjobs.com/IMF", True),
+    ("Welocalize", "https://welocalize.wd1.myworkdayjobs.com/wday/cxs/welocalize/Welocalize",
+     "https://welocalize.wd1.myworkdayjobs.com/Welocalize", False),
 ]
 
 
@@ -226,7 +230,7 @@ def src_workday():
     role = re.compile("|".join(PROFILE["role_keywords"]), re.I)
     home = re.compile("|".join(PROFILE["home_country"]), re.I)
     out = []
-    for org, api, site in WORKDAY:
+    for org, api, site, intl in WORKDAY:
         offset, posts = 0, []
         while offset < 600:
             d = http_json(api + "/jobs", {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": ""})
@@ -252,7 +256,131 @@ def src_workday():
             out.append(job(org, org, title, site + p["externalPath"], location=loc, text=text,
                            remote=looks_remote(title, loc, strip_html(text)[:2000]),
                            deadline=deadline, level=" ".join(p.get("bulletFields") or []),
+                           intl=intl, check_location=not intl))
+    return out
+
+
+def plausible(title, location):
+    """Worth opening the full posting? Keeps the number of requests small."""
+    return bool(ROLE_TITLE.search(title) or HOME.search(location) or looks_remote(title, location))
+
+
+def src_impactpool():
+    """Impactpool lists jobs from nearly every UN agency, the EU and development banks."""
+    cards = {}
+    for q in ["translator", "translation", "interpreter", "linguist", "reviser", "editor",
+              "localization", "Egypt", "Cairo"]:
+        for page in (1, 2, 3):
+            body = http("https://www.impactpool.org/search?" + urllib.parse.urlencode({"q": q, "page": page}))
+            found = re.findall(r"<div class='job'>(.*?)</a></div>", body, re.S)
+            for c in found:
+                m = re.search(r'href="(/jobs/\d+)"', c)
+                t = re.search(r"type='cardTitle'>(.*?)</h3>", c, re.S)
+                bits = [strip_html(b) for b in re.findall(r"type='bodyEmphasis'>(.*?)</div>", c, re.S)]
+                if m and t:
+                    cards[m.group(1)] = (strip_html(t.group(1)), bits)
+            if len(found) < 40:
+                break
+            time.sleep(0.5)
+    if not cards:
+        raise RuntimeError("no cards found")
+    out = []
+    for path, (title, bits) in cards.items():
+        org, loc = (bits + ["", ""])[:2]
+        if not (HOME.search(loc) or looks_remote(title, loc)):
+            continue  # outside Egypt and not remote
+        url = "https://www.impactpool.org" + path
+        text, deadline = "", None
+        try:
+            text = strip_html(http(url))
+            d = re.search(r"Application deadline:\s*(\w+ \d{1,2}, \d{4})", text)
+            deadline = d.group(1) if d else None
+            text = text[text.find(title, 200):]
+        except Exception:
+            pass
+        out.append(job("Impactpool", org, title, url, location=loc, text=text,
+                       remote=looks_remote(title, loc), deadline=deadline,
+                       level=" ".join(bits[2:]), intl=True, check_location=False))
+        time.sleep(0.5)
+    return out
+
+
+def src_undp():
+    api = "https://estm.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/"
+    d = http_json(api + "recruitingCEJobRequisitions?onlyData=true&expand=requisitionList"
+                  "&finder=findReqs;siteNumber=CX_1,limit=200,sortBy=POSTING_DATES_DESC")
+    reqs = d["items"][0]["requisitionList"]
+    if not reqs:
+        raise RuntimeError("no jobs returned")
+    out = []
+    for r in reqs:
+        title, loc = r.get("Title", ""), r.get("PrimaryLocation") or ""
+        if not plausible(title, loc):
+            continue
+        info = http_json(api + "recruitingCEJobRequisitionDetails?expand=all&onlyData=true"
+                         f"&finder=ById;Id=%22{r['Id']}%22,siteNumber=CX_1")["items"][0]
+        text = info.get("ExternalDescriptionStr", "")
+        out.append(job("UNDP", "UNDP", title,
+                       f"https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/{r['Id']}",
+                       location=loc, text=text, remote=looks_remote(title, loc),
+                       deadline=info.get("ExternalPostedEndDate"), posted=r.get("PostedDate"),
+                       level=info.get("RequisitionType", ""), intl=True, check_location=False))
+    return out
+
+
+def src_successfactors(org, base):
+    """Search pages only: robots.txt disallows the RSS feed on these sites."""
+    out, seen = [], set()
+    for row in range(0, 200, 25):
+        body = http(f"{base}/search/?q=&startrow={row}")
+        rows = body.split('class="data-row')[1:]
+        for r in rows:
+            m = re.search(r'href="(/job/[^"]+)"[^>]*>(.*?)</a>', r, re.S)
+            if not m or m.group(1) in seen:
+                continue
+            seen.add(m.group(1))
+            title = strip_html(m.group(2))
+            loc = strip_html((re.search(r'class="jobLocation[^"]*">(.*?)</span>', r, re.S) or [None, ""])[1])
+            if not plausible(title, loc):
+                continue
+            text = strip_html(http(base + m.group(1)))
+            d = re.search(r"(?:deadline|closing date)[^:]{0,50}:\s*(\d{2}/\d{2}/\d{4}|\d{1,2} \w+ \d{4})", text, re.I)
+            out.append(job(org, org, title, base + m.group(1), location=loc, text=text,
+                           remote=looks_remote(title, loc), deadline=d.group(1) if d else None,
                            intl=True, check_location=False))
+        if len(rows) < 25:
+            break
+    if not seen:
+        raise RuntimeError("no rows found")
+    return out
+
+
+def src_unesco():
+    return src_successfactors("UNESCO", "https://careers.unesco.org")
+
+
+SMARTRECRUITERS = ["transperfect", "keywordsstudios"]
+LEVER = ["rws"]
+
+
+def src_translation_agencies():
+    out = []
+    for c in SMARTRECRUITERS:
+        d = http_json(f"https://api.smartrecruiters.com/v1/companies/{c}/postings?limit=100")
+        for j in d.get("content", []):
+            l = j.get("location") or {}
+            if "DO NOT APPLY" in j.get("name", ""):
+                continue
+            out.append(job("Translation agencies", j.get("company", {}).get("name") or c.title(), j.get("name"),
+                           f"https://jobs.smartrecruiters.com/{c}/{j['id']}",
+                           location=l.get("fullLocation") or l.get("city"),
+                           remote=bool(l.get("remote")), posted=j.get("releasedDate")))
+    for c in LEVER:
+        for j in http_json(f"https://api.lever.co/v0/postings/{c}?mode=json"):
+            cat = j.get("categories") or {}
+            out.append(job("Translation agencies", c.upper(), j.get("text"), j.get("hostedUrl"),
+                           location=cat.get("location"), text=j.get("descriptionPlain", ""),
+                           remote=j.get("workplaceType") == "remote", posted=j.get("createdAt", 0) // 1000 or None))
     return out
 
 
@@ -329,10 +457,12 @@ def src_company_boards():
     return out
 
 
-PREFILTERED = {"UNHCR + WFP"}  # only returns plausible matches, so 0 can be normal
+# These only return plausible matches, so 0 can be normal (they raise if the site itself fails).
+PREFILTERED = {"UNHCR, WFP, IMF, Welocalize", "UNDP", "UNESCO", "Impactpool"}
 SOURCES = {
     "UN Careers": src_un_careers, "ReliefWeb": src_reliefweb, "UNICEF": src_unicef,
-    "UNHCR + WFP": src_workday, "Himalayas": src_himalayas, "Remotive": src_remotive,
+    "UNHCR, WFP, IMF, Welocalize": src_workday, "Impactpool": src_impactpool, "UNDP": src_undp,
+    "UNESCO": src_unesco, "Translation agencies": src_translation_agencies, "Himalayas": src_himalayas, "Remotive": src_remotive,
     "RemoteOK": src_remoteok, "Working Nomads": src_workingnomads, "Jobicy": src_jobicy,
     "Company boards": src_company_boards,
 }
@@ -473,7 +603,9 @@ def run_source(fn):
 
 
 def key(j):
-    return re.sub(r"[^a-z0-9]", "", (j["title"] + j["org"][:20]).lower())[:80]
+    # The same UN job can appear under different org spellings on different sites.
+    title = re.sub(r"[^a-z0-9]", "", j["title"].lower())
+    return title[:80] if j["intl"] and len(title) >= 25 else (title + re.sub(r"[^a-z0-9]", "", j["org"].lower())[:20])[:80]
 
 
 def main():

@@ -21,6 +21,7 @@
     "pashto", "urdu", "hindi", "bengali", "swahili", "amharic", "somali", "hausa",
     "burmese", "rohingya", "thai", "vietnamese", "indonesian", "ukrainian", "romanian",
     "greek", "hebrew", "czech", "swedish", "norwegian", "danish", "finnish", "hungarian",
+    "sinhala", "marathi", "telugu", "malayalam", "assamese", "gujarati", "punjabi", "kannada",
     "tigrinya", "kurdish", "tagalog", "malay", "tamil", "nepali", "lingala", "kinyarwanda"
   ],
 
@@ -36,7 +37,7 @@
 
   "_exclude_help": "Gig work that trains AI systems. Delete these two lists to show it again.",
   "exclude_title_or_company": [
-    "\\bai[- ]train", "\\btrain(ing)? ai\\b", "\\bai project\\b", "\\bai data\\b", "data contributor",
+    "\\bai[- ]train", "trainai", "\\bai linguistic", "language teachers?", "\\bai conversation", "\\bcontributor\\b", "\\btrain(ing)? ai\\b", "\\bai project\\b", "\\bai data\\b", "data contributor",
     "data collection", "speech data", "voice record", "annotat", "\\brater\\b", "short video recording",
     "native .{0,25}speakers? needed", "native .{0,20}speaker -", "language expert",
     "\\bperle\\b", "invisible technologies", "mercor", "outlier", "appen\\b", "toloka", "dataannotation",

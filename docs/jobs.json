@@ -1,9 +1,13 @@
 {
- "updated": "2026-11-03T22:10:45Z",
+ "updated": "2026-11-03T22:21:54Z",
  "sources": {
   "Remotive": {
    "ok": true,
    "count": 10
+  },
+  "Jobicy": {
+   "ok": true,
+   "count": 100
   },
   "RemoteOK": {
    "ok": true,
@@ -13,17 +17,21 @@
    "ok": true,
    "count": 35
   },
+  "UNICEF": {
+   "ok": true,
+   "count": 544
+  },
+  "Translation agencies": {
+   "ok": true,
+   "count": 201
+  },
   "Company boards": {
    "ok": true,
    "count": 233
   },
-  "Jobicy": {
+  "UNESCO": {
    "ok": true,
-   "count": 100
-  },
-  "UNICEF": {
-   "ok": true,
-   "count": 554
+   "count": 0
   },
   "Himalayas": {
    "ok": true,
@@ -33,19 +41,101 @@
    "ok": true,
    "count": 430
   },
-  "ReliefWeb": {
-   "ok": false,
-   "count": 0,
-   "error": "returned no jobs (site may have changed)"
-  },
-  "UNHCR + WFP": {
+  "UNDP": {
    "ok": true,
-   "count": 0
+   "count": 12
+  },
+  "ReliefWeb": {
+   "ok": true,
+   "count": 85
+  },
+  "UNHCR, WFP, IMF, Welocalize": {
+   "ok": true,
+   "count": 23
+  },
+  "Impactpool": {
+   "ok": true,
+   "count": 89
   }
  },
  "jobs": [
   {
-   "id": "procurementofficerp3unitednationsoffic",
+   "id": "unwomenprogrammecoordinationanalystcareeconomycairoegyptnpsa9localpostfornationa",
+   "title": "UN Women: Programme Coordination Analyst (Care Economy)- Cairo, Egypt, NPSA9, Local Post for Nationals of Egypt",
+   "org": "UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244749",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": "2026-11-05T00:00:00Z",
+   "posted": null,
+   "score": 77,
+   "reasons": [
+    "Mentions translation",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "UN Women: Programme Coordination Analyst (Care Economy)- Cairo, Egypt, NPSA9, Local Post for Nationals of Egypt UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Cairo National NPSA-9, National Personnel Services Agreement level Speaks Arabic, English, French Application deadline: November 05, 2026 Closing soon Apply Summary by Impactpool UN Women is seeking a Programme Coordination An",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "procurementofficerunodcunitednationsof",
+   "title": "Procurement Officer",
+   "org": "UNODC - United Nations Office on Drugs and Crime",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1245668",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": "2026-12-01T00:00:00Z",
+   "posted": null,
+   "score": 77,
+   "reasons": [
+    "Mentions translation",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (28 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "sustainablefinanceanalystshorttermhomebased",
+   "title": "Sustainable Finance Analyst- Short term-Home based",
+   "org": "UNDP",
+   "source": "UNDP",
+   "url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37790",
+   "location": "Amman, Jordan",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-06T04:59:00Z",
+   "posted": "2026-10-28T21:00:00Z",
+   "score": 72,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Tiered Approach In line with the commitment to safeguard capacity and support personnel already in the Organization, a majority of UNDP UNCDF/UNV vacancies are advertised using a tiered application process whereby: Tier 0 : UNDP/UNCDF/UNV IP staff holding permanent (PA) and fixed-term (FTA) appointments, whose posts will be abolished, or contracts will be terminated or not renewed during 2026. Tier 1 : Other UNDP/UNC",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "procurementofficerp3unitednationsofficeo",
    "title": "Procurement Officer, P3",
    "org": "United Nations Office On Drugs And Crime",
    "source": "UN Careers",
@@ -67,7 +157,7 @@
    ],
    "role": false,
    "snippet": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Region",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "editorforpapersoninvestinginchildrenconsultantnationalandinternational115monthsh",
@@ -92,7 +182,7 @@
    "first_seen": "2026-11-03T17:11:07Z"
   },
   {
-   "id": "newswritingmultimediaproductionpublicinformationinternnewsandcontentarabicdepart",
+   "id": "newswritingmultimediaproductionpublicinformationinternnewsandcontentarabic",
    "title": "News writing / Multimedia production - Public Information Intern - News and Content - Arabic",
    "org": "Department Of Global Communications",
    "source": "UN Careers",
@@ -113,10 +203,83 @@
    ],
    "role": false,
    "snippet": "Work Location New York or remote Expected duration The desired start date is February 2027. The internship is for a minimum of 2 months full-time with possibility for extension to a total of 6 months based on the needs of the office and availability of the candidate. The modality is hybrid. Duties and Responsibilities This position is located in the Arabic Unit, News Section, News and Content Branch, News and Media D",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "travelassistantg5unitednationsoffic",
+   "id": "englishlanguagelegaltranslators",
+   "title": "English-language legal translators",
+   "org": "CJEU - Court of Justice of the European Union",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244420",
+   "location": "Remote | Luxembourg",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based",
+    "Senior level"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "snippet": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Cour",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "budgetassistantfaofoodandagricultur",
+   "title": "Budget Assistant",
+   "org": "FAO - Food and Agriculture Organization of the United Nations",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1243500",
+   "location": "Egypt",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": "2026-11-05T00:00:00Z",
+   "posted": null,
+   "score": 62,
+   "reasons": [
+    "Mentions translation",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Budget Assistant FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 05, 2026 Closing soon Apply Summary by Impactpool FAO Egypt is seeking a Budget Assistant to support the monitoring and reporting of budgetary resources. The role involves collecting and organizing budget data, performing qual",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "programassistantadministrativeclientsupport",
+   "title": "Program Assistant - Administrative & Client Support",
+   "org": "World Bank Group",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244932",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": "2026-11-12T00:00:00Z",
+   "posted": null,
+   "score": 62,
+   "reasons": [
+    "Mentions translation",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Program Assistant - Administrative & Client Support World Bank Group Cairo National GC - Administration (Professional and Technical) level Speaks Arabic, English Application deadline: November 12, 2026 (9 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking a Program Assistant to provide administrative and client support in Cairo, Egypt. The role involves managing complex calendars",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "travelassistantg5unitednationsofficeo",
    "title": "Travel Assistant, G5",
    "org": "United Nations Office On Drugs And Crime",
    "source": "UN Careers",
@@ -137,10 +300,34 @@
    ],
    "role": false,
    "snippet": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA), Division for Operations (DO), United Nations Office on Drugs and Crime (UNODC). The incumbent will report directly to the UNOV/UNODC Travel lead General Support Section (GSS), Division for Management (DM), United Nations Office at Vienna (UNOV), in Vienna, and under the administrative supervision ",
-   "first_seen": "2026-11-03T17:24:29Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "internetresourcesinternpublicationforrosterpurposessyriainternational",
+   "id": "unwomenopencallinvestigationsconsultantrostervariouslevelsanddurationremotebased",
+   "title": "UN Women - OPEN CALL : Investigations Consultant Roster (various levels and duration), Remote-based",
+   "org": "UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1239013",
+   "location": "Remote | Home Based - May require travel",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-27T00:00:00Z",
+   "posted": null,
+   "score": 60,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "UN Women - OPEN CALL : Investigations Consultant Roster (various levels and duration), Remote-based UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Remote | Home Based - May require travel International Mid level Speaks Arabic, English, French, Spanish Application deadline: November 27, 2026 (24 days) Apply Summary by Impactpool UN Women is seeking to establish a roster of pre-vetted",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "internetresourcesinternpublicationforrosterpurposes",
    "title": "Internet Resources Intern (Publication for roster purposes)",
    "org": "Syria International, Impartial And Independent Mechanism",
    "source": "UN Careers",
@@ -161,10 +348,10 @@
    ],
    "role": false,
    "snippet": "Work Location Internships are available as full-time and can be conducted remotely or in-person Expected duration The duration of this internship is expected to be for a maximum of six months to start between 1 August 2026 and 31 July 2027. The start date and duration may be adjusted at the request of the successful candidate. Duties and Responsibilities The International, Impartial and Independent Mechanism (IIIM) w",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "consultantonsyriancriminallawandproceduresyriainternational",
+   "id": "consultantonsyriancriminallawandprocedure",
    "title": "Consultant on Syrian Criminal Law and Procedure",
    "org": "Syria International, Impartial And Independent Mechanism",
    "source": "UN Careers",
@@ -185,10 +372,10 @@
    ],
    "role": false,
    "snippet": "Result of Service An authoritative expert assessment of selected aspects of Syrian criminal law and criminal procedure, including their interpretation and application in practice and relevant developments over time, supported by a comprehensive collection of primary and authoritative Syrian legal sources. Work Location The hiring office location is in Geneva, Switzerland. This contract is intended to be full-time and",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "communicationspecialistinternofficeforthecoord",
+   "id": "communicationspecialistintern",
    "title": "Communication Specialist Intern",
    "org": "Office For The Coordination Of Humanitarian Affairs",
    "source": "UN Careers",
@@ -209,7 +396,7 @@
    ],
    "role": false,
    "snippet": "Work Location Doha, Full-time, Part-time, In-person, Remote and Hybrid. Expected duration 6 Months Duties and Responsibilities The United Nations (UN) Office for the Coordination of Humanitarian Affairs (OCHA) is the UN Secretariat department responsible for bringing together humanitarian actors to ensure a coherent response to complex emergencies and natural disasters. OCHA's mission is to mobilize and coordinate ef",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "evaluationofenhancingmsmessoftinfrastructureinternationalisationincountriesfacin",
@@ -236,7 +423,7 @@
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
-   "id": "humanrightsinternofficeofthehighc",
+   "id": "humanrightsinternofficeofthehighcommi",
    "title": "Human Rights Intern",
    "org": "Office Of The High Commissioner For Human Rights",
    "source": "UN Careers",
@@ -257,10 +444,34 @@
    ],
    "role": false,
    "snippet": "Work Location Internships are available in full-time and part-time and can be conducted remote or in-person. Expected duration This is a GJO used to build a pool of qualified candidates and will be used to fill internship vacancies between 1 July 2026 and 30 June 2027. This Internship is for a minimum of 3 months and maximum of 6 months and designed to be in person and remote. The duration and modality can be adjuste",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "ecosystembasedadaptationexpertunitednationshuman",
+   "id": "veslinstructorircinternationalresc",
+   "title": "VESL Instructor",
+   "org": "IRC - International Rescue Committee",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1242550",
+   "location": "Remote | Salt Lake City | Valley",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 55,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "VESL Instructor IRC - International Rescue Committee Remote | Salt Lake City, Valley International Mid level Speaks Farsi, Arabic, English, French, Kinyarwanda, Sango, Spanish Apply Summary by Impactpool The International Rescue Committee (IRC) is seeking a VESL Instructor to empower newly arrived refugees and low-income individuals through English language instruction. This role involves delivering engaging lessons,",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "ecosystembasedadaptationexpert",
    "title": "Ecosystem-Based Adaptation Expert",
    "org": "United Nations Human Settlements Programme",
    "source": "UN Careers",
@@ -281,10 +492,10 @@
    ],
    "role": false,
    "snippet": "Result of Service The ultimate results of this consultancy are: ● A finalized national policy brief providing strategic recommendations for integrating EbA into national legal and policy Instruments, targeting MoEnv and ASEZA, validated by relevant national stakeholders. ● A finalized legal instrument for mainstreaming EbA into GAM's planning and regulatory processes, validated by GAM and relevant stakeholders, inclu",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "legalcontractorofficeofadministra",
+   "id": "legalcontractorofficeofadministrati",
    "title": "Legal Contractor",
    "org": "Office Of Administration Of Justice",
    "source": "UN Careers",
@@ -305,7 +516,7 @@
    ],
    "role": false,
    "snippet": "Result of Service a) Provision of efficient, timely and high-quality substantive technical and administrative support for the adjudication of cases by UNDT judges. b) undertaking assignments as mandated by OAJ. Work Location In-person or Remote or Hybrid Expected duration 6 months Duties and Responsibilities The Registry is part of the independent Office of Administration of Justice (OAJ) and supports the United Nati",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "evaluationofextrabudgetprojecttoenhancetheoperationalizationoftheclimatesdgsdebt",
@@ -356,7 +567,7 @@
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
-   "id": "evaluationspecialistunitednationssecre",
+   "id": "evaluationspecialistunitednationssecreta",
    "title": "Evaluation Specialist",
    "org": "United Nations Secretariat",
    "source": "UN Careers",
@@ -377,7 +588,31 @@
    ],
    "role": false,
    "snippet": "Result of Service Consultants hired using this GJO are expected to conduct evaluations of various projects and/or programmes and/or sub-programmes and/or any other substantive and/or operational component, and/or office and/or unit of work, and/or strategy and/or thematic topic for the UN Secretariat. Work Location While the locations will vary according to the requirements of the hiring office engaging the Evaluatio",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "trainingdatacoordinatorircinternationalresc",
+   "title": "Training & Data Coordinator",
+   "org": "IRC - International Rescue Committee",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1232632",
+   "location": "Remote | Baltimore",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2027-09-30T00:00:00Z",
+   "posted": null,
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Training & Data Coordinator IRC - International Rescue Committee Remote | Baltimore International Mid level Speaks Amharic, English, French, Kinyarwanda, Swahili, Spanish Application deadline: September 30, 2027 (11 months) Apply Summary by Impactpool The Training & Data Coordinator at the International Rescue Committee (IRC) will design and deliver work readiness training for diverse job seekers, including English l",
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "internationalconsultanttosupporttheimplementationoftherangelandsflagshipinitiati",
@@ -405,7 +640,7 @@
    "first_seen": "2026-11-03T17:24:29Z"
   },
   {
-   "id": "communicationsinterndepartmentofpoliti",
+   "id": "communicationsinterndepartmentofpolitica",
    "title": "Communications Intern",
    "org": "Department Of Political And Peacebuilding Affairs",
    "source": "UN Careers",
@@ -425,10 +660,33 @@
    ],
    "role": false,
    "snippet": "Work Location In person and/or Remote Expected duration 3 months, with a possibility of extension to 6 months in total. Desired start date is 1 December 2026. Duties and Responsibilities The Peacebuilding and Peace Support Office (PBPSO) in the departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO) supports nationally owned efforts to prevent conflict, build and sustain peace, and strength",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "consultantforinformalconflictresolutionofficeoftheunited",
+   "id": "itriskandcontrolsconsultant",
+   "title": "IT Risk and Controls Consultant",
+   "org": "IDB Group",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244901",
+   "location": "Remote | Buenos Aires | Kingston | Montevideo | San Salvador | Bogotá | Georgetown | Madrid | Quito | São Paulo | Belize City | Church | Lima | Panamá | Santo Domingo | Brasília | Guatemala City | Mexico City | San José | Tegucigalpa | Asunción | Caracas | La Paz | Nassau | Santiago",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-05T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "IT Risk and Controls Consultant IDB Group Remote | Buenos Aires, Kingston, Montevideo, San Salvador, Bogotá, Georgetown, Madrid, Quito, São Paulo, Belize City, Church, Lima, Panamá, Santo Domingo, Brasília, Guatemala City, Mexico City, San José, Tegucigalpa, Asunción, Caracas, La Paz, Nassau, Santiago Both national and international Mid level Speaks English, French, Portuguese, Spanish Application deadline: November ",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "consultantforinformalconflictresolution",
    "title": "Consultant for Informal Conflict Resolution",
    "org": "Office Of The United Nations Ombudsman And Mediation Services",
    "source": "UN Careers",
@@ -450,7 +708,7 @@
    ],
    "role": false,
    "snippet": "Result of Service The consultant for conflict resolution is expected to provide the full range of informal dispute resolution services to UN personnel through in-person and virtual engagement. These services shall be provided in a confidential manner. As needed the consultant is required to provide systemic feedback to the Ombudsman, the Chief of Service or the Regional Ombudsman should there be an observable conflic",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "consultanttoprepareabackgroundpaperonmultidimensionalpovertyandsocialprotectioni",
@@ -476,7 +734,99 @@
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
-   "id": "unepfinanceinitiativeunepfipollutionandcirculareconomysupportinternshipunitednat",
+   "id": "nationalconsultantforsystemsdevelopmentandenhancementoftheconvictedsexualoffende",
+   "title": "National Consultant for Systems Development and Enhancement of the Convicted Sexual Offenders Electronic Register (CSOER)",
+   "org": "UNODC - United Nations Office on Drugs and Crime",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244679",
+   "location": "Remote | Nairobi",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-07T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "National Consultant for Systems Development and Enhancement of the Convicted Sexual Offenders Electronic Register (CSOER) UNODC - United Nations Office on Drugs and Crime Remote | Nairobi National CON level Speaks English, French Application deadline: November 07, 2026 Closing soon Apply Summary by Impactpool The United Nations Office on Drugs and Crime is seeking a National Consultant for the enhancement of the Conv",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "impactevaluationanalystconsultantevaluationofficesudanremote9months596583",
+   "title": "Impact Evaluation Analyst Consultant, Evaluation Office, Sudan, Remote, 9 months, #596583",
+   "org": "UNICEF - United Nations Children’s Fund",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244070",
+   "location": "Remote | Sudan",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-08T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Impact Evaluation Analyst Consultant, Evaluation Office, Sudan, Remote, 9 months, #596583 UNICEF - United Nations Children’s Fund Remote | Sudan International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 08, 2026 (5 days) Apply Summary by Impactpool UNICEF is seeking a Quantitative Data Analysis Consultant to support the impact evaluation of the Mother and Child Cash ",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "interncommunicationsgraphicdesignweb",
+   "title": "INTERN – COMMUNICATIONS (GRAPHIC DESIGN & WEB)",
+   "org": "UN ODET - Office of the Secretary-General’s Envoy on Technology",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244185",
+   "location": "Remote | New York City",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-09T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "INTERN – COMMUNICATIONS (GRAPHIC DESIGN & WEB) UN ODET - Office of the Secretary-General’s Envoy on Technology Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 09, 2026 (6 days) Apply Summary by Impactpool The United Nations Office for Digital and Emerging Technologies (UNODET) is seeking a Communications Intern with a focus on graphic desig",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "sidscoalitionfornaturecoordinatorhomebased",
+   "title": "SIDS Coalition for Nature Coordinator (Home Based)",
+   "org": "UNDP",
+   "source": "UNDP",
+   "url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/36955",
+   "location": "Bonn, Germany",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-09T04:59:00Z",
+   "posted": "2026-10-28T21:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Background The Blue & Green Islands Integrated Programme (BGI IP) is a transformative and comprehensive initiative designed to address pressing environmental challenges faced by Small Island Developing States (SIDS). These Countries, due to their small size, remote locations, and reliance on limited resources, are highly vulnerable to climate change impacts and other shocks. The programme will leverage significant in",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "unepfinanceinitiativeunepfipollutionandcirculareconomysupportinternship",
    "title": "UNEP Finance Initiative (UNEP FI) Pollution and Circular Economy Support Internship",
    "org": "United Nations Environment Programme",
    "source": "UN Careers",
@@ -496,10 +846,56 @@
    ],
    "role": false,
    "snippet": "Work Location Remote or in Geneva, Switzerland Expected duration 6 months Duties and Responsibilities The United Nations Environment Programme (UNEP) is the leading global environmental authority that sets the global environmental agenda, promotes the coherent implementation of the environmental dimension of sustainable development within the United Nations system and serves as an authoritative advocate for the globa",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "transportlogisticsandsupplychainmanagementinternunitednationsconfe",
+   "id": "supportercontentknowledgemanagementinterndivisionofprivatefundraisingandpartners",
+   "title": "Supporter Content – Knowledge Management Intern, Division of Private Fundraising and Partnerships (PFP)",
+   "org": "UNICEF - United Nations Children’s Fund",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244026",
+   "location": "Remote | Home Based - May require travel",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-10T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Supporter Content – Knowledge Management Intern, Division of Private Fundraising and Partnerships (PFP) UNICEF - United Nations Children’s Fund Remote | Home Based - May require travel Both national and international Internship level Speaks English, French, Spanish Application deadline: November 10, 2026 (7 days) Apply Summary by Impactpool UNICEF is seeking a Knowledge Management Intern to support the Supporter Cont",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "interneffectivedevelopmentcooperationswitzerlandorhomebased2positions",
+   "title": "Intern - Effective Development Cooperation (Switzerland or Home-based) - 2 positions",
+   "org": "UNDP",
+   "source": "UNDP",
+   "url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/37749",
+   "location": "Geneve, Switzerland",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-10T16:09:00Z",
+   "posted": "2026-10-26T21:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Background Diversity, Equity and Inclusion are core principles at UNDP: we value diversity as an expression of the multiplicity of nations and cultures where we operate, we foster inclusion as a way of ensuring all personnel are empowered to contribute to our mission, and we ensure equity and fairness in all our actions. Taking a ‘leave no one behind’ approach to our diversity efforts means increasing representation ",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "transportlogisticsandsupplychainmanagementintern",
    "title": "Transport, Logistics and Supply Chain Management Intern",
    "org": "United Nations Conference On Trade And Development",
    "source": "UN Careers",
@@ -519,10 +915,10 @@
    ],
    "role": false,
    "snippet": "Work Location In-person/Remote Expected duration 3 months Duties and Responsibilities The positions are at United Nations Trade and Development (UNCTAD). The Internship Programme is unpaid and full-time, i.e. interns are expected to work five days per week (40 hours). The internships are offered either on an in-person or remote basis. For in-person internships, interns must have a valid visa. All costs of travel, acc",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "internhumanitarianaffairsofficeforthecoord",
+   "id": "internhumanitarianaffairs",
    "title": "Intern - Humanitarian Affairs",
    "org": "Office For The Coordination Of Humanitarian Affairs",
    "source": "UN Careers",
@@ -542,7 +938,76 @@
    ],
    "role": false,
    "snippet": "Work Location Doha, Full-time, Part-time, In-person, Remote and Hybrid. Expected duration 6 Months Duties and Responsibilities The United Nations (UN) Office for the Coordination of Humanitarian Affairs (OCHA) is the UN Secretariat department responsible for bringing together humanitarian actors to ensure a coherent response to complex emergencies and natural disasters. OCHA's mission is to mobilize and coordinate ef",
-   "first_seen": "2026-11-03T17:07:43Z"
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "europeanpatentexaminerinelectricalengineeringelectricpowerdistributionprotection",
+   "title": "European Patent Examiner in Electrical Engineering (Electric Power Distribution & Protection)",
+   "org": "EPO - European Patent Office",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1239610",
+   "location": "Remote | The Hague",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-16T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "European Patent Examiner in Electrical Engineering (Electric Power Distribution & Protection) EPO - European Patent Office Remote | The Hague G7 to G10 level Speaks German, English, French Application deadline: November 16, 2026 (13 days) Apply Summary by Impactpool The European Patent Office (EPO) is seeking a European Patent Examiner in Electrical Engineering, specifically in Electric Power Distribution & Protectio",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "europeanpatentexaminerincomputer",
+   "title": "European Patent Examiner in Computer",
+   "org": "EPO - European Patent Office",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1239615",
+   "location": "Remote | The Hague",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-16T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "European Patent Examiner in Computer EPO - European Patent Office Remote | The Hague G7 to G10 level Speaks German, English, French Application deadline: November 16, 2026 (13 days) Apply Summary by Impactpool The European Patent Office (EPO) is seeking a European Patent Examiner in Computer to assess patent applications and support innovation in technology. The role involves examining technical documentation, conduc",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "jiuresearchandanalysisintern",
+   "title": "JIU Research and Analysis Intern",
+   "org": "UNOG - United Nations Office at Geneva",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1227895",
+   "location": "Remote | Geneva",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2027-01-22T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "JIU Research and Analysis Intern UNOG - United Nations Office at Geneva Remote | Geneva Both national and international Internship level Speaks English, French Application deadline: January 22, 2027 (3 months) Apply Summary by Impactpool The JIU Research and Analysis Intern position at the United Nations Office at Geneva offers an opportunity to gain hands-on experience in oversight and evaluation within the UN syste",
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "strategicaccountexecutivemenagitlab",
@@ -568,6 +1033,29 @@
    "role": false,
    "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r",
    "first_seen": "2026-11-03T22:09:00Z"
+  },
+  {
+   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
+   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
+   "org": "EEAS - European External Action Service",
+   "source": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244275",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
+   "first_seen": "2026-11-03T22:17:21Z"
   }
  ]
 }
