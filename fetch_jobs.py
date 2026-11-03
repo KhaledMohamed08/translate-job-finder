@@ -437,12 +437,17 @@ def src_jsearch():
         results = d.get("data", [])
         if isinstance(results, dict):
             results = results.get("jobs", [])
-        print(f"JSearch {q['query']!r}: {len(results)} results, keys {sorted(d)[:6]}", file=sys.stderr)
+        print(f"JSearch {q['query']!r}: {len(results)} results", file=sys.stderr)
+        if results:
+            print("  fields:", sorted(k for k, v in results[0].items() if v not in (None, "", [])), file=sys.stderr)
         for j in results:
             egypt = j.get("job_country") == "EG"
             place = [j.get("job_city"), "Egypt" if egypt else j.get("job_country")]
+            location = j.get("job_location") or ", ".join(x for x in place if x)
+            if not location and q.get("country") == "eg":
+                location = "Egypt"  # the search itself was limited to Egypt
             out.append(job("Google Jobs", j.get("employer_name"), j.get("job_title"),
-                           j.get("job_apply_link"), location=", ".join(x for x in place if x),
+                           j.get("job_apply_link"), location=location,
                            text=j.get("job_description", ""), remote=bool(j.get("job_is_remote")),
                            deadline=j.get("job_offer_expiration_datetime_utc"),
                            posted=j.get("job_posted_at_datetime_utc")))
