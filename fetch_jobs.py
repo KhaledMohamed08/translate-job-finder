@@ -24,6 +24,7 @@ ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "docs" / "jobs.json"
 PROFILE = json.loads((ROOT / "profile.json").read_text(encoding="utf-8"))
 NOW = datetime.now(timezone.utc)
+SEEN_DAYS = 180  # how long a removed job is remembered
 UA = "Mozilla/5.0 (JobRadar personal job search; +https://github.com)"
 
 
@@ -609,12 +610,17 @@ def key(j):
 
 
 def main():
-    previous = {}
+    previous, seen = {}, {}
     if OUT.exists():
         try:
-            previous = {p["id"]: p for p in json.loads(OUT.read_text(encoding="utf-8"))["jobs"]}
+            old_data = json.loads(OUT.read_text(encoding="utf-8"))
+            previous = {p["id"]: p for p in old_data["jobs"]}
+            seen = old_data.get("seen", {})
         except Exception:
             pass
+    # Every job ever listed -> when it was first seen, so a job that vanishes for a
+    # while (site outage, temporary delisting) is not announced as new when it returns.
+    seen.update({i: p["first_seen"] for i, p in previous.items() if i not in seen})
 
     raw, status = [], {}
     with cf.ThreadPoolExecutor(max_workers=len(SOURCES)) as ex:
@@ -623,6 +629,8 @@ def main():
             name = futs[f]
             try:
                 got = f.result()
+                for j in got:
+                    j["feed"] = name
                 raw += got
                 status[name] = {"ok": bool(got) or name in PREFILTERED, "count": len(got)}
                 if not status[name]["ok"]:
@@ -642,23 +650,32 @@ def main():
         k = key(j)
         if k in jobs and jobs[k]["score"] >= s:
             continue
-        old = previous.get(k)
         jobs[k] = {
             "id": k, "title": j["title"], "org": j["org"] or j["source"], "source": j["source"],
+            "feed": j["feed"],
             "url": j["url"], "location": j["location"], "remote": j["remote"],
             "egypt": "Based in Egypt" in reasons or "Open to Egypt" in reasons, "intl": j["intl"],
             "deadline": iso(j["deadline"]), "posted": iso(j["posted"]),
             "score": s, "reasons": reasons, "langs": langs,
             "role": "Translation / language role" in reasons,
             "snippet": j["text"][:420],
-            "first_seen": old["first_seen"] if old else iso(NOW),
+            "first_seen": seen.get(k, iso(NOW)),
         }
+
+    # A source that failed today keeps yesterday's jobs instead of emptying the list.
+    failed = {name for name, st in status.items() if not st["ok"]}
+    for k, p in previous.items():
+        if k not in jobs and p.get("feed", p["source"]) in failed and (p["deadline"] or "9") >= iso(NOW):
+            jobs[k] = p
 
     ordered = sorted(jobs.values(), key=lambda x: (-x["score"], x["deadline"] or "9"))
     OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps({"updated": iso(NOW), "sources": status, "jobs": ordered},
+    new = [j for j in ordered if j["id"] not in seen]
+    seen.update({j["id"]: j["first_seen"] for j in ordered})
+    cutoff = iso(NOW - timedelta(days=SEEN_DAYS))
+    seen = {i: t for i, t in seen.items() if t >= cutoff or i in jobs}
+    OUT.write_text(json.dumps({"updated": iso(NOW), "sources": status, "jobs": ordered, "seen": seen},
                               ensure_ascii=False, indent=1), encoding="utf-8")
-    new = [j for j in ordered if j["id"] not in previous]
     print(f"\n{len(raw)} fetched -> {len(ordered)} matches ({len(new)} new) -> {OUT}", file=sys.stderr)
     notify([j for j in new if j["score"] >= PROFILE["notify_min_score"]], len(ordered))
 
