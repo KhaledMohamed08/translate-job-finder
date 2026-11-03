@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T23:20:55Z",
+ "updated": "2026-11-03T23:23:35Z",
  "sources": {
   "Remotive": {
    "ok": true,
@@ -9,21 +9,17 @@
    "ok": true,
    "count": 35
   },
-  "RemoteOK": {
-   "ok": true,
-   "count": 99
-  },
   "Company boards": {
    "ok": true,
    "count": 233
   },
+  "RemoteOK": {
+   "ok": true,
+   "count": 99
+  },
   "Jobicy": {
    "ok": true,
    "count": 100
-  },
-  "Himalayas": {
-   "ok": true,
-   "count": 125
   },
   "UNICEF": {
    "ok": true,
@@ -32,6 +28,10 @@
   "Translation agencies": {
    "ok": true,
    "count": 201
+  },
+  "Himalayas": {
+   "ok": true,
+   "count": 125
   },
   "UN Careers": {
    "ok": true,
@@ -46,6 +46,10 @@
    "ok": true,
    "count": 0
   },
+  "Google Jobs": {
+   "ok": true,
+   "count": 20
+  },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
    "count": 23
@@ -54,10 +58,6 @@
    "ok": true,
    "count": 12
   },
-  "Google Jobs": {
-   "ok": true,
-   "count": 20
-  },
   "Impactpool": {
    "ok": true,
    "count": 89
@@ -65,39 +65,13 @@
  },
  "jobs": [
   {
-   "id": "frenchremoteinterpretercertifiedlanguages",
-   "title": "French Remote Interpreter",
-   "org": "Certified Languages",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://recruiterflow.com/Certified_Languages_International/jobs/24",
-   "location": "",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-07T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "snippet": "Job description French Telephonic Interpreters Wanted (Work From Home) Certified Languages International (CLI) connects clients with world-class interpreting services, and has since its inception in 1996. Thousands of organizations across the country rely on CLI to help them communicate with a growing demographic of Limited English Proficient (LEP) speakers. -The contract position that’s available is 100% over-the-ph",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
    "id": "translatorenglishtofrench10monthcontractremoteremotequestjobs",
    "title": "Translator (English to French) – 10-Month Contract - Remote",
    "org": "remote quest jobs",
    "source": "Google Jobs",
    "feed": "Google Jobs",
    "url": "https://us.remotejobs.dedyn.io/job/translator-english-to-french-10-month-contract-remote-dfeb98ff",
-   "location": "",
+   "location": "Anywhere",
    "remote": true,
    "egypt": false,
    "intl": false,
@@ -106,7 +80,6 @@
    "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
@@ -123,7 +96,7 @@
    "source": "Google Jobs",
    "feed": "Google Jobs",
    "url": "https://www.jobleads.com/us/job/french-remote-interpreter--portland--e49b6fd3e5874b5488c7877ddc26ea453",
-   "location": "",
+   "location": "Anywhere",
    "remote": true,
    "egypt": false,
    "intl": false,
@@ -132,7 +105,6 @@
    "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
@@ -143,39 +115,13 @@
    "first_seen": "2026-11-03T23:20:55Z"
   },
   {
-   "id": "remotefrenchtelephonicinterpreterflexiblehourscertifiedlanguagesin",
-   "title": "Remote French Telephonic Interpreter (Flexible Hours)",
-   "org": "Certified Languages International",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-french-telephonic-interpreter-flexible-hours--portland--ebe6b8f262f200563d4af5958d383bfc4",
-   "location": "",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-24T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "snippet": "Certified Languages International (CLI) is seeking French Telephonic Interpreters to work from home. The role is 100% over-the-phone interpretation for medical and other sectors, with a freelance contractor model and 24/7 client demand. Interpreters log on/off via our online portal or landline. Applicants must reside in the United States, be legally eligible to work (SSN/EIN & Photo ID), and have a minimum of two yea",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
    "id": "frenchcanadafreelancetranslatortransperfectgamingso",
    "title": "French (Canada) Freelance Translator",
    "org": "Transperfect Gaming Solutions",
    "source": "Google Jobs",
    "feed": "Google Jobs",
    "url": "https://www.ziprecruiter.com/c/transperfect-gaming-solutions/Job/French-(Canada)-Freelance-Translator/-in-New-York,NY?jid=0e103dba66a14f7f",
-   "location": "",
+   "location": "Anywhere",
    "remote": true,
    "egypt": false,
    "intl": false,
@@ -184,7 +130,6 @@
    "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
@@ -201,7 +146,7 @@
    "source": "Google Jobs",
    "feed": "Google Jobs",
    "url": "https://jobmesh.io/job/fb0c868f-af32-43aa-b1e9-36743e27a698",
-   "location": "",
+   "location": "Anywhere",
    "remote": true,
    "egypt": false,
    "intl": false,
@@ -210,7 +155,6 @@
    "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
@@ -221,13 +165,13 @@
    "first_seen": "2026-11-03T23:20:55Z"
   },
   {
-   "id": "videogamelinguisttranslatorfrenchfreelanceremoteside",
-   "title": "Video Game Linguist/Translator (French) - Freelance Remote",
-   "org": "Side",
+   "id": "remotefrenchtelephonicinterpreterflexiblehourscertifiedlanguagesin",
+   "title": "Remote French Telephonic Interpreter (Flexible Hours)",
+   "org": "Certified Languages International",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://jooble.org/jdp/8861242178035416614",
-   "location": "",
+   "url": "https://www.jobleads.com/us/job/remote-french-telephonic-interpreter-flexible-hours--portland--ebe6b8f262f200563d4af5958d383bfc4",
+   "location": "Anywhere",
    "remote": true,
    "egypt": false,
    "intl": false,
@@ -236,7 +180,31 @@
    "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "snippet": "Certified Languages International (CLI) is seeking French Telephonic Interpreters to work from home. The role is 100% over-the-phone interpretation for medical and other sectors, with a freelance contractor model and 24/7 client demand. Interpreters log on/off via our online portal or landline. Applicants must reside in the United States, be legally eligible to work (SSN/EIN & Photo ID), and have a minimum of two yea",
+   "first_seen": "2026-11-03T23:20:55Z"
+  },
+  {
+   "id": "videogamelinguisttranslatorfrenchfreelanceremoteside",
+   "title": "Video Game Linguist/Translator (French) - Freelance Remote",
+   "org": "Side",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://jooble.org/jdp/8861242178035416614",
+   "location": "Anywhere",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-10-24T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
     "Remote / home-based"
    ],
    "langs": [
@@ -247,13 +215,38 @@
    "first_seen": "2026-11-03T23:20:55Z"
   },
   {
+   "id": "freelancefrenchreviewertranslatoreditor1112mathscienceremotequestjobs",
+   "title": "Freelance French, Reviewer, Translator & Editor - 11 & 12 Math & Science",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/freelance-french-reviewer-translator-editor-11-12-math-science-d0815115",
+   "location": "Anywhere",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-10-26T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "snippet": "At reputed company, we’ve been shaping the future of education for reputed company and youth across Canada for over 110 years. As the country’s largest K-12 education content provider, we remain dedicated to our legacy of looking forward, paving the way in creating reputed company, accessible, and engaging learning experiences for all. Our innovative solutions, including Edwin, our digital learning platform, provide ",
+   "first_seen": "2026-11-03T23:23:35Z"
+  },
+  {
    "id": "englishtofrenchfrancelinguistforlifesciencesweloglobal",
    "title": "English to French (France) Linguist for Life Sciences",
    "org": "Welo Global",
    "source": "Google Jobs",
    "feed": "Google Jobs",
    "url": "https://www.jobleads.com/us/job/english-to-french-france-linguist-for-life-sciences--united-states--ee771658dd3c2beceef3ce158e722b4b7",
-   "location": "",
+   "location": "Anywhere",
    "remote": true,
    "egypt": false,
    "intl": false,
@@ -262,7 +255,6 @@
    "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
@@ -279,7 +271,7 @@
    "source": "Google Jobs",
    "feed": "Google Jobs",
    "url": "https://jobgether.com/offer/6ac495da8a27695aea301d97-french-interpreter",
-   "location": "",
+   "location": "Anywhere",
    "remote": true,
    "egypt": false,
    "intl": false,
@@ -288,7 +280,6 @@
    "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
@@ -305,7 +296,7 @@
    "source": "Google Jobs",
    "feed": "Google Jobs",
    "url": "https://us.remotejobs.dedyn.io/job/2899910",
-   "location": "",
+   "location": "Anywhere",
    "remote": true,
    "egypt": false,
    "intl": false,
@@ -314,7 +305,6 @@
    "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
@@ -878,6 +868,32 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "chinesetranslatorexecutiveassistantlivemall",
+   "title": "Chinese Translator & Executive Assistant",
+   "org": "Livemall",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://wuzzuf.net/jobs/p/yjgtddqfkdta-chinese-translator-executive-assistant-livemall-cairo-egypt",
+   "location": "مدينة القاهرة الجديدة     •  عبر Wuzzuf",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 50,
+   "reasons": [
+    "Translation / language role",
+    "Needs Chinese",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Job Description Overview We are looking for a highly professional and organized Chinese Translator & Executive Assistant to work closely with the company’s Manager Director in a fast-paced E-commerce environment. Job Description Provide accurate Chinese Arabic/English translation and interpretation during meetings, discussions, and business activities. • Accompany the Manager Director during his daily business activi",
+   "first_seen": "2026-11-03T23:23:35Z"
+  },
+  {
    "id": "internationalconsultanttosupporttheimplementationoftherangelandsflagshipinitiati",
    "title": "International Consultant to support the implementation of the Rangelands Flagship Initiative",
    "org": "Convention To Combat Desertification",
@@ -902,6 +918,30 @@
    "role": false,
    "snippet": "Result of Service To support the implementation and operationalization of the Rangelands Flagship Initiative, with a particular focus on project pipeline development, private sector engagement and resource mobilization. Work Location Home-based. Expected duration 12 months, starting November 2026 Duties and Responsibilities Background note: The Global Mechanism (GM) is an institution of the UNCCD, mandated to assist ",
    "first_seen": "2026-11-03T17:24:29Z"
+  },
+  {
+   "id": "communicationsinterndepartmentofpolitica",
+   "title": "Communications Intern",
+   "org": "Department Of Political And Peacebuilding Affairs",
+   "source": "UN Careers",
+   "feed": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/284716?language=en",
+   "location": "In person and/or Remote",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-04T04:59:59Z",
+   "posted": "2026-10-26T04:00:00Z",
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Work Location In person and/or Remote Expected duration 3 months, with a possibility of extension to 6 months in total. Desired start date is 1 December 2026. Duties and Responsibilities The Peacebuilding and Peace Support Office (PBPSO) in the departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO) supports nationally owned efforts to prevent conflict, build and sustain peace, and strength",
+   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "itriskandcontrolsconsultant",
@@ -1292,6 +1332,32 @@
    "first_seen": "2026-11-03T22:09:00Z"
   },
   {
+   "id": "chinesetranslator",
+   "title": "Chinese Translator",
+   "org": "السويدي اليكتريك",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://eg.linkedin.com/jobs/view/chinese-translator-at-elsewedy-electric-4480890438",
+   "location": "مدينة العاشر من رمضان     •  عبر LinkedIn ‏مصر",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Translation / language role",
+    "Needs Chinese",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Key Responsibilities: • Provide real-time interpretation during meetings, technical discussions, and site visits between Chinese and local staff. • Translate technical documents, manuals, reports, and production-related materials from Chinese to Arabic/English and vice versa. • Support Chinese engineers and specialists during production, maintenance, and quality activities to ensure correct understanding of procedure",
+   "first_seen": "2026-11-03T23:23:35Z"
+  },
+  {
    "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
    "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
    "org": "EEAS - European External Action Service",
@@ -1368,11 +1434,14 @@
   "videogamelinguisttranslatorfrenchfreelanceremoteside": "2026-11-03T23:20:55Z",
   "englishtofrenchfrancelinguistforlifesciencesweloglobal": "2026-11-03T23:20:55Z",
   "frenchinterpretercontactlinksolutions": "2026-11-03T23:20:55Z",
-  "frenchtranslatorreputedcompanyremotequestjobs": "2026-11-03T23:20:55Z"
+  "frenchtranslatorreputedcompanyremotequestjobs": "2026-11-03T23:20:55Z",
+  "freelancefrenchreviewertranslatoreditor1112mathscienceremotequestjobs": "2026-11-03T23:23:35Z",
+  "chinesetranslatorexecutiveassistantlivemall": "2026-11-03T23:23:35Z",
+  "chinesetranslator": "2026-11-03T23:23:35Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 4,
-  "last_day": ""
+  "used": 7,
+  "last_day": "2026-11-03"
  }
 }
