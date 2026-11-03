@@ -361,6 +361,8 @@ BLOCK_GEO = rx([r"\bus(a)?\b", r"united states", r"america", r"canada", r"\buk\b
                 r"\bcet\b", r"\best\b", r"\bpst\b", r"north america"])
 
 
+EXCLUDE_NAME = rx(PROFILE["exclude_title_or_company"]) if PROFILE.get("exclude_title_or_company") else None
+EXCLUDE_TEXT = rx(PROFILE["exclude_description"]) if PROFILE.get("exclude_description") else None
 UN_LANG_LIST = re.compile(r"arabic|chinese|english|french|russian|spanish", re.I)
 
 
@@ -374,7 +376,16 @@ def drop_boilerplate(text):
     return " ".join(keep)
 
 
+def is_ai_gig(j):
+    if EXCLUDE_NAME and EXCLUDE_NAME.search(f"{j['title']} {j['org']}"):
+        return True
+    # UN and NGO postings can discuss AI as a topic, so only check commercial boards.
+    return bool(EXCLUDE_TEXT and not j["intl"] and EXCLUDE_TEXT.search(j["text"]))
+
+
 def score(j):
+    if is_ai_gig(j):
+        return None
     title, text = j["title"], drop_boilerplate(j["text"])
     full = f"{title} {text}"
     s, reasons, langs = 0, [], []
@@ -415,6 +426,12 @@ def score(j):
     if other:
         s -= 20 if any(LANGS[n][0].search(title) for n in LANGS) else 40
         reasons.append(f"Needs {other.group(0).title()}")
+
+    # A language job that names only other languages, e.g. "from Burmese into English"
+    other_text = OTHER_LANGS.search(text)
+    if role and not langs and not other and other_text:
+        s -= 30
+        reasons.append(f"Needs {other_text.group(0).title()}")
 
     if in_home and not j["remote"]:
         s += 20

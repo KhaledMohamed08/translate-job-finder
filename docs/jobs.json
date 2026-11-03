@@ -1,171 +1,48 @@
 {
- "updated": "2026-11-03T17:24:29Z",
+ "updated": "2026-11-03T22:10:04Z",
  "sources": {
-  "Working Nomads": {
-   "ok": true,
-   "count": 35
-  },
   "Remotive": {
    "ok": true,
    "count": 10
-  },
-  "RemoteOK": {
-   "ok": true,
-   "count": 99
-  },
-  "Company boards": {
-   "ok": true,
-   "count": 236
   },
   "Jobicy": {
    "ok": true,
    "count": 100
   },
+  "Working Nomads": {
+   "ok": true,
+   "count": 35
+  },
+  "RemoteOK": {
+   "ok": true,
+   "count": 99
+  },
   "UNICEF": {
    "ok": true,
-   "count": 564
+   "count": 554
   },
-  "Himalayas": {
+  "UNHCR + WFP": {
    "ok": true,
-   "count": 126
-  },
-  "ReliefWeb": {
-   "ok": false,
-   "count": 0,
-   "error": "returned no jobs (site may have changed)"
+   "count": 0
   },
   "UN Careers": {
    "ok": true,
    "count": 430
   },
-  "UNHCR + WFP": {
+  "Himalayas": {
    "ok": true,
-   "count": 0
+   "count": 126
+  },
+  "Company boards": {
+   "ok": true,
+   "count": 233
+  },
+  "ReliefWeb": {
+   "ok": true,
+   "count": 85
   }
  },
  "jobs": [
-  {
-   "id": "expertaudiotranscribersaidiarabicperlesystems",
-   "title": "Expert Audio Transcriber, Sa'idi Arabic",
-   "org": "Perle Systems",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/perle-systems/jobs/expert-audio-transcriber-sa-idi-arabic?utm_source=api",
-   "location": "Egypt",
-   "remote": true,
-   "egypt": true,
-   "intl": false,
-   "deadline": "2026-12-16T17:44:48Z",
-   "posted": "2026-10-17T17:44:48Z",
-   "score": 100,
-   "reasons": [
-    "Translation / language role",
-    "Open to Egypt",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "snippet": "About Perle Perle is an AI infrastructure company building expert-driven training data, evaluation systems, and applied AI products for the world's leading labs and enterprises. Our partners include xAI, Samsung, ELM, and Unisys. Headquartered in San Francisco with experts across more than forty markets, we specialize in the work that requires real human judgment: domain expertise, linguistic nuance, and cultural fid",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "expertaudiotranscriberegyptianarabicperlesystems",
-   "title": "Expert Audio Transcriber, Egyptian Arabic",
-   "org": "Perle Systems",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/perle-systems/jobs/expert-audio-transcriber-egyptian-arabic?utm_source=api",
-   "location": "Egypt",
-   "remote": true,
-   "egypt": true,
-   "intl": false,
-   "deadline": "2026-12-16T17:44:49Z",
-   "posted": "2026-10-17T17:44:49Z",
-   "score": 100,
-   "reasons": [
-    "Translation / language role",
-    "Open to Egypt",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "snippet": "ABOUT PERLE Perle is an AI infrastructure company building expert-driven training data, evaluation systems, and applied AI products for the world's leading labs and enterprises. Our partners include xAI, Samsung, ELM, and Unisys. Headquartered in San Francisco with experts across more than forty markets, we specialize in the work that requires real human judgment: domain expertise, linguistic nuance, and cultural fid",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "koreanlanguagedatacontributormultimodalfreelanceaitrainerprojectinvisibletechnol",
-   "title": "Korean Language Data Contributor (Multimodal) – Freelance AI Trainer Project",
-   "org": "Invisible Technologies",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/inv/jobs/korean-language-data-contributor-multimodal-freelance-ai-trainer-project?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": "2026-12-17T16:56:48Z",
-   "posted": "2026-11-01T13:13:16Z",
-   "score": 100,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "snippet": "Are you a Korean language expert eager to shape the future of AI? Large‑scale language models are evolving from clever chatbots into powerful engines of linguistic discovery. With high‑quality training data, tomorrow’s AI can democratize world‑class education, keep pace with cutting‑edge research, and streamline communication for Korean speakers everywhere. That training data begins with you—we need your expertise to",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "koreanlanguagespecialistfreelanceaitrainerprojectinvisibletechnologi",
-   "title": "Korean Language Specialist - Freelance AI Trainer Project",
-   "org": "Invisible Technologies",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/inv/jobs/korean-language-specialist-freelance-ai-trainer-project?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": "2026-11-15T04:42:56Z",
-   "posted": "2026-11-01T12:58:59Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "snippet": "Are you a Korean language expert eager to shape the future of AI? Large‑scale language models are evolving from clever chatbots into powerful engines of linguistic discovery. With high‑quality training data, tomorrow’s AI can democratize world‑class education, keep pace with cutting‑edge research, and streamline communication for Korean speakers everywhere. That training data begins with you—we need your expertise to",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "arabicemiratilanguagespecialistaitrainerinvisibletechnologi",
-   "title": "Arabic (Emirati) Language Specialist - AI Trainer",
-   "org": "Invisible Technologies",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/inv/jobs/arabic-emirati-language-specialist-ai-trainer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": "2026-12-12T06:29:47Z",
-   "posted": "2026-11-01T12:15:17Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "snippet": "Are you an Arabic (Emirati) language expert eager to shape the future of AI? Large‑scale language models are evolving from clever chatbots into powerful engines of linguistic discovery. With high‑quality training data, tomorrow’s AI can democratize world‑class education, keep pace with cutting‑edge research, and streamline communication and translation for speakers of Arabic everywhere. That training data begins with",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
   {
    "id": "procurementofficerp3unitednationsoffic",
    "title": "Procurement Officer, P3",
@@ -235,128 +112,6 @@
    ],
    "role": false,
    "snippet": "Work Location New York or remote Expected duration The desired start date is February 2027. The internship is for a minimum of 2 months full-time with possibility for extension to a total of 6 months based on the needs of the office and availability of the candidate. The modality is hybrid. Duties and Responsibilities This position is located in the Arabic Unit, News Section, News and Content Branch, News and Media D",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "fieldinterpretermultiplepositionsindependentinvestig",
-   "title": "Field Interpreter (multiple positions)",
-   "org": "Independent Investigative Mechanism For Myanmar",
-   "source": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/286979?language=en",
-   "location": "Remotely",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-04T04:59:59Z",
-   "posted": "2026-10-22T04:00:00Z",
-   "score": 65,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [],
-   "role": true,
-   "snippet": "Result of Service 1. Quality of interpretation and related work; and 2. Observance of delivery deadlines Work Location Remotely Expected duration Up to 10 months Duties and Responsibilities Under the direct supervision of the Front Office and/or the Collection, Analysis and Sharing Section (CASS) of the IIMM, the Interpreter shall be responsible for providing interpretation from one of the following languages of Myan",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "arabiciraqilanguageexpertaitrainerinvisibletechnologi",
-   "title": "Arabic (Iraqi) Language Expert - AI Trainer",
-   "org": "Invisible Technologies",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/inv/jobs/arabic-iraqi-language-expert-ai-trainer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": "2026-12-12T06:29:12Z",
-   "posted": "2026-11-01T12:15:40Z",
-   "score": 65,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based",
-    "Senior level"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "snippet": "Are you an Arabic (Iraqi) language expert eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into powerful tools for communication, education, and cultural understanding. With high-quality training data, tomorrow’s AI can accurately capture Iraqi Arabic vocabulary, dialects, grammar, idiomatic expressions, and cultural context—helping preserve linguistic heritage and suppor",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "arabiclevantinelanguageexpertaitrainerinvisibletechnologi",
-   "title": "Arabic (Levantine) Language Expert - AI Trainer",
-   "org": "Invisible Technologies",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/inv/jobs/arabic-levantine-language-expert-ai-trainer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": "2026-12-12T06:29:24Z",
-   "posted": "2026-11-01T12:15:31Z",
-   "score": 65,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based",
-    "Senior level"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "snippet": "Are you an Arabic (Levantine) language expert eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into powerful tools for communication, education, and cultural understanding. With high-quality training data, tomorrow’s AI can accurately capture Levantine Arabic vocabulary, dialects, grammar, idiomatic expressions, and cultural context—helping preserve linguistic heritage an",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "arabiclevantinelanguagespecialistaitrainerinvisibletechnologi",
-   "title": "Arabic (Levantine) Language Specialist - AI Trainer",
-   "org": "Invisible Technologies",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/inv/jobs/arabic-levantine-language-specialist-ai-trainer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": "2026-12-12T06:29:39Z",
-   "posted": "2026-11-01T12:15:21Z",
-   "score": 65,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based",
-    "Senior level"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "snippet": "Are you an Arabic (Levantine) language specialist eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into powerful tools for communication, education, and cultural understanding. With high-quality training data, tomorrow’s AI can accurately capture Levantine Arabic vocabulary, dialects, grammar, idiomatic expressions, and cultural context—helping preserve linguistic heritag",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "arabicgulflanguageexpertaitrainerinvisibletechnologi",
-   "title": "Arabic (Gulf) Language Expert - AI Trainer",
-   "org": "Invisible Technologies",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/inv/jobs/arabic-gulf-language-expert-ai-trainer?utm_source=api",
-   "location": "Worldwide",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": "2026-12-12T06:29:45Z",
-   "posted": "2026-11-01T12:15:18Z",
-   "score": 65,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based",
-    "Senior level"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "snippet": "Are you an Arabic (Gulf) language expert eager to shape the future of AI? Large-scale language models are evolving from clever chatbots into powerful tools for communication, education, and cultural understanding. With high-quality training data, tomorrow’s AI can accurately capture Gulf Arabic vocabulary, dialects, grammar, idiomatic expressions, and cultural context—helping preserve linguistic heritage and support ",
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
@@ -504,28 +259,6 @@
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
-   "id": "languagespecialistimerittechnology",
-   "title": "Language specialist",
-   "org": "iMerit Technology",
-   "source": "Working Nomads",
-   "url": "https://www.workingnomads.com/job/go/1939844/",
-   "location": "Global",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-14T04:32:03Z",
-   "score": 55,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [],
-   "role": true,
-   "snippet": "Remote Language Projects – Native & Fluent Speakers Remote | Independent Contractor iMerit, an EXL Company, is looking for native or fluent speakers of Burmese, Persian, Khmer, Maltese, and Slovenian for upcoming remote language projects. How to Apply Complete the short form and select only the language you are proficient in and wish to be assessed for . Our team will review your submission and share the relevant app",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
    "id": "ecosystembasedadaptationexpertunitednationshuman",
    "title": "Ecosystem-Based Adaptation Expert",
    "org": "United Nations Human Settlements Programme",
@@ -602,7 +335,7 @@
    "title": "Evaluation of Development Account Project – Expanding the potential of small and medium-sized enterprises in the Arab region",
    "org": "Economic And Social Commission For Western Asia",
    "source": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287255?language=en",
+   "url": "https://careers.un.org/jobSearchDescription/287254?language=en",
    "location": "Remote / Hybrid",
    "remote": true,
    "egypt": false,
@@ -618,7 +351,7 @@
     "Arabic"
    ],
    "role": false,
-   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in the Dynamic Simulators to Address Ranking Deficiencies of International Indices Platforms in the Arab Region project contributed to achieving its intended results, the pathway to these results, and the elements",
+   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in the Expanding the potential of small and medium-sized enterprises in the Arab region project contributed to achieving its intended results, the pathway to these results, and the elements that contributed most s",
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
@@ -643,54 +376,6 @@
    ],
    "role": false,
    "snippet": "Result of Service Consultants hired using this GJO are expected to conduct evaluations of various projects and/or programmes and/or sub-programmes and/or any other substantive and/or operational component, and/or office and/or unit of work, and/or strategy and/or thematic topic for the UN Secretariat. Work Location While the locations will vary according to the requirements of the hiring office engaging the Evaluatio",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "qualityassuranceraterfrenchspeakersinfrancetelusdigital",
-   "title": "Quality Assurance Rater - French speakers in France",
-   "org": "TELUS Digital",
-   "source": "Working Nomads",
-   "url": "https://www.workingnomads.com/job/go/1957803/",
-   "location": "Global",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-20T11:40:27Z",
-   "score": 52,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "snippet": "Join our elite team of Senior Raters as a critical contributor to high-quality validation data that directly influences product development and quality assurance for leading search engines and AI technologies. This flexible, remote opportunity allows you to apply your analytical and research skills to evaluate search results and AI-generated content while contributing to the development of high-quality AI systems. A ",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "arabiccontentspecialistfullyremoteupto29hrmercor",
-   "title": "Arabic Content Specialist - Fully Remote | Upto $29/hr",
-   "org": "mercor",
-   "source": "Himalayas",
-   "url": "https://himalayas.app/companies/mercor/jobs/arabic-content-specialist-fully-remote-upto-29-hr-1638411041?utm_source=api",
-   "location": "Algeria, Bahrain, Djibouti, Egypt, Iraq, Jordan, Kuwait, Lebanon, Libya, Mauritania, Morocco, Oman, Palestine, State of, Qatar, Saudi Arabia, Somalia, Sudan, Syrian Arab Republic, Tunisia, United Arab Emirates, Yemen",
-   "remote": true,
-   "egypt": true,
-   "intl": false,
-   "deadline": "2026-12-09T17:13:58Z",
-   "posted": "2026-11-01T13:15:50Z",
-   "score": 50,
-   "reasons": [
-    "Open to Egypt",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "snippet": "About the job Mercor connects elite creative and technical talent with leading AI research labs. Headquartered in San Francisco, our investors include Benchmark , General Catalyst , Peter Thiel , Adam D'Angelo , Larry Summers , and Jack Dorsey . Position: Moonlight MCQA - Arabic Generalist Type: Contract Compensation: $24–$30/hour Location: Remote Role Responsibilities Draft original, general-knowledge multiple-choic",
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
@@ -857,6 +542,31 @@
    "role": false,
    "snippet": "Work Location Doha, Full-time, Part-time, In-person, Remote and Hybrid. Expected duration 6 Months Duties and Responsibilities The United Nations (UN) Office for the Coordination of Humanitarian Affairs (OCHA) is the UN Secretariat department responsible for bringing together humanitarian actors to ensure a coherent response to complex emergencies and natural disasters. OCHA's mission is to mobilize and coordinate ef",
    "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
+   "id": "strategicaccountexecutivemenagitlab",
+   "title": "Strategic Account Executive - MENA",
+   "org": "GitLab",
+   "source": "Jobicy",
+   "url": "https://jobicy.com/jobs/158728-strategic-account-executive-mena",
+   "location": "UAE",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-03T15:22:19Z",
+   "score": 45,
+   "reasons": [
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r",
+   "first_seen": "2026-11-03T22:09:00Z"
   }
  ]
 }
