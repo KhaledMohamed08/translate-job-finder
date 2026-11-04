@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-03T23:23:35Z",
+ "updated": "2026-11-04T12:53:22Z",
  "sources": {
   "Remotive": {
    "ok": true,
-   "count": 10
-  },
-  "Working Nomads": {
-   "ok": true,
-   "count": 35
+   "count": 11
   },
   "Company boards": {
    "ok": true,
-   "count": 233
+   "count": 231
   },
   "RemoteOK": {
    "ok": true,
    "count": 99
+  },
+  "Working Nomads": {
+   "ok": true,
+   "count": 33
   },
   "Jobicy": {
    "ok": true,
@@ -29,290 +29,376 @@
    "ok": true,
    "count": 201
   },
-  "Himalayas": {
-   "ok": true,
-   "count": 125
-  },
   "UN Careers": {
    "ok": true,
-   "count": 443
+   "count": 420
+  },
+  "Google Jobs": {
+   "ok": true,
+   "count": 20
+  },
+  "UNESCO": {
+   "ok": true,
+   "count": 0
+  },
+  "Himalayas": {
+   "ok": true,
+   "count": 126
   },
   "ReliefWeb": {
    "ok": false,
    "count": 0,
    "error": "returned no jobs (site may have changed)"
   },
-  "UNESCO": {
-   "ok": true,
-   "count": 0
-  },
-  "Google Jobs": {
-   "ok": true,
-   "count": 20
-  },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
-   "count": 23
+   "count": 25
   },
   "UNDP": {
    "ok": true,
-   "count": 12
+   "count": 11
   },
   "Impactpool": {
    "ok": true,
-   "count": 89
+   "count": 85
   }
  },
  "jobs": [
   {
-   "id": "translatorenglishtofrench10monthcontractremoteremotequestjobs",
-   "title": "Translator (English to French) – 10-Month Contract - Remote",
-   "org": "remote quest jobs",
+   "id": "englishfrencharabicfreelanceremoteinterpretertonguepoint",
+   "title": "English + French Arabic Freelance Remote Interpreter",
+   "org": "Tonguepoint",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/translator-english-to-french-10-month-contract-remote-dfeb98ff",
-   "location": "Anywhere",
+   "url": "https://eg.linkedin.com/jobs/view/english-%2B-french-arabic-freelance-remote-interpreter-at-tonguepoint-4476889340",
+   "location": "القاهرة     •  عبر LinkedIn ‏مصر",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 100,
+   "reasons": [
+    "Translation / language role",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": true,
+   "snippet": "Urgently Hiring For: English + French Arabic. Job Title: Freelance Remote Interpreter (English + French / Arabic) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills an",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "remotekoreanenglishinterpreterpaidtrainingbilingual",
+   "title": "Remote Korean–English Interpreter (Paid Training)",
+   "org": "Bilingual",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-korean-english-interpreter-paid-training--united-states--ec07730c0cae3f957fb6c8569ac43b2a9",
+   "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-11-03T00:00:00Z",
-   "score": 90,
+   "posted": "2026-10-30T00:00:00Z",
+   "score": 95,
    "reasons": [
     "Translation / language role",
+    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
-   "snippet": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company systems that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, helping ens",
-   "first_seen": "2026-11-03T23:20:55Z"
+   "snippet": "Bilingual is seeking Korean-English bilingual professionals for remote interpreting roles. You will provide real-time OPI between Korean-speaking clients and service providers in the United States, with a fully paid training program. No prior interpreting experience is required, making this an accessible entry point into professional interpretation. All shifts follow US Eastern Time (EST); training runs Monday-Friday",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
-   "id": "frenchremoteinterpretercertifiedlanguagesin",
-   "title": "French Remote Interpreter",
-   "org": "Certified Languages International",
+   "id": "remotekoreanenglishtranslatoreditorforgovernmentgloballanguagestrate",
+   "title": "Remote Korean-English Translator & Editor for Government",
+   "org": "GLOBAL LANGUAGE STRATEGIES",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/french-remote-interpreter--portland--e49b6fd3e5874b5488c7877ddc26ea453",
-   "location": "Anywhere",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-24T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "snippet": "Job Description French Telephonic Interpreters Wanted (Work From Home) Certified Languages International (CLI) connects clients with world-class interpreting services, and has since its inception in 1996. Thousands of organizations across the country rely on CLI to help them communicate with a growing demographic of Limited English Proficient (LEP) speakers. • The contract position that’s available is 100% over-the-p",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
-   "id": "frenchcanadafreelancetranslatortransperfectgamingso",
-   "title": "French (Canada) Freelance Translator",
-   "org": "Transperfect Gaming Solutions",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.ziprecruiter.com/c/transperfect-gaming-solutions/Job/French-(Canada)-Freelance-Translator/-in-New-York,NY?jid=0e103dba66a14f7f",
-   "location": "Anywhere",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-17T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "snippet": "Freelance Insurance Translators TransPerfect is seeking experienced freelance translators for a project in the Insurance sector. We are establishing a dedicated team of preferred language specialists who will play a key role in delivering high-quality marketing translations for our clients in the coming months. Languages Needed: We are interested in linguists working from English into French (Canada) Requirements: • ",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
-   "id": "frenchtranslatorcopyeditormarketinguiremotejobgethersrl",
-   "title": "French Translator & Copy Editor Marketing/UI Remote",
-   "org": "Jobgether SRL",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://jobmesh.io/job/fb0c868f-af32-43aa-b1e9-36743e27a698",
-   "location": "Anywhere",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-27T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "snippet": "Jobgether is seeking a native French translator to translate and copy-edit English content into French for marketing, UI, product, support, and legal materials. This fully remote freelance role handles 5,000+ words per week and uses client-specific CAT tools with training provided. You will join a global network of linguists, contributing to high-visibility localization projects with flexible scheduling and reliable ",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
-   "id": "remotefrenchtelephonicinterpreterflexiblehourscertifiedlanguagesin",
-   "title": "Remote French Telephonic Interpreter (Flexible Hours)",
-   "org": "Certified Languages International",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-french-telephonic-interpreter-flexible-hours--portland--ebe6b8f262f200563d4af5958d383bfc4",
-   "location": "Anywhere",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-24T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "snippet": "Certified Languages International (CLI) is seeking French Telephonic Interpreters to work from home. The role is 100% over-the-phone interpretation for medical and other sectors, with a freelance contractor model and 24/7 client demand. Interpreters log on/off via our online portal or landline. Applicants must reside in the United States, be legally eligible to work (SSN/EIN & Photo ID), and have a minimum of two yea",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
-   "id": "videogamelinguisttranslatorfrenchfreelanceremoteside",
-   "title": "Video Game Linguist/Translator (French) - Freelance Remote",
-   "org": "Side",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://jooble.org/jdp/8861242178035416614",
-   "location": "Anywhere",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-24T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "snippet": "Side Is Expanding Its Freelance Linguist Pool Side is expanding its freelance linguist pool and is looking for experienced English to French (EU) linguists with strong skills in translation, proofreading, and machine translation post-editing (MTPE). If you're passionate about video games, experienced in localization, and interested in joining our network of freelance linguists for future collaboration opportunities, ",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
-   "id": "freelancefrenchreviewertranslatoreditor1112mathscienceremotequestjobs",
-   "title": "Freelance French, Reviewer, Translator & Editor - 11 & 12 Math & Science",
-   "org": "remote quest jobs",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/freelance-french-reviewer-translator-editor-11-12-math-science-d0815115",
-   "location": "Anywhere",
+   "url": "https://jooble.org/jdp/6868034744636468951",
+   "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-10-26T00:00:00Z",
-   "score": 90,
+   "score": 95,
    "reasons": [
     "Translation / language role",
+    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
-   "snippet": "At reputed company, we’ve been shaping the future of education for reputed company and youth across Canada for over 110 years. As the country’s largest K-12 education content provider, we remain dedicated to our legacy of looking forward, paving the way in creating reputed company, accessible, and engaging learning experiences for all. Our innovative solutions, including Edwin, our digital learning platform, provide ",
-   "first_seen": "2026-11-03T23:23:35Z"
+   "snippet": "Global Language Strategies is seeking an experienced Korean-to-English translator and/or editor for a remote, freelance role working on U.S. government client materials such as vital records and academic transcripts. Candidates must be a U.S. citizen, native Korean with near-native English, and able to meet tight deadlines. Bachelor’s in translation and 2–5 years’ experience are required; Windows software proficiency",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
-   "id": "englishtofrenchfrancelinguistforlifesciencesweloglobal",
-   "title": "English to French (France) Linguist for Life Sciences",
-   "org": "Welo Global",
+   "id": "bilingualkoreanenglishagentremotepaidtrainingprovidedbilingual",
+   "title": "Bilingual Korean/English Agent – Remote, Paid Training Provided",
+   "org": "Bilingual",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/english-to-french-france-linguist-for-life-sciences--united-states--ee771658dd3c2beceef3ce158e722b4b7",
-   "location": "Anywhere",
+   "url": "https://www.jobleads.com/us/job/bilingual-korean-english-agent-remote-paid-training-provided--united-states--e46ee90172273f8c556a2eb4f8e1aaa91",
+   "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-10-27T00:00:00Z",
-   "score": 90,
+   "posted": "2026-10-30T00:00:00Z",
+   "score": 95,
    "reasons": [
     "Translation / language role",
+    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
-   "snippet": "About Welo Life Sciences Welo Life Sciences, a Welo Global brand, is a specialized language and technology partner serving pharmaceutical, CRO, and medical device organizations operating in regulated global markets. We deliver regulator-ready translation, linguistic validation, and localization solutions that support clinical trials, pharmacovigilance, regulatory affairs, labeling, and global commercialization. Our a",
-   "first_seen": "2026-11-03T23:20:55Z"
+   "snippet": "Korean-English bilingual professionals: remote work paid in US dollars, with full paid training. Bilingual provides remote interpreting services that connect people with healthcare, customer support, and government assistance. We are ISO 9001 certified and are expanding our Korean-English team. In this role, you will work as a Remote Interpreter, ensuring clear and accurate communication between Korean-speaking clien",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
-   "id": "frenchinterpretercontactlinksolutions",
-   "title": "French Interpreter",
-   "org": "ContactLink Solutions LLC",
+   "id": "freelancekoreanenglishtranslatorfinanceibtransperfect",
+   "title": "Freelance Korean–English Translator (Finance/IB)",
+   "org": "TransPerfect",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://jobgether.com/offer/6ac495da8a27695aea301d97-french-interpreter",
-   "location": "Anywhere",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-05T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "snippet": "This a Full Remote job, the offer is available from: United States Are you a skilled French interpreter based in US looking for a flexible and rewarding opportunity? We are seeking talented individuals proficient in French and English to join our team of international interpreters. If you have a passion for languages and a commitment to providing excellent service, we want to hear from you! This is a fully remote pos",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
-   "id": "frenchtranslatorreputedcompanyremotequestjobs",
-   "title": "French Translator - reputed company",
-   "org": "remote quest jobs",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/2899910",
-   "location": "Anywhere",
+   "url": "https://www.jobleads.com/us/job/freelance-korean-english-translator-finance-ib--united-states--efd1bdc25e13fd1a51ea3f6508cadad8b",
+   "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-01T00:00:00Z",
-   "score": 90,
+   "score": 95,
    "reasons": [
     "Translation / language role",
+    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
-   "snippet": "Fluent in English and French; aged 18+; able to maintain content integrity and confidentiality; able to pass relevant background/criminal checks and sign a Code of reputed company. Key Responsibilities • translating content • quoting rate • ensuring confidentiality Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: Contract • Workplace: Remote — Australia • Language",
-   "first_seen": "2026-11-03T23:20:55Z"
+   "snippet": "TransPerfect is a global language services company seeking freelance linguists to translate and localize high-quality content for clients in the United States. The role involves handling investment banking materials and finalizing products under the guidance of project managers and a supervising manager. Candidates must demonstrate excellent Korean and English communication, specialized knowledge in investment bankin",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "remotekoreantranslatorforlegalandgovernmentlssyorktownsystemsgroup",
+   "title": "Remote Korean Translator for Legal and Government LSS",
+   "org": "Yorktown Systems Group",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://jooble.org/jdp/8884288254626550596",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-10-31T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "snippet": "A prominent defense contracting company is seeking a part-time Korean Translator to support the Department of Justice. The role involves translating sensitive legal documents and media content while ensuring confidentiality. Candidates should have at least two years of translation experience, legal vocabulary proficiency, and must be a U.S. citizen. This position requires familiarity with Computer-Assisted Translatio",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "freelancekoreanenglishtranslatorinvestmentbankingtransperfectgaming",
+   "title": "Freelance Korean <> English Translator - Investment Banking",
+   "org": "TransPerfect Gaming",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://jobgether.com/offer/6ae874735f4c309bcf5d5af4-freelance-korean-english-translator---investment-banking",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-02T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "snippet": "This a Full Remote job, the offer is available from: Anywhere, Asia, United States, East Asia, APAC, South Korea, New York (USA), Texas (USA) Position Summary: • Linguists are key players at TransPerfect. Your particular language skills and subject matter expertise will allow you to create and finalize the end product before it goes to the client. Under the guidance of your manager and in collaboration with Project M",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "remotekoreantranslatorforlegalandgovernmentlssremotequestjobs",
+   "title": "Remote Korean Translator for Legal and Government LSS",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/remote-korean-translator-for-legal-and-government-lss-105773611",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-01T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "snippet": "A prominent defense contracting company is seeking a part-time Korean Translator to support the reputed company. The role involves translating sensitive legal documents and media content while ensuring confidentiality. Candidates should have at least two years of translation experience, legal vocabulary proficiency, and must be a U.S. reputed company. reputed company position requires familiarity with Computer-Assist",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "gamingenglishintokoreantranslatorremotequestjobs",
+   "title": "[GAMING] English into Korean Translator",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/3326258",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-02T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "snippet": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — United States • ",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "koreantoenglishtranslatorenvironmentalsciencecactuscommunications",
+   "title": "Korean to English Translator - Environmental Science",
+   "org": "Cactus Communications",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.linkedin.com/jobs/view/korean-to-english-translator-environmental-science-at-cactus-communications-4480669253",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-10-23T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "snippet": "Editage, the flagship brand of CACTUS, provides translation services to help ESL (English-as-a-second-language) researchers communicate their science to the global scientific community. We are currently looking for skilled translators to work with us on a freelance basis. As a Translator, you will combine your language skills and subject-area expertise to help researchers around the globe publish cutting-edge researc",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "freelancetranslatornaseej",
+   "title": "Freelance Translator",
+   "org": "Naseej",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://eg.trabajo.org/job-4111-f52e69c49aeef422993bcbaaafdb084f",
+   "location": "القاهرة     •  عبر Trabajo.org",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 85,
+   "reasons": [
+    "Translation / language role",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Company Description: Naseej is a leading technology company committed to harnessing the power of digital transformation in learning & knowledge management by enabling our customers to provide rich experiences for their users and adapt to a dynamic technology landscape while reducing their technical burden enabling them to focus on achieving their strategic objectives. And for almost 36 years, Naseej with its branches",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "translatorlinglongtire",
+   "title": "Translator",
+   "org": "Linglong Tire",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://bebee.com/eg/jobs/translator-linglong-tire--techmap_eg_4478724747",
+   "location": "الإسكندرية     •  عبر BeBee, Egypt",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 85,
+   "reasons": [
+    "Translation / language role",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "About the Company About the Role The Translator will provide accurate oral and written translation between Chinese/English and Arabic in business, technical, and daily operational contexts. The ideal candidate has excellent language skills, strong cultural awareness, and the ability to work in a fast-paced environment. Responsibilities • Provide consecutive and/or simultaneous interpretation during meetings, negotiat",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "administrativeassistanttranslatorarabicchinesecscecinternationalfa",
+   "title": "Administrative Assistant & Translator (Arabic–Chinese)",
+   "org": "CSCEC International Facade Egypt Co Ltd",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://wuzzuf.net/jobs/p/dbdck5cbpdmv-administrative-assistant-translator-arabic-chinese-cscec-international-facade-egypt-co-ltd-suez-egypt",
+   "location": "العين السخنة، عتاقة     •  عبر Wuzzuf, Egypt",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 80,
+   "reasons": [
+    "Translation / language role",
+    "Needs Chinese",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "snippet": "Job Description Job Description: We are seeking a dedicated and detail-oriented Administrative Assistant & Translator to support our operations. The successful candidate will be responsible for translating official documents, interpreting during meetings, managing office administration, coordinating support staff, and assisting with daily company operations. This role requires excellent organizational skills, strong ",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
    "id": "unwomenprogrammecoordinationanalystcareeconomycairoegyptnpsa9localpostfornationa",
@@ -363,8 +449,35 @@
     "French"
    ],
    "role": false,
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (28 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (27 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
    "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "remotejapanesekoreanpatenttranslatortechpharmaremotework",
+   "title": "Remote Japanese–Korean Patent Translator (Tech/Pharma)",
+   "org": "remote work",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-japanese-korean-patent-translator-tech-pharma--united-states--efe66e275c26d821e6136beea01ffbfc3",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-01T00:00:00Z",
+   "score": 75,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Needs Japanese",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "snippet": "TransPerfect is seeking a freelance translator to translate documents from Japanese to Korean in Technical and Pharmaceutical Patent fields, working under supervision with project managers to deliver polished translations for international clients. You will translate, proofread, and edit to ensure accuracy and consistency, submit work under tight deadlines, and maintain strict confidentiality. Remote worldwide freela",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
    "id": "sustainablefinanceanalystshorttermhomebased",
@@ -467,6 +580,30 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "translationandlocalizationprojectmanagementspecialistfuturegroup",
+   "title": "Translation and Localization Project Management Specialist",
+   "org": "Future Group",
+   "source": "Himalayas",
+   "feed": "Himalayas",
+   "url": "https://himalayas.app/companies/future-group/jobs/translation-and-localization-project-management-specialist?utm_source=api",
+   "location": "Egypt",
+   "remote": true,
+   "egypt": true,
+   "intl": false,
+   "deadline": "2027-01-03T03:45:45Z",
+   "posted": "2026-11-04T03:45:46Z",
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Open to Egypt",
+    "Remote / home-based"
+   ],
+   "langs": [],
+   "role": true,
+   "snippet": "About the Role We are seeking a detail-oriented Project Management Officer to support our translation and localization operations. This role will coordinate projects across internal teams and external suppliers, ensuring timely delivery, quality, and cost control for multilingual content and localization initiatives. The successful candidate will be organized, communicative, and familiar with translation workflows, C",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
    "id": "englishlanguagelegaltranslators",
    "title": "English-language legal translators",
    "org": "CJEU - Court of Justice of the European Union",
@@ -539,7 +676,7 @@
     "Arabic"
    ],
    "role": false,
-   "snippet": "Program Assistant - Administrative & Client Support World Bank Group Cairo National GC - Administration (Professional and Technical) level Speaks Arabic, English Application deadline: November 12, 2026 (9 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking a Program Assistant to provide administrative and client support in Cairo, Egypt. The role involves managing complex calendars",
+   "snippet": "Program Assistant - Administrative & Client Support World Bank Group Cairo National GC - Administration (Professional and Technical) level Speaks Arabic, English Application deadline: November 12, 2026 (8 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking a Program Assistant to provide administrative and client support in Cairo, Egypt. The role involves managing complex calendars",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -589,7 +726,7 @@
     "French"
    ],
    "role": false,
-   "snippet": "UN Women - OPEN CALL : Investigations Consultant Roster (various levels and duration), Remote-based UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Remote | Home Based - May require travel International Mid level Speaks Arabic, English, French, Spanish Application deadline: November 27, 2026 (24 days) Apply Summary by Impactpool UN Women is seeking to establish a roster of pre-vetted",
+   "snippet": "UN Women - OPEN CALL : Investigations Consultant Roster (various levels and duration), Remote-based UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Remote | Home Based - May require travel International Mid level Speaks Arabic, English, French, Spanish Application deadline: November 27, 2026 (23 days) Apply Summary by Impactpool UN Women is seeking to establish a roster of pre-vetted",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -616,6 +753,29 @@
    "role": false,
    "snippet": "Work Location Internships are available as full-time and can be conducted remotely or in-person Expected duration The duration of this internship is expected to be for a maximum of six months to start between 1 August 2026 and 31 July 2027. The start date and duration may be adjusted at the request of the successful candidate. Duties and Responsibilities The International, Impartial and Independent Mechanism (IIIM) w",
    "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "translatorhybridbayantech",
+   "title": "Translator Hybrid",
+   "org": "BayanTech",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://jobs.injob.ai/jobs/6680387b3c1daa35099e1cb7",
+   "location": "•  عبر Blogs - InJob.AI, Egypt",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 60,
+   "reasons": [
+    "Translation / language role",
+    "Based in Egypt"
+   ],
+   "langs": [],
+   "role": true,
+   "snippet": "Translator BayanTech Egypt is looking for a skilled Translator to join our dynamic team. This position offers a hybrid work model that combines remote work flexibility with office collaboration. The Translator plays a pivotal role in ensuring accurate and culturally appropriate translations across a range of projects. Responsibilities include: • Translation • Language Proficiency • Proofreading & Editing • Research &",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
    "id": "consultantonsyriancriminallawandprocedure",
@@ -798,7 +958,7 @@
    "org": "Economic And Social Commission For Western Asia",
    "source": "UN Careers",
    "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287254?language=en",
+   "url": "https://careers.un.org/jobSearchDescription/287255?language=en",
    "location": "Remote / Hybrid",
    "remote": true,
    "egypt": false,
@@ -814,7 +974,7 @@
     "Arabic"
    ],
    "role": false,
-   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in the Expanding the potential of small and medium-sized enterprises in the Arab region project contributed to achieving its intended results, the pathway to these results, and the elements that contributed most s",
+   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in the Dynamic Simulators to Address Ranking Deficiencies of International Indices Platforms in the Arab Region project contributed to achieving its intended results, the pathway to these results, and the elements",
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
@@ -918,30 +1078,6 @@
    "role": false,
    "snippet": "Result of Service To support the implementation and operationalization of the Rangelands Flagship Initiative, with a particular focus on project pipeline development, private sector engagement and resource mobilization. Work Location Home-based. Expected duration 12 months, starting November 2026 Duties and Responsibilities Background note: The Global Mechanism (GM) is an institution of the UNCCD, mandated to assist ",
    "first_seen": "2026-11-03T17:24:29Z"
-  },
-  {
-   "id": "communicationsinterndepartmentofpolitica",
-   "title": "Communications Intern",
-   "org": "Department Of Political And Peacebuilding Affairs",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/284716?language=en",
-   "location": "In person and/or Remote",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-04T04:59:59Z",
-   "posted": "2026-10-26T04:00:00Z",
-   "score": 45,
-   "reasons": [
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "snippet": "Work Location In person and/or Remote Expected duration 3 months, with a possibility of extension to 6 months in total. Desired start date is 1 December 2026. Duties and Responsibilities The Peacebuilding and Peace Support Office (PBPSO) in the departments of Political and Peacebuilding Affairs and Peace Operations (DPPA-DPO) supports nationally owned efforts to prevent conflict, build and sustain peace, and strength",
-   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "itriskandcontrolsconsultant",
@@ -1062,7 +1198,7 @@
     "Arabic"
    ],
    "role": false,
-   "snippet": "Impact Evaluation Analyst Consultant, Evaluation Office, Sudan, Remote, 9 months, #596583 UNICEF - United Nations Children’s Fund Remote | Sudan International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 08, 2026 (5 days) Apply Summary by Impactpool UNICEF is seeking a Quantitative Data Analysis Consultant to support the impact evaluation of the Mother and Child Cash ",
+   "snippet": "Impact Evaluation Analyst Consultant, Evaluation Office, Sudan, Remote, 9 months, #596583 UNICEF - United Nations Children’s Fund Remote | Sudan International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 08, 2026 Closing soon Apply Summary by Impactpool UNICEF is seeking a Quantitative Data Analysis Consultant to support the impact evaluation of the Mother and Child C",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -1086,7 +1222,7 @@
     "French"
    ],
    "role": false,
-   "snippet": "INTERN – COMMUNICATIONS (GRAPHIC DESIGN & WEB) UN ODET - Office of the Secretary-General’s Envoy on Technology Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 09, 2026 (6 days) Apply Summary by Impactpool The United Nations Office for Digital and Emerging Technologies (UNODET) is seeking a Communications Intern with a focus on graphic desig",
+   "snippet": "INTERN – COMMUNICATIONS (GRAPHIC DESIGN & WEB) UN ODET - Office of the Secretary-General’s Envoy on Technology Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 09, 2026 (5 days) Apply Summary by Impactpool The United Nations Office for Digital and Emerging Technologies (UNODET) is seeking a Communications Intern with a focus on graphic desig",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -1158,7 +1294,7 @@
     "French"
    ],
    "role": false,
-   "snippet": "Supporter Content – Knowledge Management Intern, Division of Private Fundraising and Partnerships (PFP) UNICEF - United Nations Children’s Fund Remote | Home Based - May require travel Both national and international Internship level Speaks English, French, Spanish Application deadline: November 10, 2026 (7 days) Apply Summary by Impactpool UNICEF is seeking a Knowledge Management Intern to support the Supporter Cont",
+   "snippet": "Supporter Content – Knowledge Management Intern, Division of Private Fundraising and Partnerships (PFP) UNICEF - United Nations Children’s Fund Remote | Home Based - May require travel Both national and international Internship level Speaks English, French, Spanish Application deadline: November 10, 2026 (6 days) Apply Summary by Impactpool UNICEF is seeking a Knowledge Management Intern to support the Supporter Cont",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -1254,7 +1390,7 @@
     "French"
    ],
    "role": false,
-   "snippet": "European Patent Examiner in Electrical Engineering (Electric Power Distribution & Protection) EPO - European Patent Office Remote | The Hague G7 to G10 level Speaks German, English, French Application deadline: November 16, 2026 (13 days) Apply Summary by Impactpool The European Patent Office (EPO) is seeking a European Patent Examiner in Electrical Engineering, specifically in Electric Power Distribution & Protectio",
+   "snippet": "European Patent Examiner in Electrical Engineering (Electric Power Distribution & Protection) EPO - European Patent Office Remote | The Hague G7 to G10 level Speaks German, English, French Application deadline: November 16, 2026 (12 days) Apply Summary by Impactpool The European Patent Office (EPO) is seeking a European Patent Examiner in Electrical Engineering, specifically in Electric Power Distribution & Protectio",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -1278,7 +1414,7 @@
     "French"
    ],
    "role": false,
-   "snippet": "European Patent Examiner in Computer EPO - European Patent Office Remote | The Hague G7 to G10 level Speaks German, English, French Application deadline: November 16, 2026 (13 days) Apply Summary by Impactpool The European Patent Office (EPO) is seeking a European Patent Examiner in Computer to assess patent applications and support innovation in technology. The role involves examining technical documentation, conduc",
+   "snippet": "European Patent Examiner in Computer EPO - European Patent Office Remote | The Hague G7 to G10 level Speaks German, English, French Application deadline: November 16, 2026 (12 days) Apply Summary by Impactpool The European Patent Office (EPO) is seeking a European Patent Examiner in Computer to assess patent applications and support innovation in technology. The role involves examining technical documentation, conduc",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -1306,39 +1442,13 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "strategicaccountexecutivemenagitlab",
-   "title": "Strategic Account Executive - MENA",
-   "org": "GitLab",
-   "source": "Jobicy",
-   "feed": "Jobicy",
-   "url": "https://jobicy.com/jobs/158728-strategic-account-executive-mena",
-   "location": "UAE",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-03T15:22:19Z",
-   "score": 45,
-   "reasons": [
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic",
-    "French"
-   ],
-   "role": false,
-   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are r",
-   "first_seen": "2026-11-03T22:09:00Z"
-  },
-  {
-   "id": "chinesetranslator",
+   "id": "chinesetranslatorcscecinternationalfa",
    "title": "Chinese Translator",
-   "org": "السويدي اليكتريك",
+   "org": "CSCEC International Facade Egypt Co Ltd",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://eg.linkedin.com/jobs/view/chinese-translator-at-elsewedy-electric-4480890438",
-   "location": "مدينة العاشر من رمضان     •  عبر LinkedIn ‏مصر",
+   "url": "https://wuzzuf.net/jobs/p/rcgh7yazzeab-chinese-translator-cscec-international-facade-egypt-co-ltd-suez-egypt",
+   "location": "العين السخنة، عتاقة     •  عبر Wuzzuf, Egypt",
    "remote": false,
    "egypt": true,
    "intl": false,
@@ -1354,8 +1464,8 @@
     "Arabic"
    ],
    "role": true,
-   "snippet": "Key Responsibilities: • Provide real-time interpretation during meetings, technical discussions, and site visits between Chinese and local staff. • Translate technical documents, manuals, reports, and production-related materials from Chinese to Arabic/English and vice versa. • Support Chinese engineers and specialists during production, maintenance, and quality activities to ensure correct understanding of procedure",
-   "first_seen": "2026-11-03T23:23:35Z"
+   "snippet": "Job Description 1.Assist in the management of local production workers, ensure the transmission of production instructions, and facilitate communication between workers and management. 2.Be responsible for daily attendance records and work completion statistics of local workers, and participate in handling various production issues and disputes. 3.Assist in the education, training, and behavioral management of local ",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
    "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
@@ -1437,11 +1547,28 @@
   "frenchtranslatorreputedcompanyremotequestjobs": "2026-11-03T23:20:55Z",
   "freelancefrenchreviewertranslatoreditor1112mathscienceremotequestjobs": "2026-11-03T23:23:35Z",
   "chinesetranslatorexecutiveassistantlivemall": "2026-11-03T23:23:35Z",
-  "chinesetranslator": "2026-11-03T23:23:35Z"
+  "chinesetranslator": "2026-11-03T23:23:35Z",
+  "englishfrencharabicfreelanceremoteinterpretertonguepoint": "2026-11-04T12:53:22Z",
+  "remotekoreanenglishinterpreterpaidtrainingbilingual": "2026-11-04T12:53:22Z",
+  "remotekoreanenglishtranslatoreditorforgovernmentgloballanguagestrate": "2026-11-04T12:53:22Z",
+  "bilingualkoreanenglishagentremotepaidtrainingprovidedbilingual": "2026-11-04T12:53:22Z",
+  "freelancekoreanenglishtranslatorfinanceibtransperfect": "2026-11-04T12:53:22Z",
+  "remotekoreantranslatorforlegalandgovernmentlssyorktownsystemsgroup": "2026-11-04T12:53:22Z",
+  "freelancekoreanenglishtranslatorinvestmentbankingtransperfectgaming": "2026-11-04T12:53:22Z",
+  "remotekoreantranslatorforlegalandgovernmentlssremotequestjobs": "2026-11-04T12:53:22Z",
+  "gamingenglishintokoreantranslatorremotequestjobs": "2026-11-04T12:53:22Z",
+  "koreantoenglishtranslatorenvironmentalsciencecactuscommunications": "2026-11-04T12:53:22Z",
+  "freelancetranslatornaseej": "2026-11-04T12:53:22Z",
+  "translatorlinglongtire": "2026-11-04T12:53:22Z",
+  "administrativeassistanttranslatorarabicchinesecscecinternationalfa": "2026-11-04T12:53:22Z",
+  "remotejapanesekoreanpatenttranslatortechpharmaremotework": "2026-11-04T12:53:22Z",
+  "translationandlocalizationprojectmanagementspecialistfuturegroup": "2026-11-04T12:53:22Z",
+  "translatorhybridbayantech": "2026-11-04T12:53:22Z",
+  "chinesetranslatorcscecinternationalfa": "2026-11-04T12:53:22Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 7,
-  "last_day": "2026-11-03"
+  "used": 10,
+  "last_day": "2026-11-04"
  }
 }
