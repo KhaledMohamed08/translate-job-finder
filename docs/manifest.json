@@ -3,7 +3,7 @@
   "short_name": "Job Radar",
   "start_url": "./",
   "display": "standalone",
-  "background_color": "#f4f6fa",
-  "theme_color": "#0b5cab",
+  "background_color": "#f6f6f3",
+  "theme_color": "#0d6b5b",
   "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
 }
