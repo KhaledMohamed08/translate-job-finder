@@ -1,54 +1,68 @@
 {
- "updated": "2026-11-04T12:53:22Z",
+ "updated": "2026-11-04T15:13:52Z",
  "sources": {
+  "Google Jobs": {
+   "ok": true,
+   "count": 0,
+   "kept": true,
+   "error": "already searched today"
+  },
   "Remotive": {
    "ok": true,
    "count": 11
   },
-  "Company boards": {
+  "Working Nomads": {
    "ok": true,
-   "count": 231
+   "count": 34
   },
   "RemoteOK": {
    "ok": true,
    "count": 99
   },
-  "Working Nomads": {
+  "Company boards": {
    "ok": true,
-   "count": 33
+   "count": 232
   },
   "Jobicy": {
    "ok": true,
    "count": 100
   },
-  "UNICEF": {
-   "ok": true,
-   "count": 530
-  },
   "Translation agencies": {
    "ok": true,
-   "count": 201
+   "count": 202
   },
-  "UN Careers": {
+  "UNICEF": {
    "ok": true,
-   "count": 420
+   "count": 544
   },
-  "Google Jobs": {
+  "Green Climate Fund": {
    "ok": true,
-   "count": 20
-  },
-  "UNESCO": {
-   "ok": true,
-   "count": 0
-  },
-  "Himalayas": {
-   "ok": true,
-   "count": 126
+   "count": 2
   },
   "ReliefWeb": {
    "ok": false,
    "count": 0,
    "error": "returned no jobs (site may have changed)"
+  },
+  "UN Careers": {
+   "ok": true,
+   "count": 420
+  },
+  "UNESCO": {
+   "ok": true,
+   "count": 0
+  },
+  "CLEAR Global": {
+   "ok": true,
+   "count": 16
+  },
+  "ICRC": {
+   "ok": true,
+   "count": 11
+  },
+  "Himalayas": {
+   "ok": true,
+   "count": 126
   },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
@@ -56,11 +70,11 @@
   },
   "UNDP": {
    "ok": true,
-   "count": 11
+   "count": 12
   },
   "Impactpool": {
    "ok": true,
-   "count": 85
+   "count": 123
   }
  },
  "jobs": [
@@ -555,6 +569,32 @@
    "first_seen": "2026-11-03T17:11:07Z"
   },
   {
+   "id": "evaluationofdevelopmentaccountprojectexpandingthepotentialofsmallandmediumsizede",
+   "title": "Evaluation of Development Account Project – Expanding the potential of small and medium-sized enterprises in the Arab region",
+   "org": "UNESCWA - United Nations Economic and Social Commission for Western Asia",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244734",
+   "location": "Remote | Beirut",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-26T00:00:00Z",
+   "posted": null,
+   "score": 67,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Evaluation of Development Account Project – Expanding the potential of small and medium-sized enterprises in the Arab region UNESCWA - United Nations Economic and Social Commission for Western Asia Remote | Beirut CON level Speaks Arabic, English, French Application deadline: November 26, 2026 (22 days) Apply Summary by Impactpool The Economic and Social Commission for Western Asia (ESCWA) is seeking an evaluator for",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
    "id": "newswritingmultimediaproductionpublicinformationinternnewsandcontentarabic",
    "title": "News writing / Multimedia production - Public Information Intern - News and Content - Arabic",
    "org": "Department Of Global Communications",
@@ -705,6 +745,31 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "consultanttoprepareabackgroundpaperonmultidimensionalpovertyandsocialprotectioni",
+   "title": "Consultant to prepare a background paper on ‘Multidimensional Poverty and Social Protection in the Arab Region’",
+   "org": "UNESCWA - United Nations Economic and Social Commission for Western Asia",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1245069",
+   "location": "Remote | Beirut",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-05T00:00:00Z",
+   "posted": null,
+   "score": 60,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Consultant to prepare a background paper on ‘Multidimensional Poverty and Social Protection in the Arab Region’ UNESCWA - United Nations Economic and Social Commission for Western Asia Remote | Beirut CON level Speaks Arabic, English, French Application deadline: November 05, 2026 Closing soon Apply Summary by Impactpool The Economic and Social Commission for Western Asia (ESCWA) is seeking a consultant to prepare a ",
+   "first_seen": "2026-11-03T17:07:43Z"
+  },
+  {
    "id": "unwomenopencallinvestigationsconsultantrostervariouslevelsanddurationremotebased",
    "title": "UN Women - OPEN CALL : Investigations Consultant Roster (various levels and duration), Remote-based",
    "org": "UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women",
@@ -755,6 +820,31 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "pircaseworkerircinternationalresc",
+   "title": "PIR Caseworker",
+   "org": "IRC - International Rescue Committee",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1241916",
+   "location": "Remote | Tucson",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 60,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "PIR Caseworker IRC - International Rescue Committee Remote | Tucson International Junior level Speaks Arabic, English, French, Kinyarwanda, Swahili, Spanish Apply Summary by Impactpool The PIR Caseworker at the International Rescue Committee (IRC) provides trauma-informed, client-centered services to recently arrived refugees and immigrants. This role involves coordinating essential services, conducting assessments, ",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
    "id": "translatorhybridbayantech",
    "title": "Translator Hybrid",
    "org": "BayanTech",
@@ -801,6 +891,31 @@
    "role": false,
    "snippet": "Result of Service An authoritative expert assessment of selected aspects of Syrian criminal law and criminal procedure, including their interpretation and application in practice and relevant developments over time, supported by a comprehensive collection of primary and authoritative Syrian legal sources. Work Location The hiring office location is in Geneva, Switzerland. This contract is intended to be full-time and",
    "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "unwomeninternationalconsultantinformationmanagementanalystretainerhomebased",
+   "title": "UN Women: International Consultant, Information Management Analyst (Retainer), Home-based",
+   "org": "UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1245534",
+   "location": "Remote | Home Based - May require travel",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-12T00:00:00Z",
+   "posted": null,
+   "score": 57,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "UN Women: International Consultant, Information Management Analyst (Retainer), Home-based UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Remote | Home Based - May require travel International Mid level Speaks Arabic, English Application deadline: November 12, 2026 (8 days) Apply Summary by Impactpool UN Women is seeking an International Consultant, Information Management Analyst to ",
+   "first_seen": "2026-11-04T15:13:52Z"
   },
   {
    "id": "communicationspecialistintern",
@@ -928,6 +1043,31 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "peopleexperienceengagementspecialist",
+   "title": "People Experience & Engagement Specialist",
+   "org": "UNOPS - United Nations Office for Project Services",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244170",
+   "location": "Remote | Home Based - May require travel",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-09T00:00:00Z",
+   "posted": null,
+   "score": 52,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "People Experience & Engagement Specialist UNOPS - United Nations Office for Project Services Remote | Home Based - May require travel Both national and international ICSC-10 level Speaks English, French, Spanish Application deadline: November 09, 2026 (5 days) Apply Summary by Impactpool The People Experience & Engagement Specialist at UNOPS is responsible for enhancing organizational culture and employee engagement ",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
    "id": "evaluationofextrabudgetprojecttoenhancetheoperationalizationoftheclimatesdgsdebt",
    "title": "Evaluation of Extra Budget Project – To enhance the operationalization of the “Climate/SDGs Debt Swap – Donor Nexus Initiative”",
    "org": "Economic And Social Commission For Western Asia",
@@ -950,31 +1090,6 @@
    ],
    "role": false,
    "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in debt swap project contributed to achieving its intended results, the pathway to these results, and the elements that contributed most significantly to their achievement. It will also consider any unintended res",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
-   "id": "evaluationofdevelopmentaccountprojectexpandingthepotentialofsmallandmediumsizede",
-   "title": "Evaluation of Development Account Project – Expanding the potential of small and medium-sized enterprises in the Arab region",
-   "org": "Economic And Social Commission For Western Asia",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287255?language=en",
-   "location": "Remote / Hybrid",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-27T04:59:59Z",
-   "posted": "2026-10-28T04:00:00Z",
-   "score": 52,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "snippet": "Result of Service Evaluations at ESCWA strive to demonstrate the difference made by its work and its impact on member States and their citizens. This evaluation will aim to determine how the work undertaken in the Dynamic Simulators to Address Ranking Deficiencies of International Indices Platforms in the Arab Region project contributed to achieving its intended results, the pathway to these results, and the elements",
    "first_seen": "2026-11-03T17:07:43Z"
   },
   {
@@ -1026,6 +1141,54 @@
    "role": false,
    "snippet": "Training & Data Coordinator IRC - International Rescue Committee Remote | Baltimore International Mid level Speaks Amharic, English, French, Kinyarwanda, Swahili, Spanish Application deadline: September 30, 2027 (11 months) Apply Summary by Impactpool The Training & Data Coordinator at the International Rescue Committee (IRC) will design and deliver work readiness training for diverse job seekers, including English l",
    "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "tongacbitforestrysectorgreenhousegasinventoryconsultant",
+   "title": "Tonga CBIT Forestry Sector Greenhouse Gas Inventory Consultant",
+   "org": "GGGI - Global Green Growth Institute",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1242548",
+   "location": "Remote | Tonga",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-15T00:00:00Z",
+   "posted": null,
+   "score": 50,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": false,
+   "snippet": "Tonga CBIT Forestry Sector Greenhouse Gas Inventory Consultant GGGI - Global Green Growth Institute Remote | Tonga Individual Consultant 4 level Speaks English Application deadline: November 15, 2026 (11 days) Apply Summary by Impactpool The Global Green Growth Institute (GGGI) is seeking an Individual Consultant to strengthen Tonga's Forestry sector data systems and capacities for accurate GHG inventory preparation.",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
+   "id": "caseworkerprotectionconsultant",
+   "title": "Case Worker (Protection) Consultant",
+   "org": "IOM - International Organization for Migration",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1245433",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 50,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and e",
+   "first_seen": "2026-11-04T15:13:52Z"
   },
   {
    "id": "chinesetranslatorexecutiveassistantlivemall",
@@ -1104,6 +1267,32 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "consultancyoncultureandcreativeindustriesinthearabregion",
+   "title": "Consultancy on Culture and Creative Industries in the Arab Region",
+   "org": "UNESCWA - United Nations Economic and Social Commission for Western Asia",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1245061",
+   "location": "Remote | Beirut",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-05T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based",
+    "Asks 7+ years"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Consultancy on Culture and Creative Industries in the Arab Region UNESCWA - United Nations Economic and Social Commission for Western Asia Remote | Beirut CON level Speaks Arabic, English, French Application deadline: November 05, 2026 Closing soon Apply Summary by Impactpool The Economic and Social Commission for Western Asia (ESCWA) is seeking a consultant to produce an analytical paper on the trade in culture betw",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
    "id": "consultantforinformalconflictresolution",
    "title": "Consultant for Informal Conflict Resolution",
    "org": "Office Of The United Nations Ombudsman And Mediation Services",
@@ -1130,30 +1319,6 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "consultanttoprepareabackgroundpaperonmultidimensionalpovertyandsocialprotectioni",
-   "title": "Consultant to prepare a background paper on ‘Multidimensional Poverty and Social Protection in the Arab Region’",
-   "org": "Economic And Social Commission For Western Asia",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287421?language=en",
-   "location": "Beirut / Remote",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-06T04:59:59Z",
-   "posted": "2026-10-30T04:00:00Z",
-   "score": 45,
-   "reasons": [
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "snippet": "Result of Service The expert should deliver a consolidated background paper that sets out the evidence, methodological considerations and policy options for integrating multidimensional poverty information into social protection policies and services delivery in the Arab region, delivered in a timely manner. The expert should address all comments provided by the Poverty Project and the Social Protection Team leaders,",
-   "first_seen": "2026-11-03T17:07:43Z"
-  },
-  {
    "id": "nationalconsultantforsystemsdevelopmentandenhancementoftheconvictedsexualoffende",
    "title": "National Consultant for Systems Development and Enhancement of the Convicted Sexual Offenders Electronic Register (CSOER)",
    "org": "UNODC - United Nations Office on Drugs and Crime",
@@ -1176,6 +1341,32 @@
    "role": false,
    "snippet": "National Consultant for Systems Development and Enhancement of the Convicted Sexual Offenders Electronic Register (CSOER) UNODC - United Nations Office on Drugs and Crime Remote | Nairobi National CON level Speaks English, French Application deadline: November 07, 2026 Closing soon Apply Summary by Impactpool The United Nations Office on Drugs and Crime is seeking a National Consultant for the enhancement of the Conv",
    "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "internationalconsultantforthearabstrategyagainsttransnationalorganizedcrime",
+   "title": "International Consultant for the Arab Strategy against Transnational Organized Crime",
+   "org": "UNODC - United Nations Office on Drugs and Crime",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244676",
+   "location": "Remote | Vienna",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-07T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based",
+    "Asks 7+ years"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "International Consultant for the Arab Strategy against Transnational Organized Crime UNODC - United Nations Office on Drugs and Crime Remote | Vienna International CON level Speaks Arabic, English, French Application deadline: November 07, 2026 Closing soon Apply Summary by Impactpool The United Nations Office on Drugs and Crime is seeking an International Consultant to support the development of the Arab Strategy ag",
+   "first_seen": "2026-11-04T15:13:52Z"
   },
   {
    "id": "impactevaluationanalystconsultantevaluationofficesudanremote9months596583",
@@ -1224,6 +1415,30 @@
    "role": false,
    "snippet": "INTERN – COMMUNICATIONS (GRAPHIC DESIGN & WEB) UN ODET - Office of the Secretary-General’s Envoy on Technology Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 09, 2026 (5 days) Apply Summary by Impactpool The United Nations Office for Digital and Emerging Technologies (UNODET) is seeking a Communications Intern with a focus on graphic desig",
    "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "caseworkerircinternationalresc",
+   "title": "Caseworker",
+   "org": "IRC - International Rescue Committee",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1227269",
+   "location": "Remote | Clark | Missoula",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-09T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Caseworker IRC - International Rescue Committee Remote | Clark, Missoula International Junior level Speaks Arabic, English, Swahili, Spanish Application deadline: November 09, 2026 (5 days) Apply Summary by Impactpool The Caseworker at the International Rescue Committee (IRC) will support vulnerable refugees and asylees by providing strengths-based, client-centered case management. This role involves determining clie",
+   "first_seen": "2026-11-04T15:13:52Z"
   },
   {
    "id": "sidscoalitionfornaturecoordinatorhomebased",
@@ -1370,6 +1585,54 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "unepfinanceinitiativeunepfiinternshipforriskcentresupportforriskprogramming",
+   "title": "UNEP Finance Initiative (UNEP FI) Internship for Risk Centre - Support for Risk Programming",
+   "org": "UNEP - United Nations Environment Programme",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244988",
+   "location": "Remote | Geneva",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-14T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "UNEP Finance Initiative (UNEP FI) Internship for Risk Centre - Support for Risk Programming UNEP - United Nations Environment Programme Remote | Geneva Both national and international Internship level Speaks English, French Application deadline: November 14, 2026 (10 days) Apply Summary by Impactpool The UNEP Finance Initiative (UNEP FI) is seeking an intern to support the Risk Centre in delivering events and publica",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
+   "id": "consultanteinternationaleexpertespcialisteducommercedesservicesenafriquecentrale",
+   "title": "CONSULTANT(E) INTERNATIONAL(E) : Expert-e / Spécialiste du commerce des services en Afrique centrale",
+   "org": "ITC - International Trade Centre",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1243335",
+   "location": "Remote | Geneva | Libreville",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-15T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "CONSULTANT(E) INTERNATIONAL(E) : Expert-e / Spécialiste du commerce des services en Afrique centrale ITC - International Trade Centre Remote | Geneva, Libreville CON level Speaks English, French Application deadline: November 15, 2026 (11 days) Apply Summary by Impactpool The International Trade Centre is seeking a Consultant specializing in service trade in Central Africa. The role involves providing specialized sup",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
    "id": "europeanpatentexaminerinelectricalengineeringelectricpowerdistributionprotection",
    "title": "European Patent Examiner in Electrical Engineering (Electric Power Distribution & Protection)",
    "org": "EPO - European Patent Office",
@@ -1418,6 +1681,32 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "consultantdisasterlawandnslegalandstatutorybase",
+   "title": "Consultant, Disaster Law and NS Legal and Statutory Base",
+   "org": "IFRC - International Federation of Red Cross and Red Crescent Societies",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1218283",
+   "location": "Remote | Multiple locations",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-12-06T00:00:00Z",
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Remote / home-based",
+    "Asks 7+ years"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "snippet": "Consultant, Disaster Law and NS Legal and Statutory Base IFRC - International Federation of Red Cross and Red Crescent Societies Remote | Multiple locations Consultant, Not Applicable level Speaks Arabic, English, French, Spanish Application deadline: December 06, 2026 (about 1 month) Apply Summary by Impactpool The International Federation of Red Cross and Red Crescent Societies (IFRC) is seeking a Consultant in Dis",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
    "id": "jiuresearchandanalysisintern",
    "title": "JIU Research and Analysis Intern",
    "org": "UNOG - United Nations Office at Geneva",
@@ -1439,6 +1728,54 @@
    ],
    "role": false,
    "snippet": "JIU Research and Analysis Intern UNOG - United Nations Office at Geneva Remote | Geneva Both national and international Internship level Speaks English, French Application deadline: January 22, 2027 (3 months) Apply Summary by Impactpool The JIU Research and Analysis Intern position at the United Nations Office at Geneva offers an opportunity to gain hands-on experience in oversight and evaluation within the UN syste",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "driverlightvehicles800434",
+   "title": "Driver Light vehicles (800434)",
+   "org": "ICRC",
+   "source": "ICRC",
+   "feed": "ICRC",
+   "url": "https://careers.icrc.org/job/Cairo-%28CAI%29-Driver-Light-vehicles-%28800434%29-33931/1451549733/",
+   "location": "Egypt",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "snippet": "Driver Light vehicles (800434) Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Ar",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
+   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
+   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
+   "org": "EEAS - European External Action Service",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244275",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -1466,30 +1803,6 @@
    "role": true,
    "snippet": "Job Description 1.Assist in the management of local production workers, ensure the transmission of production instructions, and facilitate communication between workers and management. 2.Be responsible for daily attendance records and work completion statistics of local workers, and participate in handling various production issues and disputes. 3.Assist in the education, training, and behavioral management of local ",
    "first_seen": "2026-11-04T12:53:22Z"
-  },
-  {
-   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
-   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
-   "org": "EEAS - European External Action Service",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1244275",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 45,
-   "reasons": [
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
-   "first_seen": "2026-11-03T22:17:21Z"
   }
  ],
  "seen": {
@@ -1564,7 +1877,19 @@
   "remotejapanesekoreanpatenttranslatortechpharmaremotework": "2026-11-04T12:53:22Z",
   "translationandlocalizationprojectmanagementspecialistfuturegroup": "2026-11-04T12:53:22Z",
   "translatorhybridbayantech": "2026-11-04T12:53:22Z",
-  "chinesetranslatorcscecinternationalfa": "2026-11-04T12:53:22Z"
+  "chinesetranslatorcscecinternationalfa": "2026-11-04T12:53:22Z",
+  "pircaseworkerircinternationalresc": "2026-11-04T15:13:52Z",
+  "unwomeninternationalconsultantinformationmanagementanalystretainerhomebased": "2026-11-04T15:13:52Z",
+  "peopleexperienceengagementspecialist": "2026-11-04T15:13:52Z",
+  "tongacbitforestrysectorgreenhousegasinventoryconsultant": "2026-11-04T15:13:52Z",
+  "caseworkerprotectionconsultant": "2026-11-04T15:13:52Z",
+  "consultancyoncultureandcreativeindustriesinthearabregion": "2026-11-04T15:13:52Z",
+  "internationalconsultantforthearabstrategyagainsttransnationalorganizedcrime": "2026-11-04T15:13:52Z",
+  "caseworkerircinternationalresc": "2026-11-04T15:13:52Z",
+  "unepfinanceinitiativeunepfiinternshipforriskcentresupportforriskprogramming": "2026-11-04T15:13:52Z",
+  "consultanteinternationaleexpertespcialisteducommercedesservicesenafriquecentrale": "2026-11-04T15:13:52Z",
+  "consultantdisasterlawandnslegalandstatutorybase": "2026-11-04T15:13:52Z",
+  "driverlightvehicles800434": "2026-11-04T15:13:52Z"
  },
  "jsearch": {
   "month": "2026-11",
