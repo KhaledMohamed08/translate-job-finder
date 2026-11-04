@@ -843,7 +843,7 @@ def notify(new, total):
         if dash:
             rows += f'<p><a href="{html.escape(dash)}">Open the dashboard</a></p>'
         msg = MIMEText(rows, "html", "utf-8")
-        msg["Subject"] = f"Job Radar: {len(new)} new matches"
+        msg["Subject"] = f"Weam Job Radar: {len(new)} new matches"
         msg["From"], msg["To"] = user, to
         try:
             with smtplib.SMTP_SSL(os.environ.get("SMTP_HOST", "smtp.gmail.com"), 465, timeout=30) as smtp:

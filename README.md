@@ -1,4 +1,4 @@
-# Job Radar 🌍
+# Weam Job Radar 🌍
 
 Every morning it checks **UN and international organizations** plus **remote job boards**, scores each job for a translator (Arabic · English · French · Korean, about 2 years of experience, based in Egypt), and:
 

@@ -1,6 +1,6 @@
 {
-  "name": "Job Radar",
-  "short_name": "Job Radar",
+  "name": "Weam Job Radar",
+  "short_name": "Weam Job Radar",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f6f6f3",

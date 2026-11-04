@@ -36,6 +36,6 @@ echo "Saved to GitHub."
 for id in ${IDS//,/ }; do
   curl -fsS -o /dev/null "https://api.telegram.org/bot${TOKEN}/sendMessage" \
     --data-urlencode "chat_id=${id}" \
-    --data-urlencode "text=✅ Job Radar is connected. New job matches will arrive here every morning.
+    --data-urlencode "text=✅ Weam Job Radar is connected. New job matches will arrive here every morning.
 📱 Dashboard: https://khaledmohamed08.github.io/translate-job-finder/" && echo "Test message sent to ${id}"
 done
