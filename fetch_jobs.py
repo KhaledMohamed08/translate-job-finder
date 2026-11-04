@@ -444,6 +444,7 @@ def src_jsearch():
             egypt = j.get("job_country") == "EG"
             place = [j.get("job_city"), "Egypt" if egypt else j.get("job_country")]
             location = j.get("job_location") or ", ".join(x for x in place if x)
+            location = location.split("•")[0].strip()  # drop Google's "• via LinkedIn" suffix
             if q.get("country") == "eg" and not HOME.search(location):
                 location = f"{location}, Egypt".strip(", ")  # the search itself was limited to Egypt
             if location == "Anywhere":
