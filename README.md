@@ -16,7 +16,7 @@ Everything is free: GitHub runs it daily and hosts the page, and Telegram bots c
 | UN Careers | UN Secretariat: all departments, consultancies, internships, language jobs |
 | ReliefWeb | UN agencies + NGOs worldwide (UNDP, IOM, UNFPA, NRC, IRC…) |
 | Impactpool | Jobs from nearly every UN agency, the EU and development banks (WHO, FAO, ILO, UNOPS…) |
-| UNICEF, UNDP, UNESCO, UNHCR, WFP, IMF | Their own career sites |
+| UNICEF, UNDP, UNESCO, UNHCR, WFP, IMF, ICRC, Green Climate Fund, CLEAR Global | Their own career sites |
 | TransPerfect, Welocalize, RWS, Keywords Studios | Translation and localization agencies |
 | Google Jobs (via JSearch) | Egypt and remote translator jobs from sites that block direct access. Free plan: 100 requests a month, so the tool uses 3 a day, once a day, and stops at 90 a month |
 | Himalayas, Remotive, RemoteOK, Working Nomads, Jobicy | Remote jobs (translation, localization, Arabic/French/Korean AI-language work) |

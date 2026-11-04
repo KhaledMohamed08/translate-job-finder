@@ -271,7 +271,9 @@ def src_impactpool():
     """Impactpool lists jobs from nearly every UN agency, the EU and development banks."""
     cards = {}
     for q in ["translator", "translation", "interpreter", "linguist", "reviser", "editor",
-              "localization", "Egypt", "Cairo"]:
+              "localization", "Egypt", "Cairo",
+              # Organizations whose own sites block or can't be read by this tool
+              "OECD", "IFRC", "GGGI", "African Union", "League of Arab States"]:
         for page in (1, 2, 3):
             body = http("https://www.impactpool.org/search?" + urllib.parse.urlencode({"q": q, "page": page}))
             found = re.findall(r"<div class='job'>(.*?)</a></div>", body, re.S)
@@ -307,10 +309,10 @@ def src_impactpool():
     return out
 
 
-def src_undp():
-    api = "https://estm.fa.em2.oraclecloud.com/hcmRestApi/resources/latest/"
+def oracle_jobs(org, host, site, public):
+    api = host + "/hcmRestApi/resources/latest/"
     d = http_json(api + "recruitingCEJobRequisitions?onlyData=true&expand=requisitionList"
-                  "&finder=findReqs;siteNumber=CX_1,limit=200,sortBy=POSTING_DATES_DESC")
+                  f"&finder=findReqs;siteNumber={site},limit=200,sortBy=POSTING_DATES_DESC")
     reqs = d["items"][0]["requisitionList"]
     if not reqs:
         raise RuntimeError("no jobs returned")
@@ -320,14 +322,18 @@ def src_undp():
         if not plausible(title, loc):
             continue
         info = http_json(api + "recruitingCEJobRequisitionDetails?expand=all&onlyData=true"
-                         f"&finder=ById;Id=%22{r['Id']}%22,siteNumber=CX_1")["items"][0]
+                         f"&finder=ById;Id=%22{r['Id']}%22,siteNumber={site}")["items"][0]
         text = info.get("ExternalDescriptionStr", "")
-        out.append(job("UNDP", "UNDP", title,
-                       f"https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/{r['Id']}",
+        out.append(job(org, org, title, f"{public}/job/{r['Id']}",
                        location=loc, text=text, remote=looks_remote(title, loc),
                        deadline=info.get("ExternalPostedEndDate"), posted=r.get("PostedDate"),
                        level=info.get("RequisitionType", ""), intl=True, check_location=False))
     return out
+
+
+def src_undp():
+    return oracle_jobs("UNDP", "https://estm.fa.em2.oraclecloud.com", "CX_1",
+                       "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1")
 
 
 def src_successfactors(org, base):
@@ -335,14 +341,16 @@ def src_successfactors(org, base):
     out, seen = [], set()
     for row in range(0, 200, 25):
         body = http(f"{base}/search/?q=&startrow={row}")
-        rows = body.split('class="data-row')[1:]
+        rows = re.split(r'class="data-row|class="job-tile job-id-', body)[1:]
         for r in rows:
             m = re.search(r'href="(/job/[^"]+)"[^>]*>(.*?)</a>', r, re.S)
             if not m or m.group(1) in seen:
                 continue
             seen.add(m.group(1))
             title = strip_html(m.group(2))
-            loc = strip_html((re.search(r'class="jobLocation[^"]*">(.*?)</span>', r, re.S) or [None, ""])[1])
+            place = re.search(r'class="jobLocation[^"]*">(.*?)</span>', r, re.S) \
+                or re.search(r'Country\s*</span>\s*<[^>]*>(.*?)<', r, re.S)
+            loc = strip_html(place.group(1)) if place else ""
             if not plausible(title, loc):
                 continue
             text = strip_html(http(base + m.group(1)))
@@ -359,6 +367,36 @@ def src_successfactors(org, base):
 
 def src_unesco():
     return src_successfactors("UNESCO", "https://careers.unesco.org")
+
+
+def src_icrc():
+    return src_successfactors("ICRC", "https://careers.icrc.org")
+
+
+def src_gcf():
+    """Green Climate Fund (Incheon): staff jobs and its separate consultant site."""
+    return (oracle_jobs("Green Climate Fund", "https://iaayou.fa.ocs.oraclecloud.com", "CX_1001",
+                        "https://jobs.greenclimate.fund/en/sites/CX_1001")
+            + src_successfactors("Green Climate Fund", "https://jobs.consultant.greenclimate.fund"))
+
+
+def src_clear_global():
+    """CLEAR Global (formerly Translators without Borders)."""
+    d = http_json("https://clear.bamboohr.com/careers/list")
+    out = []
+    for j in d.get("result", []):
+        city = (j.get("location") or {}).get("city") or ""
+        remote = str(j.get("locationType")) == "1" or looks_remote(j.get("jobOpeningName"), city)
+        url = f"https://clear.bamboohr.com/careers/{j['id']}"
+        text = ""
+        try:
+            text = (http_json(url + "/detail").get("result", {}).get("jobOpening") or {}).get("description", "")
+        except Exception:
+            pass
+        out.append(job("CLEAR Global", "CLEAR Global", j.get("jobOpeningName"), url,
+                       location=city or ("Remote" if remote else ""), text=text, remote=remote,
+                       intl=True, check_location=False))
+    return out
 
 
 SMARTRECRUITERS = ["transperfect", "keywordsstudios"]
@@ -536,11 +574,13 @@ def src_company_boards():
 
 
 # These only return plausible matches, so 0 can be normal (they raise if the site itself fails).
-PREFILTERED = {"UNHCR, WFP, IMF, Welocalize", "UNDP", "UNESCO", "Impactpool", "Google Jobs"}
+PREFILTERED = {"UNHCR, WFP, IMF, Welocalize", "UNDP", "UNESCO", "ICRC", "Green Climate Fund",
+               "Impactpool", "Google Jobs"}
 SOURCES = {
     "UN Careers": src_un_careers, "ReliefWeb": src_reliefweb, "UNICEF": src_unicef,
     "UNHCR, WFP, IMF, Welocalize": src_workday, "Impactpool": src_impactpool, "UNDP": src_undp,
-    "UNESCO": src_unesco, "Translation agencies": src_translation_agencies, "Himalayas": src_himalayas, "Remotive": src_remotive,
+    "UNESCO": src_unesco, "ICRC": src_icrc, "Green Climate Fund": src_gcf,
+    "CLEAR Global": src_clear_global, "Translation agencies": src_translation_agencies, "Himalayas": src_himalayas, "Remotive": src_remotive,
     "RemoteOK": src_remoteok, "Working Nomads": src_workingnomads, "Jobicy": src_jobicy,
     "Company boards": src_company_boards, "Google Jobs": src_jsearch,
 }

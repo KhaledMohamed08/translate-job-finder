@@ -35,9 +35,9 @@
     "\\bentry", "individual contractor", "roster"
   ],
 
-  "_exclude_help": "Gig work that trains AI systems. Delete these two lists to show it again.",
+  "_exclude_help": "Gig work that trains AI systems, and internships reserved for one school or EU students. Delete these two lists to show them again.",
   "exclude_title_or_company": [
-    "\\bai[- ]train", "trainai", "\\bai linguistic", "language teachers?", "\\bai conversation", "\\bcontributor\\b", "\\btrain(ing)? ai\\b", "\\bai project\\b", "\\bai data\\b", "data contributor",
+    "\\bai[- ]train", "\\bmiis\\b", "erasmus", "trainai", "\\bai linguistic", "language teachers?", "\\bai conversation", "\\bcontributor\\b", "\\btrain(ing)? ai\\b", "\\bai project\\b", "\\bai data\\b", "data contributor",
     "data collection", "speech data", "voice record", "annotat", "\\brater\\b", "short video recording",
     "native .{0,25}speakers? needed", "native .{0,20}speaker -", "language expert",
     "\\bperle\\b", "invisible technologies", "mercor", "outlier", "appen\\b", "toloka", "dataannotation",
