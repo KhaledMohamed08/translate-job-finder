@@ -48,6 +48,17 @@
     "data annotation", "human feedback", "\\brlhf\\b"
   ],
 
+  "_adjacent_help": "Outside Egypt, a job that isn't a language role is only kept if its title matches one of these.",
+  "adjacent_roles": [
+    "communicat", "content", "writ(er|ing)", "publication", "public information", "outreach", "media",
+    "documentation", "knowledge", "conference", "caseworker", "case worker", "community",
+    "(programme|program|project|administrative|research|office) assistant", "customer (support|service|success)"
+  ],
+  "not_suitable_titles": [
+    "\\bdriver\\b", "security guard", "\\bcleaner\\b", "mechanic", "electrician", "\\bnurse\\b",
+    "physician", "medical doctor", "patent examiner", "graphic design"
+  ],
+
   "min_score": 45,
   "notify_min_score": 55,
   "max_age_days": 45

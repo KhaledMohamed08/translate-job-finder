@@ -7,7 +7,7 @@ Once a day it checks **UN and international organizations**, **translation compa
 - updates a **phone-friendly dashboard** you can add to your home screen
 - sends a **free Telegram message** (or email) with the new best matches
 
-It keeps only jobs that are **remote** or **in Egypt**, and drops remote jobs it can tell are limited to residents of other countries. Some remote jobs can't be confirmed, so they show a warning to check eligibility.
+It keeps only jobs that are **remote** or **in Egypt**. Remote jobs are dropped when the location or posting says they're limited to another country, and those it can't confirm show a warning to check eligibility. Outside Egypt, general jobs appear only if they use Arabic, French or Korean and are close to language work, such as communications or content.
 
 It runs for free: GitHub runs the search and hosts the page, Telegram bots cost nothing, and JSearch and ReliefWeb are used on their free terms.
 
@@ -29,8 +29,9 @@ AI-training gigs are filtered out. Sites that block automated access, such as Wu
 ## Using the dashboard
 
 - **Lists:** Translation, In Egypt, Remote, All jobs and My list.
-- **Narrow down:** combine Arabic, French, Korean, UN & international, Closing this week and New.
+- **Narrow down:** combine Arabic, French, Korean, UN & international, Closing this week, Up to 3 years and New.
 - **Match label:** every job shows Strong, Good or Possible match, based on a score out of 100. Tap a job to see why it fits and any warnings.
+- **Key facts:** the language pair, experience, contract type and pay appear when the posting states them.
 - **Bookmark:** tap it on a job to save it to My list.
 - **Track this job:** in the job details, mark it Saved, Applied, Interview or Offer, or choose *Not for me* to hide it.
 - **Settings and sources:** choose light or dark mode, copy your list to another phone, and see which sources are working.
@@ -85,6 +86,7 @@ Edit `profile.json`:
 - `notify_min_score`: how good a job must be to trigger an alert
 - `languages`, `role_keywords`: what counts as a match
 - `exclude_title_or_company`, `exclude_description`: what gets filtered out
+- `adjacent_roles`, `not_suitable_titles`: which general jobs are kept or hidden
 
 ### Run it on your computer (optional)
 It needs Python 3.9 or newer and nothing else:

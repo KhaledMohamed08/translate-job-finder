@@ -437,11 +437,14 @@ JSEARCH = {"month": "", "used": 0, "last_day": ""}  # loaded from / saved to job
 
 
 def jsearch_queries():
-    rotating = ["Arabic", "French", "Korean"][NOW.timetuple().tm_yday % 3]
+    day = NOW.timetuple().tm_yday
+    remote = ["Arabic", "French", "Korean"][day % 3]
+    local = [{"query": "English Arabic translator Cairo"}, {"query": "مترجم", "language": "ar"},
+             {"query": "interpreter Egypt"}, {"query": "localization Egypt"}][day % 4]
     return [
         {"query": "translator in Egypt", "country": "eg"},
-        {"query": "English Arabic translator Cairo", "country": "eg"},
-        {"query": f"{rotating} translator remote", "work_from_home": "true"},
+        {**local, "country": "eg"},
+        {"query": f"{remote} translator remote", "work_from_home": "true"},
     ]
 
 
@@ -489,8 +492,10 @@ def src_jsearch():
                 location = "Remote (check eligibility)"  # Google's "Anywhere" is often one country only
             out.append(job("Google Jobs", j.get("employer_name"), j.get("job_title"),
                            j.get("job_apply_link"), location=location,
-                           text=j.get("job_description", ""), remote=bool(j.get("job_is_remote")),
+                           text=j.get("job_description", ""),
+                           remote=bool(j.get("job_is_remote")) or looks_remote(j.get("job_title"), j.get("job_description", "")[:800]),
                            deadline=j.get("job_offer_expiration_datetime_utc"),
+                           level=j.get("job_employment_type") or "",
                            posted=j.get("job_posted_at_datetime_utc")))
     if len(errors) == len(queries):
         raise FeedSkipped(f"request failed: {errors[0]}", ok=False)
@@ -599,7 +604,69 @@ SENIOR = rx(PROFILE["senior_patterns"])
 JUNIOR = rx(PROFILE["junior_patterns"])
 LANGS = {name: (rx(cfg["patterns"]), cfg["weight"]) for name, cfg in PROFILE["languages"].items()}
 OTHER_LANGS = rx([rf"\b{l}\b" for l in PROFILE["other_languages"]])
-LONG_EXP = re.compile(r"\b(minimum|at least)\s+(of\s+)?(\w+\s+)?\(?(7|8|9|10|12|15|seven|eight|ten|fifteen)\)?\s+years", re.I)
+ADJACENT = rx(PROFILE["adjacent_roles"])
+NOT_SUITABLE = rx(PROFILE["not_suitable_titles"])
+
+# Remote, but limited to people in another country
+_PLACE = (r"(?:US|USA|U\.S\.(?:A\.)?|UK|EU|(?i:the united states|united states|the united kingdom|united kingdom"
+          r"|canada|europe|australia|new zealand|germany|france|spain|italy|japan|south korea|korea|india|brazil|mexico))")
+RESTRICTED = re.compile(
+    rf"\b(?:US|USA|UK|EU|(?i:canada|europe|united states))[- ](?i:only|based|residents?|citizens?)\b"
+    rf"|(?i:must|need to|required to|have to|should)\s+(?i:be\s+)?(?i:currently\s+)?"
+    rf"(?i:live|reside|residing|living|located|based|a resident)[^.;]{{0,30}}\b{_PLACE}"
+    rf"|(?i:authori[sz]ed|eligible|legally able|right)\s+to\s+work\s+in\s+(?i:the\s+)?{_PLACE}"
+    rf"|(?i:residents?|citizens?)\s+of\s+(?i:the\s+)?{_PLACE}"
+    rf"|(?i:anywhere in)\s+(?i:the\s+)?{_PLACE}")
+OPEN_WORLD = rx([r"worldwide", r"anywhere in the world", r"from anywhere", r"any country", r"all countries",
+                 r"\begypt\b", r"\bmena\b"])
+
+# Key facts shown on the dashboard
+_LANG = "|".join(["arabic", "english", "french", "korean"] + PROFILE["other_languages"])
+PAIR_DIRECTED = re.compile(rf"\b({_LANG})\b\s*(?:to|into|>|→)\s*\b({_LANG})\b", re.I)
+PAIR_EITHER = re.compile(rf"\b({_LANG})\b\s*(?:<>|<->|↔|[-–—/])\s*\b({_LANG})\b", re.I)
+WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
+         "twelve": 12, "fifteen": 15}
+YEARS = re.compile(r"\b(\d{1,2}|one|two|three|four|five|six|seven|eight|nine|ten|twelve|fifteen)\b(?:\s*\(\d{1,2}\))?"
+                   r"\s*\+?\s*(?:(?:-|–|to|or)\s*\d{1,2}\s*)?\+?\s*years?['’]?\s+(?:of\s+)?(?:[\w,/-]+\s+){0,5}?experience", re.I)
+CONTRACTS = [("Internship", r"\bintern\b|\binternship"), ("Volunteer", r"\bvolunteer"),
+             ("Freelance", r"freelance|independent contractor"), ("Consultancy", r"consultan|individual contractor"),
+             ("Part-time", r"part[- ]?time"), ("Full-time", r"full[- ]?time"),
+             ("Contract", r"contractor|fixed[- ]term|temporary|short[- ]term")]
+_MONEY = r"(?:US\$|\$|€|£|EGP\s?|USD\s?|EUR\s?|GBP\s?)\d[\d,.]*k?"
+PAY = re.compile(rf"{_MONEY}(?:\s*(?:-|–|to)\s*{_MONEY})?\s*(?:/|per\s+|an?\s+)\s*(?:hour|hr|month|year|annum|word|minute|min|day)\b", re.I)
+
+
+def key_facts(j):
+    title, text = j["title"], j["text"]
+    facts = {}
+    for source in (title, text):
+        m = PAIR_DIRECTED.search(source)
+        e = PAIR_EITHER.search(source) if source is title else None
+        if m and m.group(1).lower() != m.group(2).lower():
+            facts["pair"] = f"{m.group(1).title()} → {m.group(2).title()}"
+            break
+        if e and e.group(1).lower() != e.group(2).lower():
+            facts["pair"] = f"{e.group(1).title()} ↔ {e.group(2).title()}"
+            break
+    m = YEARS.search(text)
+    if m:
+        n = WORDS.get(m.group(1).lower()) or int(m.group(1))
+        if 1 <= n <= 25:
+            facts["years"] = n
+    head = f"{title} {j['level']}"
+    for name, pattern in CONTRACTS:
+        if re.search(pattern, head, re.I):
+            facts["contract"] = name
+            break
+    else:
+        for name, pattern in CONTRACTS:
+            if re.search(pattern, text[:1200], re.I):
+                facts["contract"] = name
+                break
+    m = PAY.search(f"{title} {text}")
+    if m:
+        facts["pay"] = re.sub(r"\s+", " ", m.group(0))[:32]
+    return facts
 
 OK_GEO = rx([r"worldwide", r"anywhere", r"global", r"egypt", r"africa", r"middle east", r"\bmena\b",
              r"\bemea\b", r"international", r"all countries", r"\bremote\b$"])
@@ -632,7 +699,7 @@ def is_ai_gig(j):
 
 
 def score(j):
-    if is_ai_gig(j):
+    if is_ai_gig(j) or NOT_SUITABLE.search(j["title"]):
         return None
     title, text = j["title"], drop_boilerplate(j["text"])
     full = f"{title} {text}"
@@ -647,7 +714,9 @@ def score(j):
         loc = j["location"] or ""
         if loc and not OK_GEO.search(loc) and BLOCK_GEO.search(loc):
             return None  # remote, but only for people in e.g. the US or Europe
-        if not loc or not OK_GEO.search(loc):
+        if RESTRICTED.search(full):
+            return None  # the posting itself says e.g. "US residents only"
+        if (not loc or not OK_GEO.search(loc)) and not OPEN_WORLD.search(full):
             reasons.append("Check country eligibility")
     if j["deadline"] and j["deadline"] < NOW - timedelta(hours=12):
         return None
@@ -668,6 +737,9 @@ def score(j):
             langs.append(name)
     if role and langs:
         s += 10
+    # Outside Egypt, a general job must be close to language work and use her languages.
+    if not role and not in_home and not (langs and ADJACENT.search(title)):
+        return None
 
     # e.g. "Polish Native" / "(Spanish)" in the title, without any of her languages
     other = OTHER_LANGS.search(title)
@@ -697,9 +769,15 @@ def score(j):
         reasons.append("Senior level")
     elif JUNIOR.search(title) or JUNIOR.search(j["level"]):
         s += 5
-    if LONG_EXP.search(text):
+    years = key_facts(j).get("years", 0)
+    if years >= 7:
         s -= 15
         reasons.append("Asks 7+ years")
+    elif years >= 5:
+        s -= 8
+        reasons.append("Asks 5+ years")
+    if re.search(r"\bintern\b|\binternship", title, re.I):
+        reasons.append("Internships are usually for students")
 
     if s < PROFILE["min_score"]:
         return None
@@ -780,6 +858,7 @@ def main():
             "deadline": iso(j["deadline"]), "posted": iso(j["posted"]),
             "score": s, "reasons": reasons, "langs": langs,
             "role": "Translation / language role" in reasons,
+            "facts": key_facts(j),
             "snippet": j["text"][:420],
             "first_seen": seen.get(k, iso(NOW)),
         }

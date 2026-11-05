@@ -106,6 +106,12 @@ main{padding:28px 0 64px;min-width:0}
 .fact{display:inline-flex;align-items:center;gap:5px;min-width:0}
 .fact svg{width:15px;height:15px}
 .fact.warn{color:var(--warn)} .fact.urgent{color:var(--urgent);font-weight:500}
+.keys{display:block;margin-top:7px;color:var(--soft);font-size:13.5px;font-weight:500}
+.keygrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:0}
+.keygrid div{background:var(--surface);padding:10px 12px}
+.keygrid .wide{grid-column:1/-1}
+.keygrid dt{font-size:12px;color:var(--muted)}
+.keygrid dd{margin:1px 0 0;font-weight:600;font-size:14.5px;overflow-wrap:anywhere}
 .save{position:absolute;top:8px;right:8px;width:44px;height:44px;display:grid;place-items:center;border-radius:10px;color:var(--muted)}
 .save:hover{background:var(--sunken);color:var(--ink)}
 .save[aria-pressed="true"]{color:var(--accent)}
@@ -258,7 +264,7 @@ textarea{width:100%;height:84px;border:1px solid var(--line);border-radius:10px;
       <button class="btn" id="importCode">Import code</button>
     </div>
     <div class="p-h">How matches work</div>
-    <p class="note">Each job gets a score out of 100. It goes up for a translation role, Arabic, French or Korean, remote work or a job in Egypt, and international organizations. It goes down for senior roles, long experience requirements and other languages. Always confirm eligibility on the original posting.</p>
+    <p class="note">Each job gets a score out of 100. It goes up for a translation role, Arabic, French or Korean, remote work or a job in Egypt, and international organizations. It goes down for senior roles, long experience requirements and other languages. Outside Egypt, general jobs only appear if they are close to language work. Always confirm eligibility on the original posting.</p>
     <div class="p-h" id="srcHead">Sources</div>
     <ul class="srcs" id="srcs"></ul>
   </div>
@@ -301,6 +307,7 @@ const REFINE = [
   ["Korean", "Korean", j => j.langs.includes("Korean")],
   ["intl", "UN & international", j => j.intl],
   ["soon", "Closing this week", j => { const d = daysLeft(j.deadline); return d !== null && d <= 7; }],
+  ["exp", "Up to 3 years", j => (j.facts || {}).years <= 3],
   ["new", "New", isNew],
 ];
 if (!VIEWS.some(v => v[0] === view)) view = "role";
@@ -323,10 +330,16 @@ function closes(j){
     : "Closes " + new Date(j.deadline).toLocaleDateString("en-GB", {day: "numeric", month: "short"});
   return `<span class="fact ${cls}">${icon("clock")}${text}</span>`;
 }
-const warnings = j => j.reasons.filter(r => /Senior|Needs|7\+|eligibility/.test(r));
+const warnings = j => j.reasons.filter(r => /Senior|Needs|\d\+ years|eligibility|students/.test(r));
+const yearsText = n => `${n}+ ${n === 1 ? "year" : "years"}`;
+function keyLine(j){
+  const f = j.facts || {};
+  return [f.pair, f.years && yearsText(f.years), f.contract, f.pay].filter(Boolean).join(" · ");
+}
 const WARN_TEXT = r => ({"Check country eligibility": "Check it accepts applicants in Egypt",
   "Senior level": "Senior role, may need more experience",
-  "Asks 7+ years": "Asks for 7 or more years of experience"}[r] || r.replace(/^Needs (.*)/, "Needs $1, which isn't in your languages"));
+  "Asks 7+ years": "Asks for 7 or more years of experience",
+  "Asks 5+ years": "Asks for 5 or more years of experience"}[r] || r.replace(/^Needs (.*)/, "Needs $1, which isn't in your languages"));
 function ago(iso){
   const h = Math.round((Date.now() - new Date(iso)) / 36e5);
   return h < 1 ? "just now" : h < 24 ? `${h} hour${h === 1 ? "" : "s"} ago` : `${Math.round(h / 24)} day${h < 36 ? "" : "s"} ago`;
@@ -346,9 +359,10 @@ function row(j){
       <span class="facts">
         <span class="fact">${icon(j.remote ? "home" : "pin")}<span dir="auto">${esc(place(j))}</span></span>
         ${closes(j)}
-        ${j.langs.length ? `<span class="fact">${j.langs.join(", ")}</span>` : ""}
-        ${w ? `<span class="fact warn">${icon("alert")}${esc(w.replace("Check country eligibility", "Check eligibility"))}</span>` : ""}
+        ${j.langs.length && !(j.facts || {}).pair ? `<span class="fact">${j.langs.join(", ")}</span>` : ""}
+        ${w ? `<span class="fact warn">${icon("alert")}${esc(w.replace("Check country eligibility", "Check eligibility").replace("Internships are usually for students", "Usually for students"))}</span>` : ""}
       </span>
+      ${keyLine(j) ? `<span class="keys">${esc(keyLine(j))}</span>` : ""}
     </button>
     <button class="save" data-act="save" aria-pressed="${!!s && s !== HIDDEN}" aria-label="${s ? "Remove from my list" : "Save to my list"}">${icon("mark", 20)}</button>
   </article>`;
@@ -386,6 +400,14 @@ function setStatus(id, s){
   render();
 }
 
+function keyGrid(j){
+  const f = j.facts || {};
+  const items = [["Languages", f.pair], ["Experience", f.years && yearsText(f.years)], ["Contract", f.contract], ["Pay", f.pay]].filter(x => x[1]);
+  if (!items.length) return "";
+  return `<div class="p-h">Key facts</div><dl class="keygrid">${items.map(([k, v], i) =>
+    `<div class="${items.length % 2 && i === items.length - 1 ? "wide" : ""}"><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>`;
+}
+
 function openDetail(j){
   const [label, color] = fit(j.score), s = status(j);
   const good = j.reasons.filter(r => !warnings(j).includes(r)).map(r => ({
@@ -407,6 +429,7 @@ function openDetail(j){
         <span class="fact">${icon(j.remote ? "home" : "pin")}<span dir="auto">${esc(place(j))}</span></span>
         ${closes(j)}
       </div>
+      ${keyGrid(j)}
       <div class="p-h">Why it fits</div>
       <ul class="why">
         ${good.map(g => `<li>${icon("check", 17)}<span>${esc(g)}</span></li>`).join("")}
