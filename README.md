@@ -38,6 +38,15 @@ AI-training gigs are filtered out. Sites that block automated access, such as Wu
 
 Your saved jobs are stored on each device. To copy them, open **Settings and sources**, tap **Copy code**, send the code to the other phone, paste it there and tap **Import code**.
 
+### Apply kit
+Open **Apply kit** and fill in **My details** once. Then, in any job's details:
+
+- **Email your application:** appears when the posting gives an application email. It opens an email that's ready to review, with the CV still to attach.
+- **Write a cover letter:** creates an English or French letter to edit and copy.
+- **Copy a prompt for an AI assistant:** copies the job and your experience, without your email or phone, to paste into an assistant.
+
+**My answers** has starter answers for common questions. Everything in the Apply kit is saved only in that device's browser, not on GitHub. Clearing browser data deletes it, so use **Backup** and keep the code somewhere private.
+
 ### Add it to your phone
 - **iPhone (Safari):** Share → **Add to Home Screen**
 - **Android (Chrome):** ⋮ → **Add to Home screen**

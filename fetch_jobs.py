@@ -636,6 +636,21 @@ _MONEY = r"(?:US\$|\$|€|£|EGP\s?|USD\s?|EUR\s?|GBP\s?)\d[\d,.]*k?"
 PAY = re.compile(rf"{_MONEY}(?:\s*(?:-|–|to)\s*{_MONEY})?\s*(?:/|per\s+|an?\s+)\s*(?:hour|hr|month|year|annum|word|minute|min|day)\b", re.I)
 
 
+EMAIL = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
+NOT_APPLY_EMAIL = re.compile(r"^(no-?reply|do-?not-?reply|privacy|dpo|gdpr|data|support|help|abuse|press|media|legal|accessibility|ethics|fraud)\b|@example\.", re.I)
+APPLY_WORDS = re.compile(r"\bappl(y|ication|ications|icants?)\b|\bcv\b|\br[eé]sum[eé]\b|\bsubmit\b|\bsend\b|\bemail (us|your)\b|\bcandidat", re.I)
+
+
+def apply_email(text):
+    """An address the posting itself gives for applying, never one found anywhere else."""
+    for m in EMAIL.finditer(text):
+        address = m.group(0).rstrip(".")
+        nearby = text[max(0, m.start() - 120):m.end() + 40]
+        if not NOT_APPLY_EMAIL.search(address) and APPLY_WORDS.search(nearby):
+            return address
+    return ""
+
+
 def key_facts(j):
     title, text = j["title"], j["text"]
     facts = {}
@@ -860,7 +875,9 @@ def main():
             "score": s, "reasons": reasons, "langs": langs,
             "role": "Translation / language role" in reasons,
             "facts": key_facts(j),
+            "apply_email": apply_email(j["text"]),
             "snippet": j["text"][:420],
+            "details": j["text"][:1800],
             "first_seen": seen.get(k, iso(NOW)),
         }
 

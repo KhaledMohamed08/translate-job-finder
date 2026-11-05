@@ -60,7 +60,8 @@ main{padding:28px 0 64px;min-width:0}
 .brand b{font-size:17px;font-weight:700;letter-spacing:-.015em}
 .iconbtn{width:40px;height:40px;display:grid;place-items:center;border-radius:10px;color:var(--soft)}
 .iconbtn:hover{background:var(--sunken);color:var(--ink)}
-.brand .iconbtn{display:none;margin-left:auto}
+.brand .iconbtn{display:none}
+.brand .iconbtn:first-of-type{margin-left:auto}
 
 .label{font-size:12px;font-weight:600;color:var(--muted);margin:22px 0 6px 10px}
 .views{display:flex;flex-direction:column;gap:2px}
@@ -157,6 +158,21 @@ dialog[open].panel{display:flex;flex-direction:column;animation:slide .2s ease-o
 .seg button{min-height:38px;border-radius:8px;font-size:13.5px;font-weight:500;color:var(--soft)}
 .seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
 .note{color:var(--muted);font-size:13.5px;margin:6px 0 10px}
+.kit{display:grid;gap:8px}
+.kit .btn{width:100%;justify-content:flex-start;text-align:left}
+.kit .btn.main{background:var(--accent-soft);border-color:transparent;color:var(--accent)}
+.kit small{display:block;color:var(--muted);font-size:13px;margin-top:2px}
+.seg.two{grid-template-columns:repeat(2,1fr)}
+.field{display:block;margin-bottom:13px}
+.field span{display:block;font-size:13px;font-weight:600;color:var(--soft);margin-bottom:4px}
+.field input,.field textarea{width:100%;min-height:44px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:400 16px/1.45 inherit;font-family:inherit;outline:0}
+.field textarea{height:96px}
+.field input:focus,.field textarea:focus,.letter:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft);outline:0}
+.letter{width:100%;height:min(52dvh,430px);border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);padding:12px;font:400 15px/1.55 inherit;font-family:inherit;resize:vertical}
+.answer{margin-bottom:18px}
+.answer .row2{margin-top:6px}
+.tip{background:var(--warn-soft);color:var(--warn);border-radius:10px;padding:9px 12px;font-size:13.5px;margin:12px 0 0}
+.saved{color:var(--accent);font-size:13px;font-weight:600;min-height:20px}
 textarea{width:100%;height:84px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);padding:9px;font:12px/1.4 ui-monospace,monospace;resize:vertical}
 .row2{display:flex;gap:8px;margin-top:8px}
 .row2 .btn{flex:1;min-height:42px}
@@ -209,6 +225,10 @@ textarea{width:100%;height:84px;border:1px solid var(--line);border-radius:10px;
   <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="m6 6 12 12M18 6 6 18"/></symbol>
   <symbol id="i-out" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 16 18 6M10 6h8v8"/></symbol>
   <symbol id="i-share" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4M8 8l4-4 4 4"/><path d="M5 13v7h14v-7"/></symbol>
+  <symbol id="i-case" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="7.5" width="17" height="12" rx="2"/><path d="M9 7.5V6a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1.5M3.5 12.5h17"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
+  <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.5h8l4 4v13H6v-17Z"/><path d="M14 3.5v4h4M9 12.5h6M9 16h6"/></symbol>
+  <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4c.6 4.4 2.6 6.4 7 7-4.4.6-6.4 2.6-7 7-.6-4.4-2.6-6.4-7-7 4.4-.6 6.4-2.6 7-7Z"/></symbol>
   <symbol id="i-gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 7h9M18 7h2M4 17h2M11 17h9"/><circle cx="15.5" cy="7" r="2.5"/><circle cx="8.5" cy="17" r="2.5"/></symbol>
 </defs></svg>
 
@@ -217,12 +237,13 @@ textarea{width:100%;height:84px;border:1px solid var(--line);border-radius:10px;
     <div class="brand">
       <svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9" fill="var(--accent)"/><circle cx="16" cy="16" r="9" fill="none" stroke="var(--accent-ink)" stroke-opacity=".45" stroke-width="2"/><circle cx="16" cy="16" r="3.2" fill="var(--accent-ink)"/><path d="M16 16 23 9" stroke="var(--accent-ink)" stroke-width="2.2" stroke-linecap="round"/></svg>
       <b>Weam Job Radar</b>
+      <button class="iconbtn" data-kit aria-label="Apply kit"><svg width="20" height="20"><use href="#i-case"/></svg></button>
       <button class="iconbtn" data-settings aria-label="Settings and sources"><svg width="20" height="20"><use href="#i-gear"/></svg></button>
     </div>
     <nav class="views" id="views" aria-label="Job lists"></nav>
     <div class="label">Narrow down</div>
     <div class="refine" id="refine" role="group" aria-label="Narrow down"></div>
-    <div class="side-foot"><button data-settings><svg width="17" height="17"><use href="#i-gear"/></svg>Settings and sources</button></div>
+    <div class="side-foot"><button data-kit><svg width="17" height="17"><use href="#i-case"/></svg>Apply kit</button><button data-settings><svg width="17" height="17"><use href="#i-gear"/></svg>Settings and sources</button></div>
   </aside>
 
   <main>
@@ -250,6 +271,25 @@ textarea{width:100%;height:84px;border:1px solid var(--line);border-radius:10px;
 </div>
 
 <dialog class="panel" id="detail" aria-labelledby="dTitle"></dialog>
+
+<dialog class="panel" id="kit" aria-label="Apply kit">
+  <div class="p-top"><b>Apply kit</b><button class="iconbtn" data-close aria-label="Close"><svg width="20" height="20"><use href="#i-x"/></svg></button></div>
+  <div class="p-body">
+    <p class="note" style="margin-top:0">Saved only on this device, not on GitHub. Fill it in once and every letter and email uses it.</p>
+    <div class="seg" id="kitTabs"></div>
+    <div id="kitBody" style="margin-top:16px"></div>
+  </div>
+</dialog>
+
+<dialog class="panel" id="letter" aria-label="Cover letter">
+  <div class="p-top"><b>Cover letter</b><button class="iconbtn" data-close aria-label="Close"><svg width="20" height="20"><use href="#i-x"/></svg></button></div>
+  <div class="p-body">
+    <div class="seg two" id="letterLang" style="margin-bottom:12px"></div>
+    <textarea class="letter" id="letterText" spellcheck="true" aria-label="Cover letter text"></textarea>
+    <p class="note">Read it and edit it before sending. Replace anything in [brackets].</p>
+  </div>
+  <div class="p-foot"><button class="btn primary" id="letterCopy">Copy letter</button></div>
+</dialog>
 
 <dialog class="panel" id="settings" aria-label="Settings and sources">
   <div class="p-top"><b>Settings and sources</b><button class="iconbtn" data-close aria-label="Close"><svg width="20" height="20"><use href="#i-x"/></svg></button></div>
@@ -408,6 +448,131 @@ function keyGrid(j){
     `<div class="${items.length % 2 && i === items.length - 1 ? "wide" : ""}"><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join("")}</dl>`;
 }
 
+// Apply kit: everything here stays in this browser
+let kit = store.get("jr.kit", {profile: {}, answers: {}});
+const saveKit = () => store.set("jr.kit", kit);
+const P = (k, fallback) => (kit.profile[k] || "").trim() || `[${fallback}]`;
+const FIELDS = [
+  ["name", "Full name", "input", "As it appears on your CV"],
+  ["email", "Email", "input", "you@example.com"],
+  ["phone", "Phone", "input", "+20 ..."],
+  ["city", "City and country", "input", "Cairo, Egypt"],
+  ["pairs", "Language pairs", "input", "English to Arabic, French to Arabic, Korean to Arabic"],
+  ["years", "Years of experience", "input", "2 years"],
+  ["highlights", "Your best experience", "area", "Two or three sentences in your own words, for example your translation work on UN projects"],
+  ["specialties", "Subject areas", "input", "Legal, humanitarian, medical, marketing"],
+  ["education", "Education and certificates", "input", "Degree, university, language certificates"],
+  ["link", "LinkedIn or portfolio link", "input", "https://"],
+];
+const QUESTIONS = [
+  ["about", "Tell us about yourself", () => `I am a translator based in ${P("city", "your city")} with ${P("years", "your years of experience")} of professional experience. My language pairs are ${P("pairs", "your language pairs")}. ${P("highlights", "your best experience")} I am known for accuracy, reliability and meeting deadlines.`],
+  ["why", "Why do you want to work with us?", () => `I admire [organization] because [one specific thing you like about its work]. My language skills would help your team communicate clearly, and I would be proud to contribute to this work.`],
+  ["experience", "Describe your translation experience", () => `${P("highlights", "your best experience")} My main subject areas are ${P("specialties", "your subject areas")}. I always check terminology, keep a consistent style and review my work carefully before delivery.`],
+  ["strength", "What is your greatest strength?", () => `My greatest strength is accuracy with meaning, not just words. Working with ${P("pairs", "your language pairs")} has taught me to respect context, tone and culture, so readers understand the message clearly.`],
+  ["un", "Why do you want to work in an international organization?", () => `I believe clear communication helps people work together across cultures. Working in an international organization would let me use my languages for work that truly matters.`],
+  ["availability", "When can you start?", () => `I am available to start [date or "immediately"] and can work [full-time, part-time or freelance] remotely.`],
+  ["rate", "What is your expected rate or salary?", () => `My expected rate is [amount] per [word, hour or month], and I am open to discussing it based on the scope of the work.`],
+];
+let kitTab = "profile", letterJob = null, letterLang = "en";
+
+function jobPair(j){ return (j.facts || {}).pair || P("pairs", "your language pairs"); }
+function letterText(j, lang){
+  const free = /Freelance|Consultancy/.test((j.facts || {}).contract || "");
+  const sign = [P("name", "Your name"), [kit.profile.email, kit.profile.phone].filter(Boolean).join(" · "), kit.profile.link].filter(Boolean).join("\n");
+  if (lang === "fr") return `Madame, Monsieur,
+
+Je vous adresse ma candidature au poste de ${j.title} au sein de ${j.org}. Traductrice basée à ${P("city", "votre ville")}, je travaille avec les combinaisons suivantes : ${P("pairs", "vos combinaisons")}, et je compte ${P("years", "vos années")} d'expérience professionnelle.
+
+${P("highlights", "votre meilleure expérience")}
+
+Rigoureuse et fiable, je serais ravie de mettre ces qualités au service de votre équipe${free ? ", en mission indépendante et à distance" : ""}. Vous trouverez mon CV en pièce jointe, et je peux réaliser un test de traduction ou fournir des exemples de travaux.
+
+Je vous remercie de votre attention et vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
+
+${sign}`;
+  return `Dear Hiring Team,
+
+I am writing to apply for the ${j.title} position at ${j.org}. I am a translator based in ${P("city", "your city")} with ${P("years", "your years of experience")} of professional experience. My language pairs are ${P("pairs", "your language pairs")}.
+
+${P("highlights", "your best experience")}
+
+${j.intl ? `Supporting the work of ${j.org} would be very meaningful to me, because clear communication helps people work together across languages and cultures.` : `I would be glad to bring accuracy, reliability and care to your team.`}${free ? " I am available for remote freelance work." : ""} My main subject areas are ${P("specialties", "your subject areas")}.
+
+My CV is attached, and I would be happy to complete a translation test or share samples of my work.
+
+Thank you for your time and consideration.
+
+Kind regards,
+${sign}`;
+}
+function emailParts(j){
+  const subject = `Application: ${j.title} - ${P("name", "Your name")}`;
+  const body = `Dear Hiring Team,
+
+I would like to apply for the ${j.title} position. I am a translator with ${P("years", "your years of experience")} of professional experience, working in ${jobPair(j)}.
+
+Please find my CV attached. I would be happy to complete a translation test or share samples of my work.
+
+Thank you for your time.
+
+Kind regards,
+${P("name", "Your name")}${kit.profile.phone ? "\n" + kit.profile.phone : ""}`;
+  return {subject, body};
+}
+function aiPrompt(j){
+  return `Please write a short, warm and professional cover letter for the job below. Use only the facts I give you and don't invent any experience. Keep it under 200 words.
+
+Job title: ${j.title}
+Organization: ${j.org}
+Job description: ${j.details || j.snippet}
+
+About me:
+Language pairs: ${P("pairs", "your language pairs")}
+Experience: ${P("years", "your years of experience")}
+Best experience: ${P("highlights", "your best experience")}
+Subject areas: ${P("specialties", "your subject areas")}
+Education: ${P("education", "your education")}`;
+}
+async function copy(text, btn, done = "Copied"){
+  try { await navigator.clipboard.writeText(text); } catch {
+    const t = document.createElement("textarea"); t.value = text; btn.closest("dialog").append(t); t.select(); document.execCommand("copy"); t.remove();
+  }
+  const old = btn.innerHTML; btn.textContent = done; setTimeout(() => { btn.innerHTML = old; }, 1600);
+}
+function applyKit(j){
+  const empty = !kit.profile.name;
+  const m = j.apply_email ? emailParts(j) : null;
+  const mail = m ? `mailto:${encodeURIComponent(j.apply_email).replace("%40", "@")}?subject=${encodeURIComponent(m.subject)}&body=${encodeURIComponent(m.body)}` : "";
+  const gmail = m ? `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(j.apply_email)}&su=${encodeURIComponent(m.subject)}&body=${encodeURIComponent(m.body)}` : "";
+  return `<div class="p-h">Apply kit</div><div class="kit">
+    ${empty ? `<button class="btn main" data-kit>${icon("case", 17)}<span>Add your details first<small>Takes 2 minutes, and fills in everything below</small></span></button>` : ""}
+    ${m ? `<a class="btn main" href="${esc(mail)}">${icon("mail", 17)}<span>Email your application<small dir="auto">To ${esc(j.apply_email)}, from the posting</small></span></a>
+    <a class="btn" href="${esc(gmail)}" target="_blank" rel="noopener">${icon("mail", 17)}Open the email in Gmail</a>` : ""}
+    <button class="btn" data-letter>${icon("doc", 17)}Write a cover letter</button>
+    <button class="btn" data-prompt>${icon("spark", 17)}Copy a prompt for an AI assistant</button>
+  </div>
+  ${m ? `<p class="tip">Attach your CV before sending. Be careful with any employer that asks you to pay a fee.</p>` : ""}`;
+}
+function openLetter(j){
+  letterJob = j; renderLetter(); $("letter").showModal();
+}
+function renderLetter(){
+  $("letterLang").innerHTML = [["en", "English"], ["fr", "Français"]].map(([k, l]) => `<button data-l="${k}" aria-pressed="${k === letterLang}">${l}</button>`).join("");
+  $("letterText").value = letterText(letterJob, letterLang);
+}
+function renderKit(){
+  $("kitTabs").innerHTML = [["profile", "My details"], ["answers", "My answers"], ["backup", "Backup"]].map(([k, l]) => `<button data-k="${k}" aria-pressed="${k === kitTab}">${l}</button>`).join("");
+  if (kitTab === "profile") $("kitBody").innerHTML = FIELDS.map(([k, label, type, hint]) => `<label class="field"><span>${label}</span>${type === "area"
+    ? `<textarea data-p="${k}" placeholder="${esc(hint)}">${esc(kit.profile[k])}</textarea>`
+    : `<input data-p="${k}" value="${esc(kit.profile[k])}" placeholder="${esc(hint)}" ${k === "email" ? 'type="email" autocomplete="email"' : ""}>`}</label>`).join("") + `<div class="saved" id="savedNote"></div>`;
+  if (kitTab === "answers") $("kitBody").innerHTML = `<p class="note" style="margin-top:0">Starter answers for common application questions. Edit them in your own words, then copy them into any form.</p>` +
+    QUESTIONS.map(([k, q, fn]) => `<div class="answer"><label class="field" style="margin:0"><span>${q}</span><textarea data-a="${k}">${esc(kit.answers[k] ?? fn())}</textarea></label><div class="row2"><button class="btn" data-copy="${k}">Copy</button></div></div>`).join("");
+  if (kitTab === "backup") $("kitBody").innerHTML = `<p class="note" style="margin-top:0">Clearing your browser data deletes your details. Keep this code somewhere private, such as your own notes. It contains your personal details, so don't share it.</p>
+    <textarea id="backupText" spellcheck="false" aria-label="Backup code"></textarea>
+    <div class="row2"><button class="btn" id="backupCopy">Copy backup</button><button class="btn" id="backupRestore">Restore backup</button></div>`;
+  if (kitTab === "backup") $("backupText").value = btoa(unescape(encodeURIComponent(JSON.stringify({kit, track}))));
+}
+
 function openDetail(j){
   const [label, color] = fit(j.score), s = status(j);
   const good = j.reasons.filter(r => !warnings(j).includes(r)).map(r => ({
@@ -435,6 +600,7 @@ function openDetail(j){
         ${good.map(g => `<li>${icon("check", 17)}<span>${esc(g)}</span></li>`).join("")}
         ${warnings(j).map(w => `<li class="w">${icon("alert", 17)}<span>${esc(WARN_TEXT(w))}</span></li>`).join("")}
       </ul>
+      ${applyKit(j)}
       <div class="p-h">Track this job</div>
       <div class="steps" role="group" aria-label="Application stage">
         ${STAGES.map(x => `<button data-stage="${x}" aria-pressed="${x === s}">${x}</button>`).join("")}
@@ -484,6 +650,9 @@ $("detail").addEventListener("click", async e => {
     setStatus(j.id, status(j) === s ? "" : s);
     if (s === HIDDEN && status(j) === HIDDEN) d.close(); else openDetail(j);
   }
+  if (e.target.closest("[data-letter]")) openLetter(j);
+  const pr = e.target.closest("[data-prompt]");
+  if (pr) copy(aiPrompt(j), pr, "Copied. Paste it into your AI assistant");
   const sh = e.target.closest("[data-share]");
   if (sh) {
     const text = `${j.title} at ${j.org}`;
@@ -497,6 +666,33 @@ document.addEventListener("click", e => {
   if (e.target.closest("[data-close]")) e.target.closest("dialog").close();
   if (e.target.matches("dialog")) e.target.close();  // tap outside the panel
   if (e.target.closest("[data-settings]")) openSettings();
+  if (e.target.closest("[data-kit]")) { renderKit(); $("kit").showModal(); }
+});
+$("kit").addEventListener("input", e => {
+  const p = e.target.dataset.p, a = e.target.dataset.a;
+  if (p) { kit.profile[p] = e.target.value; $("savedNote").textContent = "Saved on this device"; }
+  if (a) kit.answers[a] = e.target.value;
+  if (p || a) saveKit();
+});
+$("kit").addEventListener("click", e => {
+  const t = e.target.closest("[data-k]");
+  if (t) { kitTab = t.dataset.k; renderKit(); $("kit").querySelector(".p-body").scrollTop = 0; }
+  const c = e.target.closest("[data-copy]");
+  if (c) copy(document.querySelector(`[data-a="${c.dataset.copy}"]`).value, c);
+  if (e.target.id === "backupCopy") copy($("backupText").value, e.target);
+  if (e.target.id === "backupRestore") {
+    try {
+      const b = JSON.parse(decodeURIComponent(escape(atob($("backupText").value.trim()))));
+      if (!b.kit) throw 0;
+      kit = b.kit; track = {...track, ...b.track}; saveKit(); store.set("jr.track", track); render();
+      e.target.textContent = "Restored";
+    } catch { e.target.textContent = "Code not valid"; }
+  }
+});
+$("letter").addEventListener("click", e => {
+  const b = e.target.closest("[data-l]");
+  if (b) { letterLang = b.dataset.l; renderLetter(); }
+  if (e.target.id === "letterCopy") copy($("letterText").value, e.target);
 });
 
 // Theme
