@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T06:02:11Z",
+ "updated": "2026-11-05T13:01:53Z",
  "sources": {
   "Google Jobs": {
    "ok": true,
@@ -9,48 +9,48 @@
   },
   "Remotive": {
    "ok": true,
-   "count": 11
+   "count": 10
   },
   "Working Nomads": {
    "ok": true,
-   "count": 34
+   "count": 35
   },
   "RemoteOK": {
    "ok": true,
    "count": 99
   },
+  "Company boards": {
+   "ok": true,
+   "count": 231
+  },
   "Jobicy": {
    "ok": true,
    "count": 100
   },
-  "Company boards": {
+  "UNICEF": {
    "ok": true,
-   "count": 231
+   "count": 552
   },
   "Translation agencies": {
    "ok": true,
    "count": 202
   },
-  "UNICEF": {
-   "ok": true,
-   "count": 532
-  },
   "Green Climate Fund": {
    "ok": true,
    "count": 2
   },
-  "CLEAR Global": {
-   "ok": true,
-   "count": 16
-  },
   "UN Careers": {
    "ok": true,
-   "count": 429
+   "count": 440
   },
   "ReliefWeb": {
    "ok": false,
    "count": 0,
    "error": "returned no jobs (site may have changed)"
+  },
+  "CLEAR Global": {
+   "ok": true,
+   "count": 16
   },
   "UNESCO": {
    "ok": true,
@@ -66,7 +66,7 @@
   },
   "UNDP": {
    "ok": true,
-   "count": 11
+   "count": 12
   },
   "Himalayas": {
    "ok": true,
@@ -74,7 +74,7 @@
   },
   "Impactpool": {
    "ok": true,
-   "count": 120
+   "count": 122
   }
  },
  "jobs": [
@@ -484,37 +484,6 @@
    "first_seen": "2026-11-04T12:53:22Z"
   },
   {
-   "id": "unwomenprogrammecoordinationanalystcareeconomycairoegyptnpsa9localpostfornationa",
-   "title": "UN Women: Programme Coordination Analyst (Care Economy)- Cairo, Egypt, NPSA9, Local Post for Nationals of Egypt",
-   "org": "UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1244749",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-11-05T00:00:00Z",
-   "posted": null,
-   "score": 77,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic",
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "years": 2
-   },
-   "apply_email": "",
-   "snippet": "UN Women: Programme Coordination Analyst (Care Economy)- Cairo, Egypt, NPSA9, Local Post for Nationals of Egypt UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Cairo National NPSA-9, National Personnel Services Agreement level Speaks Arabic, English, French Application deadline: November 05, 2026 Closing today Apply Summary by Impactpool UN Women is seeking a Programme Coordination A",
-   "details": "UN Women: Programme Coordination Analyst (Care Economy)- Cairo, Egypt, NPSA9, Local Post for Nationals of Egypt UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Cairo National NPSA-9, National Personnel Services Agreement level Speaks Arabic, English, French Application deadline: November 05, 2026 Closing today Apply Summary by Impactpool UN Women is seeking a Programme Coordination Analyst for the Care Economy in Cairo, Egypt. This role involves coordinating the implementation of Egypt's National Country Chapter under the Surging Women’s Employment Initiative (SWEI). The analyst will work closely with national partners to support employment generation in the care economy, monitor program activities, and manage financial resources. The position requires strong program management skills and a commitment to gender equality and women's empowerment. Candidate Requirements: Master’s degree in social sciences, human rights, gender studies, or related field At least 2 years of experience in program development and implementation Experience in the Care Economy in the Arab States Fluency in English and Arabic Good knowledge of Results Based Management Ability to gather and interpret data Experience in coordinating with government agencies or donors Background: UN Women, grounded in the vision of equality enshrined in the Charter of the United Nations, works for the elimination of discrimination against women and girls; the empowerment of women; and the achievement of equality between women and men as partners and beneficiaries of development, human rights, humanitarian action and peace and security. In support of the Arab Republic of Egypt’s Vision 2030 and the National Strategy for the Empowerment of Egyptian Women (NSEEW), the work of the UN Wo",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
    "id": "editorforpapersoninvestinginchildrenconsultantnationalandinternational115monthsh",
    "title": "Editor for Papers on Investing in Children Consultant (National and International)11.5 months, Home based, UNICEF-Lesotho Social Policy section -Maseru",
    "org": "UNICEF",
@@ -695,69 +664,6 @@
    "apply_email": "",
    "snippet": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Cour",
    "details": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Court's judgments, Opinions of the Advocates General, and other legal documents into English. Candidates must meet specific legal education requirements and possess strong language skills. The position offers a multicultural environment, flexible working hours, and opportunities for professional development. Candidate Requirements: Degree in law or equivalent Perfect command of English Thorough knowledge of French Satisfactory knowledge of a third EU language Interest in legal translation The essentials Location : Luxembourg Grade : AD 7 Contract type : Temporary Agent The Court of Justice of the European Union regularly seeks to recruit English-language legal translators to assist with the increasing workload of its English-language Translation Unit in Luxembourg. The work of the unit consists in the translation into English of the Court's judgments and the Opinions of the Advocates General for publication in the European Court Reports, and of requests from national courts for preliminary rulings and other documents required for procedural purposes. To be eligible to perform these demanding duties, applicants must satisfy, in addition to the general conditions common to all the institutions, the following minimum requirements : Have successfully completed a suitable course in law (i.e. hold a degree in law or its equivalent awarded in Ireland or have qualified ",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
-   "id": "procurementofficerp3unitednationsofficeo",
-   "title": "Procurement Officer, P3",
-   "org": "United Nations Office On Drugs And Crime",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287410?language=en",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-12-02T04:59:59Z",
-   "posted": "2026-11-02T05:00:00Z",
-   "score": 64,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt",
-    "Asks 5+ years"
-   ],
-   "langs": [
-    "Arabic",
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "years": 5
-   },
-   "apply_email": "",
-   "snippet": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Region",
-   "details": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Northern Arica. The incumbent will execute his/her functions as part of the ROMENA Operations Team and work in close coordination with the Administrative and Finance Officer. For more information on UNODC, please visit the following website: www.unodc.org Responsibilities The incumbent coordinates, supports and provides supervisory oversight of the procurement function at UNODC ROMENA and the UNODC Office for the Gulf Cooperation Council Region (OGCCR). The incumbent is expected, upon request, to support other UNODC offices and Global Programmes in the procurement hub where UNODC operates. Within assigned authority the Procurement Officer will provide the following specific duties: • Serve as the procurement and contracting expert for technically and legally complex procurement processes across a wide range of goods and services (e.g. information technology, specialized electronic equipment and instruments, medicines, safety and security equipment, including personal protective equipment, food goods, building maintenance materials, office supplies, furniture, construction, refurbishment work, fuel, office lease etc.), while considering local market conditions. • Plan, develop and manage procurement activities related to infrastructure and major construction projects, including those of significant value, in consultat",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
-   "id": "budgetassistantfaofoodandagricultur",
-   "title": "Budget Assistant",
-   "org": "FAO - Food and Agriculture Organization of the United Nations",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1243500",
-   "location": "Egypt",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-11-05T00:00:00Z",
-   "posted": null,
-   "score": 62,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 1,
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "Budget Assistant FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 05, 2026 Closing today Apply Summary by Impactpool FAO Egypt is seeking a Budget Assistant to support the monitoring and reporting of budgetary resources. The role involves collecting and organizing budget data, performing qua",
-   "details": "Budget Assistant FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 05, 2026 Closing today Apply Summary by Impactpool FAO Egypt is seeking a Budget Assistant to support the monitoring and reporting of budgetary resources. The role involves collecting and organizing budget data, performing quality checks, and assisting in financial reporting. The Budget Assistant will collaborate with various teams to ensure accurate budget data availability and contribute to the development of monitoring tools. This position requires strong analytical skills and proficiency in data analysis and visualization. Candidate Requirements: University degree in business administration, finance, economics, statistics, or related fields At least one year of relevant experience in data analysis and budget support Working knowledge of English and Arabic National of Egypt or resident with valid work permit Proficiency in data analysis, data visualization, and Microsoft Excel IMPORTANT NOTICE: Please note that Closure Date and Time displayed above are based on date and time settings of your personal device FAO is committed to achieving workforce diversity in terms of gender, nationality, background and culture Qualified female applicants, qualified nationals of non-and under-represented Members and person with disabilities are encouraged to apply Everyone who works for FAO is required to adhere to the highest standards of integrity and professional conduct, and to uphold FAO's values FAO, as a Specialized Agency of the United Nations, has a zero-tolerance policy for conduct that is incompatible with its status, objectives and mandate, including sexual exploitation and abuse, ",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
