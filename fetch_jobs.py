@@ -439,8 +439,8 @@ JSEARCH = {"month": "", "used": 0, "last_day": ""}  # loaded from / saved to job
 def jsearch_queries():
     day = NOW.timetuple().tm_yday
     remote = ["Arabic", "French", "Korean"][day % 3]
-    local = [{"query": "English Arabic translator Cairo"}, {"query": "مترجم", "language": "ar"},
-             {"query": "interpreter Egypt"}, {"query": "localization Egypt"}][day % 4]
+    local = [{"query": "English Arabic translator Cairo"}, {"query": "interpreter Egypt"},
+             {"query": "localization Egypt"}][day % 3]
     return [
         {"query": "translator in Egypt", "country": "eg"},
         {**local, "country": "eg"},
@@ -909,9 +909,9 @@ def notify(new, total):
                                                  "parse_mode": "HTML",
                                                  "disable_web_page_preview": "true"}).encode())
                 urllib.request.urlopen(req, timeout=20).read()
-                print(f"Telegram sent to {chat}", file=sys.stderr)
+                print("Telegram message sent", file=sys.stderr)
             except Exception as ex:
-                print(f"Telegram failed for {chat}: {ex}", file=sys.stderr)
+                print(f"Telegram failed: {type(ex).__name__}", file=sys.stderr)
 
     user, pw, to = os.environ.get("SMTP_USER"), os.environ.get("SMTP_PASSWORD"), os.environ.get("EMAIL_TO")
     if user and pw and to:
