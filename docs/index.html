@@ -84,6 +84,7 @@ main{padding:28px 0 64px;min-width:0}
 .head h1{font-size:26px;line-height:1.2;font-weight:700;letter-spacing:-.022em;margin:0}
 .head p{margin:4px 0 0;color:var(--muted);font-size:14px}
 .tools{display:flex;gap:10px;margin:20px 0 14px}
+.gone{background:var(--warn-soft);color:var(--warn);border-radius:12px;padding:11px 14px;font-size:14px;margin:14px 0 0}
 .search{position:relative;flex:1;min-width:0}
 .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:var(--muted);width:18px;height:18px;pointer-events:none}
 .search input{width:100%;height:44px;padding:0 14px 0 40px;border:1px solid var(--line);border-radius:12px;background:var(--surface);font-size:16px;outline:0}
@@ -251,6 +252,7 @@ textarea{width:100%;height:84px;border:1px solid var(--line);border-radius:10px;
       <h1 id="heading">Jobs</h1>
       <p id="sub">Loading the latest jobs…</p>
     </div>
+    <div class="gone" id="gone" hidden>That job is no longer on the list. It may have closed or been removed.</div>
     <div class="tools">
       <label class="search"><span class="sr">Search jobs</span>
         <svg><use href="#i-search"/></svg>
@@ -324,7 +326,7 @@ const icon = (n, s = 15) => `<svg width="${s}" height="${s}" aria-hidden="true">
 let track = store.get("jr.track", {});   // id -> {s: status, t: time}
 let data = {jobs: [], sources: {}};
 let lastUpdate = null;                   // "New" = first seen after the update this device saw before
-let view = store.get("jr.view", "role");
+let view = store.get("jr.view", "all");
 let refine = new Set(store.get("jr.refine", []));
 const sortSel = $("sort");
 sortSel.value = store.get("jr.sort", "score");
@@ -335,10 +337,10 @@ const daysLeft = d => d ? Math.ceil((new Date(d) - Date.now()) / 864e5) : null;
 const visible = j => status(j) !== HIDDEN;
 
 const VIEWS = [
+  ["all", "All jobs", "list", "All jobs", visible],
   ["role", "Translation", "pen", "Translation jobs", j => j.role && visible(j)],
   ["egypt", "In Egypt", "pin", "Jobs in Egypt", j => j.egypt && visible(j)],
   ["remote", "Remote", "home", "Remote jobs", j => j.remote && visible(j)],
-  ["all", "All jobs", "list", "All jobs", visible],
   ["mine", "My list", "mark", "My list", j => status(j) && visible(j)],
 ];
 const REFINE = [
@@ -350,7 +352,7 @@ const REFINE = [
   ["exp", "Up to 3 years", j => (j.facts || {}).years <= 3],
   ["new", "New", isNew],
 ];
-if (!VIEWS.some(v => v[0] === view)) view = "role";
+if (!VIEWS.some(v => v[0] === view)) view = "all";
 
 function fit(score){
   if (score >= 80) return ["Strong match", "var(--strong)"];
@@ -620,6 +622,17 @@ function openDetail(j){
   d.querySelector(".p-body").scrollTop = 0;
 }
 
+// Links from Telegram and email look like ...#job=<id>
+function openLinkedJob(){
+  const id = decodeURIComponent((location.hash.match(/^#job=(.+)$/) || [])[1] || "");
+  $("gone").hidden = true;
+  if (!id) return;
+  const j = data.jobs.find(x => x.id === id);
+  if (j) openDetail(j); else $("gone").hidden = false;
+  history.replaceState(null, "", location.pathname + location.search);  // a refresh shouldn't reopen it
+}
+addEventListener("hashchange", openLinkedJob);
+
 // Events
 $("views").addEventListener("click", e => {
   const b = e.target.closest("[data-v]"); if (!b) return;
@@ -733,6 +746,7 @@ fetch("jobs.json?t=" + Date.now()).then(r => r.json()).then(d => {
   if (seen !== d.updated) { store.set("jr.prevUpdate", seen); store.set("jr.seenUpdate", d.updated); }
   lastUpdate = store.get("jr.prevUpdate", null);
   render();
+  openLinkedJob();
 }).catch(() => {
   $("sub").textContent = "Couldn't load jobs";
   $("list").innerHTML = `<div class="empty"><b>Couldn't load the job list</b>Check your connection and refresh the page.</div>`;

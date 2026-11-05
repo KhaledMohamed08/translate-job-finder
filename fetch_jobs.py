@@ -917,6 +917,10 @@ def notify(new, total, quote=""):
     dash = os.environ.get("DASHBOARD_URL", "")
     top = new[:12]
 
+    def link(j):
+        """Open the job's details in the dashboard, or the posting if there is no dashboard."""
+        return f"{dash}#job={urllib.parse.quote(j['id'])}" if dash else j["url"]
+
     token, chats = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID", "")
     if token and chats:
         e = html.escape
@@ -925,7 +929,7 @@ def notify(new, total, quote=""):
         for j in top:
             dl = f" · ⏳ {j['deadline'][:10]}" if j["deadline"] else ""
             where = "🏠 Remote" if j["remote"] else "📍 " + e(j["location"][:40])
-            lines.append(f"<b>{j['score']}</b> · <a href=\"{e(j['url'])}\">{e(j['title'][:110])}</a>\n"
+            lines.append(f"<b>{j['score']}</b> · <a href=\"{e(link(j))}\">{e(j['title'][:110])}</a>\n"
                          f"   {e(j['org'][:60])} · {where}{dl}")
         if dash:
             lines.append(f"\n📱 <a href=\"{e(dash)}\">Open dashboard</a> ({total} open matches)")
@@ -944,7 +948,7 @@ def notify(new, total, quote=""):
     user, pw, to = os.environ.get("SMTP_USER"), os.environ.get("SMTP_PASSWORD"), os.environ.get("EMAIL_TO")
     if user and pw and to:
         rows = "".join(
-            f"<p><b>{j['score']}</b> &middot; <a href=\"{html.escape(j['url'])}\">{html.escape(j['title'])}</a><br>"
+            f"<p><b>{j['score']}</b> &middot; <a href=\"{html.escape(link(j))}\">{html.escape(j['title'])}</a><br>"
             f"<small>{html.escape(j['org'])} &middot; {'Remote' if j['remote'] else html.escape(j['location'])}"
             f"{' &middot; closes ' + j['deadline'][:10] if j['deadline'] else ''}</small></p>" for j in top)
         if quote:

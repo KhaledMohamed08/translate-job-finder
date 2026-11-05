@@ -28,7 +28,7 @@ AI-training gigs are filtered out. Sites that block automated access, such as Wu
 
 ## Using the dashboard
 
-- **Lists:** Translation, In Egypt, Remote, All jobs and My list.
+- **Lists:** All jobs, Translation, In Egypt, Remote and My list.
 - **Narrow down:** combine Arabic, French, Korean, UN & international, Closing this week, Up to 3 years and New.
 - **Match label:** every job shows Strong, Good or Possible match, based on a score out of 100. Tap a job to see why it fits and any warnings.
 - **Key facts:** the language pair, experience, contract type and pay appear when the posting states them.
@@ -55,7 +55,7 @@ Open **Apply kit** and fill in **My details** once. Then, in any job's details:
 
 The search is scheduled for 05:00 UTC, which is about 7–8 am in Cairo. GitHub can start scheduled runs hours late when it's busy.
 
-- **New jobs:** Telegram messages you only when there are new jobs scoring 55 or higher, so some days will be quiet.
+- **New jobs:** Telegram messages you only when there are new jobs scoring 55 or higher, so some days will be quiet. Tapping a job in the message opens its details in the dashboard.
 - **No repeats:** each job is remembered for 180 days, so it isn't announced twice if it disappears and comes back.
 - **Source problems:** if a source fails, its previous jobs stay on the list until it recovers.
 - **JSearch limit:** the free plan allows 100 requests a month. The tool uses 3 a day, once a day, and stops at 90 a month.
