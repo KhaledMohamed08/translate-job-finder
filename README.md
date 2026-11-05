@@ -88,6 +88,9 @@ Edit `profile.json`:
 - `exclude_title_or_company`, `exclude_description`: what gets filtered out
 - `adjacent_roles`, `not_suitable_titles`: which general jobs are kept or hidden
 
+### Change the message intros
+Each alert starts with a different funny or motivating line from `quotes.txt`, one per line. They rotate in order, and none repeats until all have been used. Add, edit or remove lines at any time.
+
 ### Run it on your computer (optional)
 It needs Python 3.9 or newer and nothing else:
 

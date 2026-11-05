@@ -807,13 +807,14 @@ def key(j):
 
 
 def main():
-    previous, seen = {}, {}
+    previous, seen, quote_index = {}, {}, 0
     if OUT.exists():
         try:
             old_data = json.loads(OUT.read_text(encoding="utf-8"))
             previous = {p["id"]: p for p in old_data["jobs"]}
             seen = old_data.get("seen", {})
             JSEARCH.update(old_data.get("jsearch", {}))
+            quote_index = old_data.get("quote_index", 0)
         except Exception:
             pass
     # Every job ever listed -> when it was first seen, so a job that vanishes for a
@@ -875,16 +876,25 @@ def main():
     seen.update({j["id"]: j["first_seen"] for j in ordered})
     cutoff = iso(NOW - timedelta(days=SEEN_DAYS))
     seen = {i: t for i, t in seen.items() if t >= cutoff or i in jobs}
+    alerts = [j for j in new if j["score"] >= PROFILE["notify_min_score"]]
+    quote = next_quote(quote_index) if alerts else ""
     OUT.write_text(json.dumps({"updated": iso(NOW), "sources": status, "jobs": ordered, "seen": seen,
-                               "jsearch": JSEARCH},
+                               "jsearch": JSEARCH, "quote_index": quote_index + bool(alerts)},
                               ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(raw)} fetched -> {len(ordered)} matches ({len(new)} new) -> {OUT}", file=sys.stderr)
-    notify([j for j in new if j["score"] >= PROFILE["notify_min_score"]], len(ordered))
+    notify(alerts, len(ordered), quote)
 
 
 # ---------------------------------------------------------------- notifications (free)
 
-def notify(new, total):
+def next_quote(index):
+    """The next intro from quotes.txt. The position is saved, so none repeats until all have been used."""
+    path = ROOT / "quotes.txt"
+    quotes = [q.strip() for q in path.read_text(encoding="utf-8").splitlines() if q.strip()] if path.exists() else []
+    return quotes[index % len(quotes)] if quotes else ""
+
+
+def notify(new, total, quote=""):
     if not new:
         return
     dash = os.environ.get("DASHBOARD_URL", "")
@@ -893,7 +903,8 @@ def notify(new, total):
     token, chats = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID", "")
     if token and chats:
         e = html.escape
-        lines = [f"<b>🌍 {len(new)} new job match{'es' if len(new) > 1 else ''}</b>\n"]
+        lines = [f"<i>{e(quote)}</i>\n"] if quote else []
+        lines.append(f"<b>🌍 {len(new)} new job match{'es' if len(new) > 1 else ''}</b>\n")
         for j in top:
             dl = f" · ⏳ {j['deadline'][:10]}" if j["deadline"] else ""
             where = "🏠 Remote" if j["remote"] else "📍 " + e(j["location"][:40])
@@ -919,6 +930,8 @@ def notify(new, total):
             f"<p><b>{j['score']}</b> &middot; <a href=\"{html.escape(j['url'])}\">{html.escape(j['title'])}</a><br>"
             f"<small>{html.escape(j['org'])} &middot; {'Remote' if j['remote'] else html.escape(j['location'])}"
             f"{' &middot; closes ' + j['deadline'][:10] if j['deadline'] else ''}</small></p>" for j in top)
+        if quote:
+            rows = f"<p><i>{html.escape(quote)}</i></p>" + rows
         if dash:
             rows += f'<p><a href="{html.escape(dash)}">Open the dashboard</a></p>'
         msg = MIMEText(rows, "html", "utf-8")
