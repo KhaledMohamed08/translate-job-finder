@@ -1,6 +1,12 @@
 {
- "updated": "2026-11-07T11:37:44Z",
+ "updated": "2026-11-07T12:43:29Z",
  "sources": {
+  "Google Jobs": {
+   "ok": true,
+   "count": 0,
+   "kept": true,
+   "error": "already searched today"
+  },
   "Remotive": {
    "ok": true,
    "count": 12
@@ -21,9 +27,17 @@
    "ok": true,
    "count": 227
   },
+  "Himalayas": {
+   "ok": true,
+   "count": 126
+  },
   "UNICEF": {
    "ok": true,
    "count": 548
+  },
+  "ReliefWeb": {
+   "ok": true,
+   "count": 1093
   },
   "Translation agencies": {
    "ok": true,
@@ -41,15 +55,6 @@
    "ok": true,
    "count": 450
   },
-  "ReliefWeb": {
-   "ok": false,
-   "count": 0,
-   "error": "returned no jobs (site may have changed)"
-  },
-  "Himalayas": {
-   "ok": true,
-   "count": 126
-  },
   "UNESCO": {
    "ok": true,
    "count": 0
@@ -65,10 +70,6 @@
   "UNDP": {
    "ok": true,
    "count": 12
-  },
-  "Google Jobs": {
-   "ok": true,
-   "count": 20
   },
   "Impactpool": {
    "ok": true,
@@ -801,33 +802,6 @@
    "first_seen": "2026-11-04T12:53:22Z"
   },
   {
-   "id": "translatorhybridbayantech",
-   "title": "Translator Hybrid",
-   "org": "BayanTech",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://jobs.injob.ai/jobs/6680387b3c1daa35099e1cb7",
-   "location": "Egypt",
-   "remote": true,
-   "egypt": true,
-   "intl": false,
-   "deadline": null,
-   "posted": null,
-   "score": 65,
-   "reasons": [
-    "Translation / language role",
-    "Open to Egypt",
-    "Remote / home-based"
-   ],
-   "langs": [],
-   "role": true,
-   "facts": {},
-   "apply_email": "",
-   "snippet": "Translator BayanTech Egypt is looking for a skilled Translator to join our dynamic team. This position offers a hybrid work model that combines remote work flexibility with office collaboration. The Translator plays a pivotal role in ensuring accurate and culturally appropriate translations across a range of projects. Responsibilities include: • Translation • Language Proficiency • Proofreading & Editing • Research &",
-   "details": "Translator BayanTech Egypt is looking for a skilled Translator to join our dynamic team. This position offers a hybrid work model that combines remote work flexibility with office collaboration. The Translator plays a pivotal role in ensuring accurate and culturally appropriate translations across a range of projects. Responsibilities include: • Translation • Language Proficiency • Proofreading & Editing • Research & Terminology Management • Cultural Understanding • Collaboration • Time Management • Continuous Learning Qualifications: • Bachelor's degree in Linguistics, Translation, or a related field • Relevant certification • Proven experience as a Translator with a portfolio of successful translations • Exceptional proficiency in languages • Cultural sensitivity and awareness • Excellent attention to detail • Proficiency in using translation tools and software • Strong research and problem-solving skills • Excellent communication and time management skills",
-   "first_seen": "2026-11-04T12:53:22Z"
-  },
-  {
    "id": "englishlanguagelegaltranslators",
    "title": "English-language legal translators",
    "org": "CJEU - Court of Justice of the European Union",
@@ -857,6 +831,33 @@
    "snippet": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Cour",
    "details": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Court's judgments, Opinions of the Advocates General, and other legal documents into English. Candidates must meet specific legal education requirements and possess strong language skills. The position offers a multicultural environment, flexible working hours, and opportunities for professional development. Candidate Requirements: Degree in law or equivalent Perfect command of English Thorough knowledge of French Satisfactory knowledge of a third EU language Interest in legal translation The essentials Location : Luxembourg Grade : AD 7 Contract type : Temporary Agent The Court of Justice of the European Union regularly seeks to recruit English-language legal translators to assist with the increasing workload of its English-language Translation Unit in Luxembourg. The work of the unit consists in the translation into English of the Court's judgments and the Opinions of the Advocates General for publication in the European Court Reports, and of requests from national courts for preliminary rulings and other documents required for procedural purposes. To be eligible to perform these demanding duties, applicants must satisfy, in addition to the general conditions common to all the institutions, the following minimum requirements : Have successfully completed a suitable course in law (i.e. hold a degree in law or its equivalent awarded in Ireland or have qualified ",
    "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "translatorhybridbayantech",
+   "title": "Translator Hybrid",
+   "org": "BayanTech",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://jobs.injob.ai/jobs/6680387b3c1daa35099e1cb7",
+   "location": "Egypt",
+   "remote": true,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Open to Egypt",
+    "Remote / home-based"
+   ],
+   "langs": [],
+   "role": true,
+   "facts": {},
+   "apply_email": "",
+   "snippet": "Translator BayanTech Egypt is looking for a skilled Translator to join our dynamic team. This position offers a hybrid work model that combines remote work flexibility with office collaboration. The Translator plays a pivotal role in ensuring accurate and culturally appropriate translations across a range of projects. Responsibilities include: • Translation • Language Proficiency • Proofreading & Editing • Research &",
+   "details": "Translator BayanTech Egypt is looking for a skilled Translator to join our dynamic team. This position offers a hybrid work model that combines remote work flexibility with office collaboration. The Translator plays a pivotal role in ensuring accurate and culturally appropriate translations across a range of projects. Responsibilities include: • Translation • Language Proficiency • Proofreading & Editing • Research & Terminology Management • Cultural Understanding • Collaboration • Time Management • Continuous Learning Qualifications: • Bachelor's degree in Linguistics, Translation, or a related field • Relevant certification • Proven experience as a Translator with a portfolio of successful translations • Exceptional proficiency in languages • Cultural sensitivity and awareness • Excellent attention to detail • Proficiency in using translation tools and software • Strong research and problem-solving skills • Excellent communication and time management skills",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
    "id": "procurementofficerp3unitednationsofficeo",
@@ -1041,6 +1042,37 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "socialmediaofficerrosterseefar",
+   "title": "Social Media Officer – Roster",
+   "org": "Seefar",
+   "source": "ReliefWeb",
+   "feed": "ReliefWeb",
+   "url": "https://reliefweb.int/node/4237216",
+   "location": "",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-20T00:00:00Z",
+   "posted": "2026-11-06T05:31:24Z",
+   "score": 57,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "facts": {
+    "years": 3,
+    "contract": "Consultancy"
+   },
+   "apply_email": "",
+   "snippet": "**Social Media Officer - Roster** **Summary** **Languages:** English, plus one of 12 roster languages (Pashto, Dari, Levantine Arabic, Sudanese Arabic, Bengali, Egyptian Arabic, Urdu, Moroccan Darija, Iraqi Arabic, Kurdish Sorani, Kurdish Badini and Somali). **Role:** Launch, run and moderate localised Facebook and Instagram campaigns, including paid Lead Generation Ads, in your language. **Based:** Remote, from anyw",
+   "details": "**Social Media Officer - Roster** **Summary** **Languages:** English, plus one of 12 roster languages (Pashto, Dari, Levantine Arabic, Sudanese Arabic, Bengali, Egyptian Arabic, Urdu, Moroccan Darija, Iraqi Arabic, Kurdish Sorani, Kurdish Badini and Somali). **Role:** Launch, run and moderate localised Facebook and Instagram campaigns, including paid Lead Generation Ads, in your language. **Based:** Remote, from anywhere. **Roster:** Unpaid standby pool from January 2027 to May 2029. Joining is not a job offer. **Reports to:** Social Media Manager. **Contract:** Consultancy contract per campaign. ## **Why this roster** New Pathways to Resilience (NPR) is a three-year project funded by the EU’s Asylum, Migration and Integration Fund (AMIF). It is built around Seefar’s Crisis Adaptation Mechanism (CAM), which lets the project respond when migration patterns shift. When a monitored indicator crosses its threshold, a campaign may be activated for a new audience or language, and Seefar then has two weeks to launch it. That is too short to recruit from scratch, so we keep an unpaid standby pool of vetted Counsellors, Social Media Officers and Monitoring Officers for 12 languages, ready to be contracted the moment a campaign is approved. ## **Who we are** Seefar Foundation is a social enterprise with a simple mission: to transform the lives of vulnerable people. Through programmes rooted in technology, psychology and behaviour change, we help people build the skills and confidence they need to make a positive contribution to their communities. It’s how we support governments in finding solutions to challenges around irregular migration, poverty, human trafficking, violent extremism, access to justice, and more. Our exceptional team of over 100 consultants are problem solvers a",
+   "first_seen": "2026-11-07T12:43:29Z"
+  },
+  {
    "id": "programassistantadministrativeclientsupport",
    "title": "Program Assistant - Administrative & Client Support",
    "org": "World Bank Group",
@@ -1193,6 +1225,36 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
+   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
+   "org": "EEAS - European External Action Service",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244275",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "facts": {
+    "years": 3,
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
+   "details": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logistics, and human resource management. The successful candidate will assist in staff recruitment, payroll preparation, office management, and procurement procedures. This position requires excellent communication skills in English and Arabic, along with strong computer proficiency. Candidate Requirements: High School Degree or equivalent Minimum 3 years of experience as Secretary C2 level English and Arabic proficiency Excellent computer skills Right to residence and work in Egypt Contract type: Local Agent Who we are The European Union (EU) is an economic and political partnership between 27 European countries. It plays an important role in international affairs through diplomacy, trade, development aid and working with global organizations. Abroad, the European Union is represented through more than 140 diplomatic representations, known also as EU Delegations, which have a similar function to those of an embassy. The EU Delegation to the Arab Republic of Egypt, Cairo works in close coordination with the Embassies and Consulates of the 27 EU Member States. We are a fully-fledged diplomatic mission and represent the European Union in dealings with the Egyptian government in areas that are part of the EU’s remit. What we offer A post of Secretary (Local Agent Group 3 - Ref: 499719) in the Delegation’s Administration Section under a fixed-term employment contrac",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
    "id": "chinesetranslator",
    "title": "Chinese Translator",
    "org": "السويدي اليكتريك",
@@ -1252,36 +1314,6 @@
    "snippet": "Wanted: Chinese interpreter (male or female) with strong interpreting experience to accompany a delegation of 4 Chinese professors visiting universities and companies in Egypt. Requirements: • Fluent Chinese and Arabic • Strong interpreting experience, especially in academic, education, business and industrial settings; able to interpret during university visits and company meetings Draft schedule: • Nov 23: arrive i",
    "details": "Wanted: Chinese interpreter (male or female) with strong interpreting experience to accompany a delegation of 4 Chinese professors visiting universities and companies in Egypt. Requirements: • Fluent Chinese and Arabic • Strong interpreting experience, especially in academic, education, business and industrial settings; able to interpret during university visits and company meetings Draft schedule: • Nov 23: arrive in Cairo; afternoon visit to the New Cairo Technological University (New Cairo) • Nov 24: Ain Shams University, then Mobica group • Nov 25: China State Construction Steel Structure Co. (中建钢构股份有限公司) in the TEDA China-Egypt economic and trade cooperation zone, Ain Sokhna, plus other companies per the final schedule (not confirmed) • Nov 26: delegation leaves, probably early morning Notes: some visits are half-day; detailed times will be confirmed later. Please send your CV with your interpreting experience and your expected fee. 📩 Apply via Wang Fu: WhatsApp or the Contact page on this site.",
    "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
-   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
-   "org": "EEAS - European External Action Service",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1244275",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 45,
-   "reasons": [
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 3,
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
-   "details": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logistics, and human resource management. The successful candidate will assist in staff recruitment, payroll preparation, office management, and procurement procedures. This position requires excellent communication skills in English and Arabic, along with strong computer proficiency. Candidate Requirements: High School Degree or equivalent Minimum 3 years of experience as Secretary C2 level English and Arabic proficiency Excellent computer skills Right to residence and work in Egypt Contract type: Local Agent Who we are The European Union (EU) is an economic and political partnership between 27 European countries. It plays an important role in international affairs through diplomacy, trade, development aid and working with global organizations. Abroad, the European Union is represented through more than 140 diplomatic representations, known also as EU Delegations, which have a similar function to those of an embassy. The EU Delegation to the Arab Republic of Egypt, Cairo works in close coordination with the Embassies and Consulates of the 27 EU Member States. We are a fully-fledged diplomatic mission and represent the European Union in dealings with the Egyptian government in areas that are part of the EU’s remit. What we offer A post of Secretary (Local Agent Group 3 - Ref: 499719) in the Delegation’s Administration Section under a fixed-term employment contrac",
-   "first_seen": "2026-11-03T22:17:21Z"
   }
  ],
  "seen": {
@@ -1397,12 +1429,13 @@
   "technicaleditorunhabitatunitednatio": "2026-11-07T11:37:44Z",
   "seekingkoreanenglishandspanishinterpretersinmiamiusaconfidentialclientvi": "2026-11-07T11:37:44Z",
   "etconsultantcorporategovernanceadvisory": "2026-11-07T11:37:44Z",
-  "programmedevelopmentexpertresourcemobilizationandanalysis": "2026-11-07T11:37:44Z"
+  "programmedevelopmentexpertresourcemobilizationandanalysis": "2026-11-07T11:37:44Z",
+  "socialmediaofficerrosterseefar": "2026-11-07T12:43:29Z"
  },
  "jsearch": {
   "month": "2026-11",
   "used": 19,
   "last_day": "2026-11-07"
  },
- "quote_index": 2
+ "quote_index": 3
 }
