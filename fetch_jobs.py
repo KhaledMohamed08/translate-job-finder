@@ -177,25 +177,29 @@ def src_reliefweb():
 
 
 def reliefweb_api(appname):
-    seen, out = set(), []
-    for q in RELIEFWEB_QUERIES:
+    """All open ReliefWeb jobs (about a thousand), scored here like the other sources.
+    The API's full-text search returns almost nothing, so it isn't used."""
+    out, offset = [], 0
+    while offset < 5000:
         d = http_json("https://api.reliefweb.int/v2/jobs?appname=" + urllib.parse.quote(appname), {
-            "query": {"value": q}, "limit": 100, "sort": ["date.created:desc"],
+            "limit": 1000, "offset": offset, "sort": ["date.created:desc"],
             "fields": {"include": ["title", "url", "source.name", "country.name",
-                                   "date.closing", "date.created", "body"]}})
-        for item in d.get("data", []):
+                                   "date.closing", "date.created", "body"]}}, timeout=90)
+        items = d.get("data", [])
+        for item in items:
             f = item.get("fields", {})
-            url = f.get("url")
-            if not url or url in seen:
-                continue
-            seen.add(url)
-            body = f.get("body", "")
+            body, title = f.get("body", ""), f.get("title", "")
             out.append(job("ReliefWeb", ", ".join(x.get("name", "") for x in f.get("source", [])),
-                           f.get("title", ""), url,
+                           title, f.get("url"),
                            location=", ".join(x.get("name", "") for x in f.get("country", [])),
-                           text=body, remote=looks_remote(f.get("title", ""), body[:1500]),
+                           text=body, remote=looks_remote(title, body[:1500]),
                            deadline=(f.get("date") or {}).get("closing"),
                            posted=(f.get("date") or {}).get("created"), intl=True, check_location=False))
+        offset += len(items)
+        if len(items) < 1000 or offset >= d.get("totalCount", 0):
+            break
+    if not out:
+        raise RuntimeError("API returned no jobs")
     return out
 
 

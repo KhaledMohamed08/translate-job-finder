@@ -56,7 +56,7 @@
   ],
   "not_suitable_titles": [
     "\\bdriver\\b", "security guard", "\\bcleaner\\b", "mechanic", "electrician", "\\bnurse\\b",
-    "physician", "medical doctor", "patent examiner", "graphic design"
+    "physician", "medical doctor", "patent examiner", "graphic design", "sign language", "tactile"
   ],
 
   "min_score": 45,

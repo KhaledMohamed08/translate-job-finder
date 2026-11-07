@@ -17,7 +17,7 @@ It runs for free: GitHub runs the search and hosts the page, Telegram bots cost 
 |---|---|
 | UN Careers | UN Secretariat: departments, consultancies, internships, language jobs |
 | Impactpool | Jobs from many UN agencies, the EU and development banks. Also searched by name for OECD, IFRC, GGGI, the African Union and the League of Arab States |
-| ReliefWeb | UN agencies and NGOs worldwide. **Needs an app name to work on GitHub** (see below) |
+| ReliefWeb | All open jobs from UN agencies and NGOs worldwide, through its official API |
 | UNICEF, UNDP, UNESCO, UNHCR, WFP, IMF, ICRC, Green Climate Fund, CLEAR Global | Their own career sites |
 | Google Jobs (via JSearch) | Egypt and remote translator jobs, including from sites that block direct access |
 | TransPerfect, Welocalize, RWS, Keywords Studios | Translation and localization companies |
@@ -70,7 +70,7 @@ GitHub secrets are in **Settings → Secrets and variables → Actions**.
 |---|---|---|
 | `RAPIDAPI_KEY` | Google Jobs via JSearch | Set |
 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | Telegram alerts | Set |
-| `RELIEFWEB_APPNAME` | ReliefWeb on GitHub | Waiting for approval |
+| `RELIEFWEB_APPNAME` | ReliefWeb's official API | Set |
 | `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO` | Optional email alerts | Not set |
 
 ### Change who gets Telegram alerts
