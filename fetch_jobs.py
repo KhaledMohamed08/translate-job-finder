@@ -23,6 +23,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "docs" / "jobs.json"
+OUTBOX = ROOT / "outbox.json"  # alerts waiting to be sent; never committed
 PROFILE = json.loads((ROOT / "profile.json").read_text(encoding="utf-8"))
 NOW = datetime.now(timezone.utc)
 SEEN_DAYS = 180  # how long a removed job is remembered
@@ -903,7 +904,37 @@ def main():
                                "jsearch": JSEARCH, "quote_index": quote_index + bool(alerts)},
                               ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(raw)} fetched -> {len(ordered)} matches ({len(new)} new) -> {OUT}", file=sys.stderr)
-    notify(alerts, len(ordered), quote)
+    if os.environ.get("DEFER_NOTIFY"):
+        # The workflow sends these after the website has the new list (see send_outbox).
+        if alerts:
+            OUTBOX.write_text(json.dumps({"alerts": alerts, "total": len(ordered), "quote": quote,
+                                          "updated": iso(NOW)}, ensure_ascii=False), encoding="utf-8")
+    else:
+        notify(alerts, len(ordered), quote, iso(NOW))
+
+
+def send_outbox():
+    """Send the saved alerts once the dashboard serves this run's list, so job links open
+    straight away. Gives up waiting after 15 minutes and sends anyway."""
+    if not OUTBOX.exists():
+        print("No alerts to send", file=sys.stderr)
+        return
+    box = json.loads(OUTBOX.read_text(encoding="utf-8"))
+    dash = os.environ.get("DASHBOARD_URL", "")
+    deadline = time.time() + 15 * 60
+    while dash and time.time() < deadline:
+        try:
+            live = http_json(f"{dash}jobs.json?fresh={int(time.time())}", retries=0, timeout=20).get("updated")
+            if live and live >= box["updated"]:
+                print("Dashboard is up to date", file=sys.stderr)
+                break
+        except Exception:
+            pass
+        time.sleep(20)
+    else:
+        if dash:
+            print("Dashboard still updating, sending anyway", file=sys.stderr)
+    notify(box["alerts"], box["total"], box["quote"], box["updated"])
 
 
 # ---------------------------------------------------------------- notifications (free)
@@ -915,7 +946,7 @@ def next_quote(index):
     return quotes[index % len(quotes)] if quotes else ""
 
 
-def notify(new, total, quote=""):
+def notify(new, total, quote="", updated=""):
     if not new:
         return
     dash = os.environ.get("DASHBOARD_URL", "")
@@ -923,7 +954,8 @@ def notify(new, total, quote=""):
 
     def link(j):
         """Open the job's details in the dashboard, or the posting if there is no dashboard."""
-        return f"{dash}#job={urllib.parse.quote(j['id'])}" if dash else j["url"]
+        # u= lets the dashboard wait for this list if a link is opened before the site updates
+        return f"{dash}#job={urllib.parse.quote(j['id'])}&u={updated}" if dash else j["url"]
 
     token, chats = os.environ.get("TELEGRAM_BOT_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID", "")
     if token and chats:
@@ -972,4 +1004,4 @@ def notify(new, total, quote=""):
 
 
 if __name__ == "__main__":
-    main()
+    send_outbox() if sys.argv[1:] == ["send"] else main()

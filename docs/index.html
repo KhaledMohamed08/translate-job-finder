@@ -622,16 +622,29 @@ function openDetail(j){
   d.querySelector(".p-body").scrollTop = 0;
 }
 
-// Links from Telegram and email look like ...#job=<id>
+// Links from Telegram and email look like ...#job=<id>&u=<time of that list>
+let linkTries = 0;
 function openLinkedJob(){
-  const id = decodeURIComponent((location.hash.match(/^#job=(.+)$/) || [])[1] || "");
+  const hash = location.hash;
+  const id = decodeURIComponent((hash.match(/[#&]job=([^&]+)/) || [])[1] || "");
+  const listTime = decodeURIComponent((hash.match(/[&]u=([^&]+)/) || [])[1] || "");
   $("gone").hidden = true;
   if (!id) return;
   const j = data.jobs.find(x => x.id === id);
-  if (j) openDetail(j); else $("gone").hidden = false;
+  if (!j && listTime && (data.updated || "") < listTime && linkTries < 12) {
+    // The alert arrived before the website finished updating. Check again shortly.
+    linkTries++;
+    $("gone").textContent = "Adding today's new jobs. This job will open in a moment…";
+    $("gone").hidden = false;
+    setTimeout(load, 15000);
+    return;
+  }
+  linkTries = 0;
+  if (j) openDetail(j);
+  else { $("gone").textContent = "That job is no longer on the list. It may have closed or been removed."; $("gone").hidden = false; }
   history.replaceState(null, "", location.pathname + location.search);  // a refresh shouldn't reopen it
 }
-addEventListener("hashchange", openLinkedJob);
+addEventListener("hashchange", () => { linkTries = 0; openLinkedJob(); });
 
 // Events
 $("views").addEventListener("click", e => {
@@ -740,7 +753,7 @@ $("importCode").onclick = e => {
   } catch { e.target.textContent = "Code not valid"; }
 };
 
-fetch("jobs.json?t=" + Date.now()).then(r => r.json()).then(d => {
+const load = () => fetch("jobs.json?t=" + Date.now()).then(r => r.json()).then(d => {
   data = d;
   const seen = store.get("jr.seenUpdate", null);
   if (seen !== d.updated) { store.set("jr.prevUpdate", seen); store.set("jr.seenUpdate", d.updated); }
@@ -751,6 +764,7 @@ fetch("jobs.json?t=" + Date.now()).then(r => r.json()).then(d => {
   $("sub").textContent = "Couldn't load jobs";
   $("list").innerHTML = `<div class="empty"><b>Couldn't load the job list</b>Check your connection and refresh the page.</div>`;
 });
+load();
 </script>
 </body>
 </html>
