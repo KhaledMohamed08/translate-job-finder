@@ -1,49 +1,55 @@
 {
- "updated": "2026-11-08T11:50:06Z",
+ "updated": "2026-11-08T12:50:18Z",
  "sources": {
-  "Remotive": {
+  "Google Jobs": {
    "ok": true,
-   "count": 13
+   "count": 0,
+   "kept": true,
+   "error": "already searched today"
   },
   "Jobicy": {
    "ok": true,
    "count": 100
   },
+  "Remotive": {
+   "ok": true,
+   "count": 13
+  },
   "Working Nomads": {
    "ok": true,
    "count": 17
-  },
-  "RemoteOK": {
-   "ok": true,
-   "count": 99
   },
   "Company boards": {
    "ok": true,
    "count": 225
   },
-  "Translation agencies": {
+  "RemoteOK": {
    "ok": true,
-   "count": 177
-  },
-  "UNICEF": {
-   "ok": true,
-   "count": 540
+   "count": 99
   },
   "ReliefWeb": {
    "ok": true,
    "count": 1068
   },
+  "UNICEF": {
+   "ok": true,
+   "count": 542
+  },
+  "Translation agencies": {
+   "ok": true,
+   "count": 177
+  },
   "Green Climate Fund": {
    "ok": true,
    "count": 3
   },
-  "UN Careers": {
-   "ok": true,
-   "count": 444
-  },
   "Himalayas": {
    "ok": true,
    "count": 126
+  },
+  "UN Careers": {
+   "ok": true,
+   "count": 444
   },
   "UNESCO": {
    "ok": true,
@@ -57,17 +63,13 @@
    "ok": true,
    "count": 10
   },
-  "UNDP": {
-   "ok": true,
-   "count": 12
-  },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
    "count": 27
   },
-  "Google Jobs": {
+  "UNDP": {
    "ok": true,
-   "count": 19
+   "count": 12
   },
   "Impactpool": {
    "ok": true,
@@ -758,36 +760,6 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "regionalmediacommunicationsconsultant",
-   "title": "Regional Media & Communications Consultant",
-   "org": "IOM - International Organization for Migration",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1246071",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-11-08T00:00:00Z",
-   "posted": null,
-   "score": 62,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "Regional Media & Communications Consultant IOM - International Organization for Migration Cairo C-1 level Speaks Arabic, English Application deadline: November 08, 2026 Closing today Apply Summary by Impactpool The Media and Communications Consultant will support the Regional Office in enhancing media relations and communications strategies. Responsibilities include developing communication products, managing digital",
-   "details": "Regional Media & Communications Consultant IOM - International Organization for Migration Cairo C-1 level Speaks Arabic, English Application deadline: November 08, 2026 Closing today Apply Summary by Impactpool The Media and Communications Consultant will support the Regional Office in enhancing media relations and communications strategies. Responsibilities include developing communication products, managing digital platforms, and coordinating media coverage for key events. The consultant will also provide technical support to country missions, ensuring effective messaging and visibility. This role requires collaboration with various stakeholders to promote positive perceptions of migration and strengthen public engagement efforts. Candidate Requirements: University degree in Communications, Journalism, Media Studies, or related field Experience in media relations and strategic communications in the MENA region Excellent drafting and editing skills in English Knowledge of Arabic is an advantage Ability to develop and implement communication strategies Experience in managing digital and social media platforms Job Description The Media and Communications Team at the Regional Office (RO) plays a pivotal role in supporting the RO, its country missions, and Headquarters (HQ) in all facets of media relations and communications. This includes developing and implementing communication strategies, drafting and disseminating press releases and media briefs, managing digital and social media platforms, coordinating media coverage of key events, and ensuring consistent and impactful messaging across all channels. The team also provides technical guidance and capacity-building support to missions to strengthen their visibility and public engagement efforts at the regional and natio",
-   "first_seen": "2026-11-06T12:50:29Z"
-  },
-  {
    "id": "travelassistantg5unitednationsofficeo",
    "title": "Travel Assistant, G5",
    "org": "United Nations Office On Drugs And Crime",
@@ -1118,6 +1090,36 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
+   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
+   "org": "EEAS - European External Action Service",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244275",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "facts": {
+    "years": 3,
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
+   "details": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logistics, and human resource management. The successful candidate will assist in staff recruitment, payroll preparation, office management, and procurement procedures. This position requires excellent communication skills in English and Arabic, along with strong computer proficiency. Candidate Requirements: High School Degree or equivalent Minimum 3 years of experience as Secretary C2 level English and Arabic proficiency Excellent computer skills Right to residence and work in Egypt Contract type: Local Agent Who we are The European Union (EU) is an economic and political partnership between 27 European countries. It plays an important role in international affairs through diplomacy, trade, development aid and working with global organizations. Abroad, the European Union is represented through more than 140 diplomatic representations, known also as EU Delegations, which have a similar function to those of an embassy. The EU Delegation to the Arab Republic of Egypt, Cairo works in close coordination with the Embassies and Consulates of the 27 EU Member States. We are a fully-fledged diplomatic mission and represent the European Union in dealings with the Egyptian government in areas that are part of the EU’s remit. What we offer A post of Secretary (Local Agent Group 3 - Ref: 499719) in the Delegation’s Administration Section under a fixed-term employment contrac",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
    "id": "chinesetranslator",
    "title": "Chinese Translator",
    "org": "السويدي اليكتريك",
@@ -1177,36 +1179,6 @@
    "snippet": "Wanted: Chinese interpreter (male or female) with strong interpreting experience to accompany a delegation of 4 Chinese professors visiting universities and companies in Egypt. Requirements: • Fluent Chinese and Arabic • Strong interpreting experience, especially in academic, education, business and industrial settings; able to interpret during university visits and company meetings Draft schedule: • Nov 23: arrive i",
    "details": "Wanted: Chinese interpreter (male or female) with strong interpreting experience to accompany a delegation of 4 Chinese professors visiting universities and companies in Egypt. Requirements: • Fluent Chinese and Arabic • Strong interpreting experience, especially in academic, education, business and industrial settings; able to interpret during university visits and company meetings Draft schedule: • Nov 23: arrive in Cairo; afternoon visit to the New Cairo Technological University (New Cairo) • Nov 24: Ain Shams University, then Mobica group • Nov 25: China State Construction Steel Structure Co. (中建钢构股份有限公司) in the TEDA China-Egypt economic and trade cooperation zone, Ain Sokhna, plus other companies per the final schedule (not confirmed) • Nov 26: delegation leaves, probably early morning Notes: some visits are half-day; detailed times will be confirmed later. Please send your CV with your interpreting experience and your expected fee. 📩 Apply via Wang Fu: WhatsApp or the Contact page on this site.",
    "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
-   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
-   "org": "EEAS - European External Action Service",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1244275",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 45,
-   "reasons": [
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 3,
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
-   "details": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logistics, and human resource management. The successful candidate will assist in staff recruitment, payroll preparation, office management, and procurement procedures. This position requires excellent communication skills in English and Arabic, along with strong computer proficiency. Candidate Requirements: High School Degree or equivalent Minimum 3 years of experience as Secretary C2 level English and Arabic proficiency Excellent computer skills Right to residence and work in Egypt Contract type: Local Agent Who we are The European Union (EU) is an economic and political partnership between 27 European countries. It plays an important role in international affairs through diplomacy, trade, development aid and working with global organizations. Abroad, the European Union is represented through more than 140 diplomatic representations, known also as EU Delegations, which have a similar function to those of an embassy. The EU Delegation to the Arab Republic of Egypt, Cairo works in close coordination with the Embassies and Consulates of the 27 EU Member States. We are a fully-fledged diplomatic mission and represent the European Union in dealings with the Egyptian government in areas that are part of the EU’s remit. What we offer A post of Secretary (Local Agent Group 3 - Ref: 499719) in the Delegation’s Administration Section under a fixed-term employment contrac",
-   "first_seen": "2026-11-03T22:17:21Z"
   }
  ],
  "seen": {
