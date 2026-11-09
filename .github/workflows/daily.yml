@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Run tests
+        run: python -m unittest discover -s tests
       - name: Fetch and score
         env:
           DEFER_NOTIFY: "1"
@@ -39,3 +41,16 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
         run: DASHBOARD_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/" python fetch_jobs.py send
+      - name: Tell the admin chat if this run failed
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          ADMIN_CHAT_ID: ${{ secrets.ADMIN_CHAT_ID }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          CHAT="${ADMIN_CHAT_ID:-${TELEGRAM_CHAT_ID%%,*}}"
+          [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$CHAT" ] || exit 0
+          curl -fsS -o /dev/null "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${CHAT}" \
+            --data-urlencode "text=⚠️ Today's job search run failed, so no new jobs were added. Details: ${RUN_URL}"

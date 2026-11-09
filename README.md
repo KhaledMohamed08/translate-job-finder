@@ -63,6 +63,9 @@ The search is scheduled for 05:00 UTC, which is about 7–8 am in Cairo. GitHub 
 - **Source problems:** if a source fails, its previous jobs stay on the list until it recovers.
 - **JSearch limit:** the free plan allows 100 requests a month. The tool uses 3 a day, once a day, and stops at 90 a month.
 
+- **Problem alerts:** the admin chat gets one Telegram message if the run fails, if a source fails two runs in a row (and again when it recovers), or if a run finds no matches at all.
+- **Tests:** automatic tests run before every daily search and after every change. If they fail, the search doesn't run and you get the failure alert.
+
 To run it now, open **Actions → Daily job search → Run workflow** on GitHub.
 
 ## Settings
@@ -103,6 +106,14 @@ Edit `profile.json`:
 
 ### Change the message intros
 Each alert starts with a different warm, motivating line for Weam from `quotes.txt`, one per line. They rotate in order, and none repeats until all have been used. Add, edit or remove lines at any time.
+
+### Run the tests
+
+```bash
+python3 -m unittest discover -s tests -v
+```
+
+They use made-up data and never contact the job sites.
 
 ### Run it on your computer (optional)
 It needs Python 3.9 or newer and nothing else:

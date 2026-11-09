@@ -827,7 +827,7 @@ def key(j):
 
 
 def main():
-    previous, seen, quote_index, old_links = {}, {}, 0, {}
+    previous, seen, quote_index, old_links, old_health = {}, {}, 0, {}, {}
     if OUT.exists():
         try:
             old_data = json.loads(OUT.read_text(encoding="utf-8"))
@@ -836,6 +836,7 @@ def main():
             JSEARCH.update(old_data.get("jsearch", {}))
             quote_index = old_data.get("quote_index", 0)
             old_links = old_data.get("links", {})
+            old_health = old_data.get("health", {})
         except Exception:
             pass
     # Every job ever listed -> when it was first seen, so a job that vanishes for a
@@ -902,9 +903,12 @@ def main():
     alerts = [j for j in new if j["score"] >= PROFILE["notify_min_score"]]
     quote = next_quote(quote_index) if alerts else ""
     links, broken_now = check_direct_links(old_links)
-    admin = broken_links_message(broken_now)
+    health, problems, recovered = source_health(status, old_health)
+    admin = "\n\n".join(m for m in (sources_message(problems, recovered, len(ordered)),
+                                     broken_links_message(broken_now)) if m)
     OUT.write_text(json.dumps({"updated": iso(NOW), "sources": status, "jobs": ordered, "seen": seen,
-                               "jsearch": JSEARCH, "quote_index": quote_index + bool(alerts), "links": links},
+                               "jsearch": JSEARCH, "quote_index": quote_index + bool(alerts), "links": links,
+                               "health": health},
                               ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(raw)} fetched -> {len(ordered)} matches ({len(new)} new) -> {OUT}", file=sys.stderr)
     if os.environ.get("DEFER_NOTIFY"):
@@ -915,6 +919,39 @@ def main():
     else:
         notify(alerts, len(ordered), quote, iso(NOW))
         admin_message(admin)
+
+
+# ---------------------------------------------------------------- problem alerts
+
+SOURCE_FAIL_DAYS = 2  # report a source after this many failed runs in a row
+
+
+def source_health(status, old):
+    """Count failed runs in a row per source; report new failures once and recoveries once."""
+    health, problems, recovered = {}, [], []
+    for name, st in status.items():
+        before = old.get(name, 0)
+        health[name] = before + 1 if not st["ok"] else 0
+        if health[name] == SOURCE_FAIL_DAYS:
+            problems.append((name, st.get("error", "")))
+        if st["ok"] and before >= SOURCE_FAIL_DAYS:
+            recovered.append(name)
+    return health, problems, recovered
+
+
+def sources_message(problems, recovered, matches):
+    e = html.escape
+    parts = []
+    if problems:
+        parts.append(f"<b>⚠️ {len(problems)} job source{'s' if len(problems) > 1 else ''} failed "
+                     f"{SOURCE_FAIL_DAYS} runs in a row</b>\n" +
+                     "\n".join(f"• {e(n)}: {e(err[:120]) or 'no details'}" for n, err in problems) +
+                     "\nOther sources still run, and the last jobs from these stay on the list.")
+    if recovered:
+        parts.append("✅ Working again: " + ", ".join(e(n) for n in recovered))
+    if matches == 0:
+        parts.append("<b>⚠️ Today's run found no matching jobs at all.</b> Something may be wrong with the filters or sources.")
+    return "\n\n".join(parts)
 
 
 # ---------------------------------------------------------------- Apply directly link checks
