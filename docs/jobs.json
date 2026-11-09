@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T17:54:34Z",
+ "updated": "2026-11-09T18:03:30Z",
  "sources": {
   "Google Jobs": {
    "ok": true,
@@ -11,25 +11,29 @@
    "ok": true,
    "count": 12
   },
-  "Jobicy": {
-   "ok": true,
-   "count": 100
-  },
   "Working Nomads": {
    "ok": true,
    "count": 35
+  },
+  "Jobicy": {
+   "ok": true,
+   "count": 100
   },
   "RemoteOK": {
    "ok": true,
    "count": 99
   },
+  "ReliefWeb": {
+   "ok": true,
+   "count": 1084
+  },
   "Company boards": {
    "ok": true,
    "count": 224
   },
-  "ReliefWeb": {
+  "Translation agencies": {
    "ok": true,
-   "count": 1084
+   "count": 175
   },
   "UNICEF": {
    "ok": true,
@@ -39,10 +43,6 @@
    "ok": true,
    "count": 126
   },
-  "Translation agencies": {
-   "ok": true,
-   "count": 175
-  },
   "Green Climate Fund": {
    "ok": true,
    "count": 4
@@ -51,13 +51,13 @@
    "ok": true,
    "count": 452
   },
-  "CLEAR Global": {
-   "ok": true,
-   "count": 16
-  },
   "UNESCO": {
    "ok": true,
    "count": 0
+  },
+  "CLEAR Global": {
+   "ok": true,
+   "count": 16
   },
   "ICRC": {
    "ok": true,
@@ -1480,5 +1480,25 @@
    "code": 403,
    "fails": 0
   }
+ },
+ "health": {
+  "Google Jobs": 0,
+  "Remotive": 0,
+  "Working Nomads": 0,
+  "Jobicy": 0,
+  "RemoteOK": 0,
+  "ReliefWeb": 0,
+  "Company boards": 0,
+  "Translation agencies": 0,
+  "UNICEF": 0,
+  "Himalayas": 0,
+  "Green Climate Fund": 0,
+  "UN Careers": 0,
+  "UNESCO": 0,
+  "CLEAR Global": 0,
+  "ICRC": 0,
+  "UNDP": 0,
+  "UNHCR, WFP, IMF, Welocalize": 0,
+  "Impactpool": 0
  }
 }
