@@ -1,0 +1,76 @@
+[
+  {
+    "group": "UN and international",
+    "items": [
+      {"id": "un-exams", "name": "UN language examinations", "link": "https://www.un.org/dgacm/en/content/exams-translators-verbatim-reporters-editors",
+       "what": "The main route into UN translator posts. Exams open for specific languages at certain times.",
+       "tip": "Read who can apply, then check the announcements below for an Arabic or French exam."},
+      {"id": "un-announcements", "name": "UN examination announcements", "link": "https://www.un.org/dgacm/en/content/announcements",
+       "what": "Where the UN announces new language exams and its Global Language Register.",
+       "tip": "Check this once a month. Exams can close within a few weeks."},
+      {"id": "un-careers-language", "name": "UN Careers: language jobs", "link": "https://careers.un.org/language-professionals?language=en",
+       "what": "UN Careers' page for language professionals.",
+       "tip": "Create your UN Careers profile now, so applying later only takes a few minutes."},
+      {"id": "wipo-consultants", "name": "WIPO consultant contracts", "link": "https://www.ungm.org/public/notice?organization=wipo&type=IndividualConsultant",
+       "what": "WIPO lists individual consultant contracts here, sometimes including language work.",
+       "tip": "Look for translation, terminology or language titles."},
+      {"id": "unv-online", "name": "UN Volunteers online", "link": "https://app.unv.org",
+       "what": "Online volunteering for UN agencies and partners.",
+       "tip": "Search for translation tasks. Volunteering can give you UN references."},
+      {"id": "clear-global", "name": "CLEAR Global (Translators without Borders)", "link": "https://translatorswithoutborders.org/join-the-twb-community/",
+       "what": "Volunteer translation community for humanitarian organizations.",
+       "tip": "Good humanitarian experience to list on a UN-style CV."},
+      {"id": "tarjimly", "name": "Tarjimly", "link": "https://www.tarjimly.org/",
+       "what": "Language services organization focused on humanitarian work.",
+       "tip": "Check the site for how translators can join."}
+    ]
+  },
+  {
+    "group": "Translation companies",
+    "items": [
+      {"id": "lionbridge", "name": "Lionbridge freelance community", "link": "https://www.lionbridge.com/join-our-community/",
+       "what": "Large translation company that hires freelancers through its community.",
+       "tip": "Have your CV, language pairs and rates ready before you sign up."},
+      {"id": "transperfect", "name": "TransPerfect", "link": "https://www.transperfect.com/careers/",
+       "what": "Large translation company. Its careers page covers freelance linguists.",
+       "tip": "Look for the freelance linguist section and apply with your language pairs."},
+      {"id": "acolad", "name": "Acolad freelance opportunities", "link": "https://www.acolad.com/en/about/careers",
+       "what": "European translation group with a freelance network.",
+       "tip": "Choose Freelance Opportunities on the page."},
+      {"id": "languageline", "name": "LanguageLine freelance translators", "link": "https://www.languageline.com/careers/freelance-translator-jobs",
+       "what": "Translation and interpreting company with a freelance translator page.",
+       "tip": "Check which languages and countries it accepts before applying."},
+      {"id": "future-group", "name": "Future Group", "link": "https://www.careers-page.com/f-g",
+       "what": "Translation and localization company that has posted Egypt jobs in your results.",
+       "tip": "Check its open roles and follow the company for new ones."}
+    ]
+  },
+  {
+    "group": "Freelance marketplaces",
+    "items": [
+      {"id": "smartcat", "name": "Smartcat Marketplace", "link": "https://www.smartcat.com/marketplace/",
+       "what": "Translation marketplace where clients find freelance translators.",
+       "tip": "A complete profile with your pairs and subject areas gets more requests."},
+      {"id": "gengo", "name": "Gengo", "link": "https://gengo.com/translators/",
+       "what": "Online translation platform that accepts translators after a test.",
+       "tip": "Take the test when you're rested. You can usually only try a limited number of times."},
+      {"id": "translated", "name": "Translated", "link": "https://translated.com/translators",
+       "what": "Translation company with a page for translators who want to work with it.",
+       "tip": "Apply with your strongest language pair first."},
+      {"id": "proz", "name": "ProZ.com profile", "link": "https://www.proz.com/",
+       "what": "The largest community of professional translators. Clients search profiles there.",
+       "tip": "Fill in your profile fully, including your language pairs and UN experience."}
+    ]
+  },
+  {
+    "group": "Job alerts in Egypt",
+    "items": [
+      {"id": "wuzzuf", "name": "Wuzzuf job alerts", "link": "https://wuzzuf.net/",
+       "what": "Egypt's job site. It blocks this tool, so its own alerts fill the gap.",
+       "tip": "Create a free alert for \"translator\" and \"مترجم\"."},
+      {"id": "bayt", "name": "Bayt job alerts", "link": "https://www.bayt.com/en/egypt/",
+       "what": "Job site across the Arab region. It also blocks this tool.",
+       "tip": "Create a free alert for translator jobs in Egypt and remote."}
+    ]
+  }
+]

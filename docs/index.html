@@ -48,6 +48,7 @@ button{cursor:pointer;background:none;border:0;padding:0}
 a{color:inherit}
 svg{display:block;flex:none}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+[hidden]{display:none!important}
 .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
 
 /* Layout */
@@ -120,6 +121,26 @@ main{padding:28px 0 64px;min-width:0}
 .save[aria-pressed="true"] svg{fill:currentColor}
 .job.dim{opacity:.6}
 
+.dgroup{font-size:13px;font-weight:600;color:var(--muted);margin:22px 0 8px}
+.dgroup:first-child{margin-top:4px}
+.dcard{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:15px 16px;margin-bottom:10px}
+.dcard.done{opacity:.72}
+.dtop{display:flex;align-items:flex-start;gap:10px}
+.dname{flex:1;min-width:0;font-weight:600;font-size:16px;line-height:1.35}
+.dwhat{color:var(--soft);font-size:14px;margin:4px 0 0}
+.dtip{color:var(--muted);font-size:13.5px;margin:6px 0 0}
+.dstate{flex:none;font-size:12.5px;font-weight:600;border-radius:6px;padding:2px 8px;background:var(--sunken);color:var(--soft)}
+.dstate.on{background:var(--accent-soft);color:var(--accent)}
+.dfollow{margin:10px 0 0;background:var(--warn-soft);color:var(--warn);border-radius:10px;padding:8px 11px;font-size:13.5px}
+.dactions{display:flex;gap:8px;margin-top:12px}
+.dactions .btn{min-height:40px;font-size:14px}
+.dsteps{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;background:var(--sunken);border-radius:10px;padding:3px;margin-top:10px}
+.dsteps button{min-height:34px;border-radius:7px;font-size:12.5px;font-weight:500;color:var(--soft)}
+.dsteps button[aria-pressed="true"]{background:var(--surface);color:var(--accent);font-weight:600;box-shadow:var(--shadow)}
+.dnote{width:100%;margin-top:8px;min-height:40px;height:40px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);padding:9px 11px;font:400 15px/1.4 inherit;font-family:inherit;resize:vertical}
+.dnote:focus{height:80px;border-color:var(--accent);outline:0}
+.progress{height:6px;border-radius:99px;background:var(--sunken);overflow:hidden;margin-top:10px}
+.progress i{display:block;height:100%;background:var(--accent);border-radius:99px}
 .empty{padding:56px 20px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
 .empty b{display:block;color:var(--ink);font-size:16px;font-weight:600;margin-bottom:4px}
 .empty button{margin-top:12px;color:var(--accent);font-weight:600;min-height:36px}
@@ -230,6 +251,7 @@ textarea{width:100%;height:84px;border:1px solid var(--line);border-radius:10px;
   <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
   <symbol id="i-doc" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.5h8l4 4v13H6v-17Z"/><path d="M14 3.5v4h4M9 12.5h6M9 16h6"/></symbol>
   <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4c.6 4.4 2.6 6.4 7 7-4.4.6-6.4 2.6-7 7-.6-4.4-2.6-6.4-7-7 4.4-.6 6.4-2.6 7-7Z"/></symbol>
+  <symbol id="i-door" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h5v16h-5M4 12h11M11 8l4 4-4 4"/></symbol>
   <symbol id="i-gear" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M4 7h9M18 7h2M4 17h2M11 17h9"/><circle cx="15.5" cy="7" r="2.5"/><circle cx="8.5" cy="17" r="2.5"/></symbol>
 </defs></svg>
 
@@ -253,7 +275,7 @@ textarea{width:100%;height:84px;border:1px solid var(--line);border-radius:10px;
       <p id="sub">Loading the latest jobs…</p>
     </div>
     <div class="gone" id="gone" hidden>That job is no longer on the list. It may have closed or been removed.</div>
-    <div class="tools">
+    <div class="tools" id="tools">
       <label class="search"><span class="sr">Search jobs</span>
         <svg><use href="#i-search"/></svg>
         <input id="q" type="search" placeholder="Search jobs" autocomplete="off">
@@ -422,11 +444,17 @@ function currentJobs(){
 }
 
 function render(){
-  const v = VIEWS.find(x => x[0] === view);
+  const doneCount = Object.values(direct).filter(x => x.s === "Applied" || x.s === "Accepted").length;
   $("views").innerHTML = VIEWS.map(([k, label, ic, , fn]) =>
-    `<button class="view" data-v="${k}" aria-pressed="${k === view}">${icon(ic, 18)}${label}<span class="n">${data.jobs.filter(fn).length}</span></button>`).join("");
+    `<button class="view" data-v="${k}" aria-pressed="${k === view}">${icon(ic, 18)}${label}<span class="n">${data.jobs.filter(fn).length}</span></button>`).join("")
+    + `<button class="view" data-v="direct" aria-pressed="${view === "direct"}">${icon("door", 18)}Apply directly<span class="n">${doneCount}/${places.length || "–"}</span></button>`;
   $("refine").innerHTML = REFINE.map(([k, label]) =>
     `<button class="chip" data-r="${k}" aria-pressed="${refine.has(k)}">${label}</button>`).join("");
+  const isDirect = view === "direct";
+  $("tools").hidden = $("refine").hidden = isDirect;
+  document.querySelector(".side .label").hidden = isDirect;
+  if (isDirect) return renderDirect();
+  const v = VIEWS.find(x => x[0] === view);
   const jobs = currentJobs();
   $("heading").textContent = v[3];
   $("sub").textContent = `${jobs.length} ${jobs.length === 1 ? "job" : "jobs"} · updated ${ago(data.updated)}`;
@@ -434,6 +462,39 @@ function render(){
   $("list").innerHTML = jobs.length ? jobs.map(row).join("") : view === "mine" && !narrowed
     ? `<div class="empty"><b>Nothing saved yet</b>Tap the bookmark on a job to keep it here.</div>`
     : `<div class="empty"><b>No jobs match</b>${narrowed ? `<button data-act="clear">Clear filters</button>` : "New jobs are added every day."}</div>`;
+}
+
+// Apply directly: rosters and sign-ups from direct.json, progress saved on this device
+const DSTEPS = ["Not started", "In progress", "Applied", "Accepted"];
+const DLABEL = {"Not started": "To do", "In progress": "Started", "Applied": "Applied", "Accepted": "Accepted"};
+let groups = [], places = [];
+let direct = store.get("jr.direct", {});   // id -> {s, t, note}
+fetch("direct.json?t=" + Date.now()).then(r => r.json()).then(g => {
+  groups = g; places = g.flatMap(x => x.items); render();
+}).catch(() => {});
+function renderDirect(){
+  const done = places.filter(p => ["Applied", "Accepted"].includes((direct[p.id] || {}).s)).length;
+  $("heading").textContent = "Apply directly";
+  $("sub").textContent = `${done} of ${places.length} done · rosters and sign-ups can bring repeat work`;
+  if (!places.length) { $("list").innerHTML = `<div class="empty"><b>Loading…</b></div>`; return; }
+  $("list").innerHTML = `<div class="progress" aria-hidden="true"><i style="width:${Math.round(done / places.length * 100)}%"></i></div>` +
+    groups.map(g => `<div class="dgroup">${esc(g.group)}</div>` + g.items.map(dcard).join("")).join("");
+}
+function dcard(p){
+  const st = direct[p.id] || {}, s = st.s || "Not started";
+  const days = st.t ? Math.floor((Date.now() - st.t) / 864e5) : 0;
+  const follow = s === "Applied" && days >= 21
+    ? `<p class="dfollow">You applied ${days} days ago. Check your email and spam folder, or send a short, polite follow-up.</p>` : "";
+  return `<article class="dcard ${s === "Accepted" ? "done" : ""}" data-place="${esc(p.id)}">
+    <div class="dtop"><span class="dname">${esc(p.name)}</span><span class="dstate ${s === "Not started" ? "" : "on"}">${DLABEL[s]}</span></div>
+    <p class="dwhat">${esc(p.what)}</p>
+    <p class="dtip">Tip: ${esc(p.tip)}</p>
+    ${follow}
+    <div class="dsteps" role="group" aria-label="Progress for ${esc(p.name)}">${DSTEPS.map(x =>
+      `<button data-dstep="${x}" aria-pressed="${x === s}">${DLABEL[x]}</button>`).join("")}</div>
+    <textarea class="dnote" data-dnote placeholder="Notes, such as your username or the date you applied" aria-label="Notes">${esc(st.note)}</textarea>
+    <div class="dactions"><a class="btn primary" href="${esc(p.link)}" target="_blank" rel="noopener">Open site ${icon("out", 16)}</a></div>
+  </article>`;
 }
 
 function setStatus(id, s){
@@ -572,7 +633,7 @@ function renderKit(){
   if (kitTab === "backup") $("kitBody").innerHTML = `<p class="note" style="margin-top:0">Clearing your browser data deletes your details. Keep this code somewhere private, such as your own notes. It contains your personal details, so don't share it.</p>
     <textarea id="backupText" spellcheck="false" aria-label="Backup code"></textarea>
     <div class="row2"><button class="btn" id="backupCopy">Copy backup</button><button class="btn" id="backupRestore">Restore backup</button></div>`;
-  if (kitTab === "backup") $("backupText").value = btoa(unescape(encodeURIComponent(JSON.stringify({kit, track}))));
+  if (kitTab === "backup") $("backupText").value = btoa(unescape(encodeURIComponent(JSON.stringify({kit, track, direct}))));
 }
 
 function openDetail(j){
@@ -647,6 +708,18 @@ function openLinkedJob(){
 addEventListener("hashchange", () => { linkTries = 0; openLinkedJob(); });
 
 // Events
+$("list").addEventListener("click", e => {
+  const b = e.target.closest("[data-dstep]"); if (!b) return;
+  const id = b.closest("[data-place]").dataset.place;
+  direct[id] = {...direct[id], s: b.dataset.dstep, t: Date.now()};
+  store.set("jr.direct", direct); render();
+});
+$("list").addEventListener("input", e => {
+  if (!e.target.matches("[data-dnote]")) return;
+  const id = e.target.closest("[data-place]").dataset.place;
+  direct[id] = {...direct[id], note: e.target.value};
+  store.set("jr.direct", direct);
+});
 $("views").addEventListener("click", e => {
   const b = e.target.closest("[data-v]"); if (!b) return;
   view = b.dataset.v; store.set("jr.view", view); render(); scrollTo({top: 0});
@@ -710,7 +783,8 @@ $("kit").addEventListener("click", e => {
     try {
       const b = JSON.parse(decodeURIComponent(escape(atob($("backupText").value.trim()))));
       if (!b.kit) throw 0;
-      kit = b.kit; track = {...track, ...b.track}; saveKit(); store.set("jr.track", track); render();
+      kit = b.kit; track = {...track, ...b.track}; direct = {...direct, ...(b.direct || {})};
+      saveKit(); store.set("jr.track", track); store.set("jr.direct", direct); render();
       e.target.textContent = "Restored";
     } catch { e.target.textContent = "Code not valid"; }
   }
