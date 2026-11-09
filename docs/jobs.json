@@ -1,55 +1,41 @@
 {
- "updated": "2026-11-08T12:50:18Z",
+ "updated": "2026-11-09T13:44:56Z",
  "sources": {
-  "Google Jobs": {
-   "ok": true,
-   "count": 0,
-   "kept": true,
-   "error": "already searched today"
-  },
   "Jobicy": {
    "ok": true,
    "count": 100
   },
-  "Remotive": {
-   "ok": true,
-   "count": 13
-  },
   "Working Nomads": {
    "ok": true,
-   "count": 17
+   "count": 22
   },
-  "Company boards": {
+  "Remotive": {
    "ok": true,
-   "count": 225
+   "count": 12
   },
   "RemoteOK": {
    "ok": true,
    "count": 99
   },
+  "Company boards": {
+   "ok": true,
+   "count": 224
+  },
   "ReliefWeb": {
    "ok": true,
-   "count": 1068
+   "count": 1050
   },
   "UNICEF": {
    "ok": true,
-   "count": 542
+   "count": 538
   },
   "Translation agencies": {
    "ok": true,
-   "count": 177
+   "count": 173
   },
   "Green Climate Fund": {
    "ok": true,
-   "count": 3
-  },
-  "Himalayas": {
-   "ok": true,
-   "count": 126
-  },
-  "UN Careers": {
-   "ok": true,
-   "count": 444
+   "count": 4
   },
   "UNESCO": {
    "ok": true,
@@ -59,9 +45,17 @@
    "ok": true,
    "count": 16
   },
+  "UN Careers": {
+   "ok": true,
+   "count": 440
+  },
   "ICRC": {
    "ok": true,
    "count": 10
+  },
+  "Himalayas": {
+   "ok": true,
+   "count": 126
   },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
@@ -69,7 +63,11 @@
   },
   "UNDP": {
    "ok": true,
-   "count": 12
+   "count": 14
+  },
+  "Google Jobs": {
+   "ok": true,
+   "count": 21
   },
   "Impactpool": {
    "ok": true,
@@ -109,232 +107,12 @@
    "first_seen": "2026-11-07T11:37:44Z"
   },
   {
-   "id": "englishfrencharabicfreelanceremoteinterpretertonguepoint",
-   "title": "English + French Arabic Freelance Remote Interpreter",
-   "org": "Tonguepoint",
+   "id": "frenchcanadiantranslatoritmarketingfreelancelocaleyes",
+   "title": "French Canadian Translator (IT/Marketing) - Freelance",
+   "org": "LocalEyes",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://eg.linkedin.com/jobs/view/english-%2B-french-arabic-freelance-remote-interpreter-at-tonguepoint-4476889340",
-   "location": "القاهرة",
-   "remote": true,
-   "egypt": true,
-   "intl": false,
-   "deadline": null,
-   "posted": null,
-   "score": 100,
-   "reasons": [
-    "Translation / language role",
-    "Open to Egypt",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic",
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "Urgently Hiring For: English + French Arabic. Job Title: Freelance Remote Interpreter (English + French / Arabic) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills an",
-   "details": "Urgently Hiring For: English + French Arabic. Job Title: Freelance Remote Interpreter (English + French / Arabic) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, join us to bridge critical communication gaps in moments that matter. Key Responsibilities Provide accurate, real-time consecutive interpretation (English+Arabic and French+Arabic). Facilitate clear communication in high-stakes settings (e.g., healthcare, legal). Maintain strict confidentiality, neutrality, and professionalism. Manage your own schedule and log in reliably to handle calls. Qualifications & Tech Requirements Language: Native or near-native fluency in English, French, and Arabic. Skills: Strong active listening, cultural sensitivity, and emotional resilience. Experience: Beginners welcome; prior interpreting experience is a plus. Workspace: A quiet, distraction-free home environment. Tech Setup: Dedicated computer, high-speed internet (wired preferred for VRI), and a noise-canceling USB headset. What We Offer Ultimate Flexibility: 100% remote work. Choose your own hours (daytime, evening, overnight). Steady Income: Competitive per-minute rates backed by reliable call volume. Growth: Free comprehensive onboarding and ongoing professional training. Referral Program: Refer qualified speakers of our in-demand languages and earn a bonus when your referral is successfully onboarded. To Apply: Ready to begin? Please submit your updated resume highlighting your language proficiency.",
-   "first_seen": "2026-11-04T12:53:22Z"
-  },
-  {
-   "id": "remotearabicinterpretertranslatorparttimedutechsystems",
-   "title": "Remote Arabic Interpreter & Translator (Part-Time)",
-   "org": "Dutech Systems",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-arabic-interpreter-translator-part-time--springdale--ef48017b0249d463ed69c1c0321cfd547",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-03T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Part-time"
-   },
-   "apply_email": "",
-   "snippet": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior transla",
-   "details": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior translation certification and experience are preferred.",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "arabictranslatorsandsaudinativespeakerspaidstudyinnycmindrift",
-   "title": "Arabic Translators and Saudi Native Speakers - Paid Study in NYC",
-   "org": "Mindrift",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.ziprecruiter.com/c/mindrift/Job/Arabic-Translators-and-Saudi-Native-Speakers-Paid-Study-in-NYC/-in-New-York,NY?jid=b35a230b02bc1573",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-02T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Part-time"
-   },
-   "apply_email": "",
-   "snippet": "Mindrift is running a research study on how people use their phones, apps and everyday digital tools, and how that differs across languages and cultures. We're looking for native Arabic speakers in New York to join a paid, 3-day in-person study in Midtown Manhattan. Why your language matters Most technology is still designed with English speakers in mind. This study helps researchers understand how people who communi",
-   "details": "Mindrift is running a research study on how people use their phones, apps and everyday digital tools, and how that differs across languages and cultures. We're looking for native Arabic speakers in New York to join a paid, 3-day in-person study in Midtown Manhattan. Why your language matters Most technology is still designed with English speakers in mind. This study helps researchers understand how people who communicate in Arabic actually use their devices, so future products work better for them. What you'll do • Spend 1-3 days with our research team in Midtown Manhattan. • Walk us through how you use your phone and favourite apps in daily life. • Share examples of your everyday phone activity with the research team. You decide what's included. • Fill in a short questionnaire about your habits. Who we're looking for • 18+ and currently living in NYC. • A native Arabic speaker who grew up in Saudi Arabia. • You use Arabic in everyday life: texting friends, email, notes. • You've used a smartphone as your main personal phone for 3+ years. • Comfortable communicating in English. • Available for 3 consecutive days (Mon-Wed or Thu-Sat), starting October 16 on Friday. • Not currently employed by a tech or AI company. Great fit for international students, people new to NYC, and anyone between jobs or with a flexible schedule. Compensation $1,200-1,600 for the full study. Simple and transparent Participation is voluntary and covered by a signed consent form that explains exactly what's involved. You can ask questions at any point and stop whenever you like. How to apply Register on Mindrift and complete a short screening questionnaire. We'll confirm your session dates once you're shortlisted. Apply now",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "remotearabicinterpreterforlegaldojsupportyorktownsystemsgroup",
-   "title": "Remote Arabic Interpreter for Legal DOJ Support",
-   "org": "Yorktown Systems Group",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://jooble.org/jdp/2462107226365732709",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-01T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "A government contracting firm is seeking a qualified Interpreter to provide translation and interpretation services for sensitive legal matters. The role requires experience in the legal field and the ability to handle complex terminology across various formats. Candidates must have lived in the U.S. for 3 of the last 5 years and have fluency in both English and a foreign language. This part-time position also includ",
-   "details": "A government contracting firm is seeking a qualified Interpreter to provide translation and interpretation services for sensitive legal matters. The role requires experience in the legal field and the ability to handle complex terminology across various formats. Candidates must have lived in the U.S. for 3 of the last 5 years and have fluency in both English and a foreign language. This part-time position also includes the requirement to provide services within a tight timeframe and to maintain confidentiality at all times. #J-18808-Ljbffr Yorktown Systems Group",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "translationvalidatorarabicmodernstandardremote",
-   "title": "Translation Validator | Arabic (Modern Standard)",
-   "org": "Remote",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/translation-validator-arabic-modern-standard--san-francisco--e473d693ea8f75bad03c76404b228f6bf",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-02T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "About the Role Welo Data is seeking experienced linguists to support a synthetic data generation program for a leading technology client. In this role, you will perform A/B preference testing of machine-generated translations from English into Indic languages, helping to evaluate and improve the quality of AI-generated content. As a Translation Validator, you will independently review an English source document along",
-   "details": "About the Role Welo Data is seeking experienced linguists to support a synthetic data generation program for a leading technology client. In this role, you will perform A/B preference testing of machine-generated translations from English into Indic languages, helping to evaluate and improve the quality of AI-generated content. As a Translation Validator, you will independently review an English source document alongside two machine-generated translations (Variant A and Variant B), select the preferred translation, and provide a written justification for your choice. Each sample is reviewed by three independent validators working in a blind process. Project Details • Job Title: Translation Validation - Arabic (Modern Standard) • Location: Remote • Commitment: 2 weeks • Employment Type: Freelance Contract • Pay Rate: $5 USD/Hour What You’ll Do • Review English source documents alongside two machine-generated Arabic (Modern Standard) translations. • Evaluate both variants based on accuracy, fluency, and overall translation quality. • Select the preferred translation and provide a clear written justification for your assessment. • Review audio files and their corresponding transcriptions, evaluating accuracy, completeness, and overall quality. • Assess both transcription quality and audio quality according to project guidelines. • Complete assigned samples independently and within established timelines. • Adhere strictly to project and client guidelines Requirements: • Native-level fluency in Arabic (Modern Standard) (written and spoken). • Strong written communication skills in the target language. • Proficiency in English. • Background in linguistics, translation, or language quality assessment preferred. • Ability to work independently with high attention to detail and ",
-   "first_seen": "2026-11-08T11:50:06Z"
-  },
-  {
-   "id": "englishtoarabicpatenttranslatorpharmamedicalfreelanceremoterwsgroup",
-   "title": "English to Arabic Patent Translator - Pharma/Medical (Freelance Remote)",
-   "org": "RWS Group",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/english-to-arabic-patent-translator-pharma-medical-freelance-remote--united-states--ec8e3dbaf60e2297a1562de76febf5479",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-02T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → Arabic",
-    "years": 2,
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "English into Arabic Patent Translators RWS is seeking English into Arabic linguists to join our freelance database and establish a long-term collaboration, delivering high-quality patent translations for the world's leading technology brands. We are looking for translators with experience in Pharma/medical. Job Type: Freelance Collaboration. This is a fully remote position open to candidates worldwide, regardless of ",
-   "details": "English into Arabic Patent Translators RWS is seeking English into Arabic linguists to join our freelance database and establish a long-term collaboration, delivering high-quality patent translations for the world's leading technology brands. We are looking for translators with experience in Pharma/medical. Job Type: Freelance Collaboration. This is a fully remote position open to candidates worldwide, regardless of location. • Native-level proficiency in English and Arabic • University degree in an engineering discipline and/or a degree in translation • Minimum of 2 years experience in patent translations • Ability to work with CAT tools and offer MTPE (Trados Studio) Consistent, long-term collaboration with the world's leading IP services provider • Ongoing feedback on your work to maintain the highest quality • Access to projects for major global clients in tech, pharma, and beyond About RWS: RWS Holdings plc is the world's leading provider of technology-enabled language, content management and Intellectual Property services. We help our customers to connect with and bring new ideas to people globally by communicating business critical content at scale and enabling the protection and realization of their innovations. Our vision is to help organizations interact effectively with people anywhere in the world by solving their language, content and market access challenges through our collective global intelligence, deep expertise and smart technology. Customers include 90 of the globe's top 100 brands, the top 10 pharmaceutical companies and 18 of the top 20 patent filers worldwide. Our client base spans Europe, Asia Pacific, and North and South America across the technology, pharmaceutical, medical, legal, chemical, automotive, government and telecommunications sectors",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "englishtoarabicfreelancetranslatoragriculturaljobbers",
-   "title": "English-to-Arabic Freelance Translator (Agricultural)",
-   "org": "Jobbers",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobbers.io/job/4090/remote/english-to-arabic-freelance-translator-agricultural",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-28T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → Arabic",
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "We are seeking an experienced, professional English-to-Arabic freelance translator to collaborate on an educational agricultural translation project titled \"Profit in Poultry.\" The source text is the first half of a comprehensive 89-page document (approximately 53,000 words). The final Arabic translation will be utilized for online educational and promotional materials published by our client, Oasis Training & Techno",
-   "details": "We are seeking an experienced, professional English-to-Arabic freelance translator to collaborate on an educational agricultural translation project titled \"Profit in Poultry.\" The source text is the first half of a comprehensive 89-page document (approximately 53,000 words). The final Arabic translation will be utilized for online educational and promotional materials published by our client, Oasis Training & Technology Development (oasisttd.org). Because the text uniquely combines agricultural instructions with commercial and business insights, we are looking for a linguist who can deliver a natural, precise, and engaging tone while rigorously preserving the original technical terminology. Project Scope & Specifications Task: English to Arabic translation (first half of the main document). Total Volume: ~53,000 words. Domain: Agriculture, poultry farming, commercial business, and education. Timeline & Milestones Start Date:October 31, 2026 Milestone 1 (~25,000 words): Due November 10, 2026 Final Delivery (~28,000 words): Due November 21, 2026",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "linguistiiegyptianarabicremotesgsconsulting",
-   "title": "Linguist II - Egyptian Arabic [Remote]",
-   "org": "SGS Consulting",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://jooble.org/jdp/2112174646230670778",
+   "url": "https://www.jobleads.com/us/job/french-canadian-translator-it-marketing-freelance--united-states--ede076bcc83656bf8c17ca739a1ffb778",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
@@ -348,16 +126,77 @@
     "Remote / home-based"
    ],
    "langs": [
-    "Arabic"
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "LocalEyes seeks a native French Canadian translator to deliver localization services in Marketing and IT, producing precise, culturally appropriate translations for international audiences. You will conduct linguistic review and QA, manage terminology through TMs, glossaries and style guides, and ensure high-quality deliverables under tight deadlines, while collaborating with US teams.",
+   "details": "LocalEyes seeks a native French Canadian translator to deliver localization services in Marketing and IT, producing precise, culturally appropriate translations for international audiences. You will conduct linguistic review and QA, manage terminology through TMs, glossaries and style guides, and ensure high-quality deliverables under tight deadlines, while collaborating with US teams.",
+   "first_seen": "2026-11-09T13:44:56Z"
+  },
+  {
+   "id": "frenchtoenglishtranslatoreditoryouthshareinitiative",
+   "title": "French-to-English Translator-Editor",
+   "org": "YouthShare Initiatives",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://youthshareinitiatives.org/en/role-french-to-english-translator-editor",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-10-20T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "contract": "Volunteer"
+   },
+   "apply_email": "",
+   "snippet": "You carry analyses written in French, and YouthShare’s institutional texts, into English, so they reach readers around the world. Assignments • Translate accepted French analyses into English • Respect each author’s tone, nuances and terminology • Write the English edition of institutional texts first drafted in French (website pages, emails, the newsletter, reports) in British English that reads as an original • Ada",
+   "details": "You carry analyses written in French, and YouthShare’s institutional texts, into English, so they reach readers around the world. Assignments • Translate accepted French analyses into English • Respect each author’s tone, nuances and terminology • Write the English edition of institutional texts first drafted in French (website pages, emails, the newsletter, reports) in British English that reads as an original • Adapt cultural references for an international readership • Review translations by other team members • Enrich the association’s shared glossary Profile we are looking for • English as your writing language, full understanding of French • Polished writing and care for the right word • Reliability with deadlines Nice to have • Studies in translation, languages or journalism • Knowledge of the labs’ themes Fully remote, from any country · 2 to 4 hours a week · At least one year · volunteer role · English or French, ideally both",
+   "first_seen": "2026-11-09T13:44:56Z"
+  },
+  {
+   "id": "remotetranslatorlearningdesignerlocalizationprojectfrenchremotequestjobs",
+   "title": "[Remote] Translator / Learning Designer – Localization Project (French)",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/remote-translator-learning-designer-localization-project-french-ae52b92f",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-08T23:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
    ],
    "role": true,
    "facts": {
     "contract": "Full-time"
    },
    "apply_email": "",
-   "snippet": "Job Responsibilities: • Provide linguistic expertise in the areas of phonetics, phonology, lexicography, dialectology, and NLP. • Design and conduct experiments for evaluating transcription quality. • Develop manual and automated processes for multiple concurrent projects including ensuring high-quality label alignments, prosodic classification, POS identification and disambiguation, targeted modeling data, and user ",
-   "details": "Job Responsibilities: • Provide linguistic expertise in the areas of phonetics, phonology, lexicography, dialectology, and NLP. • Design and conduct experiments for evaluating transcription quality. • Develop manual and automated processes for multiple concurrent projects including ensuring high-quality label alignments, prosodic classification, POS identification and disambiguation, targeted modeling data, and user feedback. • Create and perfect text normalization and inverse text normalization processes. • Manage lexical and phrasal transcriptions and related metadata. • Analyze system metrics such as user opinion, lexicon transcription coverage, and POS tagger performance and remedy pain points. • Build and improve TTS models (speech generation) to sound more natural, expressive, and robust, including things like prosody and non-verbal cues (e.g., laughter/breath). • Multilingual + i18n support: expand language coverage and handle tricky cases like code-switching, accents, and language ID. • Deploy/integrate models into products (sometimes including on-device inference constraints for wearables). • Evaluation + quality measurement: develop pipelines/guidelines to measure naturalness and expressivity. • Native speaker expertise for new TTS locales. Skills: • Knowledge of phonetics, phonology, sociolinguistics, dialectology, and other areas of linguistics. • Ability to analyze waveforms and spectrograms. • Knowledge of prescriptive writing and punctuation conventions for at least one language. • Excellent communication skills both verbal and written. • Knowledge in transcription and annotation systems such as SAMPA, IPA, and ToBI. • Native-level fluency in Egyptian Arabic & (Modern Standard Arabic Preferred). • Familiarity with command-line, scripting, and versioning s",
-   "first_seen": "2026-11-05T04:58:44Z"
+   "snippet": "Note: The job is a remote job and is open to candidates in USA. G3 is seeking a French Localization & Learning Content Specialist for a two-month remote contractor project. The role focuses on translating, localizing, quality-checking, and rebuilding business and sales-enablement learning content in French using reputed company, PowerPoint, and Articulate Rise, while ensuring accurate language, functional animations,",
+   "details": "Note: The job is a remote job and is open to candidates in USA. G3 is seeking a French Localization & Learning Content Specialist for a two-month remote contractor project. The role focuses on translating, localizing, quality-checking, and rebuilding business and sales-enablement learning content in French using reputed company, PowerPoint, and Articulate Rise, while ensuring accurate language, functional animations, and presentation-ready layouts. Responsibilities • Review and refine reputed company-pretranslated content in reputed company for accuracy, fluency, grammar, tone, and natural French expression • Apply approved terminology consistently across skills, decisions, products, and specialized terminology • Maintain a conversational, evidence-based, commercially sharp voice • Adapt buyer-as-hero and “you” language naturally for French audiences • Rebuild finalized translations in existing PowerPoint decks and Articulate Rise modules • Test and repair animations, transitions, triggers, timing, and build sequences • Resolve layout issues caused by localized text, including overflow, line breaks, and cut-off content • Perform light image/screenshot text edits in PowerPoint • Deliver assets in a fully presentation-ready state • Collaborate with the internal team and other contractors, working independently against milestones and participating in 1–2 weekly check-ins Skills • Business or Native-level French with excellent professional/B2B writing skills • Strong English reputed company and collaboration skills • Proven experience in business, sales-enablement, corporate learning, or professional localization • Comfortable working with terminology glossaries and style guides • Strong PowerPoint skills, including the Animation Pane and animation repair • Experience with ",
+   "first_seen": "2026-11-09T13:44:56Z"
   },
   {
    "id": "translatorlinglongtire",
@@ -477,8 +316,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Technical Editor UNHABITAT - United Nations Human Settlements Programme Remote | Montreal CON level Speaks English, French Application deadline: November 17, 2026 (9 days) Apply Summary by Impactpool The United Nations Human Settlements Programme is seeking a Technical Editor for a part-time, home-based consultancy to edit two Issue Briefs focused on municipal finance and international housing supply approaches. The ",
-   "details": "Technical Editor UNHABITAT - United Nations Human Settlements Programme Remote | Montreal CON level Speaks English, French Application deadline: November 17, 2026 (9 days) Apply Summary by Impactpool The United Nations Human Settlements Programme is seeking a Technical Editor for a part-time, home-based consultancy to edit two Issue Briefs focused on municipal finance and international housing supply approaches. The role involves enhancing clarity, structure, and accessibility of the documents for a non-specialist Canadian audience. The editor will work closely with the project team to ensure the briefs effectively communicate research findings and lessons learned. The assignment is expected to begin in late November 2026 and conclude by the end of January 2027. Candidate Requirements: Advanced degree in Communications, Journalism, English, Public Policy, Urban Studies, Housing Policy, or related field 5 years of professional experience in substantive or technical editing Experience editing issue briefs and analytical reports Ability to translate complex research into accessible content Familiarity with housing policy and urban development Experience with multiple reviewers' comments and tight deadlines Excellent written English; knowledge of French desirable Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should communicate the evidence, qualitative insights, lessons learned and research implications clearly f",
+   "snippet": "Technical Editor UNHABITAT - United Nations Human Settlements Programme Remote | Montreal CON level Speaks English, French Application deadline: November 17, 2026 (8 days) Apply Summary by Impactpool The United Nations Human Settlements Programme is seeking a Technical Editor for a part-time, home-based consultancy to edit two Issue Briefs focused on municipal finance and international housing supply approaches. The ",
+   "details": "Technical Editor UNHABITAT - United Nations Human Settlements Programme Remote | Montreal CON level Speaks English, French Application deadline: November 17, 2026 (8 days) Apply Summary by Impactpool The United Nations Human Settlements Programme is seeking a Technical Editor for a part-time, home-based consultancy to edit two Issue Briefs focused on municipal finance and international housing supply approaches. The role involves enhancing clarity, structure, and accessibility of the documents for a non-specialist Canadian audience. The editor will work closely with the project team to ensure the briefs effectively communicate research findings and lessons learned. The assignment is expected to begin in late November 2026 and conclude by the end of January 2027. Candidate Requirements: Advanced degree in Communications, Journalism, English, Public Policy, Urban Studies, Housing Policy, or related field 5 years of professional experience in substantive or technical editing Experience editing issue briefs and analytical reports Ability to translate complex research into accessible content Familiarity with housing policy and urban development Experience with multiple reviewers' comments and tight deadlines Excellent written English; knowledge of French desirable Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should communicate the evidence, qualitative insights, lessons learned and research implications clearly f",
    "first_seen": "2026-11-07T11:37:44Z"
   },
   {
@@ -511,6 +350,104 @@
    "snippet": "Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should",
    "details": "Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should communicate the evidence, qualitative insights, lessons learned and research implications clearly for non-specialist Canadian audiences. Final factual verification, research judgments and publication approval remain with the project team. Work Location Home based Expected duration 2 months Duties and Responsibilities UN-Habitat is the agency for human settlements. It is mandated by the UN General Assembly to promote socially and environmentally sustainable towns and cities with the goal of providing adequate shelter for all. The Canada Office of UN-Habitat strengthens the organization’s mission to address the global housing crisis by serving as a focal point for partnerships, applied research, and policy engagement in Canada and across North America for the implementation of UN-Habitat’s 2026-2029 Strategic Plan. Operating from the City of Montreal, the Canada Office plays a central role in four domains: partner engagement and resource mobilization; research-policy-action interface; advocacy and communication; and the advancement of sustainable urbanization agendas within the Canadian and North American context. The Canada Office places particular emphasis on knowledge and innovation with a view to accelerating housing solutions that are affordable, adequate, resilient, and compatible with national and global commitments. In this context, the Canada Office ",
    "first_seen": "2026-11-06T12:50:29Z"
+  },
+  {
+   "id": "translatorenglishtofrench10monthcontractremoteremotequestjobs",
+   "title": "Translator (English to French) – 10-Month Contract - Remote",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/translator-english-to-french-10-month-contract-remote-dfeb98ff",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-05T00:00:00Z",
+   "score": 82,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based",
+    "Asks 5+ years"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → French",
+    "years": 5,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company systems that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, helping ens",
+   "details": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company systems that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, helping ensure consistency and clarity at reputed company stage of the rollout. Requirements • Bachelor's degree in translation (English to French specialization) • At least five years of relevant experience, including technical translation • Excellent command of both English and French, with native-level proficiency in French • Strong familiarity with translation tools such as Trados reputed company or similar environments • Terminology databases and emerging reputed company technologies • reputed company understanding of terminology across core business functions—including Finance, reputed company Chain, HR, and corporate operations Benefits • Competitive salary • Bonus • Life insurance • Health spending account • Fitness & wellness subsidy • Employee & family assistance reputed company • TFSA & RRSP • Electric vehicle subsidy • Summer hours • Holiday office reputed company Originally posted on Himalayas Apply To reputed company Job",
+   "first_seen": "2026-11-03T23:20:55Z"
+  },
+  {
+   "id": "remoteenfrlifesciencestranslatormtperegulatoryjobgether",
+   "title": "Remote EN→FR Life Sciences Translator; MTPE & Regulatory",
+   "org": "Jobgether",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.learn4good.com/jobs/online_remote/language_and_multilingual/5603084894/e/",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-06T00:00:00Z",
+   "score": 80,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "contract": "Part-time"
+   },
+   "apply_email": "",
+   "snippet": "Position: Remote EN→FR Life Sciences Translator (MTPE & Regulatory) Jobgether is seeking a qualified life sciences translator for a fully remote freelance role focused on translating and reviewing English-to-French (France) regulatory and medical content. You will work with MTPE and traditional translation to ensure accuracy, consistency, and compliance across clinical, regulatory, and pharmacovigilance documents. Th",
+   "details": "Position: Remote EN→FR Life Sciences Translator (MTPE & Regulatory) Jobgether is seeking a qualified life sciences translator for a fully remote freelance role focused on translating and reviewing English-to-French (France) regulatory and medical content. You will work with MTPE and traditional translation to ensure accuracy, consistency, and compliance across clinical, regulatory, and pharmacovigilance documents. The ideal candidate has 2+ years in life sciences translation, strong English/French proficiency, and familiarity with CAT tools such as XTM or We have an opening for a Remote EN→FR Life Sciences Translator (MTPE & Regulatory) in United States within Other. We aim to respond to suitable candidates as soon as possible. Full responsibilities and requirements are described in the listing above. Learn more about the Remote EN→FR Life Sciences Translator (MTPE & Regulatory) role in the description above. We appreciate your interest in this position.",
+   "first_seen": "2026-11-09T13:44:56Z"
+  },
+  {
+   "id": "translatorreviserortranslatorreviserfemaleformallstate",
+   "title": "Translator-Reviser or Translator-Reviser (female form)",
+   "org": "Allstate",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/translator-reviser-or-translator-reviser-female-form--united-states--ec8431852c26f1a31684e715eff56cbe7",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-04T00:00:00Z",
+   "score": 80,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → French",
+    "years": 3,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "At Allstate, great things happen when our people join forces to protect families and their belongings from life's uncertainties. And for more than 90 years, our sense of innovation has allowed us to stay ahead of our customers' evolving needs. From championing seat belts, airbags and driver's license laws, Allstate has become an industry leader in pricing sophistication, telematics and, more recently, device and iden",
+   "details": "At Allstate, great things happen when our people join forces to protect families and their belongings from life's uncertainties. And for more than 90 years, our sense of innovation has allowed us to stay ahead of our customers' evolving needs. From championing seat belts, airbags and driver's license laws, Allstate has become an industry leader in pricing sophistication, telematics and, more recently, device and identity protection. Job Description The translator-reviser is responsible for providing language services so as to contribute to the company's compliance with language laws and policies and to the delivery of a positive French-language experience for employees and third parties. Reporting to the Director, Language Services, the incumbent will focus on translation from English into French and comparative revision, as well as proofreading of the final text. This person provides advice on translation quality and meets complex translation needs by collaborating with stakeholders, suppliers and peers. Responsibilities • Perform translation and revision of texts from English to French, as well as proofreading work, for all regions and business units; • Ensure translation quality by consulting subject-matter experts and providing support and feedback to external language resources; • Collaborate with project managers, other team members and external service providers so as to clearly establish expectations, clarify project content and parameters, and ensure internal client satisfaction; • Carry out comprehensive terminology research and maintain the language database; • Work on other assigned tasks. Skills • Bachelor's degree in translation from English to French or equivalent studies • 3-5 years of translation experience within a company or agency; • Excellent oral a",
+   "first_seen": "2026-11-09T13:44:56Z"
   },
   {
    "id": "strategiccommunicationsadvocacyandpartnershipsspecialistopentointernalexternalap",
@@ -573,6 +510,39 @@
    "first_seen": "2026-11-03T17:11:07Z"
   },
   {
+   "id": "freelancegermanintofrenchpatenttranslatorproofreaderremoterwsgroup",
+   "title": "Freelance German into French Patent Translator & Proofreader (Remote)",
+   "org": "RWS Group",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/freelance-german-into-french-patent-translator-proofreader-remote--united-states--e9c89d9d14ca50a4e522a6d28f1495cbc",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-01T00:00:00Z",
+   "score": 70,
+   "reasons": [
+    "Translation / language role",
+    "Needs German",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "German → French",
+    "years": 2,
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "If you have solid experience in patent translation, a passion for precision, and strong communication skills, we'd love to hear from you., • Native-level proficiency in French and German • University degree in an engineering discipline and/or a degree in translation • At least 2 years of experience in patent translation • Familiarity with CAT tools, especially Trados Studio RWS is expanding its network of expert ling",
+   "details": "If you have solid experience in patent translation, a passion for precision, and strong communication skills, we'd love to hear from you., • Native-level proficiency in French and German • University degree in an engineering discipline and/or a degree in translation • At least 2 years of experience in patent translation • Familiarity with CAT tools, especially Trados Studio RWS is expanding its network of expert linguists for long-term collaboration on high-impact patent translation projects. We are currently seeking freelance translators and proofreaders to support ongoing work with some of the world's most innovative technology brands. We are particularly interested in linguists with subject-matter expertise in Chemistry and Electrical Engineering , though we also welcome professionals with experience in other technical patent domains. At RWS, we partner with some of the most innovative companies in the world. This freelance opportunity allows you to contribute to impactful projects that support global innvation while working flexibly from anywhere. Our offer • Ongoing feedback on your work to maintain the highest quality • Working with the world's number one Intellectual Property services company • Fully remote setup, enjoy the flexibility of working from home About RWS RWS Holdings plc is the world's leading provider of technology-enabled language, content management and Intellectual Property services. We help our customers to connect with and bring new ideas to people globally by communicating business critical content at scale and enabling the protection and realization of their innovations. Our vision is to help organizations interact effectively with people anywhere in the world by solving their language, content and market access challenges through our collecti",
+   "first_seen": "2026-11-09T13:44:56Z"
+  },
+  {
    "id": "procurementofficerunodcunitednationsof",
    "title": "Procurement Officer",
    "org": "UNODC - United Nations Office on Drugs and Crime",
@@ -600,8 +570,8 @@
     "years": 5
    },
    "apply_email": "",
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (23 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
-   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (23 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (22 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
+   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (22 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -662,8 +632,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 (11 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory p",
-   "details": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 (11 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory projects, particularly the SME Accelerator. This role involves project management, coordination, and ensuring consistent delivery of recommendations. The consultant will prepare various project documents, support client interactions, and monitor project outcomes. The position is available in Cairo, Nairobi, and Accra, with a focus on collaboration across teams and effective communication. Candidate Requirements: Bachelor’s degree in corporate governance, business administration, law, economics, finance, or related field At least two years of relevant corporate governance experience Experience with private sector firms or development partners Strong research, analytical, and strategic thinking skills Excellent organizational skills and ability to meet deadlines Fluent in English; Arabic desirable for Cairo position Ability to use LLM tools for research and analysis ET Consultant - Corporate Governance Advisory Job #: req39287 Organization: IFC Sector: Advisory Services Grade: EC1 Term Duration: 1 year 0 months Recruitment Type: Local Recruitment Location: Cairo,Egypt; Nairobi, Kenya; and Accra, Ghana Required Language(s): English Preferred Language(s): Arabic (desirable for Cairo) and French Closing Date: 11/19/2026 (MM/DD/YYYY) at 11:59pm UTC Description At the International Finance Corporation (IFC), a member of the World Bank Group (WBG) , you’ll join a div",
+   "snippet": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 (10 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory p",
+   "details": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 (10 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory projects, particularly the SME Accelerator. This role involves project management, coordination, and ensuring consistent delivery of recommendations. The consultant will prepare various project documents, support client interactions, and monitor project outcomes. The position is available in Cairo, Nairobi, and Accra, with a focus on collaboration across teams and effective communication. Candidate Requirements: Bachelor’s degree in corporate governance, business administration, law, economics, finance, or related field At least two years of relevant corporate governance experience Experience with private sector firms or development partners Strong research, analytical, and strategic thinking skills Excellent organizational skills and ability to meet deadlines Fluent in English; Arabic desirable for Cairo position Ability to use LLM tools for research and analysis ET Consultant - Corporate Governance Advisory Job #: req39287 Organization: IFC Sector: Advisory Services Grade: EC1 Term Duration: 1 year 0 months Recruitment Type: Local Recruitment Location: Cairo,Egypt; Nairobi, Kenya; and Accra, Ghana Required Language(s): English Preferred Language(s): Arabic (desirable for Cairo) and French Closing Date: 11/19/2026 (MM/DD/YYYY) at 11:59pm UTC Description At the International Finance Corporation (IFC), a member of the World Bank Group (WBG) , you’ll join a div",
    "first_seen": "2026-11-07T11:37:44Z"
   },
   {
@@ -695,6 +665,39 @@
    "snippet": "About the Role We are seeking a detail-oriented Project Management Officer to support our translation and localization operations. This role will coordinate projects across internal teams and external suppliers, ensuring timely delivery, quality, and cost control for multilingual content and localization initiatives. The successful candidate will be organized, communicative, and familiar with translation workflows, C",
    "details": "About the Role We are seeking a detail-oriented Project Management Officer to support our translation and localization operations. This role will coordinate projects across internal teams and external suppliers, ensuring timely delivery, quality, and cost control for multilingual content and localization initiatives. The successful candidate will be organized, communicative, and familiar with translation workflows, CAT tools, and vendor management. Key Responsibilities: Project Coordination & Delivery Manage end-to-end translation and localization projects from intake to delivery, tracking schedules, milestones and deliverables Vendor & Supplier Management Onboard, evaluate and coordinate freelance linguists and translation agencies Negotiate rates, manage purchase orders and monitor vendor performance against SLAs Quality Assurance Implement QA checks and post-editing guidelines to ensure linguistic and functional quality Co-ordinate linguistic reviews, in-country testing and bug tracking with product and QA teams Qualifications & Requirements: 2–3 years of experience as a Localization Project Manager or in a similar role University graduate (Bachelors degree or equivalent) For male candidates: completion of military service or official exemption (if applicable) Proven experience in the translation and localization industry Strong understanding of: Localization workflows MTPE processes QA/QC practices CAT tools and TMS platforms Ability to manage multiple projects simultaneously under tight deadlines Excellent English communication skills (written and spoken) Strong organizational and problem-solving skills Comfortable working full-time in the US time zone Based in Egypt with a reliable internet connection and remote-work setup Proactive, detail-oriented and comfortabl",
    "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "seniorenglishfrenchtranslatorqualityreviewerallstate",
+   "title": "Senior English–French Translator & Quality Reviewer",
+   "org": "Allstate",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/senior-english-french-translator-quality-reviewer--united-states--ed6c4585e97ff783530b387e72c76680d",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-02T00:00:00Z",
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based",
+    "Senior level"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English ↔ French",
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Allstate recrute un Translator Analyst III pour assurer des services linguistiques et des traductions de haute qualité de l’anglais vers le français, en veillant à la conformité avec les exigences professionnelles et réglementaires. Vous conseillerez sur la qualité des traductions, collaborerez avec les équipes et les prestataires, et participerez à des projets multilingues importants, tout en garantissant une expéri",
+   "details": "Allstate recrute un Translator Analyst III pour assurer des services linguistiques et des traductions de haute qualité de l’anglais vers le français, en veillant à la conformité avec les exigences professionnelles et réglementaires. Vous conseillerez sur la qualité des traductions, collaborerez avec les équipes et les prestataires, et participerez à des projets multilingues importants, tout en garantissant une expérience cohérente pour les employés et les clients.",
+   "first_seen": "2026-11-09T13:44:56Z"
   },
   {
    "id": "englishlanguagelegaltranslators",
@@ -911,31 +914,35 @@
    "first_seen": "2026-11-07T12:43:29Z"
   },
   {
-   "id": "languagecontentreviewercroatiancroatiaweloglobal",
-   "title": "Language Content Reviewer – Croatian (Croatia)",
-   "org": "Welo Global",
-   "source": "Jobicy",
-   "feed": "Jobicy",
-   "url": "https://jobicy.com/jobs/159694-language-content-reviewer-croatian-croatia",
-   "location": "Croatia",
+   "id": "videographicsinternpublicinformationvideosection",
+   "title": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section",
+   "org": "UN DGC - United Nations Department of Global Communications",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1246773",
+   "location": "Remote | New York City",
    "remote": true,
    "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-08T07:07:11Z",
-   "score": 55,
+   "intl": true,
+   "deadline": "2026-11-30T00:00:00Z",
+   "posted": null,
+   "score": 57,
    "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
+    "Mentions translation",
+    "Remote / home-based",
+    "Internships are usually for students"
    ],
-   "langs": [],
-   "role": true,
-   "facts": {},
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "facts": {
+    "contract": "Internship"
+   },
    "apply_email": "",
-   "snippet": "We are looking for experienced language professionals to support an ongoing project focused on creating, reviewing, and refining customer review summaries. This role involves applying complex writing and content rules to ensure accuracy, consistency, clarity, and faithful representation of customer sentiment, while adhering to detailed project guidelines. What you’ll do *Implement complex rules related to writing str",
-   "details": "We are looking for experienced language professionals to support an ongoing project focused on creating, reviewing, and refining customer review summaries. This role involves applying complex writing and content rules to ensure accuracy, consistency, clarity, and faithful representation of customer sentiment, while adhering to detailed project guidelines. What you’ll do *Implement complex rules related to writing structure, content, register, and perspective to maintain consistency and coherence across summaries. *Conduct thorough research to verify the accuracy of information and ensure all content is factually correct. *Edit and refine summaries to improve clarity, readability, and overall quality. *Synthesize customer reviews to capture key points and overall sentiment concisely and accurately. *Apply content and editorial guidelines consistently across all customer review summaries. *Translate project guidelines into your language, adapting them specifically to your country/locale conventions. Project details Content type: Customer review summaries Project duration: Ongoing Language : Croatian Requirements Proven experience in content editing, summarization, localization, or similar language-focused work. Strong ability to follow complex editorial and content guidelines with high consistency. Excellent research and fact-checking skills. Strong attention to detail and a quality-driven mindset. Ability to work independently in an online, guideline-driven production environment. Compensation Additional Information",
-   "first_seen": "2026-11-08T11:50:06Z"
+   "snippet": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section UN DGC - United Nations Department of Global Communications Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 30, 2026 (21 days) Apply Summary by Impactpool The Video/Graphics Intern position at the United Nations offers a unique opportunity to gain hands-on experience in video pr",
+   "details": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section UN DGC - United Nations Department of Global Communications Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 30, 2026 (21 days) Apply Summary by Impactpool The Video/Graphics Intern position at the United Nations offers a unique opportunity to gain hands-on experience in video production within the Video Section of the News and Content Branch. Interns will assist with various tasks including research, script development, video editing, and multimedia production under the guidance of experienced professionals. This internship is designed for students or recent graduates in relevant fields and can be conducted in-person or remotely. No prior work experience is required, making it an excellent opportunity for those looking to start their careers in multimedia and communications. Candidate Requirements: Enrolled in or completed a graduate program in communication, journalism, international relations, public administration, English, or translation studies Computer literate in standard word processing and spreadsheet software Demonstrated interest in the work of the United Nations Ability to interact with diverse cultural backgrounds Good knowledge of editing software, especially Adobe Premiere Pro Fluency in English; knowledge of another UN language is desirable Work Location New York or remote Expected duration 2 to 6 months Duties and Responsibilities The position is located in the Video Section of the News and Content Branch, News and Media Division, Department of Global Communications. The News and Content Branch is a multimedia service provided by the United Nations to promote the universal ideals of the Organization, including peac",
+   "first_seen": "2026-11-09T13:44:56Z"
   },
   {
    "id": "programassistantadministrativeclientsupport",
@@ -967,6 +974,65 @@
    "snippet": "Program Assistant - Administrative & Client Support World Bank Group Cairo National GC - Administration (Professional and Technical) level Speaks Arabic, English Application deadline: November 12, 2026 Closing soon Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking a Program Assistant to provide administrative and client support in Cairo, Egypt. The role involves managing complex calen",
    "details": "Program Assistant - Administrative & Client Support World Bank Group Cairo National GC - Administration (Professional and Technical) level Speaks Arabic, English Application deadline: November 12, 2026 Closing soon Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking a Program Assistant to provide administrative and client support in Cairo, Egypt. The role involves managing complex calendars, coordinating meetings, and ensuring effective communication with stakeholders. The ideal candidate will demonstrate strong organizational skills, discretion, and the ability to handle multiple priorities in a fast-paced environment. Proficiency in English and Arabic is required, along with experience in administrative support within international organizations. Candidate Requirements: Bachelor’s degree in relevant field At least five years of relevant experience Experience supporting senior staff Excellent written and spoken English and Arabic Advanced proficiency in Microsoft Office tools Strong organizational and project-coordination skills Ability to handle confidential information Digital curiosity and ability to learn new systems Program Assistant - Administrative & Client Support Job #: req39064 Organization: IFC Sector: Administration/Office Support Grade: GC Term Duration: Open-Ended Staff (OPEN-OP) Recruitment Type: Local Recruitment Location: Cairo,Egypt Required Language(s): English, Arabic Preferred Language(s): Closing Date: 11/12/2026 (MM/DD/YYYY) at 11:59pm UTC Description At the International Finance Corporation (IFC), a member of the World Bank Group (WBG) , you’ll join a diverse, global community working across cultures, disciplines, and borders to address the world’s most pressing development challenges. With 1.2 billion young people",
    "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
+   "id": "programandbusinessdevelopmentofficeropenforapplicantswhohavetherighttobebasedand",
+   "title": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only)",
+   "org": "Diakonia",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1246766",
+   "location": "Remote | Egypt",
+   "remote": true,
+   "egypt": true,
+   "intl": true,
+   "deadline": "2026-11-22T00:00:00Z",
+   "posted": null,
+   "score": 50,
+   "reasons": [
+    "Open to Egypt",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "facts": {
+    "years": 3
+   },
+   "apply_email": "",
+   "snippet": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (13 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The ro",
+   "details": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (13 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The role involves coordinating partner agreements, ensuring compliance, and contributing to resource mobilization and fundraising efforts. The candidate will work closely with internal and external stakeholders to facilitate project implementation and support report writing. This position requires strong teamwork skills and a commitment to Diakonia's values of solidarity, justice, and accountability. Candidate Requirements: University degree or equivalent in relevant area 3-5 years’ experience in international development work Experience in project management with a human rights-based approach Proven skills in Planning, Evaluation, and Monitoring Experience in donor engagement and resource mobilization Fluent in English and Arabic Analytic, creative, and solution-oriented Ability to work independently and as a team player Relevant communication and IT skills Based in Egypt Open for applicants who have the right to be based and work from Egypt only Locals are encouraged to apply WHO WE ARE Diakonia is an international rights-based and faith-based development organization recognized for its commitment to democracy, human rights, and gender justice with the objective to change unfair structures that generate poverty, inequality, oppression and violence. All work is based on feminist principles. Digitalization plays a key role in enabling efficient, transparent, and s",
+   "first_seen": "2026-11-09T13:44:56Z"
+  },
+  {
+   "id": "chinesetranslatorexecutiveassistantlivemall",
+   "title": "Chinese Translator & Executive Assistant",
+   "org": "Livemall",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://wuzzuf.net/jobs/p/yjgtddqfkdta-chinese-translator-executive-assistant-livemall-cairo-egypt",
+   "location": "مدينة القاهرة الجديدة",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 50,
+   "reasons": [
+    "Translation / language role",
+    "Needs Chinese",
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "facts": {},
+   "apply_email": "",
+   "snippet": "Job Description Overview We are looking for a highly professional and organized Chinese Translator & Executive Assistant to work closely with the company’s Manager Director in a fast-paced E-commerce environment. Job Description Provide accurate Chinese Arabic/English translation and interpretation during meetings, discussions, and business activities. • Accompany the Manager Director during his daily business activi",
+   "details": "Job Description Overview We are looking for a highly professional and organized Chinese Translator & Executive Assistant to work closely with the company’s Manager Director in a fast-paced E-commerce environment. Job Description Provide accurate Chinese Arabic/English translation and interpretation during meetings, discussions, and business activities. • Accompany the Manager Director during his daily business activities inside and outside the company. • Act as a communication bridge between the Manager Director and employees, clients, partners, and external parties. • Handle administrative tasks, follow-ups, appointments, meetings, and daily arrangements. • Support the Manager Director in communication and coordination with Chinese-speaking individuals and business partners. • Maintain strict confidentiality and professionalism. • Work according to the Manager Director’s schedule, with flexibility when business requirements change. • Days off and vacations will be aligned with the Manager Director’s schedule. • Must be flexible and able to accompany the Manager Director when required, including during business trips or travel. Job Requirements • Male, 25 years or above. • Excellent command of Chinese, with strong verbal and written communication skills. • Excellent translation and interpretation skills. • Previous experience in administrative work is required. • Previous experience as a Chinese Translator, Interpreter, Executive Assistant, or Personal Assistant is preferred. • Experience working directly with senior management or executives is a strong advantage. • Excellent communication, organization, and time-management skills. • Professional appearance, high level of responsibility, and confidentiality. • High flexibility with working hours and business movements. ",
+   "first_seen": "2026-11-03T23:23:35Z"
   },
   {
    "id": "caseworkerprotectionconsultant",
@@ -1026,38 +1092,9 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 (12 days) Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The ro",
-   "details": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 (12 days) Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The role involves contributing to program development, resource mobilization, and technical reporting aligned with national strategies. The expert will conduct research, prepare analytical reports, and ensure the quality of technical study reports. Collaboration with project managers and field visits will be essential for effective program management and decision-making. Candidate Requirements: University degree in relevant fields At least seven years of experience in project/programme management Working knowledge of English and Arabic National of Egypt or resident with valid work permit IMPORTANT NOTICE: Please note that Closure Date and Time displayed above are based on date and time settings of your personal device FAO is committed to achieving workforce diversity in terms of gender, nationality, background and culture Qualified female applicants, qualified nationals of non-and under-represented Members and person with disabilities are encouraged to apply Everyone who works for FAO is required to adhere to the highest standards of integrity and professional conduct, and to uphold FAO's values FAO, as a Specialized Agency of the United Nations, has a zero-tolerance policy for conduct that is incompatible with its status, objectives and mandate, including sexual exploitation and abuse, sexual harassment, abuse of authority and discrimination All selected candidat",
+   "snippet": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 (11 days) Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The ro",
+   "details": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 (11 days) Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The role involves contributing to program development, resource mobilization, and technical reporting aligned with national strategies. The expert will conduct research, prepare analytical reports, and ensure the quality of technical study reports. Collaboration with project managers and field visits will be essential for effective program management and decision-making. Candidate Requirements: University degree in relevant fields At least seven years of experience in project/programme management Working knowledge of English and Arabic National of Egypt or resident with valid work permit IMPORTANT NOTICE: Please note that Closure Date and Time displayed above are based on date and time settings of your personal device FAO is committed to achieving workforce diversity in terms of gender, nationality, background and culture Qualified female applicants, qualified nationals of non-and under-represented Members and person with disabilities are encouraged to apply Everyone who works for FAO is required to adhere to the highest standards of integrity and professional conduct, and to uphold FAO's values FAO, as a Specialized Agency of the United Nations, has a zero-tolerance policy for conduct that is incompatible with its status, objectives and mandate, including sexual exploitation and abuse, sexual harassment, abuse of authority and discrimination All selected candidat",
    "first_seen": "2026-11-07T11:37:44Z"
-  },
-  {
-   "id": "caseworkerircinternationalresc",
-   "title": "Caseworker",
-   "org": "IRC - International Rescue Committee",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1227269",
-   "location": "Remote | Clark | Missoula",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-09T00:00:00Z",
-   "posted": null,
-   "score": 45,
-   "reasons": [
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "pay": "$23.50-$24/hr"
-   },
-   "apply_email": "",
-   "snippet": "Caseworker IRC - International Rescue Committee Remote | Clark, Missoula International Junior level Speaks Arabic, English, Swahili, Spanish Application deadline: November 09, 2026 Closing soon Apply Summary by Impactpool The Caseworker at the International Rescue Committee (IRC) will support vulnerable refugees and asylees by providing strengths-based, client-centered case management. This role involves determining ",
-   "details": "Caseworker IRC - International Rescue Committee Remote | Clark, Missoula International Junior level Speaks Arabic, English, Swahili, Spanish Application deadline: November 09, 2026 Closing soon Apply Summary by Impactpool The Caseworker at the International Rescue Committee (IRC) will support vulnerable refugees and asylees by providing strengths-based, client-centered case management. This role involves determining client eligibility, developing individualized service plans, and assisting clients with healthcare navigation. The Caseworker will also conduct community outreach, maintain documentation, and respond to client crises. The position requires collaboration with clients, colleagues, and external service providers to ensure comprehensive support. Candidate Requirements: Bachelor’s degree in social work, public health, or related field preferred 1-2 years in case management or customer service required Experience working with youth preferred Strong relationship building and networking skills Effective communication in a multi-cultural environment Self-starter with problem-solving skills Attention to detail and accuracy Fluent in English; proficiency in other languages preferred Proficient in Microsoft Office applications Valid driver’s license and access to a personal vehicle The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic wellbeing, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is one of the world's largest international humanitarian non-governmental organizations (INGO), at work in more than 40 countries and 29 U.S. cities helping people to survive, reclaim control of their future and strengthen the",
-   "first_seen": "2026-11-04T15:13:52Z"
   },
   {
    "id": "supportercontentknowledgemanagementinterndivisionofprivatefundraisingandpartners",
@@ -1087,36 +1124,6 @@
    "apply_email": "",
    "snippet": "Supporter Content – Knowledge Management Intern, Division of Private Fundraising and Partnerships (PFP) UNICEF - United Nations Children’s Fund Remote | Home Based - May require travel Both national and international Internship level Speaks English, French, Spanish Application deadline: November 10, 2026 Closing soon Apply Summary by Impactpool UNICEF is seeking a Knowledge Management Intern to support the Supporter ",
    "details": "Supporter Content – Knowledge Management Intern, Division of Private Fundraising and Partnerships (PFP) UNICEF - United Nations Children’s Fund Remote | Home Based - May require travel Both national and international Internship level Speaks English, French, Spanish Application deadline: November 10, 2026 Closing soon Apply Summary by Impactpool UNICEF is seeking a Knowledge Management Intern to support the Supporter Content team within the Division of Private Fundraising and Partnerships. The intern will assist in creating and managing content for donor engagement, including multimedia resources and SharePoint page design. Responsibilities include uploading content to the WeShare platform, tagging metadata, and ensuring the accessibility of fundraising tools. This position is remote and offers a full-time, paid internship for 26 weeks, starting on November 30th, 2026. Candidate Requirements: Enrolled in or graduated from a degree program within the last two years At least 18 years old Proficient in English, French, or Spanish Excellent academic performance No immediate relatives working at UNICEF Experience in communications, marketing, journalism, or public relations is a plus Experience with knowledge management platforms Attention to detail in digital content Experience with SharePoint and Office 365 Video and photo editing skills Basic graphic design skills Experience in audience building techniques UNICEF works in some of the world’s toughest places, to reach the world’s most disadvantaged children. To save their lives. To defend their rights. To help them fulfill their potential. Across 190 countries and territories, we work for every child, everywhere, every day, to build a better world for everyone. And we never give up. UNICEF’s Division of Private Fundraising ",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
-   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
-   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
-   "org": "EEAS - European External Action Service",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1244275",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 45,
-   "reasons": [
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 3,
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
-   "details": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logistics, and human resource management. The successful candidate will assist in staff recruitment, payroll preparation, office management, and procurement procedures. This position requires excellent communication skills in English and Arabic, along with strong computer proficiency. Candidate Requirements: High School Degree or equivalent Minimum 3 years of experience as Secretary C2 level English and Arabic proficiency Excellent computer skills Right to residence and work in Egypt Contract type: Local Agent Who we are The European Union (EU) is an economic and political partnership between 27 European countries. It plays an important role in international affairs through diplomacy, trade, development aid and working with global organizations. Abroad, the European Union is represented through more than 140 diplomatic representations, known also as EU Delegations, which have a similar function to those of an embassy. The EU Delegation to the Arab Republic of Egypt, Cairo works in close coordination with the Embassies and Consulates of the 27 EU Member States. We are a fully-fledged diplomatic mission and represent the European Union in dealings with the Egyptian government in areas that are part of the EU’s remit. What we offer A post of Secretary (Local Agent Group 3 - Ref: 499719) in the Delegation’s Administration Section under a fixed-term employment contrac",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -1152,13 +1159,13 @@
    "first_seen": "2026-11-03T23:23:35Z"
   },
   {
-   "id": "chineseinterpreterfora4professordelegationnov2326chineseprofessorsdel",
-   "title": "Chinese interpreter for a 4-professor delegation (Nov 23–26)",
-   "org": "Chinese professors delegation",
+   "id": "chinesetranslatorcscecinternationalfa",
+   "title": "Chinese Translator",
+   "org": "CSCEC International Facade Egypt Co Ltd",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.wangfuegypt.com/en/jobs/k1030-03",
-   "location": "القاهرة",
+   "url": "https://wuzzuf.net/jobs/p/rcgh7yazzeab-chinese-translator-cscec-international-facade-egypt-co-ltd-suez-egypt",
+   "location": "العين السخنة، عتاقة, Egypt",
    "remote": false,
    "egypt": true,
    "intl": false,
@@ -1174,11 +1181,43 @@
     "Arabic"
    ],
    "role": true,
-   "facts": {},
+   "facts": {
+    "pair": "Chinese → Arabic"
+   },
    "apply_email": "",
-   "snippet": "Wanted: Chinese interpreter (male or female) with strong interpreting experience to accompany a delegation of 4 Chinese professors visiting universities and companies in Egypt. Requirements: • Fluent Chinese and Arabic • Strong interpreting experience, especially in academic, education, business and industrial settings; able to interpret during university visits and company meetings Draft schedule: • Nov 23: arrive i",
-   "details": "Wanted: Chinese interpreter (male or female) with strong interpreting experience to accompany a delegation of 4 Chinese professors visiting universities and companies in Egypt. Requirements: • Fluent Chinese and Arabic • Strong interpreting experience, especially in academic, education, business and industrial settings; able to interpret during university visits and company meetings Draft schedule: • Nov 23: arrive in Cairo; afternoon visit to the New Cairo Technological University (New Cairo) • Nov 24: Ain Shams University, then Mobica group • Nov 25: China State Construction Steel Structure Co. (中建钢构股份有限公司) in the TEDA China-Egypt economic and trade cooperation zone, Ain Sokhna, plus other companies per the final schedule (not confirmed) • Nov 26: delegation leaves, probably early morning Notes: some visits are half-day; detailed times will be confirmed later. Please send your CV with your interpreting experience and your expected fee. 📩 Apply via Wang Fu: WhatsApp or the Contact page on this site.",
-   "first_seen": "2026-11-05T04:58:44Z"
+   "snippet": "Job Description 1.Assist in the management of local production workers, ensure the transmission of production instructions, and facilitate communication between workers and management. 2.Be responsible for daily attendance records and work completion statistics of local workers, and participate in handling various production issues and disputes. 3.Assist in the education, training, and behavioral management of local ",
+   "details": "Job Description 1.Assist in the management of local production workers, ensure the transmission of production instructions, and facilitate communication between workers and management. 2.Be responsible for daily attendance records and work completion statistics of local workers, and participate in handling various production issues and disputes. 3.Assist in the education, training, and behavioral management of local workers. 4.Bilingual translation of official documents from Chinese to Arabic. 5.Providing on-site interpretation services between Arabic and Chinese. 6.Filing and managing various documents related to work (electronic/paper versions). 7.Completing other tasks assigned by the manager. 8.Inspection and control of production, processing, assembly, quality, and civilized production. Job Requirements • Bachelor's degree in Chinese linguistics. • Professional experience as a Translator. • Fluent in English. • Proficient in Microsoft Office tools (Word, Excel, and PowerPoint). • Strong time-management abilities. • HSK4 or equivalent certificate.",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
+   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
+   "org": "EEAS - European External Action Service",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244275",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "facts": {
+    "years": 3,
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
+   "details": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logistics, and human resource management. The successful candidate will assist in staff recruitment, payroll preparation, office management, and procurement procedures. This position requires excellent communication skills in English and Arabic, along with strong computer proficiency. Candidate Requirements: High School Degree or equivalent Minimum 3 years of experience as Secretary C2 level English and Arabic proficiency Excellent computer skills Right to residence and work in Egypt Contract type: Local Agent Who we are The European Union (EU) is an economic and political partnership between 27 European countries. It plays an important role in international affairs through diplomacy, trade, development aid and working with global organizations. Abroad, the European Union is represented through more than 140 diplomatic representations, known also as EU Delegations, which have a similar function to those of an embassy. The EU Delegation to the Arab Republic of Egypt, Cairo works in close coordination with the Embassies and Consulates of the 27 EU Member States. We are a fully-fledged diplomatic mission and represent the European Union in dealings with the Egyptian government in areas that are part of the EU’s remit. What we offer A post of Secretary (Local Agent Group 3 - Ref: 499719) in the Delegation’s Administration Section under a fixed-term employment contrac",
+   "first_seen": "2026-11-03T22:17:21Z"
   }
  ],
  "seen": {
@@ -1298,12 +1337,21 @@
   "socialmediaofficerrosterseefar": "2026-11-07T12:43:29Z",
   "translationvalidatorarabicmodernstandardremote": "2026-11-08T11:50:06Z",
   "translationspecialistcrifegyptdunbradstre": "2026-11-08T11:50:06Z",
-  "languagecontentreviewercroatiancroatiaweloglobal": "2026-11-08T11:50:06Z"
+  "languagecontentreviewercroatiancroatiaweloglobal": "2026-11-08T11:50:06Z",
+  "frenchcanadiantranslatoritmarketingfreelancelocaleyes": "2026-11-09T13:44:56Z",
+  "frenchtoenglishtranslatoreditoryouthshareinitiative": "2026-11-09T13:44:56Z",
+  "remotetranslatorlearningdesignerlocalizationprojectfrenchremotequestjobs": "2026-11-09T13:44:56Z",
+  "remoteenfrlifesciencestranslatormtperegulatoryjobgether": "2026-11-09T13:44:56Z",
+  "translatorreviserortranslatorreviserfemaleformallstate": "2026-11-09T13:44:56Z",
+  "freelancegermanintofrenchpatenttranslatorproofreaderremoterwsgroup": "2026-11-09T13:44:56Z",
+  "seniorenglishfrenchtranslatorqualityreviewerallstate": "2026-11-09T13:44:56Z",
+  "videographicsinternpublicinformationvideosection": "2026-11-09T13:44:56Z",
+  "programandbusinessdevelopmentofficeropenforapplicantswhohavetherighttobebasedand": "2026-11-09T13:44:56Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 22,
-  "last_day": "2026-11-08"
+  "used": 25,
+  "last_day": "2026-11-09"
  },
- "quote_index": 4
+ "quote_index": 5
 }
