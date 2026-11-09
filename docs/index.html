@@ -485,11 +485,14 @@ function dcard(p){
   const days = st.t ? Math.floor((Date.now() - st.t) / 864e5) : 0;
   const follow = s === "Applied" && days >= 21
     ? `<p class="dfollow">You applied ${days} days ago. Check your email and spam folder, or send a short, polite follow-up.</p>` : "";
+  const link = (data.links || {})[p.id];
+  const moved = link && link.fails >= 2
+    ? `<p class="dfollow">This link didn't open in our last checks, so it may have moved. If it doesn't work, search for "${esc(p.name)}".</p>` : "";
   return `<article class="dcard ${s === "Accepted" ? "done" : ""}" data-place="${esc(p.id)}">
     <div class="dtop"><span class="dname">${esc(p.name)}</span><span class="dstate ${s === "Not started" ? "" : "on"}">${DLABEL[s]}</span></div>
     <p class="dwhat">${esc(p.what)}</p>
     <p class="dtip">Tip: ${esc(p.tip)}</p>
-    ${follow}
+    ${moved}${follow}
     <div class="dsteps" role="group" aria-label="Progress for ${esc(p.name)}">${DSTEPS.map(x =>
       `<button data-dstep="${x}" aria-pressed="${x === s}">${DLABEL[x]}</button>`).join("")}</div>
     <textarea class="dnote" data-dnote placeholder="Notes, such as your username or the date you applied" aria-label="Notes">${esc(st.note)}</textarea>

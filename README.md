@@ -39,7 +39,7 @@ AI-training gigs are filtered out. Sites that block automated access, such as Wu
 Your saved jobs are stored on each device. To copy them, open **Settings and sources**, tap **Copy code**, send the code to the other phone, paste it there and tap **Import code**.
 
 ### Apply directly
-Open **Apply directly** to see UN exams and rosters, translation companies, freelance marketplaces and Egyptian job alerts, each with a tip. Mark each one To do, Started, Applied or Accepted, and add notes. Three weeks after you mark one Applied, it suggests a follow-up. The list is in `docs/direct.json`, so places can be added or edited there.
+Open **Apply directly** to see UN exams and rosters, translation companies, freelance marketplaces and Egyptian job alerts, each with a tip. Mark each one To do, Started, Applied or Accepted, and add notes. Three weeks after you mark one Applied, it suggests a follow-up. The list is in `docs/direct.json`, so places can be added or edited there. The daily run checks these links. If one fails two days in a row, the first Telegram chat (or `ADMIN_CHAT_ID`) gets a message and the card shows a warning. Sites that block automated checks are skipped rather than reported.
 
 ### Apply kit
 Open **Apply kit** and fill in **My details** once. Then, in any job's details:
@@ -74,6 +74,7 @@ GitHub secrets are in **Settings → Secrets and variables → Actions**.
 | `RAPIDAPI_KEY` | Google Jobs via JSearch | Set |
 | `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` | Telegram alerts | Set |
 | `RELIEFWEB_APPNAME` | ReliefWeb's official API | Set |
+| `ADMIN_CHAT_ID` | Optional chat for maintenance messages, such as broken links. Without it they go to the first chat in `TELEGRAM_CHAT_ID` | Not set |
 | `SMTP_USER`, `SMTP_PASSWORD`, `EMAIL_TO` | Optional email alerts | Not set |
 
 ### Change who gets Telegram alerts

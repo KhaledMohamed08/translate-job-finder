@@ -827,7 +827,7 @@ def key(j):
 
 
 def main():
-    previous, seen, quote_index = {}, {}, 0
+    previous, seen, quote_index, old_links = {}, {}, 0, {}
     if OUT.exists():
         try:
             old_data = json.loads(OUT.read_text(encoding="utf-8"))
@@ -835,6 +835,7 @@ def main():
             seen = old_data.get("seen", {})
             JSEARCH.update(old_data.get("jsearch", {}))
             quote_index = old_data.get("quote_index", 0)
+            old_links = old_data.get("links", {})
         except Exception:
             pass
     # Every job ever listed -> when it was first seen, so a job that vanishes for a
@@ -900,17 +901,85 @@ def main():
     seen = {i: t for i, t in seen.items() if t >= cutoff or i in jobs}
     alerts = [j for j in new if j["score"] >= PROFILE["notify_min_score"]]
     quote = next_quote(quote_index) if alerts else ""
+    links, broken_now = check_direct_links(old_links)
+    admin = broken_links_message(broken_now)
     OUT.write_text(json.dumps({"updated": iso(NOW), "sources": status, "jobs": ordered, "seen": seen,
-                               "jsearch": JSEARCH, "quote_index": quote_index + bool(alerts)},
+                               "jsearch": JSEARCH, "quote_index": quote_index + bool(alerts), "links": links},
                               ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"\n{len(raw)} fetched -> {len(ordered)} matches ({len(new)} new) -> {OUT}", file=sys.stderr)
     if os.environ.get("DEFER_NOTIFY"):
         # The workflow sends these after the website has the new list (see send_outbox).
-        if alerts:
+        if alerts or admin:
             OUTBOX.write_text(json.dumps({"alerts": alerts, "total": len(ordered), "quote": quote,
-                                          "updated": iso(NOW)}, ensure_ascii=False), encoding="utf-8")
+                                          "updated": iso(NOW), "admin": admin}, ensure_ascii=False), encoding="utf-8")
     else:
         notify(alerts, len(ordered), quote, iso(NOW))
+        admin_message(admin)
+
+
+# ---------------------------------------------------------------- Apply directly link checks
+
+LINK_FAIL_DAYS = 2  # alert after this many failed checks in a row, so a one-day outage stays quiet
+
+
+def probe(url):
+    """'ok', 'broken' (missing page or unreachable site) or 'unknown' (the site blocks automated checks)."""
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "text/html,*/*"})
+        with urllib.request.urlopen(req, timeout=25) as r:
+            return "ok", r.status
+    except urllib.error.HTTPError as e:
+        return ("broken" if e.code in (404, 410) else "unknown"), e.code
+    except Exception as e:
+        return "broken", type(e).__name__
+
+
+def check_direct_links(old):
+    path = ROOT / "docs" / "direct.json"
+    if not path.exists():
+        return {}, []
+    places = [p for g in json.loads(path.read_text(encoding="utf-8")) for p in g["items"]]
+    with cf.ThreadPoolExecutor(max_workers=6) as ex:
+        results = list(ex.map(lambda p: probe(p["link"]), places))
+    links, broken_now = {}, []
+    for p, (state, code) in zip(places, results):
+        fails = (old.get(p["id"], {}).get("fails", 0) + 1) if state == "broken" else 0
+        links[p["id"]] = {"state": state, "code": code, "fails": fails}
+        if fails == LINK_FAIL_DAYS:
+            broken_now.append((p, code))
+    print(f"Apply directly links: {sum(v['state'] == 'ok' for v in links.values())} ok, "
+          f"{sum(v['state'] == 'unknown' for v in links.values())} can't be checked, "
+          f"{sum(v['state'] == 'broken' for v in links.values())} failing", file=sys.stderr)
+    return links, broken_now
+
+
+def broken_links_message(broken):
+    if not broken:
+        return ""
+    e = html.escape
+    lines = [f"<b>🔧 {len(broken)} Apply directly link{'s' if len(broken) > 1 else ''} stopped working</b>",
+             f"They failed {LINK_FAIL_DAYS} days in a row and may have moved:\n"]
+    lines += [f"• <a href=\"{e(p['link'])}\">{e(p['name'])}</a> ({e(str(code))})" for p, code in broken]
+    lines.append("\nUpdate them in docs/direct.json, or ask for help finding the new pages.")
+    return "\n".join(lines)
+
+
+def admin_message(text):
+    """Maintenance messages go to ADMIN_CHAT_ID, or the first chat in TELEGRAM_CHAT_ID."""
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chats = [c.strip() for c in os.environ.get("TELEGRAM_CHAT_ID", "").split(",") if c.strip()]
+    chat = os.environ.get("ADMIN_CHAT_ID") or (chats[0] if chats else "")
+    if not (text and token and chat):
+        return
+    try:
+        req = urllib.request.Request(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            data=urllib.parse.urlencode({"chat_id": chat, "text": text, "parse_mode": "HTML",
+                                         "disable_web_page_preview": "true"}).encode())
+        urllib.request.urlopen(req, timeout=20).read()
+        print("Maintenance message sent", file=sys.stderr)
+    except Exception as ex:
+        print(f"Maintenance message failed: {type(ex).__name__}", file=sys.stderr)
 
 
 def send_outbox():
@@ -935,6 +1004,7 @@ def send_outbox():
         if dash:
             print("Dashboard still updating, sending anyway", file=sys.stderr)
     notify(box["alerts"], box["total"], box["quote"], box["updated"])
+    admin_message(box.get("admin", ""))
 
 
 # ---------------------------------------------------------------- notifications (free)
