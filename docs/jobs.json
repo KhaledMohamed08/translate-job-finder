@@ -1,17 +1,23 @@
 {
- "updated": "2026-11-09T13:44:56Z",
+ "updated": "2026-11-09T17:54:34Z",
  "sources": {
+  "Google Jobs": {
+   "ok": true,
+   "count": 0,
+   "kept": true,
+   "error": "already searched today"
+  },
+  "Remotive": {
+   "ok": true,
+   "count": 12
+  },
   "Jobicy": {
    "ok": true,
    "count": 100
   },
   "Working Nomads": {
    "ok": true,
-   "count": 22
-  },
-  "Remotive": {
-   "ok": true,
-   "count": 12
+   "count": 35
   },
   "RemoteOK": {
    "ok": true,
@@ -23,55 +29,51 @@
   },
   "ReliefWeb": {
    "ok": true,
-   "count": 1050
+   "count": 1084
   },
   "UNICEF": {
    "ok": true,
-   "count": 538
-  },
-  "Translation agencies": {
-   "ok": true,
-   "count": 173
-  },
-  "Green Climate Fund": {
-   "ok": true,
-   "count": 4
-  },
-  "UNESCO": {
-   "ok": true,
-   "count": 0
-  },
-  "CLEAR Global": {
-   "ok": true,
-   "count": 16
-  },
-  "UN Careers": {
-   "ok": true,
-   "count": 440
-  },
-  "ICRC": {
-   "ok": true,
-   "count": 10
+   "count": 546
   },
   "Himalayas": {
    "ok": true,
    "count": 126
   },
-  "UNHCR, WFP, IMF, Welocalize": {
+  "Translation agencies": {
    "ok": true,
-   "count": 27
+   "count": 175
+  },
+  "Green Climate Fund": {
+   "ok": true,
+   "count": 4
+  },
+  "UN Careers": {
+   "ok": true,
+   "count": 452
+  },
+  "CLEAR Global": {
+   "ok": true,
+   "count": 16
+  },
+  "UNESCO": {
+   "ok": true,
+   "count": 0
+  },
+  "ICRC": {
+   "ok": true,
+   "count": 10
   },
   "UNDP": {
    "ok": true,
    "count": 14
   },
-  "Google Jobs": {
+  "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
-   "count": 21
+   "count": 27
   },
   "Impactpool": {
    "ok": true,
-   "count": 116
+   "count": 120
   }
  },
  "jobs": [
@@ -667,6 +669,37 @@
    "first_seen": "2026-11-04T12:53:22Z"
   },
   {
+   "id": "englishlanguagelegaltranslators",
+   "title": "English-language legal translators",
+   "org": "CJEU - Court of Justice of the European Union",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244420",
+   "location": "Remote | Luxembourg",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based",
+    "Senior level"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Cour",
+   "details": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Court's judgments, Opinions of the Advocates General, and other legal documents into English. Candidates must meet specific legal education requirements and possess strong language skills. The position offers a multicultural environment, flexible working hours, and opportunities for professional development. Candidate Requirements: Degree in law or equivalent Perfect command of English Thorough knowledge of French Satisfactory knowledge of a third EU language Interest in legal translation The essentials Location : Luxembourg Grade : AD 7 Contract type : Temporary Agent The Court of Justice of the European Union regularly seeks to recruit English-language legal translators to assist with the increasing workload of its English-language Translation Unit in Luxembourg. The work of the unit consists in the translation into English of the Court's judgments and the Opinions of the Advocates General for publication in the European Court Reports, and of requests from national courts for preliminary rulings and other documents required for procedural purposes. To be eligible to perform these demanding duties, applicants must satisfy, in addition to the general conditions common to all the institutions, the following minimum requirements : Have successfully completed a suitable course in law (i.e. hold a degree in law or its equivalent awarded in Ireland or have qualified ",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
    "id": "seniorenglishfrenchtranslatorqualityreviewerallstate",
    "title": "Senior English–French Translator & Quality Reviewer",
    "org": "Allstate",
@@ -698,37 +731,6 @@
    "snippet": "Allstate recrute un Translator Analyst III pour assurer des services linguistiques et des traductions de haute qualité de l’anglais vers le français, en veillant à la conformité avec les exigences professionnelles et réglementaires. Vous conseillerez sur la qualité des traductions, collaborerez avec les équipes et les prestataires, et participerez à des projets multilingues importants, tout en garantissant une expéri",
    "details": "Allstate recrute un Translator Analyst III pour assurer des services linguistiques et des traductions de haute qualité de l’anglais vers le français, en veillant à la conformité avec les exigences professionnelles et réglementaires. Vous conseillerez sur la qualité des traductions, collaborerez avec les équipes et les prestataires, et participerez à des projets multilingues importants, tout en garantissant une expérience cohérente pour les employés et les clients.",
    "first_seen": "2026-11-09T13:44:56Z"
-  },
-  {
-   "id": "englishlanguagelegaltranslators",
-   "title": "English-language legal translators",
-   "org": "CJEU - Court of Justice of the European Union",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1244420",
-   "location": "Remote | Luxembourg",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 65,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based",
-    "Senior level"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Cour",
-   "details": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Court's judgments, Opinions of the Advocates General, and other legal documents into English. Candidates must meet specific legal education requirements and possess strong language skills. The position offers a multicultural environment, flexible working hours, and opportunities for professional development. Candidate Requirements: Degree in law or equivalent Perfect command of English Thorough knowledge of French Satisfactory knowledge of a third EU language Interest in legal translation The essentials Location : Luxembourg Grade : AD 7 Contract type : Temporary Agent The Court of Justice of the European Union regularly seeks to recruit English-language legal translators to assist with the increasing workload of its English-language Translation Unit in Luxembourg. The work of the unit consists in the translation into English of the Court's judgments and the Opinions of the Advocates General for publication in the European Court Reports, and of requests from national courts for preliminary rulings and other documents required for procedural purposes. To be eligible to perform these demanding duties, applicants must satisfy, in addition to the general conditions common to all the institutions, the following minimum requirements : Have successfully completed a suitable course in law (i.e. hold a degree in law or its equivalent awarded in Ireland or have qualified ",
-   "first_seen": "2026-11-03T22:17:21Z"
   },
   {
    "id": "procurementofficerp3unitednationsofficeo",
@@ -1006,6 +1008,36 @@
    "first_seen": "2026-11-09T13:44:56Z"
   },
   {
+   "id": "caseworkerprotectionconsultant",
+   "title": "Case Worker (Protection) Consultant",
+   "org": "IOM - International Organization for Migration",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1245433",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 50,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "facts": {
+    "years": 1,
+    "contract": "Consultancy"
+   },
+   "apply_email": "",
+   "snippet": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and e",
+   "details": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and ensuring access to assistance and protection services while adhering to ethical standards. The successful candidate will prepare case management reports, manage beneficiary data, and maintain confidentiality. This position requires collaboration with various stakeholders and a commitment to a survivor-centered approach. Candidate Requirements: Bachelor’s degree in a community work related field 1-2 years of experience in the humanitarian field Experience with governmental and international organizations Excellent word processing and typing skills in English and Arabic Experience with Excel and databases Fluency in English and Arabic, both spoken and written Job Description Introduction Established in 1951, IOM is a Related Organization of the United Nations and the leading UN agency in the field of migration. Working closely with governmental, intergovernmental and non-governmental partners, IOM promotes humane and orderly migration for the benefit of all. It saves lives and protects people on the move, drives solutions to displacement, and facilitates pathways for regular migration, while providing services and advice to governments and migrants. IOM is committed to fostering a respectful, inclusive and supportive workplace where all employees can thrive professionally and feel valued. By creating such an environment, IOM aims to better harness the full pote",
+   "first_seen": "2026-11-04T15:13:52Z"
+  },
+  {
    "id": "chinesetranslatorexecutiveassistantlivemall",
    "title": "Chinese Translator & Executive Assistant",
    "org": "Livemall",
@@ -1035,34 +1067,36 @@
    "first_seen": "2026-11-03T23:23:35Z"
   },
   {
-   "id": "caseworkerprotectionconsultant",
-   "title": "Case Worker (Protection) Consultant",
-   "org": "IOM - International Organization for Migration",
+   "id": "socialandbehaviorchangesbcconsultantparentingchildprotectionmentalhealthinthedig",
+   "title": "Social and Behavior Change (SBC) Consultant – Parenting, Child Protection & Mental Health in the Digital Sphere, Media, and Crisis Contexts, 1.38 months, UAE, Abu Dhabi, Remote with travel",
+   "org": "UNICEF - United Nations Children’s Fund",
    "source": "Impactpool",
    "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1245433",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
+   "url": "https://www.impactpool.org/jobs/1246920",
+   "location": "Remote | Abu Dhabi",
+   "remote": true,
+   "egypt": false,
    "intl": true,
-   "deadline": null,
+   "deadline": "2026-11-16T00:00:00Z",
    "posted": null,
-   "score": 50,
+   "score": 49,
    "reasons": [
-    "Based in Egypt"
+    "Mentions translation",
+    "Remote / home-based",
+    "Asks 5+ years"
    ],
    "langs": [
     "Arabic"
    ],
    "role": false,
    "facts": {
-    "years": 1,
+    "years": 5,
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and e",
-   "details": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and ensuring access to assistance and protection services while adhering to ethical standards. The successful candidate will prepare case management reports, manage beneficiary data, and maintain confidentiality. This position requires collaboration with various stakeholders and a commitment to a survivor-centered approach. Candidate Requirements: Bachelor’s degree in a community work related field 1-2 years of experience in the humanitarian field Experience with governmental and international organizations Excellent word processing and typing skills in English and Arabic Experience with Excel and databases Fluency in English and Arabic, both spoken and written Job Description Introduction Established in 1951, IOM is a Related Organization of the United Nations and the leading UN agency in the field of migration. Working closely with governmental, intergovernmental and non-governmental partners, IOM promotes humane and orderly migration for the benefit of all. It saves lives and protects people on the move, drives solutions to displacement, and facilitates pathways for regular migration, while providing services and advice to governments and migrants. IOM is committed to fostering a respectful, inclusive and supportive workplace where all employees can thrive professionally and feel valued. By creating such an environment, IOM aims to better harness the full pote",
-   "first_seen": "2026-11-04T15:13:52Z"
+   "snippet": "Social and Behavior Change (SBC) Consultant – Parenting, Child Protection & Mental Health in the Digital Sphere, Media, and Crisis Contexts, 1.38 months, UAE, Abu Dhabi, Remote with travel UNICEF - United Nations Children’s Fund Remote | Abu Dhabi International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 16, 2026 (7 days) Apply Summary by Impactpool The consultancy r",
+   "details": "Social and Behavior Change (SBC) Consultant – Parenting, Child Protection & Mental Health in the Digital Sphere, Media, and Crisis Contexts, 1.38 months, UAE, Abu Dhabi, Remote with travel UNICEF - United Nations Children’s Fund Remote | Abu Dhabi International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 16, 2026 (7 days) Apply Summary by Impactpool The consultancy role focuses on designing, implementing, and monitoring evidence-based social and behavior change (SBC) strategies related to parenting support, child protection, and mental health in the digital sphere. The consultant will develop communication packages and community engagement tools aimed at promoting positive parenting and digital safety for children, particularly during crises. This position requires collaboration with regional governments and media to ensure effective outreach across the Gulf region. The role is remote with travel requirements and aims to adapt initiatives for various Gulf countries. Candidate Requirements: Master’s degree in social and behavioral sciences, psychology, or related field 5 to 7 years of experience in designing and executing SBC strategies Documented media experience and training media professionals Fluency in English and Arabic Strong familiarity with the GCC cultural and digital landscape Excellent stakeholder management skills The primary objective of this consultancy is to design, implement, and monitor evidence-based SBC strategies, campaign framework, communication packages and community engagement tools addressing parenting support, child and adolescent mental health, child protection and wellbeing in the digital environment. These initiatives will promote positive parenting & mental health and digital safety for chi",
+   "first_seen": "2026-11-09T17:54:34Z"
   },
   {
    "id": "programmedevelopmentexpertresourcemobilizationandanalysis",
@@ -1127,6 +1161,36 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
+   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
+   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
+   "org": "EEAS - European External Action Service",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1244275",
+   "location": "Cairo",
+   "remote": false,
+   "egypt": true,
+   "intl": true,
+   "deadline": null,
+   "posted": null,
+   "score": 45,
+   "reasons": [
+    "Based in Egypt"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": false,
+   "facts": {
+    "years": 3,
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
+   "details": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logistics, and human resource management. The successful candidate will assist in staff recruitment, payroll preparation, office management, and procurement procedures. This position requires excellent communication skills in English and Arabic, along with strong computer proficiency. Candidate Requirements: High School Degree or equivalent Minimum 3 years of experience as Secretary C2 level English and Arabic proficiency Excellent computer skills Right to residence and work in Egypt Contract type: Local Agent Who we are The European Union (EU) is an economic and political partnership between 27 European countries. It plays an important role in international affairs through diplomacy, trade, development aid and working with global organizations. Abroad, the European Union is represented through more than 140 diplomatic representations, known also as EU Delegations, which have a similar function to those of an embassy. The EU Delegation to the Arab Republic of Egypt, Cairo works in close coordination with the Embassies and Consulates of the 27 EU Member States. We are a fully-fledged diplomatic mission and represent the European Union in dealings with the Egyptian government in areas that are part of the EU’s remit. What we offer A post of Secretary (Local Agent Group 3 - Ref: 499719) in the Delegation’s Administration Section under a fixed-term employment contrac",
+   "first_seen": "2026-11-03T22:17:21Z"
+  },
+  {
    "id": "chinesetranslator",
    "title": "Chinese Translator",
    "org": "السويدي اليكتريك",
@@ -1188,36 +1252,6 @@
    "snippet": "Job Description 1.Assist in the management of local production workers, ensure the transmission of production instructions, and facilitate communication between workers and management. 2.Be responsible for daily attendance records and work completion statistics of local workers, and participate in handling various production issues and disputes. 3.Assist in the education, training, and behavioral management of local ",
    "details": "Job Description 1.Assist in the management of local production workers, ensure the transmission of production instructions, and facilitate communication between workers and management. 2.Be responsible for daily attendance records and work completion statistics of local workers, and participate in handling various production issues and disputes. 3.Assist in the education, training, and behavioral management of local workers. 4.Bilingual translation of official documents from Chinese to Arabic. 5.Providing on-site interpretation services between Arabic and Chinese. 6.Filing and managing various documents related to work (electronic/paper versions). 7.Completing other tasks assigned by the manager. 8.Inspection and control of production, processing, assembly, quality, and civilized production. Job Requirements • Bachelor's degree in Chinese linguistics. • Professional experience as a Translator. • Fluent in English. • Proficient in Microsoft Office tools (Word, Excel, and PowerPoint). • Strong time-management abilities. • HSK4 or equivalent certificate.",
    "first_seen": "2026-11-04T12:53:22Z"
-  },
-  {
-   "id": "vacancynoticesecretaryadminsectionlocalagentgroup3",
-   "title": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3)",
-   "org": "EEAS - European External Action Service",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1244275",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 45,
-   "reasons": [
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 3,
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logis",
-   "details": "Vacancy Notice: Secretary (Admin Section - Local Agent, Group 3) EEAS - European External Action Service Cairo National Local Agent Group 3 level Speaks Arabic, English Apply Summary by Impactpool The EU Delegation to Egypt is seeking a Secretary (Local Agent Group 3) for a fixed-term contract of 2 years, with potential for renewal. The role involves providing administrative support in areas such as accounting, logistics, and human resource management. The successful candidate will assist in staff recruitment, payroll preparation, office management, and procurement procedures. This position requires excellent communication skills in English and Arabic, along with strong computer proficiency. Candidate Requirements: High School Degree or equivalent Minimum 3 years of experience as Secretary C2 level English and Arabic proficiency Excellent computer skills Right to residence and work in Egypt Contract type: Local Agent Who we are The European Union (EU) is an economic and political partnership between 27 European countries. It plays an important role in international affairs through diplomacy, trade, development aid and working with global organizations. Abroad, the European Union is represented through more than 140 diplomatic representations, known also as EU Delegations, which have a similar function to those of an embassy. The EU Delegation to the Arab Republic of Egypt, Cairo works in close coordination with the Embassies and Consulates of the 27 EU Member States. We are a fully-fledged diplomatic mission and represent the European Union in dealings with the Egyptian government in areas that are part of the EU’s remit. What we offer A post of Secretary (Local Agent Group 3 - Ref: 499719) in the Delegation’s Administration Section under a fixed-term employment contrac",
-   "first_seen": "2026-11-03T22:17:21Z"
   }
  ],
  "seen": {
@@ -1346,12 +1380,105 @@
   "freelancegermanintofrenchpatenttranslatorproofreaderremoterwsgroup": "2026-11-09T13:44:56Z",
   "seniorenglishfrenchtranslatorqualityreviewerallstate": "2026-11-09T13:44:56Z",
   "videographicsinternpublicinformationvideosection": "2026-11-09T13:44:56Z",
-  "programandbusinessdevelopmentofficeropenforapplicantswhohavetherighttobebasedand": "2026-11-09T13:44:56Z"
+  "programandbusinessdevelopmentofficeropenforapplicantswhohavetherighttobebasedand": "2026-11-09T13:44:56Z",
+  "socialandbehaviorchangesbcconsultantparentingchildprotectionmentalhealthinthedig": "2026-11-09T17:54:34Z"
  },
  "jsearch": {
   "month": "2026-11",
   "used": 25,
   "last_day": "2026-11-09"
  },
- "quote_index": 5
+ "quote_index": 5,
+ "links": {
+  "un-exams": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "un-announcements": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "un-careers-language": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "wipo-consultants": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "unv-online": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "clear-global": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "tarjimly": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "lionbridge": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "transperfect": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "acolad": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "languageline": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "future-group": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "smartcat": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "gengo": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "translated": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "proz": {
+   "state": "unknown",
+   "code": 403,
+   "fails": 0
+  },
+  "wuzzuf": {
+   "state": "unknown",
+   "code": 403,
+   "fails": 0
+  },
+  "bayt": {
+   "state": "unknown",
+   "code": 403,
+   "fails": 0
+  }
+ }
 }
