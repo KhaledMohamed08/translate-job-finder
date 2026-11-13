@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-12T13:39:24Z",
+ "updated": "2026-11-13T12:57:40Z",
  "sources": {
   "Remotive": {
    "ok": true,
    "count": 14
   },
+  "Working Nomads": {
+   "ok": true,
+   "count": 35
+  },
   "Jobicy": {
    "ok": true,
    "count": 100
-  },
-  "Working Nomads": {
-   "ok": true,
-   "count": 37
   },
   "RemoteOK": {
    "ok": true,
@@ -19,15 +19,15 @@
   },
   "Company boards": {
    "ok": true,
-   "count": 220
-  },
-  "Translation agencies": {
-   "ok": true,
-   "count": 181
+   "count": 222
   },
   "ReliefWeb": {
    "ok": true,
-   "count": 1080
+   "count": 1085
+  },
+  "Translation agencies": {
+   "ok": true,
+   "count": 179
   },
   "Green Climate Fund": {
    "ok": true,
@@ -38,21 +38,17 @@
    "count": 0,
    "error": "returned no jobs (site may have changed)"
   },
-  "UN Careers": {
+  "CLEAR Global": {
    "ok": true,
-   "count": 447
-  },
-  "Google Jobs": {
-   "ok": true,
-   "count": 21
+   "count": 16
   },
   "UNESCO": {
    "ok": true,
    "count": 0
   },
-  "CLEAR Global": {
+  "UN Careers": {
    "ok": true,
-   "count": 16
+   "count": 447
   },
   "ICRC": {
    "ok": true,
@@ -67,12 +63,16 @@
    "count": 14
   },
   "Himalayas": {
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 126
+  },
+  "Google Jobs": {
+   "ok": true,
+   "count": 20
   },
   "Impactpool": {
    "ok": true,
-   "count": 127
+   "count": 133
   }
  },
  "jobs": [
@@ -136,191 +136,229 @@
    "first_seen": "2026-11-11T12:35:33Z"
   },
   {
-   "id": "frenchcanadafreelancetranslatortransperfectgamingso",
-   "title": "French (Canada) Freelance Translator",
-   "org": "Transperfect Gaming Solutions",
+   "id": "koreantranslatorneededforlargeprojectconfidentialclientvi",
+   "title": "Korean Translator Needed for Large Project",
+   "org": "Confidential client via ProZ.com",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.ziprecruiter.com/c/transperfect-gaming-solutions/Job/French-(Canada)-Freelance-Translator/-in-New-York,NY?jid=0e103dba66a14f7f",
+   "url": "https://www.proz.com/translation-jobs/2278789",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-10-17T00:00:00Z",
-   "score": 90,
+   "posted": "2026-11-09T00:00:00Z",
+   "score": 95,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
-    "pair": "English → French",
-    "contract": "Freelance"
+    "pair": "English → Korean",
+    "contract": "Contract"
    },
    "apply_email": "",
-   "snippet": "Freelance Insurance Translators TransPerfect is seeking experienced freelance translators for a project in the Insurance sector. We are establishing a dedicated team of preferred language specialists who will play a key role in delivering high-quality marketing translations for our clients in the coming months. Languages Needed: We are interested in linguists working from English into French (Canada) Requirements: • ",
-   "details": "Freelance Insurance Translators TransPerfect is seeking experienced freelance translators for a project in the Insurance sector. We are establishing a dedicated team of preferred language specialists who will play a key role in delivering high-quality marketing translations for our clients in the coming months. Languages Needed: We are interested in linguists working from English into French (Canada) Requirements: • Native speaker of the target language. • Freelance Services Provider • Excellent written and verbal communication skills in English. • Proven experience translating content in Insurance fields. • Acute attention to detail, spelling, and grammar. • Ability to maintain professionalism under tight deadlines. Please note: You will be asked to provide proof of relevant translation experience and sign a confidentiality agreement. Selected candidates will need to sign a Non-Disclosure Agreement (NDA) and complete a translation test as part of the recruitment process. Only applicants who meet the criteria will be contacted. We look forward to your application!",
-   "first_seen": "2026-11-03T23:20:55Z"
+   "snippet": "Services required: Translation Language pairs: English to Korean Subject fields: Aerospace / Aviation / Space Description: **Technical Manual for Machinery; Translation ENG>KOREAN, MemoQ U.S. Translation Company is looking to expand its resource base of Korean translators. For this project, the TRANSLATOR MUST BE A U.S. PERSON (must provide proof of ID/passport prior to project assignment). You will be evaluated on y",
+   "details": "Services required: Translation Language pairs: English to Korean Subject fields: Aerospace / Aviation / Space Description: **Technical Manual for Machinery; Translation ENG>KOREAN, MemoQ U.S. Translation Company is looking to expand its resource base of Korean translators. For this project, the TRANSLATOR MUST BE A U.S. PERSON (must provide proof of ID/passport prior to project assignment). You will be evaluated on your ability to follow instructions, as well as your timeliness regarding meeting deadlines and answering emails/calls. Please provide: • Resume • Languages spoken and your proficiency in each (please specify your native language) • Educational degree • Pricing (per word) • Location If you believe you would qualify, please send the information listed above to [HIDDEN] with the title of this job posting in the subject line. *no phone inquiries, only emails.",
+   "first_seen": "2026-11-13T12:57:40Z"
   },
   {
-   "id": "englishtofrenchtranslatoreditoryouthshareinitiative",
-   "title": "English-to-French Translator-Editor",
-   "org": "YouthShare Initiatives",
+   "id": "translatorkorean28hrremotecrossinghurdles",
+   "title": "Translator (Korean) | $28/hr Remote",
+   "org": "Crossing Hurdles",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://youthshareinitiatives.org/en/role-english-to-french-translator-editor",
+   "url": "https://www.jobleads.com/us/job/translator-korean-28-hr-remote--united-states--eb1180e2b4055517acee31fb8d78f6687",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-10-20T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → French",
-    "contract": "Volunteer"
-   },
-   "apply_email": "",
-   "snippet": "You carry analyses written in English into French, in their author’s voice, and write the French edition of YouthShare’s institutional texts. Assignments • Translate accepted English analyses into French • Respect each author’s tone, nuances and terminology • Write the French edition of institutional texts first drafted in English (website pages, emails, the newsletter, reports) so that it reads as an original • Chec",
-   "details": "You carry analyses written in English into French, in their author’s voice, and write the French edition of YouthShare’s institutional texts. Assignments • Translate accepted English analyses into French • Respect each author’s tone, nuances and terminology • Write the French edition of institutional texts first drafted in English (website pages, emails, the newsletter, reports) so that it reads as an original • Check quotations, figures and source titles • Review translations by other team members • Enrich the association’s shared glossary Profile we are looking for • French as your writing language, full understanding of English • Polished writing and care for the right word • Reliability with deadlines Nice to have • Studies in translation, languages or journalism • Knowledge of the labs’ themes Fully remote, from any country · 2 to 4 hours a week · At least one year · volunteer role · English or French, ideally both",
-   "first_seen": "2026-11-12T13:39:24Z"
-  },
-  {
-   "id": "freelancefrenchreviewertranslatoreditor1112mathscienceremotequestjobs",
-   "title": "Freelance French, Reviewer, Translator & Editor - 11 & 12 Math & Science",
-   "org": "remote quest jobs",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/freelance-french-reviewer-translator-editor-11-12-math-science-d0815115",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-08T00:00:00Z",
-   "score": 90,
+   "posted": "2026-11-06T00:00:00Z",
+   "score": 95,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
-    "contract": "Freelance"
+    "contract": "Full-time",
+    "pay": "$28/hr"
    },
    "apply_email": "",
-   "snippet": "At reputed company, we’ve been shaping the future of education for reputed company and youth across Canada for over 110 years. As the country’s largest K-12 education content provider, we remain dedicated to our legacy of looking forward, paving the way in creating reputed company, accessible, and engaging learning experiences for all. Our innovative solutions, including Edwin, our digital learning platform, provide ",
-   "details": "At reputed company, we’ve been shaping the future of education for reputed company and youth across Canada for over 110 years. As the country’s largest K-12 education content provider, we remain dedicated to our legacy of looking forward, paving the way in creating reputed company, accessible, and engaging learning experiences for all. Our innovative solutions, including Edwin, our digital learning platform, provide curriculum-aligned content that support diverse learning styles while fostering critical thinking, creativity, and lifelong learning. We listen intently to the unique needs of educators, students, and administrators everywhere, and continuously evolve what we do and build to improve their lives daily. When we’re searching for individuals to join our team, we look for bold, innovative team players with a passion for education and making a positive difference in our communities. If reputed company sounds like you, we want to hear from you! Apply to join our team today. Let’s Create reputed company, one learner at a time. About the Role Reporting to the Content Producer (French), Content & Curriculum, as a Translator & Editor (French), you will work closely with all members of the Content & Curriculum team to translate, adapt, and refine high-quality learning content across reputed company to support French Immersion & Core French students in grade 11-12. Projects are often high-intensity and high-profile, requiring a broad skillset and a willingness to work flexibly and hands-on to deliver accurate, polished solutions to customers within target timelines. reputed company is a freelance, reputed company ideal for teachers or curriculum developers with a strong understanding of age-appropriate instruction, inclusive pedagogy, and engaging classroom practices. Ke",
-   "first_seen": "2026-11-03T23:23:35Z"
+   "snippet": "• Transcribe audio samples accurately and consistently, capturing both Korean and English content. • Review and proofread transcriptions for quality assurance, correcting errors and verifying linguistic accuracy. • Annotate audio files with relevant metadata and contextual notes for AI training. • Collaborate with project coordinators to clarify guidelines and maintain alignment with project specifications. • Contrib",
+   "details": "• Transcribe audio samples accurately and consistently, capturing both Korean and English content. • Review and proofread transcriptions for quality assurance, correcting errors and verifying linguistic accuracy. • Annotate audio files with relevant metadata and contextual notes for AI training. • Collaborate with project coordinators to clarify guidelines and maintain alignment with project specifications. • Contribute feedback on workflow processes, tool usability, and linguistic challenges. Position: Korean Transcription Expert Type: Contract Compensation: $15 - $28/hour Location: Remote Commitment: 10-40 hrs/week Role Responsibilities • Transcribe audio samples accurately and consistently, capturing both Korean and English content. • Review and proofread transcriptions for quality assurance, correcting errors and verifying linguistic accuracy. • Annotate audio files with relevant metadata and contextual notes for AI training. • Collaborate with project coordinators to clarify guidelines and maintain alignment with project specifications. • Contribute feedback on workflow processes, tool usability, and linguistic challenges. Requirements • Native or near-native fluency in Korean, with advanced comprehension of spoken and written language. • Professional experience in audio transcription with a focus on high accuracy. • Demonstrated attention to detail and commitment to delivering error-free language data. • Familiarity with industry-standard transcription tools or platforms. • Ability to manage multiple assignments and adapt to changing project requirements.",
+   "first_seen": "2026-11-10T13:22:41Z"
   },
   {
-   "id": "frenchcanadafreelancetranslatorwfhalert",
-   "title": "French (Canada) Freelance Translator",
-   "org": "WfhAlert",
+   "id": "freelancekoreanenglishtranslatorinvestmentbankingtransperfect",
+   "title": "Freelance Korean <> English Translator - Investment Banking",
+   "org": "TransPerfect",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://wfhalert.t4d.liveblog365.com/remote-jobs/french-canada-freelance-translator",
+   "url": "https://dailyremote.com/remote-job/freelance-korean-english-translator-investment-banking-5851000",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-11-07T00:00:00Z",
-   "score": 90,
+   "posted": "2026-11-02T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Korean ↔ English",
+    "years": 2,
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "Position Summary: • Linguists are key players at TransPerfect. Your particular language skills and subject matter expertise will allow you to create and finalize the end product before it goes to the client. Under the guidance of your manager and in collaboration with Project Managers, you’ll be responsible for handling documents pertaining to a variety of clients in the Investment Banking sectors. TransPerfect offer",
+   "details": "Position Summary: • Linguists are key players at TransPerfect. Your particular language skills and subject matter expertise will allow you to create and finalize the end product before it goes to the client. Under the guidance of your manager and in collaboration with Project Managers, you’ll be responsible for handling documents pertaining to a variety of clients in the Investment Banking sectors. TransPerfect offers the possibility to work remotely anywhere in the world. • In order to meet the translation needs of our international clients, we are currently looking to expand our database of freelance linguists who translate from Korean to English and vice versa for the following material: • Investment Banking - Market Commentary • Qualifications, Skills & Experience: • Excellent written and verbal communication skills in Korean and English. • Specialized in any of the field above. • Acute attention to detail, spelling and grammar. • Ability to maintain professionalism in all situations, especially under tight deadlines. • Asian time zone preferred. • IMPORTANT NOTE: • Applicants will be asked to sign a confidentiality agreement and complete free Translation, and MTPE tests respectively to evaluate their skills. • In case this skillset matches your profile, please apply directly in this job post with a latest CV attached. In your CV, please include below: • a) your relevant Translation and MTPE experience; • b) your proposed best Translation per word rate and MTPE hourly rate in USD. Only applicants who meet the above criteria will be contacted. By applying, I confirm I have read and accept TransPerfect's Privacy Policy: https://www.transperfect.com/about/data-privacy-recruiting Candidates MUST also fulfil any ONE of the following requirements: • A Degree in Translatio",
+   "first_seen": "2026-11-13T12:57:40Z"
+  },
+  {
+   "id": "remoteenglishtokoreanpatenttranslatorweloglobal",
+   "title": "Remote English-to-Korean Patent Translator",
+   "org": "Welo Global",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-english-to-korean-patent-translator--united-states--eca92ff2a6322eeafcaeb6e023b15059f",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-10T00:00:00Z",
+   "score": 95,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
-    "pair": "English → French",
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "Freelance Insurance Translators TransPerfect is seeking experienced freelance translators for a project in the Insurance sector. We are establishing a dedicated team of preferred language specialists who will play a key role in delivering high-quality marketing translations for our clients in the coming months. Languages Needed We are interested in linguists working from English into French (Canada) Requirements Nati",
-   "details": "Freelance Insurance Translators TransPerfect is seeking experienced freelance translators for a project in the Insurance sector. We are establishing a dedicated team of preferred language specialists who will play a key role in delivering high-quality marketing translations for our clients in the coming months. Languages Needed We are interested in linguists working from English into French (Canada) Requirements Native speaker of the target language. Freelance Services Provider Excellent written and verbal communication skills in English. Proven experience translating content in Insurance fields. Acute attention to detail, spelling, and grammar. Ability to maintain professionalism under tight deadlines. Please note You will be asked to provide proof of relevant translation experience and sign a confidentiality agreement. Selected candidates will need to sign a Non-Disclosure Agreement (NDA) and complete a translation test as part of the recruitment process. Only applicants who meet the criteria will be contacted. We look forward to your application! Originally posted on",
-   "first_seen": "2026-11-12T13:39:24Z"
-  },
-  {
-   "id": "translatoreditorfrenchfreelanceremotequack",
-   "title": "Translator & Editor- French (Freelance)",
-   "org": "RemoteQuack",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://remotequack.dpdns.org/job/translator-editor-french-freelance-6698df69",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-08T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "At reputed company, we’ve been shaping the future of education for reputed company and youth across Canada for over 110 years. As the country’s largest K-12 education content provider, we remain dedicated to our legacy of looking forward, paving the way in creating reputed company, accessible, and engaging learning experiences for all. Our innovative solutions, including Edwin, our digital learning platform, provide ",
-   "details": "At reputed company, we’ve been shaping the future of education for reputed company and youth across Canada for over 110 years. As the country’s largest K-12 education content provider, we remain dedicated to our legacy of looking forward, paving the way in creating reputed company, accessible, and engaging learning experiences for all. Our innovative solutions, including Edwin, our digital learning platform, provide curriculum-aligned content that support diverse learning styles while fostering critical thinking, creativity, and lifelong learning. We listen intently to the unique needs of educators, students, and administrators everywhere, and continuously evolve what we do and build to improve their lives daily. When we’re searching for individuals to join our team, we look for bold, innovative team players with a passion for education and making a positive difference in our communities. If reputed company sounds like you, we want to hear from you! Apply to join our team today. Let’s Create reputed company, one learner at a time. About the Role Reporting to the Content Producer (French), Content & Curriculum, as a Translator & Editor (French) , you will work closely with all members of the Content & Curriculum team to translate, adapt, and refine high-quality learning content across language, socials, science, and math to support French Immersion & Core French students in K12. Projects are often high-intensity and high-profile, requiring a broad skillset and a willingness to work flexibly and hands-on to deliver accurate, polished solutions to customers within target timelines. Key Accountabilities Rapid, Responsive French Content Development and Translation 65% Translate, write, research, edit, storyboard, and create student- and teacher-facing reputed company in Edwi",
-   "first_seen": "2026-11-12T13:39:24Z"
-  },
-  {
-   "id": "englishustofrenchcanadalifesciencepharmacovigilancetranslatorwfhalert",
-   "title": "English (US) to French (Canada) Life Science (Pharmacovigilance) Translator",
-   "org": "WfhAlert",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://wfhalert.t4d.liveblog365.com/remote-jobs/english-us-to-french-canada-life-science-pharmacovigilance-translator",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-08T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
+    "pair": "English → Korean",
+    "years": 2,
     "contract": "Full-time"
    },
    "apply_email": "",
-   "snippet": "About Welo Life Sciences Welo Life Sciences, a Welo Global brand, is a specialized language and technology partner serving pharmaceutical, CRO, and medical device organizations operating in regulated global markets. We deliver regulator-ready translation, linguistic validation, and localization solutions that support clinical trials, pharmacovigilance, regulatory affairs, labeling, and global commercialization. Our a",
-   "details": "About Welo Life Sciences Welo Life Sciences, a Welo Global brand, is a specialized language and technology partner serving pharmaceutical, CRO, and medical device organizations operating in regulated global markets. We deliver regulator-ready translation, linguistic validation, and localization solutions that support clinical trials, pharmacovigilance, regulatory affairs, labeling, and global commercialization. Our approach combines subject matter expertise with ISO-certified quality processes and technology-enabled workflows designed to integrate seamlessly into life sciences operations. With extensive experience supporting global product development and post-market requirements, Welo Life Sciences helps organizations accelerate timelines, protect data integrity, and maintain compliance across languages and regions. All solutions are delivered within a secure, audit-ready framework supported by seven ISO certifications. welolifesciences.com We are currently seeking experienced and highly skilled English to Canadian French linguists to join our dynamic Life Sciences program specializing in Pharmacovigilance . This is an exciting opportunity to work on vital medical and clinical content, contributing to global health and safety initiatives. In this role, you will play a critical part in ensuring the accurate and timely delivery of translations under tight deadlines. Many assignments are time-sensitive, requiring quick turnarounds to meet client expectations while maintaining the highest standards of quality. Join our global team and help us make a difference in global health by delivering high-quality translations that support critical medical research and patient safety. Key Details About the Role Translate documents from English (US) to French (Canada) , with a focus o",
-   "first_seen": "2026-11-12T13:39:24Z"
+   "snippet": "Welocalize is seeking experienced translators for English into Korean patent translation projects. This freelance remote role offers steady volumes and long-term collaboration with a global production team across multiple domains including chemistry, biology, computer science, and engineering. Ideal candidates have at least 2 years of patent translation/editing experience, strong CAT tool skills (Trados, XTM) and the",
+   "details": "Welocalize is seeking experienced translators for English into Korean patent translation projects. This freelance remote role offers steady volumes and long-term collaboration with a global production team across multiple domains including chemistry, biology, computer science, and engineering. Ideal candidates have at least 2 years of patent translation/editing experience, strong CAT tool skills (Trados, XTM) and the ability to deliver in K-Editor formats.",
+   "first_seen": "2026-11-13T12:57:40Z"
+  },
+  {
+   "id": "gamingenglishintokoreantranslatorremotequestjobs",
+   "title": "[GAMING] English into Korean Translator",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/gaming-english-into-korean-translator-943ad9e3",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-12T23:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → Korean",
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — United States • ",
+   "details": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — United States • Languages: Korean, English About reputed company A language services provider offering localization and translation services for global brands. — Industry: Information reputed company Apply To reputed company Job",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "remotekoreanenglishinterpreterpaidtrainingbilingual",
+   "title": "Remote Korean–English Interpreter (Paid Training)",
+   "org": "Bilingual",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-korean-english-interpreter-paid-training--united-states--ec07730c0cae3f957fb6c8569ac43b2a9",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-06T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Korean ↔ English",
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Bilingual is seeking Korean-English bilingual professionals for remote interpreting roles. You will provide real-time OPI between Korean-speaking clients and service providers in the United States, with a fully paid training program. No prior interpreting experience is required, making this an accessible entry point into professional interpretation. All shifts follow US Eastern Time (EST); training runs Monday-Friday",
+   "details": "Bilingual is seeking Korean-English bilingual professionals for remote interpreting roles. You will provide real-time OPI between Korean-speaking clients and service providers in the United States, with a fully paid training program. No prior interpreting experience is required, making this an accessible entry point into professional interpretation. All shifts follow US Eastern Time (EST); training runs Monday-Friday, 9:00 AM-6:00 PM EST for three weeks.",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "remotekoreantranslatorforlegalandgovernmentlssremotequestjobs",
+   "title": "Remote Korean Translator for Legal and Government LSS",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/remote-korean-translator-for-legal-and-government-lss-105773611",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-11T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "years": 2,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "A prominent defense contracting company is seeking a part-time Korean Translator to support the reputed company. The role involves translating sensitive legal documents and media content while ensuring confidentiality. Candidates should have at least two years of translation experience, legal vocabulary proficiency, and must be a U.S. reputed company. reputed company position requires familiarity with Computer-Assist",
+   "details": "A prominent defense contracting company is seeking a part-time Korean Translator to support the reputed company. The role involves translating sensitive legal documents and media content while ensuring confidentiality. Candidates should have at least two years of translation experience, legal vocabulary proficiency, and must be a U.S. reputed company. reputed company position requires familiarity with Computer-Assisted Translation tools, specifically SDL Trados reputed company, and may entail some travel responsibilities. #J-18808-Ljbffr Experience: 2 years required Apply To reputed company Job",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
    "id": "translatorlinglongtire",
@@ -409,8 +447,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Technical Editor UNHABITAT - United Nations Human Settlements Programme Remote | Montreal CON level Speaks English, French Application deadline: November 17, 2026 (5 days) Apply Summary by Impactpool The United Nations Human Settlements Programme is seeking a Technical Editor for a part-time, home-based consultancy to edit two Issue Briefs focused on municipal finance and international housing supply approaches. The ",
-   "details": "Technical Editor UNHABITAT - United Nations Human Settlements Programme Remote | Montreal CON level Speaks English, French Application deadline: November 17, 2026 (5 days) Apply Summary by Impactpool The United Nations Human Settlements Programme is seeking a Technical Editor for a part-time, home-based consultancy to edit two Issue Briefs focused on municipal finance and international housing supply approaches. The role involves enhancing clarity, structure, and accessibility of the documents for a non-specialist Canadian audience. The editor will work closely with the project team to ensure the briefs effectively communicate research findings and lessons learned. The assignment is expected to begin in late November 2026 and conclude by the end of January 2027. Candidate Requirements: Advanced degree in Communications, Journalism, English, Public Policy, Urban Studies, Housing Policy, or related field 5 years of professional experience in substantive or technical editing Experience editing issue briefs and analytical reports Ability to translate complex research into accessible content Familiarity with housing policy and urban development Experience with multiple reviewers' comments and tight deadlines Excellent written English; knowledge of French desirable Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should communicate the evidence, qualitative insights, lessons learned and research implications clearly f",
+   "snippet": "Technical Editor UNHABITAT - United Nations Human Settlements Programme Remote | Montreal CON level Speaks English, French Application deadline: November 17, 2026 Closing soon Apply Summary by Impactpool The United Nations Human Settlements Programme is seeking a Technical Editor for a part-time, home-based consultancy to edit two Issue Briefs focused on municipal finance and international housing supply approaches. ",
+   "details": "Technical Editor UNHABITAT - United Nations Human Settlements Programme Remote | Montreal CON level Speaks English, French Application deadline: November 17, 2026 Closing soon Apply Summary by Impactpool The United Nations Human Settlements Programme is seeking a Technical Editor for a part-time, home-based consultancy to edit two Issue Briefs focused on municipal finance and international housing supply approaches. The role involves enhancing clarity, structure, and accessibility of the documents for a non-specialist Canadian audience. The editor will work closely with the project team to ensure the briefs effectively communicate research findings and lessons learned. The assignment is expected to begin in late November 2026 and conclude by the end of January 2027. Candidate Requirements: Advanced degree in Communications, Journalism, English, Public Policy, Urban Studies, Housing Policy, or related field 5 years of professional experience in substantive or technical editing Experience editing issue briefs and analytical reports Ability to translate complex research into accessible content Familiarity with housing policy and urban development Experience with multiple reviewers' comments and tight deadlines Excellent written English; knowledge of French desirable Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should communicate the evidence, qualitative insights, lessons learned and research implications clear",
    "first_seen": "2026-11-07T11:37:44Z"
   },
   {
@@ -445,71 +483,36 @@
    "first_seen": "2026-11-06T12:50:29Z"
   },
   {
-   "id": "translatorenglishtofrench10monthcontractremoteremotequestjobs",
-   "title": "Translator (English to French) – 10-Month Contract - Remote",
-   "org": "remote quest jobs",
+   "id": "remotejapanesekoreanpatenttranslatortechpharmaremotework",
+   "title": "Remote Japanese-Korean Patent Translator (Tech/Pharma)",
+   "org": "remote work",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/translator-english-to-french-10-month-contract-remote-dfeb98ff",
+   "url": "https://www.recruit.net/job/japanese-korean-patent-translator-tech-jobs/16D25F391EC5215A",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-09T00:00:00Z",
-   "score": 82,
+   "score": 75,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based",
-    "Asks 5+ years"
+    "Needs Japanese",
+    "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
-    "pair": "English → French",
-    "years": 5,
+    "pair": "Japanese ↔ Korean",
     "contract": "Full-time"
    },
    "apply_email": "",
-   "snippet": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company reputed company that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, hel",
-   "details": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company reputed company that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, helping ensure consistency and clarity at reputed company stage of the rollout. Requirements • Bachelor's degree in translation (English to French specialization) • At least five years of relevant experience, including technical translation • Excellent command of both English and French, with native-level proficiency in French • Strong familiarity with translation tools such as Trados reputed company or similar environments • Terminology databases and emerging reputed company technologies • reputed company understanding of terminology across core business functions—including Finance, reputed company Chain, HR, and corporate operations Benefits • Competitive salary • Bonus • reputed company • Health spending account • Fitness & wellness subsidy • Employee & family assistance reputed company • TFSA & RRSP • Electric vehicle subsidy • Summer hours • Holiday office reputed company Originally posted on Himalayas Apply To reputed company Job",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
-   "id": "canadianfrenchtranslatorreputedcompanytermpositionremotequestjobs",
-   "title": "Canadian French Translator (reputed company Term Position)",
-   "org": "remote quest jobs",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/canadian-french-translator-full-time-term-position-740026bd",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-09T00:00:00Z",
-   "score": 82,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based",
-    "Asks 5+ years"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "years": 5,
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "reputed company is an industry leading content solutions provider. Operating for over 20 years, we provide our customers enterprise content solutions to address business challenges while meeting the needs of their end users. We accomplish reputed company through learning and documentation solutions, including operational and technical content development and management, customized eLearning development, and content s",
-   "details": "reputed company is an industry leading content solutions provider. Operating for over 20 years, we provide our customers enterprise content solutions to address business challenges while meeting the needs of their end users. We accomplish reputed company through learning and documentation solutions, including operational and technical content development and management, customized eLearning development, and content strategy and architecture services. With over 300 professional experts across the globe, we service some of the worlds’ most successful Fortune 500 and Fortune 1000 companies. You don't just translate words. You preserve meaning, learning intent, and learner experience. What reputed company is about Learning content succeeds when it feels natural to the learner—not translated. We're seeking an experienced English-to-Canadian French Translator to support the creation and review of learning content within a large enterprise learning environment. reputed company role sits within a Learning Content team and works closely with instructional designers, reputed company, reputed company reputed company experts, and corporate translation reputed company with a focus on: • French linguistic quality assurance (QA) • Review of French narration • Small to medium English-to-Canadian French translation requests You should understand how learning content works so you can preserve learning objectives, instructional flow, assessment intent, and learner experience throughout the translation process. What you’ll do • Translate English learning content into natural, professional Canadian French • Review French translations for linguistic accuracy, consistency, readability, and terminology • Compare English source content and translated content to identify omissions, inaccuracies,",
-   "first_seen": "2026-11-06T12:50:29Z"
+   "snippet": "TransPerfect is seeking a freelance translator to translate documents from Japanese to Korean in Technical and Pharmaceutical Patent fields, working under supervision with project managers to deliver polished translations for international clients. You will translate, proofread, and edit to ensure accuracy and consistency, submit work under tight deadlines, and maintain strict confidentiality. Remote worldwide freela",
+   "details": "TransPerfect is seeking a freelance translator to translate documents from Japanese to Korean in Technical and Pharmaceutical Patent fields, working under supervision with project managers to deliver polished translations for international clients. You will translate, proofread, and edit to ensure accuracy and consistency, submit work under tight deadlines, and maintain strict confidentiality. Remote worldwide freelance role with MTPE and quality checks involved. #J-18808-Ljbffr",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
    "id": "strategiccommunicationsadvocacyandpartnershipsspecialistopentointernalexternalap",
@@ -563,10 +566,12 @@
    ],
    "langs": [],
    "role": true,
-   "facts": {},
+   "facts": {
+    "pay": "$20 - $25/hour"
+   },
    "apply_email": "",
-   "snippet": "Ngamo Interpreter IRC - International Rescue Committee Remote | United States International Junior level Apply Summary by Impactpool The Ngamo Interpreter at the International Rescue Committee (IRC) provides in-person and remote interpretation services to Limited English Proficient (LEP) individuals and their service providers. This role requires accuracy, impartiality, and confidentiality in various settings such as",
-   "details": "Ngamo Interpreter IRC - International Rescue Committee Remote | United States International Junior level Apply Summary by Impactpool The Ngamo Interpreter at the International Rescue Committee (IRC) provides in-person and remote interpretation services to Limited English Proficient (LEP) individuals and their service providers. This role requires accuracy, impartiality, and confidentiality in various settings such as clinics, schools, and government agencies. Responsibilities include tracking assignments, participating in trainings, and supporting special projects. The IRC is dedicated to restoring health, safety, and dignity to those affected by humanitarian crises. Candidate Requirements: High school diploma preferred Interpretation certification preferred Relevant professional interpretation experience preferred Experience with refugee/immigrant populations preferred Cultural sensitivity and trust-building skills The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic wellbeing, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is one of the world's largest international humanitarian non-governmental organizations (INGO), at work in more than 40 countries and 29 U.S. cities helping people to survive, reclaim control of their future and strengthen their communities. A force for humanity, IRC employees deliver lasting impact by restoring safety, dignity and hope to millions. If you're a solutions-driven, passionate change-maker, come join us in positively impacting the lives of millions of people world-wide for a better future. Job Overview: The Interpreter provides in-person and/or remote interpretation to facilitate",
+   "snippet": "Ngamo Interpreter IRC - International Rescue Committee Remote | United States International Junior level Apply Summary by Impactpool The International Rescue Committee (IRC) is seeking an Interpreter to provide accurate and confidential interpretation services for Limited English Proficient (LEP) individuals. This role involves facilitating communication in various settings, including clinics and schools, and may inc",
+   "details": "Ngamo Interpreter IRC - International Rescue Committee Remote | United States International Junior level Apply Summary by Impactpool The International Rescue Committee (IRC) is seeking an Interpreter to provide accurate and confidential interpretation services for Limited English Proficient (LEP) individuals. This role involves facilitating communication in various settings, including clinics and schools, and may include both in-person and remote interpretation. The Interpreter will also track assignments using designated software and participate in trainings and assessments. Ideal candidates will have relevant interpretation experience and a strong commitment to cultural sensitivity. Candidate Requirements: High school diploma preferred Interpretation certification preferred Relevant professional interpretation experience preferred Experience with refugee/immigrant populations preferred Cultural sensitivity The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic wellbeing, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is one of the world's largest international humanitarian non-governmental organizations (INGO), at work in more than 40 countries and 29 U.S. cities helping people to survive, reclaim control of their future and strengthen their communities. A force for humanity, IRC employees deliver lasting impact by restoring safety, dignity and hope to millions. If you're a solutions-driven, passionate change-maker, come join us in positively impacting the lives of millions of people world-wide for a better future. Job Overview: The Interpreter provides in-person and/or remote interpretation to facilitate, with a",
    "first_seen": "2026-11-12T13:39:24Z"
   },
   {
@@ -589,10 +594,12 @@
    ],
    "langs": [],
    "role": true,
-   "facts": {},
+   "facts": {
+    "pay": "$20 - $25/hour"
+   },
    "apply_email": "",
    "snippet": "Kiswahili Interpreter Language IRC - International Rescue Committee Remote | Baltimore International Junior level Apply Summary by Impactpool The International Rescue Committee (IRC) is seeking a Kiswahili Interpreter to provide in-person and remote interpretation services for Limited English Proficient (LEP) individuals. The role involves ensuring accurate, impartial, and confidential communication in various settin",
-   "details": "Kiswahili Interpreter Language IRC - International Rescue Committee Remote | Baltimore International Junior level Apply Summary by Impactpool The International Rescue Committee (IRC) is seeking a Kiswahili Interpreter to provide in-person and remote interpretation services for Limited English Proficient (LEP) individuals. The role involves ensuring accurate, impartial, and confidential communication in various settings such as clinics and schools. Responsibilities include tracking assignments, participating in trainings, and supporting special projects. Candidates should be passionate about making a positive impact in humanitarian efforts. Candidate Requirements: High school diploma preferred Interpretation certification preferred Relevant professional interpretation experience preferred Experience with refugee/immigrant populations preferred Cultural sensitivity and trust-building skills The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic wellbeing, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is one of the world's largest international humanitarian non-governmental organizations (INGO), at work in more than 40 countries and 29 U.S. cities helping people to survive, reclaim control of their future and strengthen their communities. A force for humanity, IRC employees deliver lasting impact by restoring safety, dignity and hope to millions. If you're a solutions-driven, passionate change-maker, come join us in positively impacting the lives of millions of people world-wide for a better future. Job Overview: The Interpreter provides in-person and/or remote interpretation to facilitate, with accuracy, impartialit",
+   "details": "Kiswahili Interpreter Language IRC - International Rescue Committee Remote | Baltimore International Junior level Apply Summary by Impactpool The International Rescue Committee (IRC) is seeking a Kiswahili Interpreter to provide in-person and remote interpretation services for Limited English Proficient (LEP) individuals. The role involves ensuring accurate, impartial, and confidential communication in various settings such as clinics and schools. Responsibilities include tracking assignments, participating in training, and supporting special projects. The ideal candidate will have relevant interpretation experience and a strong cultural sensitivity to build trust with clients and colleagues. Candidate Requirements: High school diploma preferred Interpretation certification preferred Relevant professional interpretation experience preferred Experience with refugee and/or immigrant populations preferred Cultural sensitivity The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic wellbeing, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is one of the world's largest international humanitarian non-governmental organizations (INGO), at work in more than 40 countries and 29 U.S. cities helping people to survive, reclaim control of their future and strengthen their communities. A force for humanity, IRC employees deliver lasting impact by restoring safety, dignity and hope to millions. If you're a solutions-driven, passionate change-maker, come join us in positively impacting the lives of millions of people world-wide for a better future. Job Overview: The Interpreter provides in-person and/or remote interpretation to fac",
    "first_seen": "2026-11-12T13:39:24Z"
   },
   {
@@ -623,8 +630,8 @@
     "years": 5
    },
    "apply_email": "",
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (19 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
-   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (19 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
+   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (18 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
+   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (18 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
@@ -685,8 +692,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 (7 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory pr",
-   "details": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 (7 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory projects, particularly the SME Accelerator. This role involves project management, coordination, and ensuring consistent delivery of recommendations. The consultant will prepare various project documents, support client interactions, and monitor project outcomes. The position is available in Cairo, Nairobi, and Accra, with a focus on collaboration across teams and effective communication. Candidate Requirements: Bachelor’s degree in corporate governance, business administration, law, economics, finance, or related field At least two years of relevant corporate governance experience Experience with private sector firms or development partners Strong research, analytical, and strategic thinking skills Excellent organizational skills and ability to meet deadlines Fluent in English; Arabic desirable for Cairo position Ability to use LLM tools for research and analysis ET Consultant - Corporate Governance Advisory Job #: req39287 Organization: IFC Sector: Advisory Services Grade: EC1 Term Duration: 1 year 0 months Recruitment Type: Local Recruitment Location: Cairo,Egypt; Nairobi, Kenya; and Accra, Ghana Required Language(s): English Preferred Language(s): Arabic (desirable for Cairo) and French Closing Date: 11/19/2026 (MM/DD/YYYY) at 11:59pm UTC Description At the International Finance Corporation (IFC), a member of the World Bank Group (WBG) , you’ll join a dive",
+   "snippet": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 (6 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory pr",
+   "details": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 (6 days) Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory projects, particularly the SME Accelerator. This role involves project management, coordination, and ensuring consistent delivery of recommendations. The consultant will prepare various project documents, support client interactions, and monitor project outcomes. The position is available in Cairo, Nairobi, and Accra, with a focus on collaboration across teams and effective communication. Candidate Requirements: Bachelor’s degree in corporate governance, business administration, law, economics, finance, or related field At least two years of relevant corporate governance experience Experience with private sector firms or development partners Strong research, analytical, and strategic thinking skills Excellent organizational skills and ability to meet deadlines Fluent in English; Arabic desirable for Cairo position Ability to use LLM tools for research and analysis ET Consultant - Corporate Governance Advisory Job #: req39287 Organization: IFC Sector: Advisory Services Grade: EC1 Term Duration: 1 year 0 months Recruitment Type: Local Recruitment Location: Cairo,Egypt; Nairobi, Kenya; and Accra, Ghana Required Language(s): English Preferred Language(s): Arabic (desirable for Cairo) and French Closing Date: 11/19/2026 (MM/DD/YYYY) at 11:59pm UTC Description At the International Finance Corporation (IFC), a member of the World Bank Group (WBG) , you’ll join a dive",
    "first_seen": "2026-11-07T11:37:44Z"
   },
   {
@@ -869,13 +876,13 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "translatorwithaccountingexperiencecontractingcompanycairocontractingcompanyin",
-   "title": "Translator with accounting experience · contracting company, Cairo",
-   "org": "Contracting company in Cairo",
+   "id": "translator1yrorfreshgradadminstaffismailiacontractingcompanyin",
+   "title": "Translator (1 yr or fresh grad) + admin staff · Ismailia",
+   "org": "Contracting company in Ismailia",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.wangfuegypt.com/en/jobs/k1030-05",
-   "location": "القاهرة",
+   "url": "https://www.wangfuegypt.com/en/jobs/k1030-04",
+   "location": "الإسماعيلية، الاسماعيلية, Egypt",
    "remote": false,
    "egypt": true,
    "intl": false,
@@ -888,42 +895,44 @@
    ],
    "langs": [],
    "role": true,
-   "facts": {},
+   "facts": {
+    "years": 1
+   },
    "apply_email": "",
-   "snippet": "A contracting company in Cairo needs a translator with accounting experience (e.g. filing tax returns on the tax system).",
-   "details": "A contracting company in Cairo needs a translator with accounting experience (e.g. filing tax returns on the tax system).",
-   "first_seen": "2026-11-12T13:39:24Z"
+   "snippet": "A contracting company in Ismailia is hiring: • Translator: 1 year of experience or fresh graduate • An admin person",
+   "details": "A contracting company in Ismailia is hiring: • Translator: 1 year of experience or fresh graduate • An admin person",
+   "first_seen": "2026-11-11T12:35:33Z"
   },
   {
-   "id": "communicationspecialistintern",
-   "title": "Communication Specialist Intern",
-   "org": "Office For The Coordination Of Humanitarian Affairs",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/286519?language=en",
-   "location": "Doha, Full-time, Part-time, In-person, Remote and Hybrid.",
+   "id": "innovationtechnologyknowledgemanagementconsultant",
+   "title": "Innovation, Technology & Knowledge Management Consultant",
+   "org": "IDB Group",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1247732",
+   "location": "Remote | Washington D.C.",
    "remote": true,
    "egypt": false,
    "intl": true,
-   "deadline": "2026-11-13T04:59:59Z",
-   "posted": "2026-10-30T04:00:00Z",
+   "deadline": "2026-11-18T00:00:00Z",
+   "posted": null,
    "score": 57,
    "reasons": [
     "Mentions translation",
-    "Remote / home-based",
-    "Internships are usually for students"
+    "Remote / home-based"
    ],
    "langs": [
-    "Arabic"
+    "French"
    ],
    "role": false,
    "facts": {
-    "contract": "Internship"
+    "years": 2,
+    "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Work Location Doha, Full-time, Part-time, In-person, Remote and Hybrid. Expected duration 6 Months Duties and Responsibilities The United Nations (UN) Office for the Coordination of Humanitarian Affairs (OCHA) is the UN Secretariat department responsible for bringing together humanitarian actors to ensure a coherent response to complex emergencies and natural disasters. OCHA's mission is to mobilize and coordinate ef",
-   "details": "Work Location Doha, Full-time, Part-time, In-person, Remote and Hybrid. Expected duration 6 Months Duties and Responsibilities The United Nations (UN) Office for the Coordination of Humanitarian Affairs (OCHA) is the UN Secretariat department responsible for bringing together humanitarian actors to ensure a coherent response to complex emergencies and natural disasters. OCHA's mission is to mobilize and coordinate effective and principled humanitarian action in partnership with national and international actors, in order to alleviate human suffering in disasters and emergencies; advocate for the rights of people in need; promote preparedness and prevention; and facilitate sustainable solutions. OCHA Qatar is part of the External Relations Section, which is located within the Partnerships Branch of the Financing and Outreach Division. It aims to strengthen the engagement and partnership with all Member States, regional and intergovernmental organizations, in support of OCHA’s role in promoting principled and effective humanitarian action, and to sustain and grow political and financial support to the multilateral humanitarian system. Under the guidance and direct supervision of the Humanitarian Affairs Officer in OCHA’s Liaison Office in Doha (Qatar), the Communication Intern will provide support related to humanitarian engagement with the Government of the Qatar and partners in the country. This internship is based in the Doha, Qatar, and modality as follows, Full-time, Part-time, In-person, Remote and Hybrid, for a minimum period of three months and maximum six months, beginning at a mutually agreed time. • Support the development of communication products on humanitarian needs targeting specific audience • Assist in the planning of events organized / co-organized by O",
-   "first_seen": "2026-11-03T22:17:21Z"
+   "snippet": "Innovation, Technology & Knowledge Management Consultant IDB Group Remote | Washington D.C. Both national and international Junior level Speaks English, French, Portuguese, Spanish Application deadline: November 18, 2026 (5 days) Apply Summary by Impactpool The IDB is seeking an Innovation, Technology & Knowledge Management Consultant to support the Environmental and Social Solutions Division. This role involves mana",
+   "details": "Innovation, Technology & Knowledge Management Consultant IDB Group Remote | Washington D.C. Both national and international Junior level Speaks English, French, Portuguese, Spanish Application deadline: November 18, 2026 (5 days) Apply Summary by Impactpool The IDB is seeking an Innovation, Technology & Knowledge Management Consultant to support the Environmental and Social Solutions Division. This role involves managing and improving digital platforms, organizing technical knowledge, and translating operational needs into digital solutions. The consultant will also coordinate technology initiatives, enhance data quality, and promote the adoption of emerging technologies. The position requires collaboration with various stakeholders to align solutions with institutional standards. Candidate Requirements: Bachelor's degree in computer sciences, information technology, or related field At least 2 years of experience in digital transformation or UX/UI design Proficiency in English and Spanish Specialized training in information management or automation is desirable Job Description City: Washington DC Company: IDB Posting End Date: Nov 18, 2026 (12:00 AM EST) We improve lives The IDB Group is a community of diverse, versatile, and passionate people who come together on a journey to improve lives in Latin America and the Caribbean. Our people find purpose and do what they love in an inclusive, collaborative, agile, and rewarding environment. About this position The Environmental and Social Solutions Division (VPS/ESG) of the Inter-American Development Bank (IDB) is responsible for promoting the environmental and social sustainability of IDB-financed operations and ensuring compliance with the Bank’s environmental and social policies. VPS/ESG specialists provide technical gui",
+   "first_seen": "2026-11-13T12:57:40Z"
   },
   {
    "id": "socialmediaofficerrosterseefar",
@@ -982,8 +991,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (13 days) Apply Summary by Impactpool L'UNICEF recherche un consultan",
-   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (13 days) Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. Ces",
+   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (12 days) Apply Summary by Impactpool L'UNICEF recherche un consultan",
+   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (12 days) Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. Ces",
    "first_seen": "2026-11-11T12:35:33Z"
   },
   {
@@ -1013,8 +1022,8 @@
     "contract": "Internship"
    },
    "apply_email": "",
-   "snippet": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section UN DGC - United Nations Department of Global Communications Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 30, 2026 (18 days) Apply Summary by Impactpool The Video/Graphics Intern position at the United Nations offers a unique opportunity to gain hands-on experience in video pr",
-   "details": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section UN DGC - United Nations Department of Global Communications Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 30, 2026 (18 days) Apply Summary by Impactpool The Video/Graphics Intern position at the United Nations offers a unique opportunity to gain hands-on experience in video production within the Video Section of the News and Content Branch. Interns will assist with various tasks including research, script development, video editing, and multimedia production under the guidance of experienced professionals. This internship is designed for students or recent graduates in relevant fields and can be conducted in-person or remotely. No prior work experience is required, making it an excellent opportunity for those looking to start their careers in multimedia and communications. Candidate Requirements: Enrolled in or completed a graduate program in communication, journalism, international relations, public administration, English, or translation studies Computer literate in standard word processing and spreadsheet software Demonstrated interest in the work of the United Nations Ability to interact with diverse cultural backgrounds Good knowledge of editing software, especially Adobe Premiere Pro Fluency in English; knowledge of another UN language is desirable Work Location New York or remote Expected duration 2 to 6 months Duties and Responsibilities The position is located in the Video Section of the News and Content Branch, News and Media Division, Department of Global Communications. The News and Content Branch is a multimedia service provided by the United Nations to promote the universal ideals of the Organization, including peac",
+   "snippet": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section UN DGC - United Nations Department of Global Communications Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 30, 2026 (17 days) Apply Summary by Impactpool The Video/Graphics Intern position at the United Nations offers a unique opportunity to gain hands-on experience in video pr",
+   "details": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section UN DGC - United Nations Department of Global Communications Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 30, 2026 (17 days) Apply Summary by Impactpool The Video/Graphics Intern position at the United Nations offers a unique opportunity to gain hands-on experience in video production within the Video Section of the News and Content Branch. Interns will assist with various tasks including research, script development, video editing, and multimedia production under the guidance of experienced professionals. This internship is designed for students or recent graduates in relevant fields and can be conducted in-person or remotely. No prior work experience is required, making it an excellent opportunity for those looking to start their careers in multimedia and communications. Candidate Requirements: Enrolled in or completed a graduate program in communication, journalism, international relations, public administration, English, or translation studies Computer literate in standard word processing and spreadsheet software Demonstrated interest in the work of the United Nations Ability to interact with diverse cultural backgrounds Good knowledge of editing software, especially Adobe Premiere Pro Fluency in English; knowledge of another UN language is desirable Work Location New York or remote Expected duration 2 to 6 months Duties and Responsibilities The position is located in the Video Section of the News and Content Branch, News and Media Division, Department of Global Communications. The News and Content Branch is a multimedia service provided by the United Nations to promote the universal ideals of the Organization, including peac",
    "first_seen": "2026-11-09T13:44:56Z"
   },
   {
@@ -1073,8 +1082,8 @@
     "years": 3
    },
    "apply_email": "",
-   "snippet": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (10 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The ro",
-   "details": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (10 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The role involves coordinating partner agreements, ensuring compliance, and contributing to resource mobilization and fundraising efforts. The candidate will work closely with internal and external stakeholders to facilitate project implementation and support report writing. This position requires strong teamwork skills and a commitment to Diakonia's values of solidarity, justice, and accountability. Candidate Requirements: University degree or equivalent in relevant area 3-5 years’ experience in international development work Experience in project management with a human rights-based approach Proven skills in Planning, Evaluation, and Monitoring Experience in donor engagement and resource mobilization Fluent in English and Arabic Analytic, creative, and solution-oriented Ability to work independently and as a team player Relevant communication and IT skills Based in Egypt Open for applicants who have the right to be based and work from Egypt only Locals are encouraged to apply WHO WE ARE Diakonia is an international rights-based and faith-based development organization recognized for its commitment to democracy, human rights, and gender justice with the objective to change unfair structures that generate poverty, inequality, oppression and violence. All work is based on feminist principles. Digitalization plays a key role in enabling efficient, transparent, and s",
+   "snippet": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (9 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The rol",
+   "details": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (9 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The role involves coordinating partner agreements, ensuring compliance, and contributing to resource mobilization and fundraising efforts. The candidate will work closely with internal and external stakeholders to facilitate project implementation and support report writing. This position requires strong teamwork skills and a commitment to Diakonia's values of solidarity, justice, and accountability. Candidate Requirements: University degree or equivalent in relevant area 3-5 years’ experience in international development work Experience in project management with a human rights-based approach Proven skills in Planning, Evaluation, and Monitoring Experience in donor engagement and resource mobilization Fluent in English and Arabic Analytic, creative, and solution-oriented Ability to work independently and as a team player Relevant communication and IT skills Based in Egypt Open for applicants who have the right to be based and work from Egypt only Locals are encouraged to apply WHO WE ARE Diakonia is an international rights-based and faith-based development organization recognized for its commitment to democracy, human rights, and gender justice with the objective to change unfair structures that generate poverty, inequality, oppression and violence. All work is based on feminist principles. Digitalization plays a key role in enabling efficient, transparent, and se",
    "first_seen": "2026-11-09T13:44:56Z"
   },
   {
@@ -1195,8 +1204,8 @@
     "years": 5
    },
    "apply_email": "",
-   "snippet": "Officer, Finance IFRC - International Federation of Red Cross and Red Crescent Societies Cairo National Staff level Speaks Arabic, English Application deadline: December 11, 2026 (29 days) Apply Summary by Impactpool The Finance Officer at IFRC EGYPT Delegation is responsible for delivering effective accounting, financial, and treasury services. This role involves project financial management support, ensuring compli",
-   "details": "Officer, Finance IFRC - International Federation of Red Cross and Red Crescent Societies Cairo National Staff level Speaks Arabic, English Application deadline: December 11, 2026 (29 days) Apply Summary by Impactpool The Finance Officer at IFRC EGYPT Delegation is responsible for delivering effective accounting, financial, and treasury services. This role involves project financial management support, ensuring compliance with financial procedures, and providing technical advice during budget preparation. The officer will also validate transactions, prepare financial reports, and conduct financial analysis. Strong communication and analytical skills are essential for liaising with project managers and ensuring accurate financial documentation. Candidate Requirements: University degree in finance/accounting 5+ years of experience in finance/accounting Good understanding of accounting and financial reporting Experience with financial/accounting systems (ERP) Experience in project financial management Fluent in Arabic and English Good stress management skills Self-supported in computing systems Excellent communication skills Good analytical skills Skills in training and coaching staff Time management skills Officer, Finance Vacancy No.S19099Category of ContractNationalPosition TypeNationalApplication Deadline12/11/2026Job Posted On29/10/2026Duty StationCairo, EgyptCountryEGYPTGradeNational StaffDuty Station StatusN/AAccompanied StatusN/ADuration12 Organizational Context The International Federation of Red Cross and Red Crescent Societies (IFRC) is the world’s largest humanitarian organization, with a network of 191-member National Societies (NSs). The overall aim of IFRC is “to inspire, encourage, facilitate, and promote at all times all forms of humanitarian activities by ",
+   "snippet": "Officer, Finance IFRC - International Federation of Red Cross and Red Crescent Societies Cairo National Staff level Speaks Arabic, English Application deadline: December 11, 2026 (28 days) Apply Summary by Impactpool The Finance Officer at IFRC EGYPT Delegation is responsible for delivering effective accounting, financial, and treasury services. This role involves project financial management support, ensuring compli",
+   "details": "Officer, Finance IFRC - International Federation of Red Cross and Red Crescent Societies Cairo National Staff level Speaks Arabic, English Application deadline: December 11, 2026 (28 days) Apply Summary by Impactpool The Finance Officer at IFRC EGYPT Delegation is responsible for delivering effective accounting, financial, and treasury services. This role involves project financial management support, ensuring compliance with financial procedures, and providing technical advice during budget preparation. The officer will also validate transactions, prepare financial reports, and conduct financial analysis. Strong communication and analytical skills are essential for liaising with project managers and ensuring accurate financial documentation. Candidate Requirements: University degree in finance/accounting 5+ years of experience in finance/accounting Good understanding of accounting and financial reporting Experience with financial/accounting systems (ERP) Experience in project financial management Fluent in Arabic and English Good stress management skills Self-supported in computing systems Excellent communication skills Good analytical skills Skills in training and coaching staff Time management skills Officer, Finance Vacancy No.S19099Category of ContractNationalPosition TypeNationalApplication Deadline12/11/2026Job Posted On29/10/2026Duty StationCairo, EgyptCountryEGYPTGradeNational StaffDuty Station StatusN/AAccompanied StatusN/ADuration12 Organizational Context The International Federation of Red Cross and Red Crescent Societies (IFRC) is the world’s largest humanitarian organization, with a network of 191-member National Societies (NSs). The overall aim of IFRC is “to inspire, encourage, facilitate, and promote at all times all forms of humanitarian activities by ",
    "first_seen": "2026-11-11T12:35:33Z"
   },
   {
@@ -1227,39 +1236,9 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 (8 days) Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The rol",
-   "details": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 (8 days) Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The role involves contributing to program development, resource mobilization, and technical reporting aligned with national strategies. The expert will conduct research, prepare analytical reports, and ensure the quality of technical study reports. Collaboration with project managers and field visits will be essential for effective program management and decision-making. Candidate Requirements: University degree in relevant fields At least seven years of experience in project/programme management Working knowledge of English and Arabic National of Egypt or resident with valid work permit IMPORTANT NOTICE: Please note that Closure Date and Time displayed above are based on date and time settings of your personal device FAO is committed to achieving workforce diversity in terms of gender, nationality, background and culture Qualified female applicants, qualified nationals of non-and under-represented Members and person with disabilities are encouraged to apply Everyone who works for FAO is required to adhere to the highest standards of integrity and professional conduct, and to uphold FAO's values FAO, as a Specialized Agency of the United Nations, has a zero-tolerance policy for conduct that is incompatible with its status, objectives and mandate, including sexual exploitation and abuse, sexual harassment, abuse of authority and discrimination All selected candidate",
+   "snippet": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 (7 days) Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The rol",
+   "details": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 (7 days) Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The role involves contributing to program development, resource mobilization, and technical reporting aligned with national strategies. The expert will conduct research, prepare analytical reports, and ensure the quality of technical study reports. Collaboration with project managers and field visits will be essential for effective program management and decision-making. Candidate Requirements: University degree in relevant fields At least seven years of experience in project/programme management Working knowledge of English and Arabic National of Egypt or resident with valid work permit IMPORTANT NOTICE: Please note that Closure Date and Time displayed above are based on date and time settings of your personal device FAO is committed to achieving workforce diversity in terms of gender, nationality, background and culture Qualified female applicants, qualified nationals of non-and under-represented Members and person with disabilities are encouraged to apply Everyone who works for FAO is required to adhere to the highest standards of integrity and professional conduct, and to uphold FAO's values FAO, as a Specialized Agency of the United Nations, has a zero-tolerance policy for conduct that is incompatible with its status, objectives and mandate, including sexual exploitation and abuse, sexual harassment, abuse of authority and discrimination All selected candidate",
    "first_seen": "2026-11-07T11:37:44Z"
-  },
-  {
-   "id": "spanishkoreanorjapaneseopivrikalamcx",
-   "title": "Spanish, Korean, Or Japanese OPI/VRI",
-   "org": "Kalamcx",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.linkedin.com/jobs/view/4488642220/",
-   "location": "القاهرة",
-   "remote": true,
-   "egypt": true,
-   "intl": false,
-   "deadline": null,
-   "posted": null,
-   "score": 47,
-   "reasons": [
-    "Mentions translation",
-    "Needs Spanish",
-    "Open to Egypt",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": false,
-   "facts": {},
-   "apply_email": "",
-   "snippet": "Make a global impact by helping people communicate during critical moments—all from the comfort of your home. Kalam CX is hiring Video Remote (VRI) and Over-the-Phone (OPI) Medical Interpreters to join our international team. 🌐 Role Overview As a Remote Medical Interpreter (OPI/VRI), you will facilitate real-time communication between English speakers and speakers of your Target language in medical settings. Your rol",
-   "details": "Make a global impact by helping people communicate during critical moments—all from the comfort of your home. Kalam CX is hiring Video Remote (VRI) and Over-the-Phone (OPI) Medical Interpreters to join our international team. 🌐 Role Overview As a Remote Medical Interpreter (OPI/VRI), you will facilitate real-time communication between English speakers and speakers of your Target language in medical settings. Your role is essential in ensuring clear, Languages we're hiring for: Spanish | Japanese |Korean | Farsi | | Cantonese | Mandarin | Cambodian | Polish | Ukrainian | Kurdish ✅ Requirements Fluency in English + Your Target Language • Strong listening, memory, and note-taking skills • Ability to work in a fast-paced, real-time environment 💻 Technical Requirements • Stable home broadband connection (Min 10 Mbps download / 5 Mbps upload – no 4G/5G) • New Generation PC/Laptop with 8GB RAM or higher, Windows 10 or newer • USB wired noise-canceling headset 🎧 • HD webcam & Backdrop for VRI assignments based on the account 🎁 What We Offer • Professional Medical Interpretation Training 🎓 • Monthly payment in USD 💵100% Remote Work 🌍 • Contract-based role with a supportive, multicultural team 📩 Apply now and be part of a role that truly makes a difference!",
-   "first_seen": "2026-11-12T13:39:24Z"
   },
   {
    "id": "jobtitlechinesetranslatorlocationnameainsokhnaegyptjobtypefulltimeworkplacetypeo",
@@ -1447,14 +1426,18 @@
   "translatorwithaccountingexperiencecontractingcompanycairocontractingcompanyin": "2026-11-12T13:39:24Z",
   "itdigitalsolutionsinternwfp": "2026-11-12T13:39:24Z",
   "spanishkoreanorjapaneseopivrikalamcx": "2026-11-12T13:39:24Z",
-  "jobtitlechinesetranslatorlocationnameainsokhnaegyptjobtypefulltimeworkplacetypeo": "2026-11-12T13:39:24Z"
+  "jobtitlechinesetranslatorlocationnameainsokhnaegyptjobtypefulltimeworkplacetypeo": "2026-11-12T13:39:24Z",
+  "koreantranslatorneededforlargeprojectconfidentialclientvi": "2026-11-13T12:57:40Z",
+  "freelancekoreanenglishtranslatorinvestmentbankingtransperfect": "2026-11-13T12:57:40Z",
+  "remoteenglishtokoreanpatenttranslatorweloglobal": "2026-11-13T12:57:40Z",
+  "innovationtechnologyknowledgemanagementconsultant": "2026-11-13T12:57:40Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 34,
-  "last_day": "2026-11-12"
+  "used": 37,
+  "last_day": "2026-11-13"
  },
- "quote_index": 8,
+ "quote_index": 9,
  "links": {
   "un-exams": {
    "state": "ok",
@@ -1549,22 +1532,22 @@
  },
  "health": {
   "Remotive": 0,
-  "Jobicy": 0,
   "Working Nomads": 0,
+  "Jobicy": 0,
   "RemoteOK": 0,
   "Company boards": 0,
-  "Translation agencies": 0,
   "ReliefWeb": 0,
+  "Translation agencies": 0,
   "Green Climate Fund": 0,
-  "UNICEF": 2,
-  "UN Careers": 0,
-  "Google Jobs": 0,
-  "UNESCO": 0,
+  "UNICEF": 3,
   "CLEAR Global": 0,
+  "UNESCO": 0,
+  "UN Careers": 0,
   "ICRC": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
   "UNDP": 0,
-  "Himalayas": 2,
+  "Himalayas": 0,
+  "Google Jobs": 0,
   "Impactpool": 0
  }
 }
