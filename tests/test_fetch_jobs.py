@@ -233,6 +233,16 @@ class DailyRun(Run):
         self.run_day(good)
         self.assertEqual(self.texts(), [])
 
+    def test_kept_jobs_are_rechecked_against_current_rules(self):
+        def broken():
+            raise RuntimeError("down")
+        self.run_day({"A": lambda: [job("Arabic Translator", "Arabic"), job("Gulf Arabic Interpreter", "Arabic")]})
+        d = json.loads(f.OUT.read_text(encoding="utf-8"))
+        d["jobs"].append({**d["jobs"][0], "id": "old", "title": "Remote Juba Arabic Interpreter"})
+        f.OUT.write_text(json.dumps(d), encoding="utf-8")
+        titles = [j["title"] for j in self.run_day({"A": broken})["jobs"]]
+        self.assertEqual(titles, ["Arabic Translator"])
+
     def test_each_alert_gets_a_new_intro(self):
         intros = []
         for n in range(3):

@@ -909,11 +909,19 @@ def main():
             "first_seen": seen.get(k, iso(NOW)),
         }
 
-    # A source that failed today keeps yesterday's jobs instead of emptying the list.
+    # A source that failed or was skipped today keeps yesterday's jobs instead of emptying the list,
+    # re-checked against today's rules so filter changes apply to them too.
     failed = {name for name, st in status.items() if not st["ok"] or st.get("kept")}
     for k, p in previous.items():
-        if k not in jobs and p.get("feed", p["source"]) in failed and (p["deadline"] or "9") >= iso(NOW):
-            jobs[k] = p
+        if k in jobs or p.get("feed", p["source"]) not in failed:
+            continue
+        again = job(p["source"], p["org"], p["title"], p["url"], location=p["location"],
+                    text=p.get("details") or p["snippet"], remote=p["remote"], deadline=p["deadline"],
+                    posted=p["posted"], intl=p["intl"], check_location=not p["intl"])
+        r = score(again)
+        if r:
+            jobs[k] = {**p, "title": again["title"], "score": r[0], "reasons": r[1], "langs": r[2],
+                       "role": "Translation / language role" in r[1]}
 
     ordered = sorted(jobs.values(), key=lambda x: (-x["score"], x["deadline"] or "9"))
     OUT.parent.mkdir(exist_ok=True)
