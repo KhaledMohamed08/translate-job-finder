@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T16:32:28Z",
+ "updated": "2026-11-17T16:36:55Z",
  "sources": {
   "Google Jobs": {
    "ok": true,
@@ -19,25 +19,21 @@
    "ok": true,
    "count": 35
   },
-  "Company boards": {
-   "ok": true,
-   "count": 214
-  },
   "RemoteOK": {
    "ok": true,
    "count": 97
   },
-  "ReliefWeb": {
+  "Company boards": {
    "ok": true,
-   "count": 1103
+   "count": 214
   },
   "Translation agencies": {
    "ok": true,
    "count": 194
   },
-  "CLEAR Global": {
+  "ReliefWeb": {
    "ok": true,
-   "count": 16
+   "count": 1103
   },
   "UNESCO": {
    "ok": true,
@@ -47,6 +43,10 @@
    "ok": true,
    "count": 448
   },
+  "CLEAR Global": {
+   "ok": true,
+   "count": 16
+  },
   "UNDP": {
    "ok": true,
    "count": 12
@@ -55,13 +55,13 @@
    "ok": true,
    "count": 29
   },
-  "Himalayas": {
-   "ok": true,
-   "count": 119
-  },
   "Green Climate Fund": {
    "ok": true,
    "count": 4
+  },
+  "Himalayas": {
+   "ok": true,
+   "count": 119
   },
   "ICRC": {
    "ok": true,
@@ -165,68 +165,6 @@
    "snippet": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior transla",
    "details": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior translation certification and experience are preferred.",
    "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "arabictranslatorsandsaudinativespeakerspaidstudyinnycmindrift",
-   "title": "Arabic Translators and Saudi Native Speakers - Paid Study in NYC",
-   "org": "Mindrift",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.ziprecruiter.com/c/mindrift/Job/Arabic-Translators-and-Saudi-Native-Speakers-Paid-Study-in-NYC/-in-New-York,NY?jid=b35a230b02bc1573",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-01T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Part-time"
-   },
-   "apply_email": "",
-   "snippet": "Mindrift is running a research study on how people use their phones, apps and everyday digital tools, and how that differs across languages and cultures. We're looking for native Arabic speakers in New York to join a paid, 3-day in-person study in Midtown Manhattan. Why your language matters Most technology is still designed with English speakers in mind. This study helps researchers understand how people who communi",
-   "details": "Mindrift is running a research study on how people use their phones, apps and everyday digital tools, and how that differs across languages and cultures. We're looking for native Arabic speakers in New York to join a paid, 3-day in-person study in Midtown Manhattan. Why your language matters Most technology is still designed with English speakers in mind. This study helps researchers understand how people who communicate in Arabic actually use their devices, so future products work better for them. What you'll do • Spend 1-3 days with our research team in Midtown Manhattan. • Walk us through how you use your phone and favourite apps in daily life. • Share examples of your everyday phone activity with the research team. You decide what's included. • Fill in a short questionnaire about your habits. Who we're looking for • 18+ and currently living in NYC. • A native Arabic speaker who grew up in Saudi Arabia. • You use Arabic in everyday life: texting friends, email, notes. • You've used a smartphone as your main personal phone for 3+ years. • Comfortable communicating in English. • Available for 3 consecutive days (Mon-Wed or Thu-Sat), starting October 16 on Friday. • Not currently employed by a tech or AI company. Great fit for international students, people new to NYC, and anyone between jobs or with a flexible schedule. Compensation $1,200-1,600 for the full study. Simple and transparent Participation is voluntary and covered by a signed consent form that explains exactly what's involved. You can ask questions at any point and stop whenever you like. How to apply Register on Mindrift and complete a short screening questionnaire. We'll confirm your session dates once you're shortlisted. Apply now",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "remotejubaarabicinterpreterflexiblephonebasedcertifiedlanguagesin",
-   "title": "Remote Juba Arabic Interpreter Flexible, Phone-based",
-   "org": "Certified Languages Int'l",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.recruit.net/job/juba-arabic-interpreter-phone-based-jobs/511F9B85806229E6",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-12T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "Certified Languages International (CLI) is seeking telephonic interpreters to work from home in the United States. You will provide over-the-phone interpretation for a variety of industries, with a flexible schedule and 24/7 client demand.Completion of a language assessment is required, and interpreting experience is preferred. Contract position is remote, payment is on a per-minute basis, and payments are issued twi",
-   "details": "Certified Languages International (CLI) is seeking telephonic interpreters to work from home in the United States. You will provide over-the-phone interpretation for a variety of industries, with a flexible schedule and 24/7 client demand.Completion of a language assessment is required, and interpreting experience is preferred. Contract position is remote, payment is on a per-minute basis, and payments are issued twice monthly via direct deposit.#J-18808-Ljbffr",
-   "first_seen": "2026-11-14T12:01:24Z"
   },
   {
    "id": "freelancetranslatorarabicremotequestjobs",
@@ -381,37 +319,6 @@
    "snippet": "Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should",
    "details": "Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should communicate the evidence, qualitative insights, lessons learned and research implications clearly for non-specialist Canadian audiences. Final factual verification, research judgments and publication approval remain with the project team. Work Location Home based Expected duration 2 months Duties and Responsibilities UN-Habitat is the agency for human settlements. It is mandated by the UN General Assembly to promote socially and environmentally sustainable towns and cities with the goal of providing adequate shelter for all. The Canada Office of UN-Habitat strengthens the organization’s mission to address the global housing crisis by serving as a focal point for partnerships, applied research, and policy engagement in Canada and across North America for the implementation of UN-Habitat’s 2026-2029 Strategic Plan. Operating from the City of Montreal, the Canada Office plays a central role in four domains: partner engagement and resource mobilization; research-policy-action interface; advocacy and communication; and the advancement of sustainable urbanization agendas within the Canadian and North American context. The Canada Office places particular emphasis on knowledge and innovation with a view to accelerating housing solutions that are affordable, adequate, resilient, and compatible with national and global commitments. In this context, the Canada Office ",
    "first_seen": "2026-11-06T12:50:29Z"
-  },
-  {
-   "id": "chinesearabictranslatorfamsunegyptindustrys",
-   "title": "Chinese Arabic Translator",
-   "org": "FAMSUN Egypt Industry S.A.E",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://wuzzuf.net/jobs/p/uuayjnr43u8z-chinese-arabic-translator-famsun-egypt-industry-s-a-e-matruh-egypt",
-   "location": "الضبعة, Egypt",
-   "remote": false,
-   "egypt": true,
-   "intl": false,
-   "deadline": null,
-   "posted": null,
-   "score": 75,
-   "reasons": [
-    "Translation / language role",
-    "Needs Chinese",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "years": 2
-   },
-   "apply_email": "",
-   "snippet": "Job Description Key Responsibilities: • Provide daily oral interpretation for the Chinese management team (meetings, site communication, task directives) to ensure accurate information flow. • Handle written translation of project documents, systems, reports, and technical literature, ensuring translation quality and terminology accuracy. • Assist in external liaison and business communication with local authorities,",
-   "details": "Job Description Key Responsibilities: • Provide daily oral interpretation for the Chinese management team (meetings, site communication, task directives) to ensure accurate information flow. • Handle written translation of project documents, systems, reports, and technical literature, ensuring translation quality and terminology accuracy. • Assist in external liaison and business communication with local authorities, suppliers, and clients. • Assist in organizing training and meetings, providing on-site interpretation to ensure effective outcomes. • Organize and archive translation materials and maintain a terminology database to enhance efficiency and quality. • Complete other project-related tasks assigned and abide by unified team dispatching. Job Requirements Requirements: • Fluent in Arabic, English, and Chinese, with excellent listening, speaking, reading, writing, and translation skills for precise two-way interpretation and translation. • 2+ years of translation experience (engineering, storage, grain, or manufacturing industry experience preferred); familiar with relevant industry jargon. • Excellent Chinese communication skills, accurately understanding Chinese management's intent and conveying it clearly. • Proficient in computer operations, office software, and translation tools. • Responsible, meticulous, with strong confidentiality awareness and strict adherence to professional ethics. • Strong interpersonal, coordination, and problem-solving skills to manage cross-cultural communication smoothly. • Strong collaborative spirit to work across teams and accept multi-tasking/multi-role demands. • Compliant with all provisions under General Qualifications. Job Location : New Delta after Sphinx Airport Preferred requirements Translation experience in grain stor",
-   "first_seen": "2026-11-16T13:29:28Z"
   },
   {
    "id": "etconsultantcorporategovernanceadvisory",
@@ -799,66 +706,6 @@
    "snippet": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and e",
    "details": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and ensuring access to assistance and protection services while adhering to ethical standards. The successful candidate will prepare case management reports, manage beneficiary data, and maintain confidentiality. This position requires collaboration with various stakeholders and a commitment to a survivor-centered approach. Candidate Requirements: Bachelor’s degree in a community work related field 1-2 years of experience in the humanitarian field Experience with governmental and international organizations Excellent word processing and typing skills in English and Arabic Experience with Excel and databases Fluency in English and Arabic, both spoken and written Job Description Introduction Established in 1951, IOM is a Related Organization of the United Nations and the leading UN agency in the field of migration. Working closely with governmental, intergovernmental and non-governmental partners, IOM promotes humane and orderly migration for the benefit of all. It saves lives and protects people on the move, drives solutions to displacement, and facilitates pathways for regular migration, while providing services and advice to governments and migrants. IOM is committed to fostering a respectful, inclusive and supportive workplace where all employees can thrive professionally and feel valued. By creating such an environment, IOM aims to better harness the full pote",
    "first_seen": "2026-11-04T15:13:52Z"
-  },
-  {
-   "id": "jobtitlechinesetranslatorlocationnameainsokhnaegyptjobtypefulltimeworkplacetypeo",
-   "title": "{ 'jobTitle': 'Chinese Translator', 'locationName': 'Ain Sokhna, Egypt', 'jobType': 'FULL_TIME', 'workplaceType': 'ONSITE', 'companyName': '!None!' }",
-   "org": "BEST HOME Textile",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://eg.linkedin.com/jobs/view/%0A-jobtitle-chinese-translator-%0A-locationname-ain-sokhna-egypt-%0A-jobtype-full-time-%0A-workplacetype-onsite-%0A-companyname-%21none%21-%0A-at-best-home-textile-4488236340",
-   "location": "السويس, Egypt",
-   "remote": false,
-   "egypt": true,
-   "intl": false,
-   "deadline": null,
-   "posted": null,
-   "score": 45,
-   "reasons": [
-    "Translation / language role",
-    "Needs Chinese",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Company Description Best Home Textile transforms deep textile expertise into versatile fabric solutions for global partners. The company specializes in brushed fabrics for bedding and other applications, combining quality, comfort, and flexibility to meet evolving industry needs. With a strong commitment to excellence and attention to detail, Best Home Textile focuses on delivering fabrics that inspire new possibilit",
-   "details": "Company Description Best Home Textile transforms deep textile expertise into versatile fabric solutions for global partners. The company specializes in brushed fabrics for bedding and other applications, combining quality, comfort, and flexibility to meet evolving industry needs. With a strong commitment to excellence and attention to detail, Best Home Textile focuses on delivering fabrics that inspire new possibilities and support long-term partnerships. Quality is woven into every aspect of the business, creating lasting value for customers and stakeholders. Role Description The Chinese Translator at Best Home Textile will provide accurate translation and interpretation between Chinese and English (and/or Arabic) for day-to-day business operations. This includes translating technical and commercial documents, assisting in communication with Chinese-speaking partners and suppliers, and supporting meetings, factory visits, and production-related discussions. The role also involves reviewing and clarifying specifications, coordinating with internal teams to ensure mutual understanding, and maintaining consistent terminology and style across written materials. This is a full-time, on-site role based in Suez, requiring regular presence at the facility in Ain Sokhna, Egypt. Qualifications • Strong language proficiency in Chinese and English (and preferably Arabic), with the ability to translate and interpret accurately in both directions. • Experience translating business, technical, or textile-related documents, with attention to industry terminology and detail. • Effective communication and interpersonal skills to support cross-cultural collaboration with internal teams and external partners. • Organizational and time-management skills to handle multiple translation tasks",
-   "first_seen": "2026-11-12T13:39:24Z"
-  },
-  {
-   "id": "chinesetranslatorspeedafegypt",
-   "title": "Chinese Translator",
-   "org": "Speedaf Egypt",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://bebee.com/eg/jobs/chinese-translator-speedaf-egypt-giza--fj-2468009625",
-   "location": "الجيزة، قسم العمرانية, Egypt",
-   "remote": false,
-   "egypt": true,
-   "intl": false,
-   "deadline": null,
-   "posted": null,
-   "score": 45,
-   "reasons": [
-    "Translation / language role",
-    "Needs Chinese",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {},
-   "apply_email": "recruit.eg@speedaf.com",
-   "snippet": "We're hiring a \"Night Shift Chinese Translator\" to work on Speedaf Express company. Qualifications: • Strong command of written and spoken Chinese (Mandarin) and English; proficiency in Arabic is an advantage. • Demonstrated experience in translation and interpretation, ideally within logistics, supply chain, or a similar business environment. • Ability to produce accurate, clear translations under time constraints, ",
-   "details": "We're hiring a \"Night Shift Chinese Translator\" to work on Speedaf Express company. Qualifications: • Strong command of written and spoken Chinese (Mandarin) and English; proficiency in Arabic is an advantage. • Demonstrated experience in translation and interpretation, ideally within logistics, supply chain, or a similar business environment. • Ability to produce accurate, clear translations under time constraints, with attention to detail and consistency in terminology. • Solid understanding of cultural nuances and professional communication styles across Chinese- and English-speaking contexts. • Competence with office productivity tools (e.g., Word, Excel, email platforms) and familiarity with translation tools or glossaries. • Strong organizational skills, reliability in meeting deadlines, and capacity to handle multiple requests in a fast-paced setting. • Effective interpersonal and communication skills, with the ability to collaborate across multilingual and cross-functional teams. • Bachelor’s degree in Languages, Translation, International Business, or a related field, or equivalent relevant experience. Job Details: • Location : 6th Of October - Giza . • Transportation : Provided from the nearest pickup point . • Working Hours : 9:30 PM – 5:00 AM . • Night Shift . • Off Day : Friday . For Apply send your cv on : recruit.eg@speedaf.com",
-   "first_seen": "2026-11-15T12:37:31Z"
   }
  ],
  "seen": {
@@ -1153,17 +1000,17 @@
   "Remotive": 0,
   "Jobicy": 0,
   "Working Nomads": 0,
-  "Company boards": 0,
   "RemoteOK": 0,
-  "ReliefWeb": 0,
+  "Company boards": 0,
   "Translation agencies": 0,
-  "CLEAR Global": 0,
+  "ReliefWeb": 0,
   "UNESCO": 0,
   "UN Careers": 0,
+  "CLEAR Global": 0,
   "UNDP": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
-  "Himalayas": 0,
   "Green Climate Fund": 0,
+  "Himalayas": 0,
   "ICRC": 0,
   "Impactpool": 0
  }
