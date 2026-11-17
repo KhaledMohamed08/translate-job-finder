@@ -1,9 +1,15 @@
 {
- "updated": "2026-11-17T14:15:10Z",
+ "updated": "2026-11-17T16:32:28Z",
  "sources": {
+  "Google Jobs": {
+   "ok": true,
+   "count": 0,
+   "kept": true,
+   "error": "already searched today"
+  },
   "Remotive": {
    "ok": true,
-   "count": 17
+   "count": 16
   },
   "Jobicy": {
    "ok": true,
@@ -15,7 +21,7 @@
   },
   "Company boards": {
    "ok": true,
-   "count": 213
+   "count": 214
   },
   "RemoteOK": {
    "ok": true,
@@ -23,28 +29,11 @@
   },
   "ReliefWeb": {
    "ok": true,
-   "count": 1096
+   "count": 1103
   },
   "Translation agencies": {
    "ok": true,
-   "count": 188
-  },
-  "Green Climate Fund": {
-   "ok": true,
-   "count": 5
-  },
-  "UNICEF": {
-   "ok": false,
-   "count": 0,
-   "error": "returned no jobs (site may have changed)"
-  },
-  "Google Jobs": {
-   "ok": true,
-   "count": 20
-  },
-  "UN Careers": {
-   "ok": true,
-   "count": 448
+   "count": 194
   },
   "CLEAR Global": {
    "ok": true,
@@ -54,17 +43,25 @@
    "ok": true,
    "count": 0
   },
+  "UN Careers": {
+   "ok": true,
+   "count": 448
+  },
   "UNDP": {
    "ok": true,
    "count": 12
   },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
-   "count": 28
+   "count": 29
   },
   "Himalayas": {
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests"
+   "ok": true,
+   "count": 119
+  },
+  "Green Climate Fund": {
+   "ok": true,
+   "count": 4
   },
   "ICRC": {
    "ok": true,
@@ -72,72 +69,10 @@
   },
   "Impactpool": {
    "ok": true,
-   "count": 119
+   "count": 138
   }
  },
  "jobs": [
-  {
-   "id": "projectcompletionmonitoringandpartnershipsconsultantkoreanlanguagepreferred",
-   "title": "Project Completion, Monitoring and Partnerships Consultant (Korean Language Preferred)",
-   "org": "International Trade Centre",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287943?language=en",
-   "location": "Home-based in Kampala, Uganda The assignment is expected to run for five months, from February to June 2027. The consultant will be based in Kampala, Uganda, and is expected to undertake travel to project districts and participate in the closing event and relevant partner meetings as required and agreed with ITC.",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-30T04:59:59Z",
-   "posted": "2026-11-07T05:00:00Z",
-   "score": 100,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "years": 3,
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "Result of Service MONTHLY REPORTING AND PAYMENT The consultancy will be remunerated through five monthly payments covering February to June 2027. Payment will be made monthly, subject to the submission and satisfactory review of a monthly progress report by the STAR Project Manager, in accordance with the terms of the consultancy contract. The consultant will submit one concise monthly report summarising activities u",
-   "details": "Result of Service MONTHLY REPORTING AND PAYMENT The consultancy will be remunerated through five monthly payments covering February to June 2027. Payment will be made monthly, subject to the submission and satisfactory review of a monthly progress report by the STAR Project Manager, in accordance with the terms of the consultancy contract. The consultant will submit one concise monthly report summarising activities undertaken and progress achieved across monitoring and evaluation, final reporting, communications products, Korean buyer engagement and follow-up, implementing partner coordination, closing event preparation and facilitation, and project closure support, as applicable to the reporting period. Each monthly report will briefly identify key results, outstanding issues, actions planned for the following month and any support or decisions required from ITC. Supporting documents or working files may be shared as relevant to the activities undertaken. No separate milestone-based deliverables or deliverable-linked payments are required. REPORTING AND SUPERVISION The consultant will report to the STAR Project Manager in the Division of Sustainable and Inclusive Trade / Green and Inclusive Value Chains (DSIT/GIVC), based at ITC headquarters in Geneva. The consultant will coordinate closely with the STAR team, implementing partners, participating SMEs and, as directed by ITC, KOICA and other stakeholders. All external communications, donor submissions and final products will be subject to ITC review and clearance. Work Location Home-based in Kampala, Uganda The assignment is expected to run for five months, from February to June 2027. The consultant will be based in Kampala, Uganda, and is expected to undertake travel to project districts and participate in the closing",
-   "first_seen": "2026-11-07T11:37:44Z"
-  },
-  {
-   "id": "internationalaudiovideoremotesoninkeinterpreterlanguageservicesasso",
-   "title": "International Audio/Video Remote Soninke Interpreter",
-   "org": "Language Services Associates",
-   "source": "Jobicy",
-   "feed": "Jobicy",
-   "url": "https://jobicy.com/jobs/155566-international-audio-video-remote-soninke-interpreter",
-   "location": "Anywhere",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-17T03:25:15Z",
-   "score": 100,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic",
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "years": 1
-   },
-   "apply_email": "",
-   "snippet": "Overview: As an Internationally based audio/video interpreter for Soninke and French or Arabic in LSA’s network of Independently Contracted Interpreters, you are responsible for handling telephone calls on demand and facilitating language communication for the Limited English Proficient (LEP) community in a variety of settings. Language Services Associates is continuously accepting qualified interpreters! Responsibil",
-   "details": "Overview: As an Internationally based audio/video interpreter for Soninke and French or Arabic in LSA’s network of Independently Contracted Interpreters, you are responsible for handling telephone calls on demand and facilitating language communication for the Limited English Proficient (LEP) community in a variety of settings. Language Services Associates is continuously accepting qualified interpreters! Responsibilities: · Provide effective audio and video interpreting through a web based platform · Answer inbound calls in a timely manner · Provide superior customer service · Adhere to Code of Professional Conduct, including maintaining strict standards of confidentiality · Adhere to all policies and procedures, including professional interpretation protocols and industry specific best practices Qualifications/Experience: · Full fluency in both English and Soninke and French or Arabic · Technology proficient (web-based platforms, email, Microsoft Word) · An interpreting space that is quiet, secure, and free from outside noises · 1+ years of professional interpreting experience preferred · Industry specific certifications/trainings preferred (CMI, CCHI, Bridging the Gap, Cross-Cultural, etc.) LSA is passionate about what we do, which is helping people thrive in an increasingly global environment and in recognition of our commitment to excellence, LSA was named a Top Provider and a Top Workplace in 2026. If interested, please apply and include a copy of your resume, which emphasizes your interpreting experience. Compensation Additional Information",
-   "first_seen": "2026-11-17T14:15:10Z"
-  },
   {
    "id": "remotearabicinterpreterforlegaldojsupportyorktownsystemsgroup",
    "title": "Remote Arabic Interpreter for Legal DOJ Support",
@@ -479,97 +414,6 @@
    "first_seen": "2026-11-16T13:29:28Z"
   },
   {
-   "id": "three3nationalconsultantseditorproofreadergeorgian",
-   "title": "Three (3) National Consultants - Editor/Proofreader Georgian",
-   "org": "UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1248149",
-   "location": "Remote | Tbilisi",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-12-01T00:00:00Z",
-   "posted": null,
-   "score": 70,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [],
-   "role": true,
-   "facts": {
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "Three (3) National Consultants - Editor/Proofreader Georgian UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Remote | Tbilisi National Junior level Speaks Georgian, English Application deadline: December 01, 2026 (14 days) Apply Summary by Impactpool UN Women is seeking three National Consultants for the role of Editor/Proofreader in Georgian to enhance communication and outreach eff",
-   "details": "Three (3) National Consultants - Editor/Proofreader Georgian UN WOMEN - United Nations Entity for Gender Equality and the Empowerment of Women Remote | Tbilisi National Junior level Speaks Georgian, English Application deadline: December 01, 2026 (14 days) Apply Summary by Impactpool UN Women is seeking three National Consultants for the role of Editor/Proofreader in Georgian to enhance communication and outreach efforts. The consultants will be responsible for editing and proofreading various materials to ensure high quality and linguistic accuracy in Georgian. They will work closely with the UN Women Georgia team and ensure that the meaning of the content remains intact during the editing process. This is a home-based consultancy position with no travel required. Candidate Requirements: Native Georgian speaker Excellent editing and proofreading skills Strong attention to detail Knowledge of editorial standards Ability to ensure clarity and quality of written materials Background: UN Women, grounded in the vision of equality enshrined in the Charter of the United Nations, works for the elimination of discrimination against women and girls; the empowerment of women; and the achievement of equality between women and men as partners and beneficiaries of development, human rights, humanitarian action and peace and security. UN Women aims to enhance its communication and outreach efforts through the development of targeted and diverse digital visual materials and publications. The UN Women Georgia website (georgia.unwomen.org) operates as a bilingual platform in both Georgian and English. To ensure the highest quality and linguistic accuracy of the Georgian-language content on the website, as well as other materials published by the UN Women Country Office, a native Georgia",
-   "first_seen": "2026-11-17T14:15:10Z"
-  },
-  {
-   "id": "procurementofficerunodcunitednationsof",
-   "title": "Procurement Officer",
-   "org": "UNODC - United Nations Office on Drugs and Crime",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1245668",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-12-01T00:00:00Z",
-   "posted": null,
-   "score": 69,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt",
-    "Asks 5+ years"
-   ],
-   "langs": [
-    "Arabic",
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "years": 5
-   },
-   "apply_email": "",
-   "snippet": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (14 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the",
-   "details": "Procurement Officer UNODC - United Nations Office on Drugs and Crime Cairo International P-3, International Professional - Internationally recruited position level Speaks Arabic, English, French Application deadline: December 01, 2026 (14 days) Apply Summary by Impactpool The Procurement Officer position at the United Nations Office on Drugs and Crime (UNODC) in Cairo involves overseeing procurement functions for the Middle East and North Africa region. The incumbent will manage complex procurement processes, including construction projects, and ensure compliance with UN policies. Responsibilities include developing procurement strategies, conducting negotiations, and providing training to staff. The role requires collaboration with various stakeholders and adherence to financial regulations. Candidate Requirements: Advanced university degree in business administration, commerce, engineering, law or related field Professional certification in supply chains (CIPS Level 4 or equivalent) Minimum five years of professional work experience in procurement Experience with Enterprise Resource Planning (ERP) systems Experience with construction projects and procurement of architectural services Experience managing a team within the UN system or international organization Proficiency in English; French or Arabic desirable Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Nort",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
-   "id": "newswritingmultimediaproductionpublicinformationinternnewsandcontentarabic",
-   "title": "News writing / Multimedia production - Public Information Intern - News and Content - Arabic",
-   "org": "Department Of Global Communications",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/285818?language=en",
-   "location": "New York or remote",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-12-01T04:59:59Z",
-   "posted": "2026-11-01T04:00:00Z",
-   "score": 67,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based",
-    "Internships are usually for students"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "contract": "Internship"
-   },
-   "apply_email": "",
-   "snippet": "Work Location New York or remote Expected duration The desired start date is February 2027. The internship is for a minimum of 2 months full-time with possibility for extension to a total of 6 months based on the needs of the office and availability of the candidate. The modality is hybrid. Duties and Responsibilities This position is located in the Arabic Unit, News Section, News and Content Branch, News and Media D",
-   "details": "Work Location New York or remote Expected duration The desired start date is February 2027. The internship is for a minimum of 2 months full-time with possibility for extension to a total of 6 months based on the needs of the office and availability of the candidate. The modality is hybrid. Duties and Responsibilities This position is located in the Arabic Unit, News Section, News and Content Branch, News and Media Division, Department of Global Communications. The News and Content Branch is primarily a multimedia service provided by the United Nations to promote the universal ideals of the United Nations, including peace, respect for human rights and developments. It produces a range of news / feature stories, audio, video and multimedia products across nine languages available to media organizations around the world. The Unit is looking for interns who wish to gain hands-on experience in the UN newsroom, particularly in the production of daily news, in-depth features and other multimedia products in Arabic. The intern will undertake assigned project activities under supervision. The intern's duties will include:  Drafting Arabic news articles by integrating and translating information from various sources, including reports, press releases, official statements, resolutions, etc.  Assist with fact-checking and background research.  Assist in the production of graphic, visual and audio content.  The intern will be encouraged to work on feature stories and conduct research and interviews, and draft feature stories.  Reviewing the partnerships database by collaborating with the UN Partnerships Unit and looking for new digital media and other partners, including finding trustworthy entities that work on fact-checking and media literacy.  Perform other duties as assig",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
    "id": "etconsultantcorporategovernanceadvisory",
    "title": "ET Consultant - Corporate Governance Advisory",
    "org": "World Bank Group",
@@ -662,38 +506,6 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "procurementofficerp3unitednationsofficeo",
-   "title": "Procurement Officer, P3",
-   "org": "United Nations Office On Drugs And Crime",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287410?language=en",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-12-02T04:59:59Z",
-   "posted": "2026-11-02T05:00:00Z",
-   "score": 64,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt",
-    "Asks 5+ years"
-   ],
-   "langs": [
-    "Arabic",
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "years": 5
-   },
-   "apply_email": "",
-   "snippet": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Region",
-   "details": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA) of the United Nations Office on Drugs and Crime (UNODC) in Cairo, Egypt. As Head of the Middle East and North Africa Procurement Hub, the incumbent works under the direct supervision of the Chief Procurement Officer (UNOV/UNODC Procurement Unit, Vienna), and the overall guidance of the UNODC Regional Representative for the Middle East and Northern Arica. The incumbent will execute his/her functions as part of the ROMENA Operations Team and work in close coordination with the Administrative and Finance Officer. For more information on UNODC, please visit the following website: www.unodc.org Responsibilities The incumbent coordinates, supports and provides supervisory oversight of the procurement function at UNODC ROMENA and the UNODC Office for the Gulf Cooperation Council Region (OGCCR). The incumbent is expected, upon request, to support other UNODC offices and Global Programmes in the procurement hub where UNODC operates. Within assigned authority the Procurement Officer will provide the following specific duties: • Serve as the procurement and contracting expert for technically and legally complex procurement processes across a wide range of goods and services (e.g. information technology, specialized electronic equipment and instruments, medicines, safety and security equipment, including personal protective equipment, food goods, building maintenance materials, office supplies, furniture, construction, refurbishment work, fuel, office lease etc.), while considering local market conditions. • Plan, develop and manage procurement activities related to infrastructure and major construction projects, including those of significant value, in consultat",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
    "id": "travelassistantg5unitednationsofficeo",
    "title": "Travel Assistant, G5",
    "org": "United Nations Office On Drugs And Crime",
@@ -722,63 +534,32 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "internetresourcesinternpublicationforrosterpurposes",
-   "title": "Internet Resources Intern (Publication for roster purposes)",
-   "org": "Syria International, Impartial And Independent Mechanism",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/273246?language=en",
-   "location": "Internships are available as full-time and can be conducted remotely or in-person",
-   "remote": true,
-   "egypt": false,
+   "id": "managementservicesassociate",
+   "title": "Management Services Associate",
+   "org": "WFP",
+   "source": "WFP",
+   "feed": "UNHCR, WFP, IMF, Welocalize",
+   "url": "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings/job/Cairo-Egypt-Republic-of/Management-Services-Associate_JR128525",
+   "location": "Cairo, Egypt, Republic of",
+   "remote": false,
+   "egypt": true,
    "intl": true,
-   "deadline": "2027-03-05T04:59:59Z",
-   "posted": "2026-03-05T05:00:00Z",
-   "score": 60,
+   "deadline": "2026-11-25T00:00:00Z",
+   "posted": null,
+   "score": 62,
    "reasons": [
-    "Remote / home-based",
-    "Internships are usually for students"
+    "Mentions translation",
+    "Based in Egypt"
    ],
    "langs": [
-    "Arabic",
-    "French"
+    "Arabic"
    ],
    "role": false,
-   "facts": {
-    "contract": "Internship"
-   },
-   "apply_email": "",
-   "snippet": "Work Location Internships are available as full-time and can be conducted remotely or in-person Expected duration The duration of this internship is expected to be for a maximum of six months to start between 1 August 2026 and 31 July 2027. The start date and duration may be adjusted at the request of the successful candidate. Duties and Responsibilities The International, Impartial and Independent Mechanism (IIIM) w",
-   "details": "Work Location Internships are available as full-time and can be conducted remotely or in-person Expected duration The duration of this internship is expected to be for a maximum of six months to start between 1 August 2026 and 31 July 2027. The start date and duration may be adjusted at the request of the successful candidate. Duties and Responsibilities The International, Impartial and Independent Mechanism (IIIM) was established to assist in the investigation and prosecution of persons responsible for the most serious crimes under international law committed in the Syrian Arab Republic since March 2011. This internship is located within the Information Systems Management Section. This is a Generic Job Opening (GJO) used to build a pool of qualified candidates and will be used to fill internship vacancies between 1 August 2026 and 31 July 2027. The objectives of the internship are to: - Support with tasks related to internet research. - Research methodologies and synthesize relevant literature related to issues of interest. - Assist with tasks relating to information governance, data analysis, and script development. The intern will be responsible for supporting ISMS on issues of information management, and in particular, internet research. Tasks will include: - Conducting targeted open-source research and analysis. - Researching and summarising political, economic, social, technological, and legal issues related to the current Syrian situation. - Assisting with frameworks and processes related to information governance, data analysis, and script development. - Compiling any relevant research and analysis into a final presentation for the IIIM. The intern will also be responsible for the following: - Completing assigned tasks in a timely and accurate manner. - Meeting ",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
-   "id": "internationalaudiovideoremotelaoloatianinterpreterlanguageservicesasso",
-   "title": "International Audio/Video Remote Lao/Loatian Interpreter",
-   "org": "Language Services Associates",
-   "source": "Jobicy",
-   "feed": "Jobicy",
-   "url": "https://jobicy.com/jobs/155560-international-audio-video-remote-lao-loatian-interpreter",
-   "location": "Anywhere",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-17T03:25:13Z",
-   "score": 60,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [],
-   "role": true,
-   "facts": {
-    "years": 1
-   },
-   "apply_email": "",
-   "snippet": "Overview : As an audio/video interpreter for Lao/Loatian in LSA’s network of Independently Contracted Interpreters, you are responsible for handling audio and video calls on demand and facilitating language communication for the Limited English Proficient (LEP) community in a variety of settings. Language Services Associates is continuously accepting qualified interpreters! Responsibilities : · Provide effective audi",
-   "details": "Overview : As an audio/video interpreter for Lao/Loatian in LSA’s network of Independently Contracted Interpreters, you are responsible for handling audio and video calls on demand and facilitating language communication for the Limited English Proficient (LEP) community in a variety of settings. Language Services Associates is continuously accepting qualified interpreters! Responsibilities : · Provide effective audio and video interpreting through a web based platform · Answer inbound calls in a timely manner · Provide superior customer service · Adhere to Code of Professional Conduct, including maintaining strict standards of confidentiality · Adhere to all policies and procedures, including professional interpretation protocols and industry specific best practices Qualifications/Experience : · Full fluency in both English and Lao/Loatian · Technology proficient (web-based platforms, email, Microsoft Word) · An interpreting space that is quiet, secure, and free from outside noises · 1+ years of professional interpreting experience preferred · Industry specific certifications/trainings preferred (CMI, CCHI, etc.) LSA is passionate about what we do, which is helping people thrive in an increasingly global environment! If interested, please apply and include a copy of your resume, which emphasizes your interpreting experience. Compensation Additional Information",
-   "first_seen": "2026-11-17T14:15:10Z"
+   "facts": {},
+   "apply_email": "global.hrerecruitment@wfp.org",
+   "snippet": "DEADLINE FOR APPLICATIONS 24 November 2026-23:59-GMT+02:00 Eastern European Standard Time (Cairo) WFP celebrates and embraces diversity. It is committed to the principle of equal employment opportunity for all its employees and encourages qualified candidates to apply irrespective of race, colour, national origin, ethnic or social background, genetic information, gender, gender identity and/or expression, sexual orie",
+   "details": "DEADLINE FOR APPLICATIONS 24 November 2026-23:59-GMT+02:00 Eastern European Standard Time (Cairo) WFP celebrates and embraces diversity. It is committed to the principle of equal employment opportunity for all its employees and encourages qualified candidates to apply irrespective of race, colour, national origin, ethnic or social background, genetic information, gender, gender identity and/or expression, sexual orientation, religion or belief, HIV status or disability. ABOUT WFP The World Food Programme is the world’s largest humanitarian organization saving lives in emergencies and using food assistance to build a pathway to peace, stability and prosperity, for people recovering from conflict, disasters and the impact of extreme weather shocks. At WFP, people are at the heart of everything we do and the vision of the future WFP workforce is one of diverse, committed, skilled, and high performing teams, selected on merit, operating in a healthy and inclusive work environment, living WFP's values (Integrity, Collaboration, Commitment, Humanity, and Inclusion) and working with partners to save and change the lives of those WFP serves. To learn more about WFP, visit our website: https://www.wfp.org and follow us on social media to keep up with our latest news: YouTube , LinkedIn , Instagram , Facebook , Twitter , TikTok . WHY JOIN WFP? WFP is a 2020 Nobel Peace Prize Laureate. WFP offers a highly inclusive, diverse, and multicultural working environment. WFP invests in the personal & professional development of its employees through a range of training, accreditation, coaching, mentorship, and other programs as well as through internal mobility opportunities. A career path in WFP provides an exciting opportunity to work across the various country, regional and global offi",
+   "first_seen": "2026-11-17T16:32:28Z"
   },
   {
    "id": "translator1yrorfreshgradadminstaffismailiacontractingcompanyin",
@@ -901,96 +682,34 @@
    "first_seen": "2026-11-11T12:35:33Z"
   },
   {
-   "id": "videographicsinternpublicinformationvideosection",
-   "title": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section",
-   "org": "UN DGC - United Nations Department of Global Communications",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1246773",
-   "location": "Remote | New York City",
+   "id": "seniorcustomersuccessmanagerbilingualenfrcoderpad",
+   "title": "Senior Customer Success Manager - bilingual EN/FR",
+   "org": "CoderPad",
+   "source": "Jobicy",
+   "feed": "Jobicy",
+   "url": "https://jobicy.com/jobs/162797-senior-customer-success-manager-bilingual-en-fr-2",
+   "location": "Ireland",
    "remote": true,
    "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-30T00:00:00Z",
-   "posted": null,
-   "score": 57,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-17T12:51:37Z",
+   "score": 55,
    "reasons": [
-    "Mentions translation",
+    "Translation / language role",
+    "Check country eligibility",
     "Remote / home-based",
-    "Internships are usually for students"
+    "Senior level"
    ],
    "langs": [
     "French"
    ],
-   "role": false,
-   "facts": {
-    "contract": "Internship"
-   },
+   "role": true,
+   "facts": {},
    "apply_email": "",
-   "snippet": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section UN DGC - United Nations Department of Global Communications Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 30, 2026 (13 days) Apply Summary by Impactpool The Video/Graphics Intern position at the United Nations offers a unique opportunity to gain hands-on experience in video pr",
-   "details": "Video / Graphics - INTERN - PUBLIC INFORMATION – Video Section UN DGC - United Nations Department of Global Communications Remote | New York City Both national and international Internship level Speaks English, French Application deadline: November 30, 2026 (13 days) Apply Summary by Impactpool The Video/Graphics Intern position at the United Nations offers a unique opportunity to gain hands-on experience in video production within the Video Section of the News and Content Branch. Interns will assist with various tasks including research, script development, video editing, and multimedia production under the guidance of experienced professionals. This internship is designed for students or recent graduates in relevant fields and can be conducted in-person or remotely. No prior work experience is required, making it an excellent opportunity for those looking to start their careers in multimedia and communications. Candidate Requirements: Enrolled in or completed a graduate program in communication, journalism, international relations, public administration, English, or translation studies Computer literate in standard word processing and spreadsheet software Demonstrated interest in the work of the United Nations Ability to interact with diverse cultural backgrounds Good knowledge of editing software, especially Adobe Premiere Pro Fluency in English; knowledge of another UN language is desirable Work Location New York or remote Expected duration 2 to 6 months Duties and Responsibilities The position is located in the Video Section of the News and Content Branch, News and Media Division, Department of Global Communications. The News and Content Branch is a multimedia service provided by the United Nations to promote the universal ideals of the Organization, including peac",
-   "first_seen": "2026-11-09T13:44:56Z"
-  },
-  {
-   "id": "foodsystemscommunityinternplanethubbppshomebased",
-   "title": "Food Systems Community Intern, Planet Hub, BPPS (Home-based)",
-   "org": "UNDP",
-   "source": "UNDP",
-   "feed": "UNDP",
-   "url": "https://estm.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/38083",
-   "location": "Panama City, Panama",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-12-01T04:59:00Z",
-   "posted": "2026-11-16T00:00:00Z",
-   "score": 57,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based",
-    "Internships are usually for students"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "contract": "Internship"
-   },
-   "apply_email": "",
-   "snippet": "Background Diversity, Equity and Inclusion are core principles at UNDP: we value diversity as an expression of the multiplicity of nations and cultures where we operate, we foster inclusion as a way of ensuring all personnel are empowered to contribute to our mission, and we ensure equity and fairness in all our actions. Taking a ‘leave no one behind’ approach to our diversity efforts means increasing representation ",
-   "details": "Background Diversity, Equity and Inclusion are core principles at UNDP: we value diversity as an expression of the multiplicity of nations and cultures where we operate, we foster inclusion as a way of ensuring all personnel are empowered to contribute to our mission, and we ensure equity and fairness in all our actions. Taking a ‘leave no one behind’ approach to our diversity efforts means increasing representation of underserved populations. People who identify as belonging to marginalized or excluded populations are strongly encouraged to apply. Learn more about working at UNDP including our values and inspiring stories. UNDP does not tolerate sexual exploitation and abuse, any kind of harassment, including sexual harassment, and discrimination. All selected candidates will, therefore, undergo rigorous reference and background checks. UNDP is the knowledge frontier organization for sustainable development in the UN Development System and serves as the integrator for collective action to realize the Sustainable Development Goals (SDGs). UNDP’s policy work carried out at HQ, Regional and Country Office levels offers a spectrum of deep local knowledge to cutting-edge global perspectives and advocacy. In this context, UNDP invests in its Global Policy Network (GPN), a network of field-based and global technical expertise across a wide range of knowledge domains and in support of the signature solutions and organizational capabilities envisioned in UNDP’s Strategic Plan. UNDP’s 2026–2029 Strategic Plan reaffirms our continued commitment to achieving the Sustainable Development Goals by accelerating structural transformations that advance poverty eradication, reduce inequalities, strengthen resilience, and drive sustainable, climate-aligned development. Within the GPN, the",
-   "first_seen": "2026-11-16T13:29:28Z"
-  },
-  {
-   "id": "itdigitalsolutionsinternwfp",
-   "title": "IT Digital Solutions Intern",
-   "org": "WFP",
-   "source": "WFP",
-   "feed": "UNHCR, WFP, IMF, Welocalize",
-   "url": "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings/job/Cairo-Egypt-Republic-of/IT-Digital-Solutions-Intern_JR128434-1",
-   "location": "Cairo, Egypt, Republic of",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-11-19T00:00:00Z",
-   "posted": null,
-   "score": 50,
-   "reasons": [
-    "Based in Egypt",
-    "Internships are usually for students"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "contract": "Internship"
-   },
-   "apply_email": "global.hrerecruitment@wfp.org",
-   "snippet": "DEADLINE FOR APPLICATIONS 18 November 2026-23:59-GMT+02:00 Eastern European Standard Time (Cairo) WFP celebrates and embraces diversity. It is committed to the principle of equal employment opportunity for all its employees and encourages qualified candidates to apply irrespective of race, colour, national origin, ethnic or social background, genetic information, gender, gender identity and/or expression, sexual orie",
-   "details": "DEADLINE FOR APPLICATIONS 18 November 2026-23:59-GMT+02:00 Eastern European Standard Time (Cairo) WFP celebrates and embraces diversity. It is committed to the principle of equal employment opportunity for all its employees and encourages qualified candidates to apply irrespective of race, colour, national origin, ethnic or social background, genetic information, gender, gender identity and/or expression, sexual orientation, religion or belief, HIV status or disability. ABOUT WFP The World Food Programme is the world’s largest humanitarian organization saving lives in emergencies and using food assistance to build a pathway to peace, stability and prosperity, for people recovering from conflict, disasters and the impact of extreme weather shocks. At WFP, people are at the heart of everything we do and the vision of the future WFP workforce is one of diverse, committed, skilled, and high performing teams, selected on merit, operating in a healthy and inclusive work environment, living WFP's values (Integrity, Collaboration, Commitment, Humanity, and Inclusion) and working with partners to save and change the lives of those WFP serves. To learn more about WFP, visit our website: https://www.wfp.org and follow us on social media to keep up with our latest news: YouTube , LinkedIn , Instagram , Facebook , Twitter , TikTok . WHY JOIN WFP? WFP is a 2020 Nobel Peace Prize Laureate. WFP offers a highly inclusive, diverse, and multicultural working environment. WFP invests in the personal & professional development of its employees through a range of training, accreditation, coaching, mentorship, and other programs as well as through internal mobility opportunities. A career path in WFP provides an exciting opportunity to work across the various country, regional and global offi",
-   "first_seen": "2026-11-12T13:39:24Z"
+   "snippet": "We are looking for a Senior Customer Success Manager to join our Customer Success team in Ireland (full remote). What does a Senior Customer Success Manager, EMEA at CoderPad do? CoderPad CSMs partner with technical hiring and engineering leaders to make sure they get real, measurable value from our platform, and keep coming back to it as their hiring needs grow. As the global leader in the technical interview space,",
+   "details": "We are looking for a Senior Customer Success Manager to join our Customer Success team in Ireland (full remote). What does a Senior Customer Success Manager, EMEA at CoderPad do? CoderPad CSMs partner with technical hiring and engineering leaders to make sure they get real, measurable value from our platform, and keep coming back to it as their hiring needs grow. As the global leader in the technical interview space, with 4,000+ customers in 165+ countries, our goal as a Customer Success team is to drive retention, expansion, and advocacy across our customer base by helping customers achieve outcomes that matter to their business, not just adoption for its own sake. This role owns a book of strategic EMEA accounts, with a particular focus on French-speaking customers. You'll run executive-level relationships, own renewal and expansion outcomes, and be the CS voice for the region. This role reports to the VP of Customer Success and is located in Ireland. What you'll be doing Owning a portfolio of strategic EMEA accounts, accountable for retention, expansion, and account health. Building and executing account plans for top accounts, tied to each customer's actual business goals. Running QBRs in both English and French to reinforce value and deepen the relationship. Monitoring account health through usage data and qualitative signals, and getting ahead of risk before it turns into churn. Owning renewal conversations end to end, including negotiation, in close partnership with Sales. Identifying and driving expansion opportunities alongside Sales. Generating referenceable customer wins: case studies, testimonials, referrals. Representing the voice of the customer internally to shape product and CS decisions. Using AI tools daily to work efficiently, from QBR prep to account",
+   "first_seen": "2026-11-17T16:32:28Z"
   },
   {
    "id": "programandbusinessdevelopmentofficeropenforapplicantswhohavetherighttobebasedand",
@@ -1021,37 +740,6 @@
    "snippet": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (5 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The rol",
    "details": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (5 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The role involves coordinating partner agreements, ensuring compliance, and contributing to resource mobilization and fundraising efforts. The candidate will work closely with internal and external stakeholders to facilitate project implementation and support report writing. This position requires strong teamwork skills and a commitment to Diakonia's values of solidarity, justice, and accountability. Candidate Requirements: University degree or equivalent in relevant area 3-5 years’ experience in international development work Experience in project management with a human rights-based approach Proven skills in Planning, Evaluation, and Monitoring Experience in donor engagement and resource mobilization Fluent in English and Arabic Analytic, creative, and solution-oriented Ability to work independently and as a team player Relevant communication and IT skills Based in Egypt Open for applicants who have the right to be based and work from Egypt only Locals are encouraged to apply WHO WE ARE Diakonia is an international rights-based and faith-based development organization recognized for its commitment to democracy, human rights, and gender justice with the objective to change unfair structures that generate poverty, inequality, oppression and violence. All work is based on feminist principles. Digitalization plays a key role in enabling efficient, transparent, and se",
    "first_seen": "2026-11-09T13:44:56Z"
-  },
-  {
-   "id": "regionalprotectionfromsexualexploitationandabuseandsexualharassmentpseahofficerp",
-   "title": "Regional Protection from Sexual Exploitation and Abuse and Sexual Harassment (PSEAH) Officer (P)",
-   "org": "IOM - International Organization for Migration",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1248082",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-11-29T00:00:00Z",
-   "posted": null,
-   "score": 50,
-   "reasons": [
-    "Based in Egypt",
-    "Asks 7+ years"
-   ],
-   "langs": [
-    "Arabic",
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "years": 7
-   },
-   "apply_email": "",
-   "snippet": "Regional Protection from Sexual Exploitation and Abuse and Sexual Harassment (PSEAH) Officer (P) IOM - International Organization for Migration Cairo International P-3, International Professional - Internationally recruited position level Speaks Chinese, Arabic, English, French, Russian, Spanish Application deadline: November 29, 2026 (12 days) Apply Summary by Impactpool The P-3 Regional Protection from Sexual Explo",
-   "details": "Regional Protection from Sexual Exploitation and Abuse and Sexual Harassment (PSEAH) Officer (P) IOM - International Organization for Migration Cairo International P-3, International Professional - Internationally recruited position level Speaks Chinese, Arabic, English, French, Russian, Spanish Application deadline: November 29, 2026 (12 days) Apply Summary by Impactpool The P-3 Regional Protection from Sexual Exploitation and Abuse and Sexual Harassment (PSEAH) Officer will oversee the implementation of IOM’s PSEAH response across the region, ensuring alignment with institutional policies and donor requirements. This role involves providing technical support to country teams, contributing to global PSEAH initiatives, and strengthening partnerships with various stakeholders. The officer will also lead training efforts, support resource mobilization, and enhance prevention and response mechanisms. The position requires a strong commitment to fostering a respectful and inclusive workplace culture. Candidate Requirements: Master’s degree in relevant field or University degree with 7 years experience Professional experience in sexual exploitation and abuse, sexual harassment, or related fields Strong coordination experience within the UN system Experience in developing and facilitating PSEAH trainings Experience in proposal development and risk assessments Fluency in English and Arabic; knowledge of French or another UN language is an advantage Excellent communication skills and ability to work with empathy Job Description Introduction Established in 1951, IOM is a Related Organization of the United Nations and the leading UN agency in the field of migration. Working closely with governmental, intergovernmental and non-governmental partners, IOM promotes humane and orderly",
-   "first_seen": "2026-11-17T14:15:10Z"
   },
   {
    "id": "junioraccountantadminassistant",
@@ -1111,69 +799,6 @@
    "snippet": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and e",
    "details": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and ensuring access to assistance and protection services while adhering to ethical standards. The successful candidate will prepare case management reports, manage beneficiary data, and maintain confidentiality. This position requires collaboration with various stakeholders and a commitment to a survivor-centered approach. Candidate Requirements: Bachelor’s degree in a community work related field 1-2 years of experience in the humanitarian field Experience with governmental and international organizations Excellent word processing and typing skills in English and Arabic Experience with Excel and databases Fluency in English and Arabic, both spoken and written Job Description Introduction Established in 1951, IOM is a Related Organization of the United Nations and the leading UN agency in the field of migration. Working closely with governmental, intergovernmental and non-governmental partners, IOM promotes humane and orderly migration for the benefit of all. It saves lives and protects people on the move, drives solutions to displacement, and facilitates pathways for regular migration, while providing services and advice to governments and migrants. IOM is committed to fostering a respectful, inclusive and supportive workplace where all employees can thrive professionally and feel valued. By creating such an environment, IOM aims to better harness the full pote",
    "first_seen": "2026-11-04T15:13:52Z"
-  },
-  {
-   "id": "officerfinanceifrcinternationalfed",
-   "title": "Officer, Finance",
-   "org": "IFRC - International Federation of Red Cross and Red Crescent Societies",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1247245",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-12-11T00:00:00Z",
-   "posted": null,
-   "score": 49,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt",
-    "Asks 5+ years"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 5
-   },
-   "apply_email": "",
-   "snippet": "Officer, Finance IFRC - International Federation of Red Cross and Red Crescent Societies Cairo National Staff level Speaks Arabic, English Application deadline: December 11, 2026 (24 days) Apply Summary by Impactpool The Finance Officer at IFRC EGYPT Delegation is responsible for delivering effective accounting, financial, and treasury services. This role involves project financial management support, ensuring compli",
-   "details": "Officer, Finance IFRC - International Federation of Red Cross and Red Crescent Societies Cairo National Staff level Speaks Arabic, English Application deadline: December 11, 2026 (24 days) Apply Summary by Impactpool The Finance Officer at IFRC EGYPT Delegation is responsible for delivering effective accounting, financial, and treasury services. This role involves project financial management support, ensuring compliance with financial procedures, and providing technical advice during budget preparation. The officer will also validate transactions, prepare financial reports, and conduct financial analysis. Strong communication and analytical skills are essential for liaising with project managers and ensuring accurate financial documentation. Candidate Requirements: University degree in finance/accounting 5+ years of experience in finance/accounting Good understanding of accounting and financial reporting Experience with financial/accounting systems (ERP) Experience in project financial management Fluent in Arabic and English Good stress management skills Self-supported in computing systems Excellent communication skills Good analytical skills Skills in training and coaching staff Time management skills Officer, Finance Vacancy No.S19099Category of ContractNationalPosition TypeNationalApplication Deadline12/11/2026Job Posted On29/10/2026Duty StationCairo, EgyptCountryEGYPTGradeNational StaffDuty Station StatusN/AAccompanied StatusN/ADuration12 Organizational Context The International Federation of Red Cross and Red Crescent Societies (IFRC) is the world’s largest humanitarian organization, with a network of 191-member National Societies (NSs). The overall aim of IFRC is “to inspire, encourage, facilitate, and promote at all times all forms of humanitarian activities by ",
-   "first_seen": "2026-11-11T12:35:33Z"
-  },
-  {
-   "id": "programmedevelopmentexpertresourcemobilizationandanalysis",
-   "title": "Programme Development Expert (Resource Mobilization and Analysis)",
-   "org": "FAO - Food and Agriculture Organization of the United Nations",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1246646",
-   "location": "Egypt",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-11-20T00:00:00Z",
-   "posted": null,
-   "score": 47,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt",
-    "Asks 7+ years"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 7,
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 Closing soon Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The",
-   "details": "Programme Development Expert (Resource Mobilization and Analysis) FAO - Food and Agriculture Organization of the United Nations Egypt International Consultant - Contractors Agreement level Speaks Arabic, English Application deadline: November 20, 2026 Closing soon Apply Summary by Impactpool FAO is seeking a Programme Development Expert (Resource Mobilization and Analysis) to support its country program in Egypt. The role involves contributing to program development, resource mobilization, and technical reporting aligned with national strategies. The expert will conduct research, prepare analytical reports, and ensure the quality of technical study reports. Collaboration with project managers and field visits will be essential for effective program management and decision-making. Candidate Requirements: University degree in relevant fields At least seven years of experience in project/programme management Working knowledge of English and Arabic National of Egypt or resident with valid work permit IMPORTANT NOTICE: Please note that Closure Date and Time displayed above are based on date and time settings of your personal device FAO is committed to achieving workforce diversity in terms of gender, nationality, background and culture Qualified female applicants, qualified nationals of non-and under-represented Members and person with disabilities are encouraged to apply Everyone who works for FAO is required to adhere to the highest standards of integrity and professional conduct, and to uphold FAO's values FAO, as a Specialized Agency of the United Nations, has a zero-tolerance policy for conduct that is incompatible with its status, objectives and mandate, including sexual exploitation and abuse, sexual harassment, abuse of authority and discrimination All selected candi",
-   "first_seen": "2026-11-07T11:37:44Z"
   },
   {
    "id": "jobtitlechinesetranslatorlocationnameainsokhnaegyptjobtypefulltimeworkplacetypeo",
@@ -1416,14 +1041,16 @@
   "freelancetranslatorarabicremotequestjobs": "2026-11-17T14:15:10Z",
   "three3nationalconsultantseditorproofreadergeorgian": "2026-11-17T14:15:10Z",
   "internationalaudiovideoremotelaoloatianinterpreterlanguageservicesasso": "2026-11-17T14:15:10Z",
-  "regionalprotectionfromsexualexploitationandabuseandsexualharassmentpseahofficerp": "2026-11-17T14:15:10Z"
+  "regionalprotectionfromsexualexploitationandabuseandsexualharassmentpseahofficerp": "2026-11-17T14:15:10Z",
+  "managementservicesassociate": "2026-11-17T16:32:28Z",
+  "seniorcustomersuccessmanagerbilingualenfrcoderpad": "2026-11-17T16:32:28Z"
  },
  "jsearch": {
   "month": "2026-11",
   "used": 49,
   "last_day": "2026-11-17"
  },
- "quote_index": 13,
+ "quote_index": 14,
  "links": {
   "un-exams": {
    "state": "ok",
@@ -1436,6 +1063,11 @@
    "fails": 0
   },
   "un-careers-language": {
+   "state": "ok",
+   "code": 200,
+   "fails": 0
+  },
+  "unicef-alerts": {
    "state": "ok",
    "code": 200,
    "fails": 0
@@ -1511,12 +1143,13 @@
    "fails": 0
   },
   "bayt": {
-   "state": "unknown",
-   "code": 403,
+   "state": "ok",
+   "code": 200,
    "fails": 0
   }
  },
  "health": {
+  "Google Jobs": 0,
   "Remotive": 0,
   "Jobicy": 0,
   "Working Nomads": 0,
@@ -1524,15 +1157,13 @@
   "RemoteOK": 0,
   "ReliefWeb": 0,
   "Translation agencies": 0,
-  "Green Climate Fund": 0,
-  "UNICEF": 7,
-  "Google Jobs": 0,
-  "UN Careers": 0,
   "CLEAR Global": 0,
   "UNESCO": 0,
+  "UN Careers": 0,
   "UNDP": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
-  "Himalayas": 4,
+  "Himalayas": 0,
+  "Green Climate Fund": 0,
   "ICRC": 0,
   "Impactpool": 0
  }
