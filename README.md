@@ -16,9 +16,9 @@ It runs for free: GitHub runs the search and hosts the page, Telegram bots cost 
 | Source | What it covers |
 |---|---|
 | UN Careers | UN Secretariat: departments, consultancies, internships, language jobs |
-| Impactpool | Jobs from many UN agencies, the EU and development banks. Also searched by name for OECD, IFRC, GGGI, the African Union and the League of Arab States |
+| Impactpool | Jobs from many UN agencies, the EU and development banks. Also searched by name for OECD, IFRC, GGGI, the African Union, the League of Arab States and UNICEF |
 | ReliefWeb | All open jobs from UN agencies and NGOs worldwide, through its official API |
-| UNICEF, UNDP, UNESCO, UNHCR, WFP, IMF, ICRC, Green Climate Fund, CLEAR Global | Their own career sites |
+| UNDP, UNESCO, UNHCR, WFP, IMF, ICRC, Green Climate Fund, CLEAR Global | Their own career sites. UNICEF blocks the tool, so its jobs come through Impactpool, plus its own alerts in Apply directly |
 | Google Jobs (via JSearch) | Egypt and remote translator jobs, including from sites that block direct access |
 | TransPerfect, Welocalize, RWS, Keywords Studios | Translation and localization companies |
 | DeepL, Phrase, Smartling, Lokalise, Duolingo, ElevenLabs, Rev | Language-tech companies |

@@ -85,10 +85,20 @@ def parse_date(s):
         return None
 
 
+def clean_title(title):
+    """Some sites send the title as a code snippet, e.g. "{ 'jobTitle': 'Translator', ... }"."""
+    title = strip_html(title)
+    if title.startswith("{"):
+        m = re.search(r"""jobTitle['"]?\s*:\s*['"]([^'"]+)""", title)
+        if m:
+            title = m.group(1).strip()
+    return title
+
+
 def job(source, org, title, url, location="", text="", remote=False, deadline=None,
         posted=None, level="", intl=False, check_location=True, allowed=None):
     return {
-        "source": source, "org": (org or "").strip(), "title": strip_html(title),
+        "source": source, "org": (org or "").strip(), "title": clean_title(title),
         "url": url, "location": (location or "").strip(), "text": strip_html(text),
         "remote": remote, "deadline": parse_date(deadline), "posted": parse_date(posted),
         "level": level or "", "intl": intl, "check_location": check_location,
@@ -204,23 +214,6 @@ def reliefweb_api(appname):
     return out
 
 
-def src_unicef():
-    page = http("https://jobs.unicef.org/en-us/listing/?page=1&page-items=400", timeout=60)
-    out = []
-    for block in page.split('class="list-view--item"')[1:]:
-        m = re.search(r'class="job-link" href="([^"]+)">(.*?)</a>', block, re.S)
-        if not m:
-            continue
-        loc = (re.search(r'class="location">(.*?)</span>', block, re.S) or [None, ""])[1]
-        dl = (re.search(r'<time datetime="([^"]+)"', block) or [None, ""])[1]
-        teaser = (re.search(r'class="row--teaser">(.*?)<p><b>Location', block, re.S) or [None, ""])[1]
-        title = html.unescape(m.group(2))
-        out.append(job("UNICEF", "UNICEF", title, "https://jobs.unicef.org" + m.group(1),
-                       location=strip_html(loc), text=teaser, remote=looks_remote(title),
-                       deadline=dl, intl=True, check_location=False))
-    return out
-
-
 WORKDAY = [  # (label, list endpoint, public site base, international organization?)
     ("UNHCR", "https://unhcr.wd3.myworkdayjobs.com/wday/cxs/unhcr/External",
      "https://unhcr.wd3.myworkdayjobs.com/External", True),
@@ -278,7 +271,7 @@ def src_impactpool():
     for q in ["translator", "translation", "interpreter", "linguist", "reviser", "editor",
               "localization", "Egypt", "Cairo",
               # Organizations whose own sites block or can't be read by this tool
-              "OECD", "IFRC", "GGGI", "African Union", "League of Arab States"]:
+              "OECD", "IFRC", "GGGI", "African Union", "League of Arab States", "UNICEF"]:
         for page in (1, 2, 3):
             body = http("https://www.impactpool.org/search?" + urllib.parse.urlencode({"q": q, "page": page}))
             found = re.findall(r"<div class='job'>(.*?)</a></div>", body, re.S)
@@ -511,10 +504,15 @@ def src_jsearch():
 
 
 def src_himalayas():
-    out, seen = [], set()
-    for q in ["translation", "translator", "interpreter", "localization", "arabic", "french", "korean"]:
-        for offset in (0, 20, 40):
-            d = http_json("https://himalayas.app/jobs/api/search?" + urllib.parse.urlencode({"q": q, "offset": offset}))
+    """Gentle on purpose: Himalayas answers 'too many requests' to quick bursts."""
+    out, seen, refused = [], set(), None
+    for q in ["translator", "interpreter", "localization", "arabic", "french", "korean"]:
+        for offset in (0, 20):
+            try:
+                d = http_json("https://himalayas.app/jobs/api/search?" + urllib.parse.urlencode({"q": q, "offset": offset}))
+            except Exception as e:
+                refused = e
+                break
             for j in d.get("jobs", []):
                 if j["guid"] in seen:
                     continue
@@ -524,8 +522,13 @@ def src_himalayas():
                                location=", ".join(restr) or "Worldwide", text=j.get("description", ""),
                                remote=True, deadline=j.get("expiryDate"), posted=j.get("pubDate"),
                                level=" ".join(j.get("seniority") or []), allowed=restr))
+            time.sleep(3)
             if len(d.get("jobs", [])) < 20:
                 break
+        if refused:
+            break
+    if not out and refused:
+        raise refused
     return out
 
 
@@ -587,7 +590,8 @@ def src_company_boards():
 PREFILTERED = {"UNHCR, WFP, IMF, Welocalize", "UNDP", "UNESCO", "ICRC", "Green Climate Fund",
                "Impactpool", "Google Jobs"}
 SOURCES = {
-    "UN Careers": src_un_careers, "ReliefWeb": src_reliefweb, "UNICEF": src_unicef,
+    # UNICEF blocks automated requests since November 2026; its jobs come through Impactpool.
+    "UN Careers": src_un_careers, "ReliefWeb": src_reliefweb,
     "UNHCR, WFP, IMF, Welocalize": src_workday, "Impactpool": src_impactpool, "UNDP": src_undp,
     "UNESCO": src_unesco, "ICRC": src_icrc, "Green Climate Fund": src_gcf,
     "CLEAR Global": src_clear_global, "Translation agencies": src_translation_agencies, "Himalayas": src_himalayas, "Remotive": src_remotive,
@@ -610,6 +614,8 @@ JUNIOR = rx(PROFILE["junior_patterns"])
 LANGS = {name: (rx(cfg["patterns"]), cfg["weight"]) for name, cfg in PROFILE["languages"].items()}
 OTHER_LANGS = rx([rf"\b{l}\b" for l in PROFILE["other_languages"]])
 ADJACENT = rx(PROFILE["adjacent_roles"])
+OTHER_DIALECTS = rx(PROFILE["other_dialects"])
+LANGUAGE_PREFERRED = re.compile(r"\(?\b[\w ]{0,25}\blanguages?\s+(?:preferred|required|skills?|desirable|an asset|a plus)\)?", re.I)
 NOT_SUITABLE = rx(PROFILE["not_suitable_titles"])
 
 # Remote, but limited to people in another country
@@ -621,7 +627,10 @@ RESTRICTED = re.compile(
     rf"(?i:live|reside|residing|living|located|based|a resident)[^.;]{{0,30}}\b{_PLACE}"
     rf"|(?i:authori[sz]ed|eligible|legally able|right)\s+to\s+work\s+in\s+(?i:the\s+)?{_PLACE}"
     rf"|(?i:residents?|citizens?)\s+of\s+(?i:the\s+)?{_PLACE}"
-    rf"|(?i:anywhere in)\s+(?i:the\s+)?{_PLACE}")
+    rf"|(?i:anywhere in)\s+(?i:the\s+)?{_PLACE}"
+    rf"|\bW-?2\b|(?<![#\d])\b1099\b|\bSSN\b|(?i:social security number)"
+    rf"|\b(?:US|U\.S\.)\s+(?i:citizens?(?:hip)?|persons?|work authori[sz]ation)"
+    rf"|(?i:within the)\s+(?i:continental\s+)?(?:US|USA|U\.S\.|(?i:united states))")
 OPEN_WORLD = rx([r"worldwide", r"anywhere in the world", r"from anywhere", r"any country", r"all countries",
                  r"\begypt\b", r"\bmena\b"])
 
@@ -743,7 +752,10 @@ def score(j):
     if j["posted"] and not j["deadline"] and j["posted"] < NOW - timedelta(days=PROFILE["max_age_days"]):
         return None
 
-    role = bool(ROLE_TITLE.search(title))
+    # "(Korean Language Preferred)" makes a language a plus, not a language job
+    role = bool(ROLE_TITLE.search(LANGUAGE_PREFERRED.sub(" ", title)))
+    if OTHER_DIALECTS.search(title):
+        return None  # needs Gulf, Levantine, Juba or another non-Egyptian Arabic, or a native of elsewhere
     if role:
         s += 40
         reasons.insert(0, "Translation / language role")
@@ -761,10 +773,14 @@ def score(j):
     if not role and not in_home and not (langs and ADJACENT.search(title)):
         return None
 
-    # e.g. "Polish Native" / "(Spanish)" in the title, without any of her languages
+    # A title asking for a language she doesn't speak: "Soninke Interpreter", "Arabic–Chinese Translator"
     other = OTHER_LANGS.search(title)
     if other:
-        s -= 20 if any(LANGS[n][0].search(title) for n in LANGS) else 40
+        # Keep it only if the title also states a pair she covers, e.g. "Korean <> English and Spanish"
+        pairs = [m.groups() for rx_ in (PAIR_DIRECTED, PAIR_EITHER) for m in rx_.finditer(title)]
+        if not any(not OTHER_LANGS.fullmatch(a.lower()) and not OTHER_LANGS.fullmatch(b.lower()) for a, b in pairs):
+            return None
+        s -= 20
         reasons.append(f"Needs {other.group(0).title()}")
 
     # A language job that names only other languages, e.g. "from Burmese into English"
@@ -797,7 +813,12 @@ def score(j):
         s -= 8
         reasons.append("Asks 5+ years")
     if re.search(r"\bintern\b|\binternship", title, re.I):
+        if not role:
+            return None  # UN internships are usually for current students
         reasons.append("Internships are usually for students")
+    # In Egypt any language job counts, but general roles must suit about 2 years of experience
+    if in_home and not role and (years >= 5 or SENIOR.search(title) or SENIOR.search(j["level"])):
+        return None
 
     if s < PROFILE["min_score"]:
         return None

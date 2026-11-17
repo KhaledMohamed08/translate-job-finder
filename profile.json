@@ -16,13 +16,28 @@
   },
 
   "other_languages": [
-    "spanish", "chinese", "mandarin", "cantonese", "russian", "portuguese", "german",
-    "italian", "japanese", "polish", "dutch", "turkish", "persian", "farsi", "dari",
-    "pashto", "urdu", "hindi", "bengali", "swahili", "amharic", "somali", "hausa",
-    "burmese", "rohingya", "thai", "vietnamese", "indonesian", "ukrainian", "romanian",
-    "greek", "hebrew", "czech", "swedish", "norwegian", "danish", "finnish", "hungarian",
-    "sinhala", "marathi", "telugu", "malayalam", "assamese", "gujarati", "punjabi", "kannada",
-    "tigrinya", "kurdish", "tagalog", "malay", "tamil", "nepali", "lingala", "kinyarwanda"
+    "spanish", "chinese", "mandarin", "cantonese", "russian", "portuguese", "german", "italian", "japanese", "polish",
+    "dutch", "turkish", "persian", "farsi", "dari", "pashto", "urdu", "hindi", "bengali", "swahili",
+    "amharic", "somali", "hausa", "burmese", "rohingya", "thai", "vietnamese", "indonesian", "ukrainian", "romanian",
+    "greek", "hebrew", "czech", "swedish", "norwegian", "danish", "finnish", "hungarian", "sinhala", "marathi",
+    "telugu", "malayalam", "assamese", "gujarati", "punjabi", "kannada", "tigrinya", "kurdish", "tagalog", "malay",
+    "tamil", "nepali", "lingala", "kinyarwanda", "soninke", "lao", "laotian", "wolof", "fulani", "fula",
+    "bambara", "mandinka", "oromo", "yoruba", "igbo", "zulu", "xhosa", "shona", "kirundi", "sango",
+    "malagasy", "khmer", "hmong", "karen", "mongolian", "uzbek", "kazakh", "tajik", "kyrgyz", "turkmen",
+    "azerbaijani", "azeri", "armenian", "georgian", "albanian", "serbian", "croatian", "bosnian", "macedonian", "bulgarian",
+    "slovak", "slovenian", "lithuanian", "latvian", "estonian", "icelandic", "irish", "welsh", "catalan", "basque",
+    "galician", "haitian creole", "creole", "quechua", "guarani", "sindhi", "balochi", "odia", "chechen", "rakhine",
+    "cebuano", "ilocano", "javanese", "sundanese", "yiddish", "kurmanji", "sorani", "luganda", "acholi", "dinka",
+    "nuer", "zaghawa", "tigre", "afar", "berber", "amazigh", "tamazight", "kabyle", "marshallese", "samoan",
+    "tongan", "fijian", "maori", "hawaiian", "navajo", "taiwanese", "hokkien", "shanghainese", "uyghur", "tibetan"
+  ],
+
+  "_dialects_help": "Arabic varieties or native-speaker requirements that aren't hers. Jobs asking for these in the title are hidden.",
+  "other_dialects": [
+    "juba arabic", "khaleeji",
+    "(gulf|emirati|saudi|kuwaiti|qatari|bahraini|omani|levantine|syrian|lebanese|jordanian|palestinian|iraqi|moroccan|algerian|tunisian|libyan|sudanese|yemeni|chadian|hassaniya|darija)[ -](arabic|dialect|native|speakers?)",
+    "native (saudi|emirati|gulf|kuwaiti|qatari|levantine|syrian|lebanese|iraqi|moroccan|sudanese|yemeni|algerian|tunisian)",
+    "(saudi|emirati|gulf|kuwaiti|qatari|iraqi|moroccan|sudanese) native"
   ],
 
   "senior_patterns": [

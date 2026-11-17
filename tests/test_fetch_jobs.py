@@ -121,6 +121,71 @@ class Scoring(unittest.TestCase):
         self.assertFalse(self.keeps(job("Arabic Translator", deadline="2000-01-01")))
 
 
+class FilterFixes(unittest.TestCase):
+    """Problems found in real results in November 2026."""
+
+    def keeps(self, j):
+        return f.score(j) is not None
+
+    def test_titles_needing_a_language_she_lacks_are_hidden(self):
+        for title in ["International Audio/Video Remote Soninke Interpreter", "Lao/Laotian Interpreter",
+                      "Chinese Arabic Translator", "German to Korean translator", "Arabic–Chinese Translator"]:
+            with self.subTest(title=title):
+                self.assertFalse(self.keeps(job(title, "Arabic", location="Cairo", remote=False)))
+
+    def test_a_list_of_languages_is_kept_with_a_warning(self):
+        result = f.score(job("Korean <> English and Spanish Interpreters", "Korean"))
+        self.assertIsNotNone(result)
+        self.assertIn("Needs Spanish", result[1])
+
+    def test_other_arabic_varieties_and_native_requirements_are_hidden(self):
+        for title in ["Remote Juba Arabic Interpreter", "Arabic Translators and Saudi Native Speakers",
+                      "Gulf Arabic Transcriber", "Levantine Arabic Translator", "Emirati Arabic Reviewer"]:
+            with self.subTest(title=title):
+                self.assertFalse(self.keeps(job(title, "Arabic")))
+        self.assertTrue(self.keeps(job("Egyptian Arabic Translator", "Arabic")))
+
+    def test_language_preferred_is_not_a_language_role(self):
+        result = f.score(job("Project Consultant (Korean Language Preferred)", "Korean", intl=True))
+        self.assertTrue(result is None or "Translation / language role" not in result[1])
+
+    def test_us_only_signs_drop_remote_jobs(self):
+        for text in ["This is a W-2 position.", "Paid as a 1099 contractor.", "Must provide your SSN.",
+                     "Open to U.S. citizens.", "Candidates must work within the United States."]:
+            with self.subTest(text=text):
+                self.assertFalse(self.keeps(job("Arabic Interpreter", text, location="Remote (check eligibility)")))
+        self.assertTrue(self.keeps(job("Arabic Interpreter", "Reference #10990. Work from anywhere.")))
+
+    def test_internships_hidden_unless_language_work(self):
+        self.assertFalse(self.keeps(job("Communications Intern", "Fluency in Arabic required", intl=True)))
+        result = f.score(job("Translation Intern", "Arabic"))
+        self.assertIn("Internships are usually for students", result[1])
+
+    def test_senior_general_egypt_jobs_are_hidden_but_junior_ones_stay(self):
+        self.assertFalse(self.keeps(job("Procurement Officer", "At least 5 years of experience. Arabic",
+                                        location="Cairo", remote=False, intl=True)))
+        self.assertFalse(self.keeps(job("Senior Finance Manager", "Arabic", location="Cairo", remote=False)))
+        self.assertTrue(self.keeps(job("Budget Assistant", "Arabic", location="Cairo", remote=False, intl=True)))
+        self.assertTrue(self.keeps(job("Arabic Translator", "Minimum 6 years of experience", location="Cairo", remote=False)))
+
+    def test_code_snippet_titles_are_cleaned(self):
+        self.assertEqual(f.clean_title("{ 'jobTitle': 'Chinese Translator', 'locationName': 'Suez' }"), "Chinese Translator")
+        self.assertEqual(f.clean_title("Arabic Translator"), "Arabic Translator")
+
+
+class SourceParsing(unittest.TestCase):
+    def test_himalayas_keeps_results_when_it_starts_refusing(self):
+        answers = iter([{"jobs": [{"guid": "1", "title": "Arabic Translator", "applicationLink": "u"}]}])
+
+        def fake(url, **kw):
+            try:
+                return next(answers)
+            except StopIteration:
+                raise RuntimeError("HTTP Error 429")
+        with mock.patch.object(f, "http_json", fake), mock.patch.object(f.time, "sleep", lambda s: None):
+            self.assertEqual(len(f.src_himalayas()), 1)
+
+
 class Facts(unittest.TestCase):
     def test_pair_years_contract_and_pay(self):
         facts = f.key_facts(job("English to French Translator",
