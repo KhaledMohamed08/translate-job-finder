@@ -1,12 +1,6 @@
 {
- "updated": "2026-11-17T16:36:55Z",
+ "updated": "2026-11-18T13:47:13Z",
  "sources": {
-  "Google Jobs": {
-   "ok": true,
-   "count": 0,
-   "kept": true,
-   "error": "already searched today"
-  },
   "Remotive": {
    "ok": true,
    "count": 16
@@ -25,7 +19,7 @@
   },
   "Company boards": {
    "ok": true,
-   "count": 214
+   "count": 217
   },
   "Translation agencies": {
    "ok": true,
@@ -33,7 +27,19 @@
   },
   "ReliefWeb": {
    "ok": true,
-   "count": 1103
+   "count": 1123
+  },
+  "Google Jobs": {
+   "ok": true,
+   "count": 12
+  },
+  "Green Climate Fund": {
+   "ok": true,
+   "count": 4
+  },
+  "CLEAR Global": {
+   "ok": true,
+   "count": 17
   },
   "UNESCO": {
    "ok": true,
@@ -41,284 +47,188 @@
   },
   "UN Careers": {
    "ok": true,
-   "count": 448
-  },
-  "CLEAR Global": {
-   "ok": true,
-   "count": 16
-  },
-  "UNDP": {
-   "ok": true,
-   "count": 12
-  },
-  "UNHCR, WFP, IMF, Welocalize": {
-   "ok": true,
-   "count": 29
-  },
-  "Green Climate Fund": {
-   "ok": true,
-   "count": 4
-  },
-  "Himalayas": {
-   "ok": true,
-   "count": 119
+   "count": 447
   },
   "ICRC": {
    "ok": true,
    "count": 11
   },
+  "UNDP": {
+   "ok": true,
+   "count": 13
+  },
+  "UNHCR, WFP, IMF, Welocalize": {
+   "ok": true,
+   "count": 28
+  },
+  "Himalayas": {
+   "ok": true,
+   "count": 119
+  },
   "Impactpool": {
    "ok": true,
-   "count": 138
+   "count": 137
   }
  },
  "jobs": [
   {
-   "id": "remotearabicinterpreterforlegaldojsupportyorktownsystemsgroup",
-   "title": "Remote Arabic Interpreter for Legal DOJ Support",
-   "org": "Yorktown Systems Group",
+   "id": "englishfrenchpulaarfreelanceremoteinterpretertonguepoint",
+   "title": "English + French Pulaar Freelance Remote Interpreter",
+   "org": "Tonguepoint",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://jooble.org/jdp/2462107226365732709",
+   "url": "https://www.linkedin.com/jobs/view/english-%2B-french-pulaar-freelance-remote-interpreter-at-tonguepoint-4489023188",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-11-10T00:00:00Z",
+   "posted": "2026-11-11T00:00:00Z",
    "score": 90,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "A government contracting firm is seeking a qualified Interpreter to provide translation and interpretation services for sensitive legal matters. The role requires experience in the legal field and the ability to handle complex terminology across various formats. Candidates must have lived in the U.S. for 3 of the last 5 years and have fluency in both English and a foreign language. This part-time position also includ",
-   "details": "A government contracting firm is seeking a qualified Interpreter to provide translation and interpretation services for sensitive legal matters. The role requires experience in the legal field and the ability to handle complex terminology across various formats. Candidates must have lived in the U.S. for 3 of the last 5 years and have fluency in both English and a foreign language. This part-time position also includes the requirement to provide services within a tight timeframe and to maintain confidentiality at all times. #J-18808-Ljbffr Yorktown Systems Group",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "remotearabicpatenttranslatorlqareviewerwelocalize",
-   "title": "Remote Arabic Patent Translator & LQA Reviewer",
-   "org": "Welocalize",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-arabic-patent-translator-lqa-reviewer--united-states--e76a9950063a77f9d2695f78c54a11a49",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-08T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Welocalize seeks experienced English-to-Arabic translators and LQA reviewers for patent content. Remote freelance positions with immediate start and flexible scheduling. You'll translate and review patent documents across chemistry, computer science, and electricity, ensuring native-level Arabic and fidelity to original meaning. CAT tools like XTM and JIRA are used, with prompt communication in English.",
-   "details": "Welocalize seeks experienced English-to-Arabic translators and LQA reviewers for patent content. Remote freelance positions with immediate start and flexible scheduling. You'll translate and review patent documents across chemistry, computer science, and electricity, ensuring native-level Arabic and fidelity to original meaning. CAT tools like XTM and JIRA are used, with prompt communication in English.",
-   "first_seen": "2026-11-17T14:15:10Z"
-  },
-  {
-   "id": "remotearabicinterpretertranslatorparttimedutechsystems",
-   "title": "Remote Arabic Interpreter & Translator (Part-Time)",
-   "org": "Dutech Systems",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://jobmesh.io/job/01a1d18d-cc12-7552-8ec3-ed1d4912314b",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-12T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Part-time"
-   },
-   "apply_email": "",
-   "snippet": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior transla",
-   "details": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior translation certification and experience are preferred.",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "freelancetranslatorarabicremotequestjobs",
-   "title": "Freelance Translator - Arabic",
-   "org": "remote quest jobs",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/freelance-translator-arabic-f5a4b436",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-14T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → Arabic",
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "You can be in any country, as long as you can work Pacific hours. JOIN reputed company’S TEAM OF HEALTHCARE INSURANCE LINGUISTS! Are you a skilled freelance translator or editor with experience in the healthcare field? reputed company is looking for reputed company linguists to support an upcoming project involving member communications for a reputed company healthcare insurance provider. We specialize in translating",
-   "details": "You can be in any country, as long as you can work Pacific hours. JOIN reputed company’S TEAM OF HEALTHCARE INSURANCE LINGUISTS! Are you a skilled freelance translator or editor with experience in the healthcare field? reputed company is looking for reputed company linguists to support an upcoming project involving member communications for a reputed company healthcare insurance provider. We specialize in translating member letters and other critical documents that help individuals understand and manage their healthcare coverage. If you’re passionate about clear, culturally appropriate communication and want to make a difference, we’d love to hear from you! We’re currently seeking linguists working from English into Arabic Requirements: • Native speaker of Arabic • Proven experience in healthcare, health insurance, or medical translation • Strong attention to detail • Experience with CAT tools (XTM preferred) • Experience with XTRF is a plus • Availability to work during PST time • Availability to work on same-day delivery projects • ATA certification is a plus Why Work With reputed company? • Flexible reputed company with a supportive team • Long-term collaboration opportunities • Meaningful projects that impact real lives • Competitive rates and consistent workflow • Inclusive and respectful work environment reputed company Join Us? If you're a dedicated linguist with healthcare expertise looking for a rewarding freelance opportunity, we invite you to apply and become part of our mission to improve lives through language. Apply To reputed company Job",
-   "first_seen": "2026-11-17T14:15:10Z"
-  },
-  {
-   "id": "englishtoarabicfreelancetranslatoragriculturaljobbers",
-   "title": "English-to-Arabic Freelance Translator (Agricultural)",
-   "org": "Jobbers",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobbers.io/job/4090/remote/english-to-arabic-freelance-translator-agricultural",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-28T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → Arabic",
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "We are seeking an experienced, professional English-to-Arabic freelance translator to collaborate on an educational agricultural translation project titled \"Profit in Poultry.\" The source text is the first half of a comprehensive 89-page document (approximately 53,000 words). The final Arabic translation will be utilized for online educational and promotional materials published by our client, Oasis Training & Techno",
-   "details": "We are seeking an experienced, professional English-to-Arabic freelance translator to collaborate on an educational agricultural translation project titled \"Profit in Poultry.\" The source text is the first half of a comprehensive 89-page document (approximately 53,000 words). The final Arabic translation will be utilized for online educational and promotional materials published by our client, Oasis Training & Technology Development (oasisttd.org). Because the text uniquely combines agricultural instructions with commercial and business insights, we are looking for a linguist who can deliver a natural, precise, and engaging tone while rigorously preserving the original technical terminology. Project Scope & Specifications Task: English to Arabic translation (first half of the main document). Total Volume: ~53,000 words. Domain: Agriculture, poultry farming, commercial business, and education. Timeline & Milestones Start Date:October 31, 2026 Milestone 1 (~25,000 words): Due November 10, 2026 Final Delivery (~28,000 words): Due November 21, 2026",
-   "first_seen": "2026-11-05T04:58:44Z"
-  },
-  {
-   "id": "remotearabicenglishmedicalinterpreterflexibleshiftsintelex",
-   "title": "Remote Arabic-English Medical Interpreter | Flexible Shifts",
-   "org": "INTELEX",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://jooble.org/jdp/5265020012951023895",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-06T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "Arabic ↔ English",
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "INTELEX is seeking a skilled Medical Interpreter for a 100% remote position. You will provide accurate interpretation between patients and healthcare providers, delivering simultaneous and consecutive interpreting with attention to medical terminology and cultural nuances. The role offers remote work flexibility, requires at least 3 months of interpretation experience, and favors candidates with Medical or Legal sect",
-   "details": "INTELEX is seeking a skilled Medical Interpreter for a 100% remote position. You will provide accurate interpretation between patients and healthcare providers, delivering simultaneous and consecutive interpreting with attention to medical terminology and cultural nuances. The role offers remote work flexibility, requires at least 3 months of interpretation experience, and favors candidates with Medical or Legal sector experience. OPI/VRI availability and strong listening skills are expected. #J-18808-Ljbffr INTELEX",
-   "first_seen": "2026-11-11T12:35:33Z"
-  },
-  {
-   "id": "translatorlinglongtire",
-   "title": "Translator",
-   "org": "Linglong Tire",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://eg.linkedin.com/jobs/view/translator-at-linglong-tire-4478724747",
-   "location": "الإسكندرية, Egypt",
-   "remote": false,
-   "egypt": true,
-   "intl": false,
-   "deadline": null,
-   "posted": null,
-   "score": 85,
-   "reasons": [
-    "Translation / language role",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {},
-   "apply_email": "",
-   "snippet": "About the Company About the Role The Translator will provide accurate oral and written translation between Chinese/English and Arabic in business, technical, and daily operational contexts. The ideal candidate has excellent language skills, strong cultural awareness, and the ability to work in a fast-paced environment. Responsibilities • Provide consecutive and/or simultaneous interpretation during meetings, negotiat",
-   "details": "About the Company About the Role The Translator will provide accurate oral and written translation between Chinese/English and Arabic in business, technical, and daily operational contexts. The ideal candidate has excellent language skills, strong cultural awareness, and the ability to work in a fast-paced environment. Responsibilities • Provide consecutive and/or simultaneous interpretation during meetings, negotiations, site visits, training, and daily operations. • Translate written documents, including contracts, reports, emails, manuals, presentations, and marketing materials. • Proofread and edit translations to ensure accuracy, consistency, and cultural appropriateness. • Assist Chinese-speaking staff with communication with local authorities, suppliers, clients, and employees. • Support administrative and coordination tasks when required. • Maintain confidentiality and handle sensitive information professionally. • Travel within Alexandria or elsewhere in Egypt occasionally, as required. Qualifications • Bachelor’s degree in Translation, Languages, Linguistics, or a related field is preferred. Required Skills • Native or near-native fluency in Chinese (Mandarin) or English. • Strong command of Chinese is highly preferred. • Excellent listening, speaking, reading, and writing skills in multi languages. • Familiarity with translation tools and Microsoft Office. • Strong interpersonal, communication, and time-management skills. • Able to work under pressure and meet deadlines. • Must be based in Alexandria or willing to relocate to Alexandria. • Must have legal authorization to work in Egypt. Preferred Skills • Experience in industry of manufacturing. • Knowledge of Chinese business culture and local Egyptian business practices. • Certification in translation or in",
-   "first_seen": "2026-11-04T12:53:22Z"
-  },
-  {
-   "id": "technicaleditorunitednationshumanse",
-   "title": "Technical Editor",
-   "org": "United Nations Human Settlements Programme",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287619?language=en",
-   "location": "Home based",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-18T04:59:59Z",
-   "posted": "2026-11-06T05:00:00Z",
-   "score": 82,
-   "reasons": [
-    "Translation / language role",
-    "Remote / home-based",
-    "Asks 5+ years"
    ],
    "langs": [
     "French"
    ],
    "role": true,
    "facts": {
-    "years": 5
+    "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should",
-   "details": "Result of Service The assignment will result in two technically edited, coherent and accessible Issue Briefs. Deliverable 1: Issue Brief 1, edited Word file with tracked changes and editorial queries, followed by a clean version incorporating consolidated feedback round, due in December 2026. Deliverable 2: Issue Brief 2, equivalent tracked and clean edited versions, due by the end of January 2027. Both briefs should communicate the evidence, qualitative insights, lessons learned and research implications clearly for non-specialist Canadian audiences. Final factual verification, research judgments and publication approval remain with the project team. Work Location Home based Expected duration 2 months Duties and Responsibilities UN-Habitat is the agency for human settlements. It is mandated by the UN General Assembly to promote socially and environmentally sustainable towns and cities with the goal of providing adequate shelter for all. The Canada Office of UN-Habitat strengthens the organization’s mission to address the global housing crisis by serving as a focal point for partnerships, applied research, and policy engagement in Canada and across North America for the implementation of UN-Habitat’s 2026-2029 Strategic Plan. Operating from the City of Montreal, the Canada Office plays a central role in four domains: partner engagement and resource mobilization; research-policy-action interface; advocacy and communication; and the advancement of sustainable urbanization agendas within the Canadian and North American context. The Canada Office places particular emphasis on knowledge and innovation with a view to accelerating housing solutions that are affordable, adequate, resilient, and compatible with national and global commitments. In this context, the Canada Office ",
-   "first_seen": "2026-11-06T12:50:29Z"
+   "snippet": "Urgently Hiring For: English + French Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills an",
+   "details": "Urgently Hiring For: English + French Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, join us to bridge critical communication gaps in moments that matter. Key Responsibilities Provide accurate, real-time consecutive interpretation (English+Pulaar and French+Pulaar). Facilitate clear communication in high-stakes settings (e.g., healthcare, legal). Maintain strict confidentiality, neutrality, and professionalism. Manage your own schedule and log in reliably to handle calls. Qualifications & Tech Requirements Language: Native or near-native fluency in English, French, and Pulaar. Skills: Strong active listening, cultural sensitivity, and emotional resilience. Experience: Beginners welcome; prior interpreting experience is a plus. Workspace: A quiet, distraction-free home environment. Tech Setup: Dedicated computer, high-speed internet (wired preferred for VRI), and a noise-canceling USB headset. What We Offer Ultimate Flexibility: 100% remote work. Choose your own hours (daytime, evening, overnight). Steady Income: Competitive per-minute rates backed by reliable call volume. Growth: Free comprehensive onboarding and ongoing professional training. Referral Program: Refer qualified speakers of our in-demand languages and earn a bonus when your referral is successfully onboarded. To Apply: Ready to begin? Please submit your updated resume highlighting your language proficiency.",
+   "first_seen": "2026-11-18T13:47:13Z"
+  },
+  {
+   "id": "remotefrenchmedicalinterpreterperminutepayoneworldglobalservic",
+   "title": "Remote French Medical Interpreter - Per Minute Pay",
+   "org": "One World Global Services",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-french-medical-interpreter-per-minute-pay--new-england--e401c6ed1f9f9178e0c33e193946a619d",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-05T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "years": 1,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Wishalicious is hiring experienced French interpreters for a fully remote role with a clear schedule. Offers either full-time or part-time positions and confirms monthly payments, with options for per-minute or fixed-rate compensation. Immediate onboarding is available. You will handle professional calls, especially in healthcare contexts, and adhere to interpreter conduct. English proficiency at native/bilingual lev",
+   "details": "Wishalicious is hiring experienced French interpreters for a fully remote role with a clear schedule. Offers either full-time or part-time positions and confirms monthly payments, with options for per-minute or fixed-rate compensation. Immediate onboarding is available. You will handle professional calls, especially in healthcare contexts, and adhere to interpreter conduct. English proficiency at native/bilingual level and at least 1 year of interpreting experience are preferred.",
+   "first_seen": "2026-11-18T13:47:13Z"
+  },
+  {
+   "id": "frenchlanguagetranslatorsinterpreterremotekeyopenings",
+   "title": "French Language Translators/Interpreter- Remote",
+   "org": "KeyOpenings",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://keyopenings.s1q.unaux.com/remote-jobs/french-language-translatorsinterpreter-remote",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-11T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "The Interpreter is responsible for facilitating communication for the limited English Proficient (LEP) community and the practitioners that serve them in a variety of settings. This contract position is flexible and an opportunity to expand your interpreting business with access to many sessions/appointments per day. Providing accurate translation of documents involving law enforcement and legal subjects.Transcribe a",
+   "details": "The Interpreter is responsible for facilitating communication for the limited English Proficient (LEP) community and the practitioners that serve them in a variety of settings. This contract position is flexible and an opportunity to expand your interpreting business with access to many sessions/appointments per day. Providing accurate translation of documents involving law enforcement and legal subjects.Transcribe audio files and translate them into target language and communicate fluently in English orally and in writing.Translate in accordance with designated style and quality standards. Key Responsibilities Translation Can accurately translate reports/texts in electronic and hardcopy formats that not only contain facts but also some abstract language showing an ability to capture intended implications and many nuances. Can generally capture geopolitical, regional, ethnic, and cultural elements in text. Word choice and expression generally adhere to target language (TL) norms and means of expression specific to subject field(s) and are strong enough to allow translator to operate successively in that field. Interpretation Able to interpret accurately. Normally consecutive interpretation is needed, but on rare occasions simultaneous interpretation may be requested. Has good understanding of one or more regional dialects. Transcription Reviews audio or internet materials, transcribes with high degree of accuracy and expression. Must possess excellent English-language written communication skills for preparing reports. Has good understanding of one or more regional dialects. Gisting/Summarizing Is able to identify and accurately summarize factual points as well as abstract concepts. Can triage documentation to isolate pertinent and nuanced info. Master use of reference ",
+   "first_seen": "2026-11-18T13:47:13Z"
+  },
+  {
+   "id": "remotefrenchenglishopiinterpretermagik",
+   "title": "Remote French–English OPI Interpreter",
+   "org": "Magi-K",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-french-english-opi-interpreter--orlando--e7aa4a44481e127a4984e6acd812bb593",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-09T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "French ↔ English",
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Magi-K is hiring French–English Over-the-Phone Interpreters (OPI) on a freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate in important conversations. This is a 100% remote position with monthly payment in USD, boasting fast onboarding and a growing international team. Required qualifications include bilingual English (C1) proficiency and a computer with camera, h",
+   "details": "Magi-K is hiring French–English Over-the-Phone Interpreters (OPI) on a freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate in important conversations. This is a 100% remote position with monthly payment in USD, boasting fast onboarding and a growing international team. Required qualifications include bilingual English (C1) proficiency and a computer with camera, headset, and reliable internet.",
+   "first_seen": "2026-11-18T13:47:13Z"
+  },
+  {
+   "id": "remotefreelanceinterpreterenglishfrenchtofulanitonguepoint",
+   "title": "Remote Freelance Interpreter: English/French to Fulani",
+   "org": "Tonguepoint",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-freelance-interpreter-english-french-to-fulani--new-york--e2547037f7973977718e154f998ba9067",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-09T00:00:00Z",
+   "score": 70,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Needs Fulani",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "French → Fulani",
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "Tonguepoint is urgently hiring freelance remote interpreters fluent in English, French, and Fulani to provide OPI and VRI. Remote, flexible schedule, no prior experience required as training is provided. You will manage your own calls, work from a quiet home setup, and earn competitive per-minute rates with onboarding and ongoing training. A referral program offers bonuses for onboarding referrals.",
+   "details": "Tonguepoint is urgently hiring freelance remote interpreters fluent in English, French, and Fulani to provide OPI and VRI. Remote, flexible schedule, no prior experience required as training is provided. You will manage your own calls, work from a quiet home setup, and earn competitive per-minute rates with onboarding and ongoing training. A referral program offers bonuses for onboarding referrals.",
+   "first_seen": "2026-11-18T13:47:13Z"
   },
   {
    "id": "etconsultantcorporategovernanceadvisory",
@@ -413,34 +323,6 @@
    "first_seen": "2026-11-03T22:17:21Z"
   },
   {
-   "id": "travelassistantg5unitednationsofficeo",
-   "title": "Travel Assistant, G5",
-   "org": "United Nations Office On Drugs And Crime",
-   "source": "UN Careers",
-   "feed": "UN Careers",
-   "url": "https://careers.un.org/jobSearchDescription/287422?language=en",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-11-18T04:59:59Z",
-   "posted": "2026-11-03T05:00:00Z",
-   "score": 62,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {},
-   "apply_email": "",
-   "snippet": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA), Division for Operations (DO), United Nations Office on Drugs and Crime (UNODC). The incumbent will report directly to the UNOV/UNODC Travel lead General Support Section (GSS), Division for Management (DM), United Nations Office at Vienna (UNOV), in Vienna, and under the administrative supervision ",
-   "details": "Org. Setting and Reporting This position is located in the Regional Office for the Middle East and North Africa (ROMENA), Division for Operations (DO), United Nations Office on Drugs and Crime (UNODC). The incumbent will report directly to the UNOV/UNODC Travel lead General Support Section (GSS), Division for Management (DM), United Nations Office at Vienna (UNOV), in Vienna, and under the administrative supervision of the Administrative and Finance Officer in ROMENA. For more information on UNODC, please visit the following website: www.unodc.org Responsibilities Within assigned authority, the Travel Assistant will be responsible for the following specific duties: • Coordinate the travel of and provide information to staff members, affiliate personnel and, meeting participants on entitlements, policies and procedures related to official travel, shipment of personal effects, and passport and visa requirements, in accordance with governing rules and regulations. • Calculate airfares, excess baggage entitlements, terminal expenses, and daily subsistence allowance for staff members, their dependents, and affiliate personnel, and submit them to the Unit Supervisor for approval. Prepare itineraries for staff members, their dependents, delegations, and affiliate personnel traveling on official business, ensuring the most economical and direct routes, in close coordination with the Travel Unit in Vienna. • Assist with the troubleshooting of the in-house SAP/Umoja system and provide support to UNODC Field Offices on travel related issues. • Contact airlines or travel agencies to secure reservations at the most economical fares and request the issuance of tickets. Liaise with contracted travel agencies on complex itineraries and ticket issuance. Determine revised cost estimates ",
-   "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
    "id": "managementservicesassociate",
    "title": "Management Services Associate",
    "org": "WFP",
@@ -469,13 +351,13 @@
    "first_seen": "2026-11-17T16:32:28Z"
   },
   {
-   "id": "translator1yrorfreshgradadminstaffismailiacontractingcompanyin",
-   "title": "Translator (1 yr or fresh grad) + admin staff · Ismailia",
-   "org": "Contracting company in Ismailia",
+   "id": "executivesecretaryandtranslatorconfidential",
+   "title": "Executive Secretary and Translator",
+   "org": "Confidential",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.wangfuegypt.com/en/jobs/k1030-04",
-   "location": "الإسماعيلية، الاسماعيلية, Egypt",
+   "url": "https://wuzzuf.net/jobs/p/iltiie56kdc6-executive-secretary-and-translator-cairo-egypt",
+   "location": "مصر الجديدة، المطار، قسم النزهة",
    "remote": false,
    "egypt": true,
    "intl": false,
@@ -488,44 +370,11 @@
    ],
    "langs": [],
    "role": true,
-   "facts": {
-    "years": 1
-   },
+   "facts": {},
    "apply_email": "",
-   "snippet": "A contracting company in Ismailia is hiring: • Translator: 1 year of experience or fresh graduate • An admin person",
-   "details": "A contracting company in Ismailia is hiring: • Translator: 1 year of experience or fresh graduate • An admin person",
-   "first_seen": "2026-11-11T12:35:33Z"
-  },
-  {
-   "id": "innovationtechnologyknowledgemanagementconsultant",
-   "title": "Innovation, Technology & Knowledge Management Consultant",
-   "org": "IDB Group",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1247732",
-   "location": "Remote | Washington D.C.",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-18T00:00:00Z",
-   "posted": null,
-   "score": 57,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "years": 2,
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "Innovation, Technology & Knowledge Management Consultant IDB Group Remote | Washington D.C. Both national and international Mid level Speaks English, French, Portuguese, Spanish Application deadline: November 18, 2026 Closing soon Apply Summary by Impactpool The IDB is seeking an Innovation, Technology & Knowledge Management Consultant to support the Environmental and Social Solutions Division. This role involves man",
-   "details": "Innovation, Technology & Knowledge Management Consultant IDB Group Remote | Washington D.C. Both national and international Mid level Speaks English, French, Portuguese, Spanish Application deadline: November 18, 2026 Closing soon Apply Summary by Impactpool The IDB is seeking an Innovation, Technology & Knowledge Management Consultant to support the Environmental and Social Solutions Division. This role involves managing and improving digital platforms, organizing technical knowledge, and translating operational needs into digital solutions. The consultant will also coordinate technology initiatives, enhance data quality, and promote the adoption of emerging technologies. The position requires collaboration with various stakeholders to align solutions with institutional standards. Candidate Requirements: Bachelor's degree in computer sciences, information technology, or related fields At least 2 years of experience in digital transformation or UX/UI design Proficiency in English and Spanish Specialized training in information management or automation is desirable Job Description City: Washington DC Company: IDB Posting End Date: Nov 18, 2026 (12:00 AM EST) We improve lives The IDB Group is a community of diverse, versatile, and passionate people who come together on a journey to improve lives in Latin America and the Caribbean. Our people find purpose and do what they love in an inclusive, collaborative, agile, and rewarding environment. About this position The Environmental and Social Solutions Division (VPS/ESG) of the Inter-American Development Bank (IDB) is responsible for promoting the environmental and social sustainability of IDB-financed operations and ensuring compliance with the Bank’s environmental and social policies. VPS/ESG specialists provide technical g",
-   "first_seen": "2026-11-13T12:57:40Z"
+   "snippet": "Job Description Required for a contracting company: Executive Secretary and Correspondence Translator. Company Location: Al-Merghany – Heliopolis Job Requirements • Fresh graduate • Good in Word and Excel",
+   "details": "Job Description Required for a contracting company: Executive Secretary and Correspondence Translator. Company Location: Al-Merghany – Heliopolis Job Requirements • Fresh graduate • Good in Word and Excel",
+   "first_seen": "2026-11-18T13:47:13Z"
   },
   {
    "id": "socialmediaofficerrosterseefar",
@@ -584,39 +433,36 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (8 days) Apply Summary by Impactpool L'UNICEF recherche un consultant",
-   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (8 days) Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. Ces ",
+   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (7 days) Apply Summary by Impactpool L'UNICEF recherche un consultant",
+   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (7 days) Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. Ces ",
    "first_seen": "2026-11-11T12:35:33Z"
   },
   {
-   "id": "seniorcustomersuccessmanagerbilingualenfrcoderpad",
-   "title": "Senior Customer Success Manager - bilingual EN/FR",
-   "org": "CoderPad",
-   "source": "Jobicy",
-   "feed": "Jobicy",
-   "url": "https://jobicy.com/jobs/162797-senior-customer-success-manager-bilingual-en-fr-2",
-   "location": "Ireland",
+   "id": "linguisticqatesterremotekazakhstanwelocalize",
+   "title": "Linguistic QA Tester Remote - Kazakhstan",
+   "org": "Welocalize",
+   "source": "Welocalize",
+   "feed": "UNHCR, WFP, IMF, Welocalize",
+   "url": "https://welocalize.wd1.myworkdayjobs.com/Welocalize/job/Milan-Italy/Linguistic-QA-Tester-Remote---Kazakhstan_R0007927",
+   "location": "Milan, Italy",
    "remote": true,
    "egypt": false,
    "intl": false,
-   "deadline": null,
-   "posted": "2026-11-17T12:51:37Z",
+   "deadline": "2026-12-31T00:00:00Z",
+   "posted": null,
    "score": 55,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
-    "Remote / home-based",
-    "Senior level"
+    "Remote / home-based"
    ],
-   "langs": [
-    "French"
-   ],
+   "langs": [],
    "role": true,
    "facts": {},
-   "apply_email": "",
-   "snippet": "We are looking for a Senior Customer Success Manager to join our Customer Success team in Ireland (full remote). What does a Senior Customer Success Manager, EMEA at CoderPad do? CoderPad CSMs partner with technical hiring and engineering leaders to make sure they get real, measurable value from our platform, and keep coming back to it as their hiring needs grow. As the global leader in the technical interview space,",
-   "details": "We are looking for a Senior Customer Success Manager to join our Customer Success team in Ireland (full remote). What does a Senior Customer Success Manager, EMEA at CoderPad do? CoderPad CSMs partner with technical hiring and engineering leaders to make sure they get real, measurable value from our platform, and keep coming back to it as their hiring needs grow. As the global leader in the technical interview space, with 4,000+ customers in 165+ countries, our goal as a Customer Success team is to drive retention, expansion, and advocacy across our customer base by helping customers achieve outcomes that matter to their business, not just adoption for its own sake. This role owns a book of strategic EMEA accounts, with a particular focus on French-speaking customers. You'll run executive-level relationships, own renewal and expansion outcomes, and be the CS voice for the region. This role reports to the VP of Customer Success and is located in Ireland. What you'll be doing Owning a portfolio of strategic EMEA accounts, accountable for retention, expansion, and account health. Building and executing account plans for top accounts, tied to each customer's actual business goals. Running QBRs in both English and French to reinforce value and deepen the relationship. Monitoring account health through usage data and qualitative signals, and getting ahead of risk before it turns into churn. Owning renewal conversations end to end, including negotiation, in close partnership with Sales. Identifying and driving expansion opportunities alongside Sales. Generating referenceable customer wins: case studies, testimonials, referrals. Representing the voice of the customer internally to shape product and CS decisions. Using AI tools daily to work efficiently, from QBR prep to account",
-   "first_seen": "2026-11-17T16:32:28Z"
+   "apply_email": "servicedesk@welocalize.com",
+   "snippet": "If you have a Candidate Login already, but have forgotten your password please use the steps to reset your password. If you have forgotten your email login, please contact servicedesk@welocalize.com subject Workday Candidate Login When creating your Workday account and entering personal information like name, address, please do not use ALL CAPS. Thank you! NOTICE: For Privacy Policy please review here Job Responsibil",
+   "details": "If you have a Candidate Login already, but have forgotten your password please use the steps to reset your password. If you have forgotten your email login, please contact servicedesk@welocalize.com subject Workday Candidate Login When creating your Workday account and entering personal information like name, address, please do not use ALL CAPS. Thank you! NOTICE: For Privacy Policy please review here Job Responsibilities: Job Title Linguistic QA Tester Department Staffing/Quality Management Reports To Vendor Project Manager MAIN PURPOSE OF JOB As a Linguistic QA Tester, you will primarily be proofreading and editing content already localized to your native language, making sure you catch any errors in the content, such as: grammar, typos, syntax, punctuation, capitalization, political incorrectness, inconsistencies, and extra spaces between words or characters. You will sometimes be translating content from English to your native language. You will also be checking UIs for functional issues. MAIN DUTIES The following is a non-exhaustive list of responsibilities and areas of ownership for this role: Write and report relevant bugs and errors using best practices through internal database system. Ability to under and prioritize task and issues quickly and efficiently. Native language skills and cultural awareness of native country. Good oral and written communication. Highly organized with attention to detail and a commitment to quality. QA various products in by accurately following testing instructions and test cases Discover and report defects (bugs) using client specific bug tracking tools Evaluate translations in the context of software, mobile apps and documentation Be a subject matter expert for linguistic issues in the target language; be able to research and reso",
+   "first_seen": "2026-11-18T13:47:13Z"
   },
   {
    "id": "programandbusinessdevelopmentofficeropenforapplicantswhohavetherighttobebasedand",
@@ -644,8 +490,8 @@
     "years": 3
    },
    "apply_email": "",
-   "snippet": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (5 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The rol",
-   "details": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 (5 days) Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The role involves coordinating partner agreements, ensuring compliance, and contributing to resource mobilization and fundraising efforts. The candidate will work closely with internal and external stakeholders to facilitate project implementation and support report writing. This position requires strong teamwork skills and a commitment to Diakonia's values of solidarity, justice, and accountability. Candidate Requirements: University degree or equivalent in relevant area 3-5 years’ experience in international development work Experience in project management with a human rights-based approach Proven skills in Planning, Evaluation, and Monitoring Experience in donor engagement and resource mobilization Fluent in English and Arabic Analytic, creative, and solution-oriented Ability to work independently and as a team player Relevant communication and IT skills Based in Egypt Open for applicants who have the right to be based and work from Egypt only Locals are encouraged to apply WHO WE ARE Diakonia is an international rights-based and faith-based development organization recognized for its commitment to democracy, human rights, and gender justice with the objective to change unfair structures that generate poverty, inequality, oppression and violence. All work is based on feminist principles. Digitalization plays a key role in enabling efficient, transparent, and se",
+   "snippet": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The",
+   "details": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The role involves coordinating partner agreements, ensuring compliance, and contributing to resource mobilization and fundraising efforts. The candidate will work closely with internal and external stakeholders to facilitate project implementation and support report writing. This position requires strong teamwork skills and a commitment to Diakonia's values of solidarity, justice, and accountability. Candidate Requirements: University degree or equivalent in relevant area 3-5 years’ experience in international development work Experience in project management with a human rights-based approach Proven skills in Planning, Evaluation, and Monitoring Experience in donor engagement and resource mobilization Fluent in English and Arabic Analytic, creative, and solution-oriented Ability to work independently and as a team player Relevant communication and IT skills Based in Egypt Open for applicants who have the right to be based and work from Egypt only Locals are encouraged to apply WHO WE ARE Diakonia is an international rights-based and faith-based development organization recognized for its commitment to democracy, human rights, and gender justice with the objective to change unfair structures that generate poverty, inequality, oppression and violence. All work is based on feminist principles. Digitalization plays a key role in enabling efficient, transparent, an",
    "first_seen": "2026-11-09T13:44:56Z"
   },
   {
@@ -676,36 +522,6 @@
    "snippet": "Junior Accountant/Admin Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We",
    "details": "Junior Accountant/Admin Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show More Options Loading... Region All Country All Job location All Job category All Contract type All Clear Create a job alert: select how often (in days) to receive an alert: Create Alert × Create a job alert: select how often (in days) to receive an alert: Apply now » Junior Accountant/Admin Assistant Purpose Junior Accountant /Admin Assistant is accountable for the physical processing of cash transactions and the integrity of physical cash balances in a (sub-)delegation, strictly respecting and applying the ICRC's rules on financial management. Accountabiliti",
    "first_seen": "2026-11-16T13:29:28Z"
-  },
-  {
-   "id": "caseworkerprotectionconsultant",
-   "title": "Case Worker (Protection) Consultant",
-   "org": "IOM - International Organization for Migration",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1245433",
-   "location": "Cairo",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 50,
-   "reasons": [
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 1,
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and e",
-   "details": "Case Worker (Protection) Consultant IOM - International Organization for Migration Cairo Both national and international UG - Ungraded level Speaks Arabic, English Apply Summary by Impactpool The IOM is seeking a Case Management Caseworker to provide support to vulnerable migrants and victims of trafficking within the Direct Assistance Programme. The role involves conducting assessments, coordinating referrals, and ensuring access to assistance and protection services while adhering to ethical standards. The successful candidate will prepare case management reports, manage beneficiary data, and maintain confidentiality. This position requires collaboration with various stakeholders and a commitment to a survivor-centered approach. Candidate Requirements: Bachelor’s degree in a community work related field 1-2 years of experience in the humanitarian field Experience with governmental and international organizations Excellent word processing and typing skills in English and Arabic Experience with Excel and databases Fluency in English and Arabic, both spoken and written Job Description Introduction Established in 1951, IOM is a Related Organization of the United Nations and the leading UN agency in the field of migration. Working closely with governmental, intergovernmental and non-governmental partners, IOM promotes humane and orderly migration for the benefit of all. It saves lives and protects people on the move, drives solutions to displacement, and facilitates pathways for regular migration, while providing services and advice to governments and migrants. IOM is committed to fostering a respectful, inclusive and supportive workplace where all employees can thrive professionally and feel valued. By creating such an environment, IOM aims to better harness the full pote",
-   "first_seen": "2026-11-04T15:13:52Z"
   }
  ],
  "seen": {
@@ -890,14 +706,21 @@
   "internationalaudiovideoremotelaoloatianinterpreterlanguageservicesasso": "2026-11-17T14:15:10Z",
   "regionalprotectionfromsexualexploitationandabuseandsexualharassmentpseahofficerp": "2026-11-17T14:15:10Z",
   "managementservicesassociate": "2026-11-17T16:32:28Z",
-  "seniorcustomersuccessmanagerbilingualenfrcoderpad": "2026-11-17T16:32:28Z"
+  "seniorcustomersuccessmanagerbilingualenfrcoderpad": "2026-11-17T16:32:28Z",
+  "englishfrenchpulaarfreelanceremoteinterpretertonguepoint": "2026-11-18T13:47:13Z",
+  "remotefrenchmedicalinterpreterperminutepayoneworldglobalservic": "2026-11-18T13:47:13Z",
+  "frenchlanguagetranslatorsinterpreterremotekeyopenings": "2026-11-18T13:47:13Z",
+  "remotefrenchenglishopiinterpretermagik": "2026-11-18T13:47:13Z",
+  "remotefreelanceinterpreterenglishfrenchtofulanitonguepoint": "2026-11-18T13:47:13Z",
+  "executivesecretaryandtranslatorconfidential": "2026-11-18T13:47:13Z",
+  "linguisticqatesterremotekazakhstanwelocalize": "2026-11-18T13:47:13Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 49,
-  "last_day": "2026-11-17"
+  "used": 52,
+  "last_day": "2026-11-18"
  },
- "quote_index": 14,
+ "quote_index": 15,
  "links": {
   "un-exams": {
    "state": "ok",
@@ -996,7 +819,6 @@
   }
  },
  "health": {
-  "Google Jobs": 0,
   "Remotive": 0,
   "Jobicy": 0,
   "Working Nomads": 0,
@@ -1004,14 +826,15 @@
   "Company boards": 0,
   "Translation agencies": 0,
   "ReliefWeb": 0,
+  "Google Jobs": 0,
+  "Green Climate Fund": 0,
+  "CLEAR Global": 0,
   "UNESCO": 0,
   "UN Careers": 0,
-  "CLEAR Global": 0,
+  "ICRC": 0,
   "UNDP": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
-  "Green Climate Fund": 0,
   "Himalayas": 0,
-  "ICRC": 0,
   "Impactpool": 0
  }
 }
