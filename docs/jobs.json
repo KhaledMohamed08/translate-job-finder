@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T13:47:13Z",
+ "updated": "2026-11-19T14:16:15Z",
  "sources": {
   "Remotive": {
    "ok": true,
@@ -11,35 +11,27 @@
   },
   "Working Nomads": {
    "ok": true,
-   "count": 35
+   "count": 37
+  },
+  "Company boards": {
+   "ok": true,
+   "count": 215
   },
   "RemoteOK": {
    "ok": true,
    "count": 97
   },
-  "Company boards": {
+  "ReliefWeb": {
    "ok": true,
-   "count": 217
+   "count": 1162
   },
   "Translation agencies": {
    "ok": true,
-   "count": 194
-  },
-  "ReliefWeb": {
-   "ok": true,
-   "count": 1123
-  },
-  "Google Jobs": {
-   "ok": true,
-   "count": 12
+   "count": 192
   },
   "Green Climate Fund": {
    "ok": true,
    "count": 4
-  },
-  "CLEAR Global": {
-   "ok": true,
-   "count": 17
   },
   "UNESCO": {
    "ok": true,
@@ -47,219 +39,260 @@
   },
   "UN Careers": {
    "ok": true,
-   "count": 447
+   "count": 446
+  },
+  "Google Jobs": {
+   "ok": true,
+   "count": 11
+  },
+  "CLEAR Global": {
+   "ok": true,
+   "count": 17
   },
   "ICRC": {
    "ok": true,
    "count": 11
   },
-  "UNDP": {
-   "ok": true,
-   "count": 13
-  },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
-   "count": 28
+   "count": 26
   },
   "Himalayas": {
    "ok": true,
    "count": 119
   },
+  "UNDP": {
+   "ok": true,
+   "count": 12
+  },
   "Impactpool": {
    "ok": true,
-   "count": 137
+   "count": 140
   }
  },
  "jobs": [
   {
-   "id": "englishfrenchpulaarfreelanceremoteinterpretertonguepoint",
-   "title": "English + French Pulaar Freelance Remote Interpreter",
-   "org": "Tonguepoint",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.linkedin.com/jobs/view/english-%2B-french-pulaar-freelance-remote-interpreter-at-tonguepoint-4489023188",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-11T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "Urgently Hiring For: English + French Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills an",
-   "details": "Urgently Hiring For: English + French Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, join us to bridge critical communication gaps in moments that matter. Key Responsibilities Provide accurate, real-time consecutive interpretation (English+Pulaar and French+Pulaar). Facilitate clear communication in high-stakes settings (e.g., healthcare, legal). Maintain strict confidentiality, neutrality, and professionalism. Manage your own schedule and log in reliably to handle calls. Qualifications & Tech Requirements Language: Native or near-native fluency in English, French, and Pulaar. Skills: Strong active listening, cultural sensitivity, and emotional resilience. Experience: Beginners welcome; prior interpreting experience is a plus. Workspace: A quiet, distraction-free home environment. Tech Setup: Dedicated computer, high-speed internet (wired preferred for VRI), and a noise-canceling USB headset. What We Offer Ultimate Flexibility: 100% remote work. Choose your own hours (daytime, evening, overnight). Steady Income: Competitive per-minute rates backed by reliable call volume. Growth: Free comprehensive onboarding and ongoing professional training. Referral Program: Refer qualified speakers of our in-demand languages and earn a bonus when your referral is successfully onboarded. To Apply: Ready to begin? Please submit your updated resume highlighting your language proficiency.",
-   "first_seen": "2026-11-18T13:47:13Z"
-  },
-  {
-   "id": "remotefrenchmedicalinterpreterperminutepayoneworldglobalservic",
-   "title": "Remote French Medical Interpreter - Per Minute Pay",
-   "org": "One World Global Services",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-french-medical-interpreter-per-minute-pay--new-england--e401c6ed1f9f9178e0c33e193946a619d",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-05T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "years": 1,
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Wishalicious is hiring experienced French interpreters for a fully remote role with a clear schedule. Offers either full-time or part-time positions and confirms monthly payments, with options for per-minute or fixed-rate compensation. Immediate onboarding is available. You will handle professional calls, especially in healthcare contexts, and adhere to interpreter conduct. English proficiency at native/bilingual lev",
-   "details": "Wishalicious is hiring experienced French interpreters for a fully remote role with a clear schedule. Offers either full-time or part-time positions and confirms monthly payments, with options for per-minute or fixed-rate compensation. Immediate onboarding is available. You will handle professional calls, especially in healthcare contexts, and adhere to interpreter conduct. English proficiency at native/bilingual level and at least 1 year of interpreting experience are preferred.",
-   "first_seen": "2026-11-18T13:47:13Z"
-  },
-  {
-   "id": "frenchlanguagetranslatorsinterpreterremotekeyopenings",
-   "title": "French Language Translators/Interpreter- Remote",
-   "org": "KeyOpenings",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://keyopenings.s1q.unaux.com/remote-jobs/french-language-translatorsinterpreter-remote",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-11T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "The Interpreter is responsible for facilitating communication for the limited English Proficient (LEP) community and the practitioners that serve them in a variety of settings. This contract position is flexible and an opportunity to expand your interpreting business with access to many sessions/appointments per day. Providing accurate translation of documents involving law enforcement and legal subjects.Transcribe a",
-   "details": "The Interpreter is responsible for facilitating communication for the limited English Proficient (LEP) community and the practitioners that serve them in a variety of settings. This contract position is flexible and an opportunity to expand your interpreting business with access to many sessions/appointments per day. Providing accurate translation of documents involving law enforcement and legal subjects.Transcribe audio files and translate them into target language and communicate fluently in English orally and in writing.Translate in accordance with designated style and quality standards. Key Responsibilities Translation Can accurately translate reports/texts in electronic and hardcopy formats that not only contain facts but also some abstract language showing an ability to capture intended implications and many nuances. Can generally capture geopolitical, regional, ethnic, and cultural elements in text. Word choice and expression generally adhere to target language (TL) norms and means of expression specific to subject field(s) and are strong enough to allow translator to operate successively in that field. Interpretation Able to interpret accurately. Normally consecutive interpretation is needed, but on rare occasions simultaneous interpretation may be requested. Has good understanding of one or more regional dialects. Transcription Reviews audio or internet materials, transcribes with high degree of accuracy and expression. Must possess excellent English-language written communication skills for preparing reports. Has good understanding of one or more regional dialects. Gisting/Summarizing Is able to identify and accurately summarize factual points as well as abstract concepts. Can triage documentation to isolate pertinent and nuanced info. Master use of reference ",
-   "first_seen": "2026-11-18T13:47:13Z"
-  },
-  {
-   "id": "remotefrenchenglishopiinterpretermagik",
-   "title": "Remote French–English OPI Interpreter",
-   "org": "Magi-K",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-french-english-opi-interpreter--orlando--e7aa4a44481e127a4984e6acd812bb593",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-09T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "French ↔ English",
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Magi-K is hiring French–English Over-the-Phone Interpreters (OPI) on a freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate in important conversations. This is a 100% remote position with monthly payment in USD, boasting fast onboarding and a growing international team. Required qualifications include bilingual English (C1) proficiency and a computer with camera, h",
-   "details": "Magi-K is hiring French–English Over-the-Phone Interpreters (OPI) on a freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate in important conversations. This is a 100% remote position with monthly payment in USD, boasting fast onboarding and a growing international team. Required qualifications include bilingual English (C1) proficiency and a computer with camera, headset, and reliable internet.",
-   "first_seen": "2026-11-18T13:47:13Z"
-  },
-  {
-   "id": "remotefreelanceinterpreterenglishfrenchtofulanitonguepoint",
-   "title": "Remote Freelance Interpreter: English/French to Fulani",
-   "org": "Tonguepoint",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-freelance-interpreter-english-french-to-fulani--new-york--e2547037f7973977718e154f998ba9067",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-09T00:00:00Z",
-   "score": 70,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Needs Fulani",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "French → Fulani",
-    "contract": "Freelance"
-   },
-   "apply_email": "",
-   "snippet": "Tonguepoint is urgently hiring freelance remote interpreters fluent in English, French, and Fulani to provide OPI and VRI. Remote, flexible schedule, no prior experience required as training is provided. You will manage your own calls, work from a quiet home setup, and earn competitive per-minute rates with onboarding and ongoing training. A referral program offers bonuses for onboarding referrals.",
-   "details": "Tonguepoint is urgently hiring freelance remote interpreters fluent in English, French, and Fulani to provide OPI and VRI. Remote, flexible schedule, no prior experience required as training is provided. You will manage your own calls, work from a quiet home setup, and earn competitive per-minute rates with onboarding and ongoing training. A referral program offers bonuses for onboarding referrals.",
-   "first_seen": "2026-11-18T13:47:13Z"
-  },
-  {
-   "id": "etconsultantcorporategovernanceadvisory",
-   "title": "ET Consultant - Corporate Governance Advisory",
-   "org": "World Bank Group",
+   "id": "arabiclanguageinterpreter",
+   "title": "Arabic Language Interpreter",
+   "org": "IRC - International Rescue Committee",
    "source": "Impactpool",
    "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1246654",
-   "location": "Cairo | Accra | Nairobi",
-   "remote": false,
-   "egypt": true,
+   "url": "https://www.impactpool.org/jobs/1248876",
+   "location": "Remote | United States",
+   "remote": true,
+   "egypt": false,
    "intl": true,
-   "deadline": "2026-11-19T00:00:00Z",
+   "deadline": null,
    "posted": null,
-   "score": 65,
+   "score": 100,
    "reasons": [
-    "Based in Egypt"
+    "Translation / language role",
+    "Remote / home-based"
    ],
    "langs": [
-    "Arabic",
-    "French"
+    "Arabic"
    ],
-   "role": false,
+   "role": true,
    "facts": {
-    "years": 2,
-    "contract": "Consultancy"
+    "pay": "$20 - $25/hour"
    },
    "apply_email": "",
-   "snippet": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 Closing soon Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisor",
-   "details": "ET Consultant - Corporate Governance Advisory World Bank Group Cairo, Accra, Nairobi Both national and international EC1 - Extended Term Consultant Appointment level Speaks Arabic, English, French Application deadline: November 19, 2026 Closing soon Apply Summary by Impactpool The International Finance Corporation (IFC) is seeking an ET Consultant for Corporate Governance Advisory to assist in implementing CG Advisory projects, particularly the SME Accelerator. This role involves project management, coordination, and ensuring consistent delivery of recommendations. The consultant will prepare various project documents, support client interactions, and monitor project outcomes. The position is available in Cairo, Nairobi, and Accra, with a focus on collaboration across teams and effective communication. Candidate Requirements: Bachelor’s degree in corporate governance, business administration, law, economics, finance, or related field At least two years of relevant corporate governance experience Experience with private sector firms or development partners Strong research, analytical, and strategic thinking skills Excellent organizational skills and ability to meet deadlines Fluent in English; Arabic desirable for Cairo position Ability to use LLM tools for research and analysis ET Consultant - Corporate Governance Advisory Job #: req39287 Organization: IFC Sector: Advisory Services Grade: EC1 Term Duration: 1 year 0 months Recruitment Type: Local Recruitment Location: Cairo,Egypt; Nairobi, Kenya; and Accra, Ghana Required Language(s): English Preferred Language(s): Arabic (desirable for Cairo) and French Closing Date: 11/19/2026 (MM/DD/YYYY) at 11:59pm UTC Description At the International Finance Corporation (IFC), a member of the World Bank Group (WBG) , you’ll join a ",
-   "first_seen": "2026-11-07T11:37:44Z"
+   "snippet": "Arabic Language Interpreter IRC - International Rescue Committee Remote | United States International Junior level Speaks Arabic, English Apply Summary by Impactpool The International Rescue Committee (IRC) is seeking an Arabic Language Interpreter to provide in-person and remote interpretation services for Limited English Proficient (LEP) individuals. The role involves ensuring accurate, impartial, and confidential ",
+   "details": "Arabic Language Interpreter IRC - International Rescue Committee Remote | United States International Junior level Speaks Arabic, English Apply Summary by Impactpool The International Rescue Committee (IRC) is seeking an Arabic Language Interpreter to provide in-person and remote interpretation services for Limited English Proficient (LEP) individuals. The role involves ensuring accurate, impartial, and confidential communication in various settings such as clinics and schools. Responsibilities include tracking assignments, participating in training, and supporting special projects. This is an evergreen position, allowing for ongoing applications to build a talent pipeline. Candidate Requirements: High school diploma preferred Interpretation certification preferred Relevant professional interpretation experience preferred Experience with refugee or immigrant populations preferred Cultural sensitivity and trust-building skills The International Rescue Committee (IRC) responds to the world's worst humanitarian crises, helping to restore health, safety, education, economic wellbeing, and power to people devastated by conflict and disaster. Founded in 1933 at the call of Albert Einstein, the IRC is one of the world's largest international humanitarian non-governmental organizations (INGO), at work in more than 40 countries and 29 U.S. cities helping people to survive, reclaim control of their future and strengthen their communities. A force for humanity, IRC employees deliver lasting impact by restoring safety, dignity and hope to millions. If you're a solutions-driven, passionate change-maker, come join us in positively impacting the lives of millions of people world-wide for a better future. Please note this is an evergreen position. We accept applications on an ongoing b",
+   "first_seen": "2026-11-19T14:16:15Z"
+  },
+  {
+   "id": "urgentkoreaninterpreterrequiredtodaywithhighestrateconfidentialclientvi",
+   "title": "Urgent Korean Interpreter Required today with Highest rate",
+   "org": "Confidential client via ProZ.com",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.proz.com/translation-jobs/2279384",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-12T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → Korean",
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "Services required: Interpreting, Consecutive Language pairs: English to Korean Subject fields: Medical: Health Care Description: 🚨 URGENT — HIRING TODAY: Experienced Korean Interpreters We need experienced Korean interpreters right now — and we're hiring today. If you're a Korean–English interpreter with proven professional experience and you're available to start immediately, we want to hear from you today. Here's w",
+   "details": "Services required: Interpreting, Consecutive Language pairs: English to Korean Subject fields: Medical: Health Care Description: 🚨 URGENT — HIRING TODAY: Experienced Korean Interpreters We need experienced Korean interpreters right now — and we're hiring today. If you're a Korean–English interpreter with proven professional experience and you're available to start immediately, we want to hear from you today. Here's what we offer: 💰 The highest rate for Korean interpreters — because great interpreting deserves great pay 🏠 100% remote — work from the comfort of your home 🌍 Connect with people from different cultures every single day 🤝 A professional, supportive team that actually has your back What we're looking for: ✔️ Proven professional interpreting experience (OPI / VRI — medical, legal, or community settings) ✔️ Strong Korean & English communication skills ✔️ A quiet home setup and a reliable internet connection ✔️ Available to start right away ⏰ Don't wait — spots are limited and we're hiring today. If this is you, apply now and let's get you started. 📩 Apply today: [HIDDEN] Or connect with me here on LinkedIn — let's talk. Know an experienced Korean interpreter who's available now? Tag them below or share this post — you might just change someone's career. 💙 #UrgentHiring #HiringNow #KoreanInterpreter #ExperiencedInterpreter #RemoteJobs #WorkFromHome #InterpreterJobs #BilingualJobs #LanguageJobs #OPI",
+   "first_seen": "2026-11-19T14:16:15Z"
+  },
+  {
+   "id": "koreanenglishopiinterpreterremotenoexperiencerequiredconfidentialclientvi",
+   "title": "Korean-English OPI Interpreter – Remote (No Experience Required)",
+   "org": "Confidential client via ProZ.com",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.proz.com/translation-jobs/2279147",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-11T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Korean ↔ English",
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "Services required: Interpreting, Over-the-phone interpreting (OPI) Language pairs: Korean to English Subject fields: Medical: Health Care, Medical Description: **KOREAN-ENGLISH OVER-THE-PHONE INTERPRETER (OPI) – REMOTE** **About Bilingual Global** Bilingual Global is looking for Korean-English bilingual candidates to join our team as remote Over-the-Phone Interpreters (OPI). In this role, you will facilitate accurate",
+   "details": "Services required: Interpreting, Over-the-phone interpreting (OPI) Language pairs: Korean to English Subject fields: Medical: Health Care, Medical Description: **KOREAN-ENGLISH OVER-THE-PHONE INTERPRETER (OPI) – REMOTE** **About Bilingual Global** Bilingual Global is looking for Korean-English bilingual candidates to join our team as remote Over-the-Phone Interpreters (OPI). In this role, you will facilitate accurate communication between Korean-speaking and English-speaking individuals during phone conversations involving healthcare, insurance, finance, and customer service. **No previous interpreting experience is required. We provide a three-week training program.** **Key Responsibilities** - Provide accurate and impartial interpretation between Korean and English speakers. - Facilitate clear communication during phone conversations. - Accurately convey information while maintaining confidentiality and professionalism. - Demonstrate excellent listening, comprehension, and verbal communication skills. **Requirements** - Professional proficiency in both Korean and English. - Strong verbal communication and active listening skills. - Ability to interpret accurately in both languages. - Reliable high-speed internet connection. - Desktop or laptop computer (tablets and mobile phones are not accepted). - USB headset. - Wired Ethernet connection. - Willingness to complete the required training and follow the assigned work schedule. **Work Schedule** - 100% remote, work from home. - Up to 40 hours per week. - Two days off. - Availability during U.S. daytime hours, according to your local time zone. **What We Offer** - Three-week training program. - Professional development opportunities. - Opportunity to join an ongoing freelance project. **Engagement Type:** Freelance / Ind",
+   "first_seen": "2026-11-19T14:16:15Z"
+  },
+  {
+   "id": "remoteenglishtokoreanpatenttranslatorweloglobal",
+   "title": "Remote English-to-Korean Patent Translator",
+   "org": "Welo Global",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-english-to-korean-patent-translator--united-states--eca92ff2a6322eeafcaeb6e023b15059f",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-17T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → Korean",
+    "years": 2,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Welocalize is seeking experienced translators for English into Korean patent translation projects. This freelance remote role offers steady volumes and long-term collaboration with a global production team across multiple domains including chemistry, biology, computer science, and engineering. Ideal candidates have at least 2 years of patent translation/editing experience, strong CAT tool skills (Trados, XTM) and the",
+   "details": "Welocalize is seeking experienced translators for English into Korean patent translation projects. This freelance remote role offers steady volumes and long-term collaboration with a global production team across multiple domains including chemistry, biology, computer science, and engineering. Ideal candidates have at least 2 years of patent translation/editing experience, strong CAT tool skills (Trados, XTM) and the ability to deliver in K-Editor formats.",
+   "first_seen": "2026-11-13T12:57:40Z"
+  },
+  {
+   "id": "remotekoreantranslatorforlegalandgovernmentlssremotequestjobs",
+   "title": "Remote Korean Translator for Legal and Government LSS",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/remote-korean-translator-for-legal-and-government-lss-105773611",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-17T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "years": 2,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "A prominent defense contracting company is seeking a part-time Korean Translator to support the reputed company. The role involves translating sensitive legal documents and media content while ensuring confidentiality. Candidates should have at least two years of translation experience, legal vocabulary proficiency, and must be a U.S. reputed company. reputed company position requires familiarity with Computer-Assist",
+   "details": "A prominent defense contracting company is seeking a part-time Korean Translator to support the reputed company. The role involves translating sensitive legal documents and media content while ensuring confidentiality. Candidates should have at least two years of translation experience, legal vocabulary proficiency, and must be a U.S. reputed company. reputed company position requires familiarity with Computer-Assisted Translation tools, specifically SDL Trados reputed company, and may entail some travel responsibilities. #J-18808-Ljbffr Experience: 2 years required Apply To reputed company Job",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "freelancekoreanenglishtranslatorfinanceibtransperfect",
+   "title": "Freelance Korean–English Translator (Finance/IB)",
+   "org": "TransPerfect",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/freelance-korean-english-translator-finance-ib--united-states--efd1bdc25e13fd1a51ea3f6508cadad8b",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-15T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Korean ↔ English",
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "TransPerfect is a global language services company seeking freelance linguists to translate and localize high-quality content for clients in the United States. The role involves handling investment banking materials and finalizing products under the guidance of project managers and a supervising manager. Candidates must demonstrate excellent Korean and English communication, specialized knowledge in investment bankin",
+   "details": "TransPerfect is a global language services company seeking freelance linguists to translate and localize high-quality content for clients in the United States. The role involves handling investment banking materials and finalizing products under the guidance of project managers and a supervising manager. Candidates must demonstrate excellent Korean and English communication, specialized knowledge in investment banking or related fields, and meticulous attention to spelling and grammar.",
+   "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "gamingenglishintokoreantranslatorremotequestjobs",
+   "title": "[GAMING] English into Korean Translator",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/gaming-english-into-korean-translator-943ad9e3",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-17T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → Korean",
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — reputed company ",
+   "details": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — reputed company States • Languages: Korean, English About reputed company A language services provider offering localization and translation services for global brands. — Industry: Information reputed company Apply To reputed company Job",
+   "first_seen": "2026-11-04T12:53:22Z"
   },
   {
    "id": "translationandlocalizationprojectmanagementspecialistfuturegroup",
@@ -433,9 +466,39 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (7 days) Apply Summary by Impactpool L'UNICEF recherche un consultant",
-   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (7 days) Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. Ces ",
+   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (6 days) Apply Summary by Impactpool L'UNICEF recherche un consultant",
+   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (6 days) Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. Ces ",
    "first_seen": "2026-11-11T12:35:33Z"
+  },
+  {
+   "id": "socialmediacontentcreator",
+   "title": "Social Media Content Creator",
+   "org": "CJEU - Court of Justice of the European Union",
+   "source": "Impactpool",
+   "feed": "Impactpool",
+   "url": "https://www.impactpool.org/jobs/1248692",
+   "location": "Remote | Luxembourg",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-12-16T00:00:00Z",
+   "posted": null,
+   "score": 57,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "facts": {
+    "contract": "Consultancy"
+   },
+   "apply_email": "",
+   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (27 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
+   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (27 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication Experience in multilingual environment The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsib",
+   "first_seen": "2026-11-19T14:16:15Z"
   },
   {
    "id": "linguisticqatesterremotekazakhstanwelocalize",
@@ -713,14 +776,18 @@
   "remotefrenchenglishopiinterpretermagik": "2026-11-18T13:47:13Z",
   "remotefreelanceinterpreterenglishfrenchtofulanitonguepoint": "2026-11-18T13:47:13Z",
   "executivesecretaryandtranslatorconfidential": "2026-11-18T13:47:13Z",
-  "linguisticqatesterremotekazakhstanwelocalize": "2026-11-18T13:47:13Z"
+  "linguisticqatesterremotekazakhstanwelocalize": "2026-11-18T13:47:13Z",
+  "arabiclanguageinterpreter": "2026-11-19T14:16:15Z",
+  "urgentkoreaninterpreterrequiredtodaywithhighestrateconfidentialclientvi": "2026-11-19T14:16:15Z",
+  "koreanenglishopiinterpreterremotenoexperiencerequiredconfidentialclientvi": "2026-11-19T14:16:15Z",
+  "socialmediacontentcreator": "2026-11-19T14:16:15Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 52,
-  "last_day": "2026-11-18"
+  "used": 55,
+  "last_day": "2026-11-19"
  },
- "quote_index": 15,
+ "quote_index": 16,
  "links": {
   "un-exams": {
    "state": "ok",
@@ -813,8 +880,8 @@
    "fails": 0
   },
   "bayt": {
-   "state": "ok",
-   "code": 200,
+   "state": "unknown",
+   "code": 403,
    "fails": 0
   }
  },
@@ -822,19 +889,19 @@
   "Remotive": 0,
   "Jobicy": 0,
   "Working Nomads": 0,
-  "RemoteOK": 0,
   "Company boards": 0,
-  "Translation agencies": 0,
+  "RemoteOK": 0,
   "ReliefWeb": 0,
-  "Google Jobs": 0,
+  "Translation agencies": 0,
   "Green Climate Fund": 0,
-  "CLEAR Global": 0,
   "UNESCO": 0,
   "UN Careers": 0,
+  "Google Jobs": 0,
+  "CLEAR Global": 0,
   "ICRC": 0,
-  "UNDP": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
   "Himalayas": 0,
+  "UNDP": 0,
   "Impactpool": 0
  }
 }
