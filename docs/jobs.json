@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-19T14:16:15Z",
+ "updated": "2026-11-20T13:56:15Z",
  "sources": {
   "Remotive": {
    "ok": true,
-   "count": 16
+   "count": 15
   },
   "Jobicy": {
    "ok": true,
@@ -11,66 +11,97 @@
   },
   "Working Nomads": {
    "ok": true,
-   "count": 37
+   "count": 36
   },
   "Company boards": {
    "ok": true,
-   "count": 215
+   "count": 214
   },
   "RemoteOK": {
    "ok": true,
-   "count": 97
+   "count": 98
   },
   "ReliefWeb": {
    "ok": true,
-   "count": 1162
-  },
-  "Translation agencies": {
-   "ok": true,
-   "count": 192
-  },
-  "Green Climate Fund": {
-   "ok": true,
-   "count": 4
+   "count": 1182
   },
   "UNESCO": {
    "ok": true,
-   "count": 0
+   "count": 2
   },
-  "UN Careers": {
+  "ICRC": {
    "ok": true,
-   "count": 446
+   "count": 3
   },
-  "Google Jobs": {
+  "Green Climate Fund": {
+   "ok": false,
+   "error": "no rows found"
+  },
+  "Translation agencies": {
    "ok": true,
-   "count": 11
+   "count": 181
   },
   "CLEAR Global": {
    "ok": true,
    "count": 17
   },
-  "ICRC": {
+  "UN Careers": {
+   "ok": true,
+   "count": 450
+  },
+  "Google Jobs": {
    "ok": true,
    "count": 11
   },
+  "UNDP": {
+   "ok": true,
+   "count": 10
+  },
   "UNHCR, WFP, IMF, Welocalize": {
    "ok": true,
-   "count": 26
+   "count": 24
   },
   "Himalayas": {
    "ok": true,
    "count": 119
   },
-  "UNDP": {
-   "ok": true,
-   "count": 12
-  },
   "Impactpool": {
    "ok": true,
-   "count": 140
+   "count": 133
   }
  },
  "jobs": [
+  {
+   "id": "englishfrenchinterpreterandtranslator",
+   "title": "English – French Interpreter and translator",
+   "org": "United Nations Environment Programme",
+   "source": "UN Careers",
+   "feed": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/288758?language=en",
+   "location": "remote",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-11-27T04:59:59Z",
+   "posted": "2026-11-20T05:00:00Z",
+   "score": 100,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English ↔ French",
+    "years": 3
+   },
+   "apply_email": "",
+   "snippet": "Result of Service Online webinars delivered within the framework of ISLANDS and NIP are supported with professional, simultaneous English-French and French-English interpretation, with technical focus on chemicals and waste as well as relevant sectors (e.g. agriculture, e-waste, plastic, ELVs), and proofreading services for supporting documents are delivered. Work Location remote Expected duration 12 Duties and Respo",
+   "details": "Result of Service Online webinars delivered within the framework of ISLANDS and NIP are supported with professional, simultaneous English-French and French-English interpretation, with technical focus on chemicals and waste as well as relevant sectors (e.g. agriculture, e-waste, plastic, ELVs), and proofreading services for supporting documents are delivered. Work Location remote Expected duration 12 Duties and Responsibilities The United Nations Environment Programme (UNEP) is the United Nations system’s designated entity for addressing environmental issues at the global and regional level. Its mandate is to coordinate the development of environmental policy consensus by keeping the global environment under review and bringing emerging issues to the attention of governments and the international community for action. The Green Growth Knowledge Partnership (GGKP) is a global community of policy, business, and finance professionals and organisations committed to collaboratively generating, managing, and sharing knowledge on the transition to an inclusive green economy. The GGKP is led by UNEP, the Global Green Growth Institute (GGGI), the Organization for Economic Co-operation and Development (OECD), United Nations Industrial Development Organization (UNIDO), and the World Bank. The mission of GGKP is to empower government decision makers, companies and financial institutions with evidence-based knowledge that can best support them to contribute effectively to the green economy transition. GGKP provides best practice knowledge management services to several programmes, including: - The Implementing Sustainable Low and Non-Chemical Development in Small Island Developing States (ISLANDS) Programme: supporting 33 island nations in the Atlantic, Caribbean, Indian and Pacific",
+   "first_seen": "2026-11-20T13:56:15Z"
+  },
   {
    "id": "arabiclanguageinterpreter",
    "title": "Arabic Language Interpreter",
@@ -102,197 +133,257 @@
    "first_seen": "2026-11-19T14:16:15Z"
   },
   {
-   "id": "urgentkoreaninterpreterrequiredtodaywithhighestrateconfidentialclientvi",
-   "title": "Urgent Korean Interpreter Required today with Highest rate",
-   "org": "Confidential client via ProZ.com",
+   "id": "remotearabicinterpretertranslatorparttimedutechsystems",
+   "title": "Remote Arabic Interpreter & Translator (Part-Time)",
+   "org": "Dutech Systems",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.proz.com/translation-jobs/2279384",
+   "url": "https://www.jobleads.com/us/job/remote-arabic-interpreter-translator-part-time--springdale--ef48017b0249d463ed69c1c0321cfd547",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-11-12T00:00:00Z",
-   "score": 95,
+   "posted": "2026-11-16T00:00:00Z",
+   "score": 90,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "Korean"
+    "Arabic"
    ],
    "role": true,
    "facts": {
-    "pair": "English → Korean",
-    "contract": "Contract"
+    "contract": "Part-time"
    },
    "apply_email": "",
-   "snippet": "Services required: Interpreting, Consecutive Language pairs: English to Korean Subject fields: Medical: Health Care Description: 🚨 URGENT — HIRING TODAY: Experienced Korean Interpreters We need experienced Korean interpreters right now — and we're hiring today. If you're a Korean–English interpreter with proven professional experience and you're available to start immediately, we want to hear from you today. Here's w",
-   "details": "Services required: Interpreting, Consecutive Language pairs: English to Korean Subject fields: Medical: Health Care Description: 🚨 URGENT — HIRING TODAY: Experienced Korean Interpreters We need experienced Korean interpreters right now — and we're hiring today. If you're a Korean–English interpreter with proven professional experience and you're available to start immediately, we want to hear from you today. Here's what we offer: 💰 The highest rate for Korean interpreters — because great interpreting deserves great pay 🏠 100% remote — work from the comfort of your home 🌍 Connect with people from different cultures every single day 🤝 A professional, supportive team that actually has your back What we're looking for: ✔️ Proven professional interpreting experience (OPI / VRI — medical, legal, or community settings) ✔️ Strong Korean & English communication skills ✔️ A quiet home setup and a reliable internet connection ✔️ Available to start right away ⏰ Don't wait — spots are limited and we're hiring today. If this is you, apply now and let's get you started. 📩 Apply today: [HIDDEN] Or connect with me here on LinkedIn — let's talk. Know an experienced Korean interpreter who's available now? Tag them below or share this post — you might just change someone's career. 💙 #UrgentHiring #HiringNow #KoreanInterpreter #ExperiencedInterpreter #RemoteJobs #WorkFromHome #InterpreterJobs #BilingualJobs #LanguageJobs #OPI",
-   "first_seen": "2026-11-19T14:16:15Z"
+   "snippet": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior transla",
+   "details": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior translation certification and experience are preferred.",
+   "first_seen": "2026-11-05T04:58:44Z"
   },
   {
-   "id": "koreanenglishopiinterpreterremotenoexperiencerequiredconfidentialclientvi",
-   "title": "Korean-English OPI Interpreter – Remote (No Experience Required)",
-   "org": "Confidential client via ProZ.com",
+   "id": "remotearabicpatenttranslatorlqareviewerwelocalize",
+   "title": "Remote Arabic Patent Translator & LQA Reviewer",
+   "org": "Welocalize",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.proz.com/translation-jobs/2279147",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-11T00:00:00Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "Korean ↔ English",
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "Services required: Interpreting, Over-the-phone interpreting (OPI) Language pairs: Korean to English Subject fields: Medical: Health Care, Medical Description: **KOREAN-ENGLISH OVER-THE-PHONE INTERPRETER (OPI) – REMOTE** **About Bilingual Global** Bilingual Global is looking for Korean-English bilingual candidates to join our team as remote Over-the-Phone Interpreters (OPI). In this role, you will facilitate accurate",
-   "details": "Services required: Interpreting, Over-the-phone interpreting (OPI) Language pairs: Korean to English Subject fields: Medical: Health Care, Medical Description: **KOREAN-ENGLISH OVER-THE-PHONE INTERPRETER (OPI) – REMOTE** **About Bilingual Global** Bilingual Global is looking for Korean-English bilingual candidates to join our team as remote Over-the-Phone Interpreters (OPI). In this role, you will facilitate accurate communication between Korean-speaking and English-speaking individuals during phone conversations involving healthcare, insurance, finance, and customer service. **No previous interpreting experience is required. We provide a three-week training program.** **Key Responsibilities** - Provide accurate and impartial interpretation between Korean and English speakers. - Facilitate clear communication during phone conversations. - Accurately convey information while maintaining confidentiality and professionalism. - Demonstrate excellent listening, comprehension, and verbal communication skills. **Requirements** - Professional proficiency in both Korean and English. - Strong verbal communication and active listening skills. - Ability to interpret accurately in both languages. - Reliable high-speed internet connection. - Desktop or laptop computer (tablets and mobile phones are not accepted). - USB headset. - Wired Ethernet connection. - Willingness to complete the required training and follow the assigned work schedule. **Work Schedule** - 100% remote, work from home. - Up to 40 hours per week. - Two days off. - Availability during U.S. daytime hours, according to your local time zone. **What We Offer** - Three-week training program. - Professional development opportunities. - Opportunity to join an ongoing freelance project. **Engagement Type:** Freelance / Ind",
-   "first_seen": "2026-11-19T14:16:15Z"
-  },
-  {
-   "id": "remoteenglishtokoreanpatenttranslatorweloglobal",
-   "title": "Remote English-to-Korean Patent Translator",
-   "org": "Welo Global",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-english-to-korean-patent-translator--united-states--eca92ff2a6322eeafcaeb6e023b15059f",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-17T00:00:00Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → Korean",
-    "years": 2,
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Welocalize is seeking experienced translators for English into Korean patent translation projects. This freelance remote role offers steady volumes and long-term collaboration with a global production team across multiple domains including chemistry, biology, computer science, and engineering. Ideal candidates have at least 2 years of patent translation/editing experience, strong CAT tool skills (Trados, XTM) and the",
-   "details": "Welocalize is seeking experienced translators for English into Korean patent translation projects. This freelance remote role offers steady volumes and long-term collaboration with a global production team across multiple domains including chemistry, biology, computer science, and engineering. Ideal candidates have at least 2 years of patent translation/editing experience, strong CAT tool skills (Trados, XTM) and the ability to deliver in K-Editor formats.",
-   "first_seen": "2026-11-13T12:57:40Z"
-  },
-  {
-   "id": "remotekoreantranslatorforlegalandgovernmentlssremotequestjobs",
-   "title": "Remote Korean Translator for Legal and Government LSS",
-   "org": "remote quest jobs",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/remote-korean-translator-for-legal-and-government-lss-105773611",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-17T00:00:00Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "years": 2,
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "A prominent defense contracting company is seeking a part-time Korean Translator to support the reputed company. The role involves translating sensitive legal documents and media content while ensuring confidentiality. Candidates should have at least two years of translation experience, legal vocabulary proficiency, and must be a U.S. reputed company. reputed company position requires familiarity with Computer-Assist",
-   "details": "A prominent defense contracting company is seeking a part-time Korean Translator to support the reputed company. The role involves translating sensitive legal documents and media content while ensuring confidentiality. Candidates should have at least two years of translation experience, legal vocabulary proficiency, and must be a U.S. reputed company. reputed company position requires familiarity with Computer-Assisted Translation tools, specifically SDL Trados reputed company, and may entail some travel responsibilities. #J-18808-Ljbffr Experience: 2 years required Apply To reputed company Job",
-   "first_seen": "2026-11-04T12:53:22Z"
-  },
-  {
-   "id": "freelancekoreanenglishtranslatorfinanceibtransperfect",
-   "title": "Freelance Korean–English Translator (Finance/IB)",
-   "org": "TransPerfect",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/freelance-korean-english-translator-finance-ib--united-states--efd1bdc25e13fd1a51ea3f6508cadad8b",
+   "url": "https://www.jobleads.com/us/job/remote-arabic-patent-translator-lqa-reviewer--united-states--e76a9950063a77f9d2695f78c54a11a49",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-15T00:00:00Z",
-   "score": 95,
+   "score": 90,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "Korean"
+    "Arabic"
    ],
    "role": true,
    "facts": {
-    "pair": "Korean ↔ English",
-    "contract": "Freelance"
+    "contract": "Full-time"
    },
    "apply_email": "",
-   "snippet": "TransPerfect is a global language services company seeking freelance linguists to translate and localize high-quality content for clients in the United States. The role involves handling investment banking materials and finalizing products under the guidance of project managers and a supervising manager. Candidates must demonstrate excellent Korean and English communication, specialized knowledge in investment bankin",
-   "details": "TransPerfect is a global language services company seeking freelance linguists to translate and localize high-quality content for clients in the United States. The role involves handling investment banking materials and finalizing products under the guidance of project managers and a supervising manager. Candidates must demonstrate excellent Korean and English communication, specialized knowledge in investment banking or related fields, and meticulous attention to spelling and grammar.",
-   "first_seen": "2026-11-04T12:53:22Z"
+   "snippet": "Welocalize seeks experienced English-to-Arabic translators and LQA reviewers for patent content. Remote freelance positions with immediate start and flexible scheduling. You'll translate and review patent documents across chemistry, computer science, and electricity, ensuring native-level Arabic and fidelity to original meaning. CAT tools like XTM and JIRA are used, with prompt communication in English.",
+   "details": "Welocalize seeks experienced English-to-Arabic translators and LQA reviewers for patent content. Remote freelance positions with immediate start and flexible scheduling. You'll translate and review patent documents across chemistry, computer science, and electricity, ensuring native-level Arabic and fidelity to original meaning. CAT tools like XTM and JIRA are used, with prompt communication in English.",
+   "first_seen": "2026-11-17T14:15:10Z"
   },
   {
-   "id": "gamingenglishintokoreantranslatorremotequestjobs",
-   "title": "[GAMING] English into Korean Translator",
+   "id": "translatorwitharabicfreelanceremoteremotequestjobs",
+   "title": "Translator with Arabic - freelance (Remote)",
    "org": "remote quest jobs",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/gaming-english-into-korean-translator-943ad9e3",
+   "url": "https://us.remotejobs.dedyn.io/job/translator-with-arabic-freelance-remote",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-11-17T00:00:00Z",
-   "score": 95,
+   "posted": "2026-11-19T23:00:00Z",
+   "score": 90,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "Korean"
+    "Arabic"
    ],
    "role": true,
    "facts": {
-    "pair": "English → Korean",
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "reputed company a Full Remote job, the offer is available from: reputed company Arab Emirates reputed company is a leading provider of Localization Services to the international computer and software sectors with headquarters in Ireland and subsidiaries in Europe. We work with the world's most innovative companies. We help them to grow and expand in new markets providing experts and cultural awareness. reputed compan",
+   "details": "reputed company a Full Remote job, the offer is available from: reputed company Arab Emirates reputed company is a leading provider of Localization Services to the international computer and software sectors with headquarters in Ireland and subsidiaries in Europe. We work with the world's most innovative companies. We help them to grow and expand in new markets providing experts and cultural awareness. reputed company is recruiting Freelance translators with Arabic willing to provide translation and localization services in Marketing and IT sectors. For reputed company role, you will be working as part of a dynamic team and in an international environment. Specific responsibilities include marketing and IT translations, linguistic review and QA, checking of terminology consistency through the management of TMs, glossaries and style guides to guarantee the quality of deliverables. Field of expertise: Marketing and IT translation reputed company project is ongoing with a start date to be determined (approximately 1 week advanced notice will be given). Job Title: Translator with Arabic Location: Remote (Must be located in Dubai) Schedule: reputed company work is based on project need. Hours can therefore vary and flexibility with a changing schedule is very important. Expect full days of work in a row several times per year. Start date: TBD Project Duration: Ongoing Employment Type: Freelance Must have valid work authorization in UAE (reputed company does not sponsor VISAs) Requirements Main requirements: • Native in target language with a degree in Applied Linguistics, Translation or equivalent experience • IT skilled with knowledge and experience of SDL reputed company and CAT tools • Preferred experience as a translator specialized in translation and proofreading of the",
+   "first_seen": "2026-11-20T13:56:15Z"
+  },
+  {
+   "id": "englishtoarabicfreelancetranslatoragriculturaljobbers",
+   "title": "English-to-Arabic Freelance Translator (Agricultural)",
+   "org": "Jobbers",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobbers.io/job/4090/remote/english-to-arabic-freelance-translator-agricultural",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-10-28T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → Arabic",
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "We are seeking an experienced, professional English-to-Arabic freelance translator to collaborate on an educational agricultural translation project titled \"Profit in Poultry.\" The source text is the first half of a comprehensive 89-page document (approximately 53,000 words). The final Arabic translation will be utilized for online educational and promotional materials published by our client, Oasis Training & Techno",
+   "details": "We are seeking an experienced, professional English-to-Arabic freelance translator to collaborate on an educational agricultural translation project titled \"Profit in Poultry.\" The source text is the first half of a comprehensive 89-page document (approximately 53,000 words). The final Arabic translation will be utilized for online educational and promotional materials published by our client, Oasis Training & Technology Development (oasisttd.org). Because the text uniquely combines agricultural instructions with commercial and business insights, we are looking for a linguist who can deliver a natural, precise, and engaging tone while rigorously preserving the original technical terminology. Project Scope & Specifications Task: English to Arabic translation (first half of the main document). Total Volume: ~53,000 words. Domain: Agriculture, poultry farming, commercial business, and education. Timeline & Milestones Start Date:October 31, 2026 Milestone 1 (~25,000 words): Due November 10, 2026 Final Delivery (~28,000 words): Due November 21, 2026",
+   "first_seen": "2026-11-05T04:58:44Z"
+  },
+  {
+   "id": "freelancetranslatorarabicremotequestjobs",
+   "title": "Freelance Translator - Arabic",
+   "org": "remote quest jobs",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://us.remotejobs.dedyn.io/job/freelance-translator-arabic-f5a4b436",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-18T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → Arabic",
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "You can be in any country, as long as you can work Pacific hours. JOIN reputed company’S TEAM OF HEALTHCARE INSURANCE LINGUISTS! Are you a skilled freelance translator or editor with experience in the healthcare field? reputed company is looking for reputed company linguists to support an upcoming project involving member communications for a reputed company healthcare insurance provider. We specialize in translating",
+   "details": "You can be in any country, as long as you can work Pacific hours. JOIN reputed company’S TEAM OF HEALTHCARE INSURANCE LINGUISTS! Are you a skilled freelance translator or editor with experience in the healthcare field? reputed company is looking for reputed company linguists to support an upcoming project involving member communications for a reputed company healthcare insurance provider. We specialize in translating member letters and other critical documents that help individuals understand and manage their healthcare coverage. If you’re passionate about clear, culturally appropriate communication and want to make a difference, we’d love to hear from you! We’re currently seeking linguists working from English into Arabic Requirements: • Native speaker of Arabic • Proven experience in healthcare, health insurance, or medical translation • Strong attention to detail • Experience with CAT tools (XTM preferred) • Experience with XTRF is a plus • Availability to work during PST time • Availability to work on same-day delivery projects • ATA certification is a plus Why Work With reputed company? • Flexible reputed company with a supportive team • Long-term collaboration opportunities • Meaningful projects that impact real lives • Competitive rates and consistent workflow • Inclusive and respectful work environment reputed company Join Us? If you're a dedicated linguist with healthcare expertise looking for a rewarding freelance opportunity, we invite you to apply and become part of our mission to improve lives through language. Apply To reputed company Job",
+   "first_seen": "2026-11-17T14:15:10Z"
+  },
+  {
+   "id": "remotearabicenglishinterpreteropifreelancemagik",
+   "title": "Remote Arabic–English Interpreter (OPI) – Freelance",
+   "org": "Magi-K",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-arabic-english-interpreter-opi-freelance--orlando--e036f926ebccfc67938b3955339a8e775",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-16T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Arabic ↔ English",
+    "contract": "Freelance"
+   },
+   "apply_email": "",
+   "snippet": "Magi-K is hiring Arabic–English Over-the-Phone Interpreters for a 100% remote freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate clearly in important conversations, with monthly payments in USD and fast onboarding. Qualified candidates are bilingual in English at C1 level or higher, with a computer (camera, headset, microphone) and a stable, fast internet connect",
+   "details": "Magi-K is hiring Arabic–English Over-the-Phone Interpreters for a 100% remote freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate clearly in important conversations, with monthly payments in USD and fast onboarding. Qualified candidates are bilingual in English at C1 level or higher, with a computer (camera, headset, microphone) and a stable, fast internet connection. Eagerness to learn and grow with an international team is encouraged.",
+   "first_seen": "2026-11-20T13:56:15Z"
+  },
+  {
+   "id": "arabictoenglishpatentlinguistweloglobalinc",
+   "title": "Arabic to English Patent Linguist",
+   "org": "Welo Global, Inc.",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.virtualvocations.com/job/arabic-to-english-patent-linguist-3329680-i.html",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-03T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Arabic → English",
+    "years": 2,
     "contract": "Full-time"
    },
    "apply_email": "",
-   "snippet": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — reputed company ",
-   "details": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — reputed company States • Languages: Korean, English About reputed company A language services provider offering localization and translation services for global brands. — Industry: Information reputed company Apply To reputed company Job",
-   "first_seen": "2026-11-04T12:53:22Z"
+   "snippet": "Seeking experienced Arabic to English Patent Linguists for a freelance remote opportunity, the role involves translating and reviewing patent-related content in fields such as Mechanics, Computer Science, and Chemistry, ensuring clarity and adherence to client style guidelines. Key responsibilities • Translate and review patent-related content from Arabic to English, maintaining original meaning and readability • Ens",
+   "details": "Seeking experienced Arabic to English Patent Linguists for a freelance remote opportunity, the role involves translating and reviewing patent-related content in fields such as Mechanics, Computer Science, and Chemistry, ensuring clarity and adherence to client style guidelines. Key responsibilities • Translate and review patent-related content from Arabic to English, maintaining original meaning and readability • Ensure style adequacy and follow specific instructions regarding translation processes and CAT tool usage • Communicate effectively and respond promptly in English Required qualifications • Degree in linguistics, translation, or equivalent experience • Minimum 2 years' experience in the translation and/or editing of patent documents • Proficiency in CAT tools, especially XTM • Good availability and quick response times",
+   "first_seen": "2026-11-20T13:56:15Z"
+  },
+  {
+   "id": "remotearabicenglishmedicalinterpreterflexibleshiftsintelex",
+   "title": "Remote Arabic-English Medical Interpreter | Flexible Shifts",
+   "org": "INTELEX",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://jooble.org/jdp/5265020012951023895",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-06T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Arabic ↔ English",
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "INTELEX is seeking a skilled Medical Interpreter for a 100% remote position. You will provide accurate interpretation between patients and healthcare providers, delivering simultaneous and consecutive interpreting with attention to medical terminology and cultural nuances. The role offers remote work flexibility, requires at least 3 months of interpretation experience, and favors candidates with Medical or Legal sect",
+   "details": "INTELEX is seeking a skilled Medical Interpreter for a 100% remote position. You will provide accurate interpretation between patients and healthcare providers, delivering simultaneous and consecutive interpreting with attention to medical terminology and cultural nuances. The role offers remote work flexibility, requires at least 3 months of interpretation experience, and favors candidates with Medical or Legal sector experience. OPI/VRI availability and strong listening skills are expected. #J-18808-Ljbffr INTELEX",
+   "first_seen": "2026-11-11T12:35:33Z"
   },
   {
    "id": "translationandlocalizationprojectmanagementspecialistfuturegroup",
@@ -384,6 +475,36 @@
    "first_seen": "2026-11-17T16:32:28Z"
   },
   {
+   "id": "volunteerlegalcaseworkerihaverights",
+   "title": "Volunteer legal caseworker",
+   "org": "I Have Rights",
+   "source": "ReliefWeb",
+   "feed": "ReliefWeb",
+   "url": "https://reliefweb.int/node/3955831",
+   "location": "Greece",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2027-01-14T00:00:00Z",
+   "posted": "2023-04-26T08:26:14Z",
+   "score": 60,
+   "reasons": [
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic",
+    "French"
+   ],
+   "role": false,
+   "facts": {
+    "contract": "Volunteer"
+   },
+   "apply_email": "",
+   "snippet": "Job tittle: Case Worker Location: Vathy, Samos, Greece (all applicants must be eligible to reside in Greece) Position type: Full-Time Minimum period: 4 months, preferred: 6 months Salary: Unpaid (Our organization relies on volunteers. However, if your financial situation would prevent you from applying, we can discuss this in the interview and find solutions, e.g. application to ERASMUS grants. We strongly encourage ",
+   "details": "Job tittle: Case Worker Location: Vathy, Samos, Greece (all applicants must be eligible to reside in Greece) Position type: Full-Time Minimum period: 4 months, preferred: 6 months Salary: Unpaid (Our organization relies on volunteers. However, if your financial situation would prevent you from applying, we can discuss this in the interview and find solutions, e.g. application to ERASMUS grants. We strongly encourage all applications.) **Project Description** I Have Rights provides legal information to asylum seekers on the island of Samos, prepares applicants for their asylum interviews, holds legal information workshops, appeals procedures for rejected applicants and accompanies applicants to interviews. As a political organisation, I Have Rights speaks out about the situation on Samos and actively advocates for policy and practice reforms that are responsible for human rights violations in both Samos and Europe. The organisation on Samos consists of a project coordinator, a Greek lawyer, two to three volunteer case workers and one volunteer responsible for communications and advocacy. The remote team consists of the board and various volunteers of the Task Forces. The organisation aims towards flat hierarchies; the structures are still evolving, and we would like to welcome you to play an active role in shaping the project. I Have Rights is committed to safeguarding the well-being of everyone we work with. Team members are expected to uphold our policies, including our Code of Conduct, and adhere to the 'do no harm' principle in all their actions. You can find our policies [here](https://ihaverights.eu/about-us/#_vision-purpose-values). Detailed information on the project can be found at: Role & Responsibilities [www.ihaverights.eu](https://ihaverights.eu/) **Role & R",
+   "first_seen": "2026-11-20T13:56:15Z"
+  },
+  {
    "id": "executivesecretaryandtranslatorconfidential",
    "title": "Executive Secretary and Translator",
    "org": "Confidential",
@@ -408,37 +529,6 @@
    "snippet": "Job Description Required for a contracting company: Executive Secretary and Correspondence Translator. Company Location: Al-Merghany – Heliopolis Job Requirements • Fresh graduate • Good in Word and Excel",
    "details": "Job Description Required for a contracting company: Executive Secretary and Correspondence Translator. Company Location: Al-Merghany – Heliopolis Job Requirements • Fresh graduate • Good in Word and Excel",
    "first_seen": "2026-11-18T13:47:13Z"
-  },
-  {
-   "id": "socialmediaofficerrosterseefar",
-   "title": "Social Media Officer – Roster",
-   "org": "Seefar",
-   "source": "ReliefWeb",
-   "feed": "ReliefWeb",
-   "url": "https://reliefweb.int/node/4237216",
-   "location": "",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-20T00:00:00Z",
-   "posted": "2026-11-06T05:31:24Z",
-   "score": 57,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {
-    "years": 3,
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "**Social Media Officer - Roster** **Summary** **Languages:** English, plus one of 12 roster languages (Pashto, Dari, Levantine Arabic, Sudanese Arabic, Bengali, Egyptian Arabic, Urdu, Moroccan Darija, Iraqi Arabic, Kurdish Sorani, Kurdish Badini and Somali). **Role:** Launch, run and moderate localised Facebook and Instagram campaigns, including paid Lead Generation Ads, in your language. **Based:** Remote, from anyw",
-   "details": "**Social Media Officer - Roster** **Summary** **Languages:** English, plus one of 12 roster languages (Pashto, Dari, Levantine Arabic, Sudanese Arabic, Bengali, Egyptian Arabic, Urdu, Moroccan Darija, Iraqi Arabic, Kurdish Sorani, Kurdish Badini and Somali). **Role:** Launch, run and moderate localised Facebook and Instagram campaigns, including paid Lead Generation Ads, in your language. **Based:** Remote, from anywhere. **Roster:** Unpaid standby pool from January 2027 to May 2029. Joining is not a job offer. **Reports to:** Social Media Manager. **Contract:** Consultancy contract per campaign. ## **Why this roster** New Pathways to Resilience (NPR) is a three-year project funded by the EU’s Asylum, Migration and Integration Fund (AMIF). It is built around Seefar’s Crisis Adaptation Mechanism (CAM), which lets the project respond when migration patterns shift. When a monitored indicator crosses its threshold, a campaign may be activated for a new audience or language, and Seefar then has two weeks to launch it. That is too short to recruit from scratch, so we keep an unpaid standby pool of vetted Counsellors, Social Media Officers and Monitoring Officers for 12 languages, ready to be contracted the moment a campaign is approved. ## **Who we are** Seefar Foundation is a social enterprise with a simple mission: to transform the lives of vulnerable people. Through programmes rooted in technology, psychology and behaviour change, we help people build the skills and confidence they need to make a positive contribution to their communities. It’s how we support governments in finding solutions to challenges around irregular migration, poverty, human trafficking, violent extremism, access to justice, and more. Our exceptional team of over 100 consultants are problem solvers a",
-   "first_seen": "2026-11-07T12:43:29Z"
   },
   {
    "id": "consultantnationalechargdeproductionde22vidosetlesproduitsquilesaccompagnentunic",
@@ -466,8 +556,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (6 days) Apply Summary by Impactpool L'UNICEF recherche un consultant",
-   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (6 days) Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. Ces ",
+   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (5 days) Apply Summary by Impactpool L'UNICEF recherche un consultant",
+   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 (5 days) Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. Ces ",
    "first_seen": "2026-11-11T12:35:33Z"
   },
   {
@@ -496,8 +586,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (27 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
-   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (27 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication Experience in multilingual environment The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsib",
+   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (26 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
+   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (26 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsible for the internal and external commun",
    "first_seen": "2026-11-19T14:16:15Z"
   },
   {
@@ -556,35 +646,6 @@
    "snippet": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The",
    "details": "Program and Business Development Officer (open for applicants who have the right to be based and work from Egypt only) Diakonia Remote | Egypt National Officer level Speaks Arabic, English First degree (Bachelor level) or higher Application deadline: November 22, 2026 Closing soon Apply Summary by Impactpool Diakonia is seeking a Program and Business Development Officer to support the MENA Gender Justice Program. The role involves coordinating partner agreements, ensuring compliance, and contributing to resource mobilization and fundraising efforts. The candidate will work closely with internal and external stakeholders to facilitate project implementation and support report writing. This position requires strong teamwork skills and a commitment to Diakonia's values of solidarity, justice, and accountability. Candidate Requirements: University degree or equivalent in relevant area 3-5 years’ experience in international development work Experience in project management with a human rights-based approach Proven skills in Planning, Evaluation, and Monitoring Experience in donor engagement and resource mobilization Fluent in English and Arabic Analytic, creative, and solution-oriented Ability to work independently and as a team player Relevant communication and IT skills Based in Egypt Open for applicants who have the right to be based and work from Egypt only Locals are encouraged to apply WHO WE ARE Diakonia is an international rights-based and faith-based development organization recognized for its commitment to democracy, human rights, and gender justice with the objective to change unfair structures that generate poverty, inequality, oppression and violence. All work is based on feminist principles. Digitalization plays a key role in enabling efficient, transparent, an",
    "first_seen": "2026-11-09T13:44:56Z"
-  },
-  {
-   "id": "junioraccountantadminassistant",
-   "title": "Junior Accountant/Admin Assistant",
-   "org": "ICRC",
-   "source": "ICRC",
-   "feed": "ICRC",
-   "url": "https://careers.icrc.org/job/Cairo-%28CAI%29-Junior-AccountantAdmin-Assistant-33537/1442838833/",
-   "location": "Egypt",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 50,
-   "reasons": [
-    "Based in Egypt"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "years": 2
-   },
-   "apply_email": "",
-   "snippet": "Junior Accountant/Admin Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We",
-   "details": "Junior Accountant/Admin Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show More Options Loading... Region All Country All Job location All Job category All Contract type All Clear Create a job alert: select how often (in days) to receive an alert: Create Alert × Create a job alert: select how often (in days) to receive an alert: Apply now » Junior Accountant/Admin Assistant Purpose Junior Accountant /Admin Assistant is accountable for the physical processing of cash transactions and the integrity of physical cash balances in a (sub-)delegation, strictly respecting and applying the ICRC's rules on financial management. Accountabiliti",
-   "first_seen": "2026-11-16T13:29:28Z"
   }
  ],
  "seen": {
@@ -780,14 +841,19 @@
   "arabiclanguageinterpreter": "2026-11-19T14:16:15Z",
   "urgentkoreaninterpreterrequiredtodaywithhighestrateconfidentialclientvi": "2026-11-19T14:16:15Z",
   "koreanenglishopiinterpreterremotenoexperiencerequiredconfidentialclientvi": "2026-11-19T14:16:15Z",
-  "socialmediacontentcreator": "2026-11-19T14:16:15Z"
+  "socialmediacontentcreator": "2026-11-19T14:16:15Z",
+  "englishfrenchinterpreterandtranslator": "2026-11-20T13:56:15Z",
+  "translatorwitharabicfreelanceremoteremotequestjobs": "2026-11-20T13:56:15Z",
+  "remotearabicenglishinterpreteropifreelancemagik": "2026-11-20T13:56:15Z",
+  "arabictoenglishpatentlinguistweloglobalinc": "2026-11-20T13:56:15Z",
+  "volunteerlegalcaseworkerihaverights": "2026-11-20T13:56:15Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 55,
-  "last_day": "2026-11-19"
+  "used": 58,
+  "last_day": "2026-11-20"
  },
- "quote_index": 16,
+ "quote_index": 17,
  "links": {
   "un-exams": {
    "state": "ok",
@@ -892,16 +958,16 @@
   "Company boards": 0,
   "RemoteOK": 0,
   "ReliefWeb": 0,
-  "Translation agencies": 0,
-  "Green Climate Fund": 0,
   "UNESCO": 0,
+  "ICRC": 0,
+  "Green Climate Fund": 1,
+  "Translation agencies": 0,
+  "CLEAR Global": 0,
   "UN Careers": 0,
   "Google Jobs": 0,
-  "CLEAR Global": 0,
-  "ICRC": 0,
+  "UNDP": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
   "Himalayas": 0,
-  "UNDP": 0,
   "Impactpool": 0
  }
 }
