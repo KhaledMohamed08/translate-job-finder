@@ -1,29 +1,33 @@
 {
- "updated": "2026-11-22T13:13:03Z",
+ "updated": "2026-11-23T15:49:58Z",
  "sources": {
-  "Jobicy": {
-   "ok": true,
-   "count": 100
-  },
   "Remotive": {
    "ok": true,
    "count": 16
   },
-  "Working Nomads": {
-   "ok": true,
-   "count": 35
-  },
-  "RemoteOK": {
+  "Jobicy": {
    "ok": true,
    "count": 100
+  },
+  "Working Nomads": {
+   "ok": true,
+   "count": 37
   },
   "Company boards": {
    "ok": true,
    "count": 210
   },
+  "RemoteOK": {
+   "ok": true,
+   "count": 100
+  },
+  "Translation agencies": {
+   "ok": true,
+   "count": 192
+  },
   "ReliefWeb": {
    "ok": true,
-   "count": 1103
+   "count": 1146
   },
   "UNESCO": {
    "ok": true,
@@ -31,35 +35,31 @@
   },
   "Green Climate Fund": {
    "ok": true,
-   "count": 3
+   "count": 2
   },
   "Google Jobs": {
    "ok": true,
    "count": 12
   },
-  "UN Careers": {
-   "ok": true,
-   "count": 450
-  },
   "CLEAR Global": {
    "ok": true,
    "count": 17
   },
-  "Translation agencies": {
+  "UNDP": {
    "ok": true,
-   "count": 192
+   "count": 7
+  },
+  "UNHCR, WFP, IMF, Welocalize": {
+   "ok": true,
+   "count": 19
   },
   "ICRC": {
    "ok": true,
    "count": 11
   },
-  "UNDP": {
+  "UN Careers": {
    "ok": true,
-   "count": 8
-  },
-  "UNHCR, WFP, IMF, Welocalize": {
-   "ok": true,
-   "count": 26
+   "count": 423
   },
   "Himalayas": {
    "ok": true,
@@ -67,7 +67,7 @@
   },
   "Impactpool": {
    "ok": true,
-   "count": 136
+   "count": 133
   }
  },
  "jobs": [
@@ -133,260 +133,162 @@
    "first_seen": "2026-11-19T14:16:15Z"
   },
   {
-   "id": "koreanfreelanceremoteinterpretertonguepoint",
-   "title": "Korean Freelance Remote Interpreter",
-   "org": "Tonguepoint",
+   "id": "remotearabicinterpretertranslatorparttimedutechsystems",
+   "title": "Remote Arabic Interpreter & Translator (Part-Time)",
+   "org": "Dutech Systems",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/korean-freelance-remote-interpreter--los-angeles--e0734f339625a818575706f379ea2a46c",
+   "url": "https://www.jobleads.com/us/job/remote-arabic-interpreter-translator-part-time--springdale--ef48017b0249d463ed69c1c0321cfd547",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-16T00:00:00Z",
-   "score": 95,
+   "score": 90,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "Korean"
+    "Arabic"
    ],
    "role": true,
    "facts": {
-    "contract": "Freelance"
+    "contract": "Part-time"
    },
    "apply_email": "",
-   "snippet": "Urgently Hiring For: Korean. Job Title: Freelance Remote Interpreter (Korean / English) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent bilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, jo",
-   "details": "Urgently Hiring For: Korean. Job Title: Freelance Remote Interpreter (Korean / English) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent bilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, join us to bridge critical communication gaps in moments that matter. Key Responsibilities • Provide accurate, real-time consecutive interpretation (English+Korean). • Facilitate clear communication in high-stakes settings (e.g., healthcare, legal). • Maintain strict confidentiality, neutrality, and professionalism. • Manage your own schedule and log in reliably to handle calls. Qualifications & Tech Requirements • Language: Native or near-native fluency in English and Korean. • Skills: Strong active listening, cultural sensitivity, and emotional resilience. • Experience: Beginners welcome; prior interpreting experience is a plus. • Workspace: A quiet, distraction-free home environment. • Tech Setup: Dedicated computer, high-speed internet (wired preferred for VRI), and a noise-canceling USB headset. What We Offer • Ultimate Flexibility: 100% remote work. Choose your own hours (daytime, evening, overnight). • Steady Income: Competitive per-minute rates backed by reliable call volume. • Growth: Free comprehensive onboarding and ongoing professional training. • Referral Program: Refer qualified speakers of our in-demand languages and earn a bonus when your referral is successfully onboarded.",
-   "first_seen": "2026-11-22T13:13:03Z"
+   "snippet": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior transla",
+   "details": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior translation certification and experience are preferred.",
+   "first_seen": "2026-11-05T04:58:44Z"
   },
   {
-   "id": "medicaltranslatorkoreanenglishtransperfect",
-   "title": "Medical Translator (Korean-English)",
-   "org": "TransPerfect",
+   "id": "translatorwitharabicfreelanceremoteremotequestjobs",
+   "title": "Translator with Arabic - freelance (Remote)",
+   "org": "remote quest jobs",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.tealhq.com/job/medical-translator_7ea1a93afb103fd9de7bbb1522f7e2442653b",
+   "url": "https://us.remotejobs.dedyn.io/job/translator-with-arabic-freelance-remote",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-19T00:00:00Z",
-   "score": 95,
+   "score": 90,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "Korean"
+    "Arabic"
    ],
    "role": true,
    "facts": {
-    "pair": "Korean ↔ English",
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "About the position We are looking for a Korean-English Linguistic QA Specialist to support a Medical Safety project within the pharmaceutical industry. The role involves reviewing and improving machine-translated (MT) pharmacovigilance (PV) case reports, ensuring linguistic accuracy, consistency, and appropriate medical terminology. The position is remote, based in the KST time zone, and involves Korean-to-English wo",
-   "details": "About the position We are looking for a Korean-English Linguistic QA Specialist to support a Medical Safety project within the pharmaceutical industry. The role involves reviewing and improving machine-translated (MT) pharmacovigilance (PV) case reports, ensuring linguistic accuracy, consistency, and appropriate medical terminology. The position is remote, based in the KST time zone, and involves Korean-to-English work. Responsibilities • Review and perform quality assurance of machine-translated Korean-to-English medical case reports. • Edit and improve translations to ensure accuracy, clarity, and consistency. • Ensure correct use of medical and pharmaceutical terminology. • Perform case management activities using the client's designated platform. • Follow established quality guidelines, workflows, and productivity requirements. • Manage daily workloads while meeting quality and turnaround time expectations. Requirements • Native or near-native Korean proficiency and excellent English skills. • Previous experience in medical translation, linguistic QA, or MT post-editing. • Knowledge of pharmacovigilance (PV), medical terminology, or pharmaceutical documentation. • Strong attention to detail and ability to work with structured case reports. • Ability to work remotely within APAC business hours. Nice-to-haves • Experience with case management systems.",
-   "first_seen": "2026-11-22T13:13:03Z"
-  },
-  {
-   "id": "urgentkoreaninterpreterrequiredtodaywithhighestrateconfidentialclientvi",
-   "title": "Urgent Korean Interpreter Required today with Highest rate",
-   "org": "Confidential client via ProZ.com",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.proz.com/translation-jobs/2279384",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-12T00:00:00Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → Korean",
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "Services required: Interpreting, Consecutive Language pairs: English to Korean Subject fields: Medical: Health Care Description: 🚨 URGENT — HIRING TODAY: Experienced Korean Interpreters We need experienced Korean interpreters right now — and we're hiring today. If you're a Korean–English interpreter with proven professional experience and you're available to start immediately, we want to hear from you today. Here's w",
-   "details": "Services required: Interpreting, Consecutive Language pairs: English to Korean Subject fields: Medical: Health Care Description: 🚨 URGENT — HIRING TODAY: Experienced Korean Interpreters We need experienced Korean interpreters right now — and we're hiring today. If you're a Korean–English interpreter with proven professional experience and you're available to start immediately, we want to hear from you today. Here's what we offer: 💰 The highest rate for Korean interpreters — because great interpreting deserves great pay 🏠 100% remote — work from the comfort of your home 🌍 Connect with people from different cultures every single day 🤝 A professional, supportive team that actually has your back What we're looking for: ✔️ Proven professional interpreting experience (OPI / VRI — medical, legal, or community settings) ✔️ Strong Korean & English communication skills ✔️ A quiet home setup and a reliable internet connection ✔️ Available to start right away ⏰ Don't wait — spots are limited and we're hiring today. If this is you, apply now and let's get you started. 📩 Apply today: [HIDDEN] Or connect with me here on LinkedIn — let's talk. Know an experienced Korean interpreter who's available now? Tag them below or share this post — you might just change someone's career. 💙 #UrgentHiring #HiringNow #KoreanInterpreter #ExperiencedInterpreter #RemoteJobs #WorkFromHome #InterpreterJobs #BilingualJobs #LanguageJobs #OPI",
-   "first_seen": "2026-11-19T14:16:15Z"
-  },
-  {
-   "id": "koreanenglishacademictranslatorfreelancecactuscommunications",
-   "title": "Korean-English Academic Translator (Freelance)",
-   "org": "Cactus Communications Pvt. Ltd.",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/korean-english-academic-translator-freelance--united-states--eaaecc279a84567fadc27ad450b661f4f",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-10-24T00:00:00Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "Korean ↔ English",
     "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "Editage, the flagship brand of CACTUS, is seeking freelance translators to work on academic manuscripts across languages. You will translate papers from your language into native English or vice versa, applying your subject-area expertise to preserve technical accuracy. The role requires a translation degree or equivalent, plus proven experience in translation (often five years) and advanced academic training.",
-   "details": "Editage, the flagship brand of CACTUS, is seeking freelance translators to work on academic manuscripts across languages. You will translate papers from your language into native English or vice versa, applying your subject-area expertise to preserve technical accuracy. The role requires a translation degree or equivalent, plus proven experience in translation (often five years) and advanced academic training.",
-   "first_seen": "2026-11-07T11:37:44Z"
+   "snippet": "reputed company a Full Remote job, the offer is available from: reputed company Arab Emirates reputed company is a leading provider of Localization Services to the international computer and software sectors with headquarters in Ireland and subsidiaries in Europe. We work with the world's most innovative companies. We help them to grow and expand in new markets providing experts and cultural awareness. reputed compan",
+   "details": "reputed company a Full Remote job, the offer is available from: reputed company Arab Emirates reputed company is a leading provider of Localization Services to the international computer and software sectors with headquarters in Ireland and subsidiaries in Europe. We work with the world's most innovative companies. We help them to grow and expand in new markets providing experts and cultural awareness. reputed company is recruiting Freelance translators with Arabic willing to provide translation and localization services in Marketing and IT sectors. For reputed company role, you will be working as part of a dynamic team and in an international environment. Specific responsibilities include marketing and IT translations, linguistic review and QA, checking of terminology consistency through the management of TMs, glossaries and style guides to guarantee the quality of deliverables. Field of expertise: Marketing and IT translation reputed company project is ongoing with a start date to be determined (approximately 1 week advanced notice will be given). Job Title: Translator with Arabic Location: Remote (Must be located in Dubai) Schedule: reputed company work is based on project need. Hours can therefore vary and flexibility with a changing schedule is very important. Expect full days of work in a row several times per year. Start date: TBD Project Duration: Ongoing Employment Type: Freelance Must have valid work authorization in UAE (reputed company does not sponsor VISAs) Requirements Main requirements: • Native in target language with a degree in Applied Linguistics, Translation or equivalent experience • IT skilled with knowledge and experience of SDL reputed company and CAT tools • Preferred experience as a translator specialized in translation and proofreading of the",
+   "first_seen": "2026-11-20T13:56:15Z"
   },
   {
-   "id": "gamingenglishintokoreantranslatorremotequestjobs",
-   "title": "[GAMING] English into Korean Translator",
+   "id": "freelancetranslatorarabicremotequestjobs",
+   "title": "Freelance Translator - Arabic",
    "org": "remote quest jobs",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/gaming-english-into-korean-translator-943ad9e3",
+   "url": "https://us.remotejobs.dedyn.io/job/freelance-translator-arabic-f5a4b436",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-20T00:00:00Z",
-   "score": 95,
+   "score": 90,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "Korean"
+    "Arabic"
    ],
    "role": true,
    "facts": {
-    "pair": "English → Korean",
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — reputed company ",
-   "details": "Native-level Korean and fluent English; university degree in Translation/Linguistics preferred; experience translating gaming content; knowledge of CAT tools (memoQ). Key Responsibilities • translating content • localizing text • using memoQ Skills & Tools memoQ Job reputed company • Category: Communications and Public Affairs • Seniority: Mid Level • Commitment: reputed company • Workplace: Remote — reputed company States • Languages: Korean, English About reputed company A language services provider offering localization and translation services for global brands. — Industry: Information reputed company Apply To reputed company Job",
-   "first_seen": "2026-11-04T12:53:22Z"
-  },
-  {
-   "id": "englishtosouthkoreantranslatorplainbearingspolymercoatingsconfidentialclientvi",
-   "title": "English to South Korean Translator – Plain Bearings & Polymer Coatings",
-   "org": "Confidential client via ProZ.com",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.proz.com/translation-jobs/2280325",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-19T00:00:00Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → Korean",
-    "contract": "Contract"
-   },
-   "apply_email": "",
-   "snippet": "Services required: Translation Language pairs: English to Korean Subject fields: Other Description: English to Korean (South Korean) Translator Needed – Plain Bearings & Polymer Coatings Job Type: Freelance / Project-based Language Pair: English → South Korean Source Language: English Target Language: Korean (South Korean native speaker required) Subject Area: Engineering / Mechanical Engineering / Materials Science ",
-   "details": "Services required: Translation Language pairs: English to Korean Subject fields: Other Description: English to Korean (South Korean) Translator Needed – Plain Bearings & Polymer Coatings Job Type: Freelance / Project-based Language Pair: English → South Korean Source Language: English Target Language: Korean (South Korean native speaker required) Subject Area: Engineering / Mechanical Engineering / Materials Science Project Volume: Approximately 18,000 English words Preferred Location: China Project Description We are looking for an experienced native South Korean translator for an English-to-Korean translation project involving a technical product brochure on Plain Bearings & Polymer Coatings. The project requires a translator with a solid understanding of plain bearing technologies and surface engineering, particularly polymer coating technologies. Previous experience translating technical documentation or product brochures in these fields is highly desirable. Requirements • Native speaker of South Korean. • Excellent command of written English and Korean. • Proven experience in technical translation. • Familiarity with plain bearings, surface engineering, and polymer coatings. • Ability to accurately handle technical terminology and produce clear, natural, and professionally written Korean. • Candidates based in China are preferred. Project Details • Source text: English • Target language: Korean • Total volume: Approximately 18,000 English words • Content type: Technical product brochure How to Apply Interested translators are invited to submit: 1. Their latest CV, including relevant technical translation experience. 2. Their best competitive rate (please specify the rate per English source word). 3. Their availability for this project. Please send your application ",
-   "first_seen": "2026-11-22T13:13:03Z"
-  },
-  {
-   "id": "expertsouthkoreanenglishreputedcompanytranslatorinterpreterandprofessionalconten",
-   "title": "Expert South Korean-English reputed company Translator, Interpreter, and Professional Content Writer – Part-reputed company at brighthush",
-   "org": "remote quest jobs",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/expert-south-korean-english-reputed-company-translator-interpreter-and-professional-content-writer-part-reputed-company-at-brighthush-3-2",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-17T00:00:00Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "Korean ↔ English",
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "```html Welcome to the World of Global Language and Communication at brighthush In today’s rapidly globalizing economy, the ability to communicate across linguistic barriers is no longer just a competitive advantage—it is a fundamental necessity for any organization seeking sustainable success and growth. At brighthush, we believe that language is the ultimate bridge to understanding, innovation, and meaningful conne",
-   "details": "```html Welcome to the World of Global Language and Communication at brighthush In today’s rapidly globalizing economy, the ability to communicate across linguistic barriers is no longer just a competitive advantage—it is a fundamental necessity for any organization seeking sustainable success and growth. At brighthush, we believe that language is the ultimate bridge to understanding, innovation, and meaningful connection. We are an organization dedicated to breaking down walls between cultures and ensuring that reputed company message we carry is delivered with reputed company, reputed company, and soul. We are currently seeking a highly skilled, meticulous, and culturally fluent Korean Translator, Interpreter, and Korean Writer to join our dynamic team in a part-time capacity that allows for flexibility and professional excellence. At brighthush, we don't just translate words; we translate intent. We are looking for someone who understands that the true art of translation lies in the nuances, the tone, and the cultural context that give language its life. Whether you are translating a complex legal document, a creative marketing campaign, or facilitating a high-stakes business meeting, your role will be pivotal to the success of our international operations. If you are a linguist who thrives in fast-paced environments and possesses a passion for linguistic excellence, brighthush is reputed company where you can elevate your career and reach new heights. The Role: Why Your Expertise Matters As a part-time Korean Translator, Interpreter, and Writer at brighthush, you will be the voice of our organization in the Korean-speaking world and the advocate for our Korean reputed company. reputed company is a multifaceted role that requires a deep intellectual engagement with b",
-   "first_seen": "2026-11-22T13:13:03Z"
-  },
-  {
-   "id": "freelanceacademictranslatorkoreantoenglishstemcactuscommunications",
-   "title": "Freelance Academic Translator: Korean to English (STEM)",
-   "org": "Cactus Communications Pvt. Ltd.",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/freelance-academic-translator-korean-to-english-stem--new-york--e371d30036c4948afde16fdd3064a40fa",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-13T00:00:00Z",
-   "score": 95,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Korean"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "Korean → English",
-    "years": 2,
+    "pair": "English → Arabic",
     "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "Editage, the flagship brand of CACTUS, is seeking skilled freelance translators to work on academic manuscripts. The role blends language expertise with subject-area knowledge to help researchers publish in prestigious journals, translating from various languages into English or vice versa. The work requires a degree in translation (or equivalent) and substantial translation experience; prior experience in foreign-la",
-   "details": "Editage, the flagship brand of CACTUS, is seeking skilled freelance translators to work on academic manuscripts. The role blends language expertise with subject-area knowledge to help researchers publish in prestigious journals, translating from various languages into English or vice versa. The work requires a degree in translation (or equivalent) and substantial translation experience; prior experience in foreign-language settings is preferred. Flexible, remote freelance engagement is offered. Qualifications • Degree in Translation or equivalent with significant translation training. • Graduate (or higher) degree in any field plus two years of comprehensive professional experience in translation. • Five years of comprehensive professional experience in translation. Responsibilities • Translate academic manuscripts from the source language to native English or vice versa. • Maintain accuracy, context, and tone to meet publication standards for journals.",
-   "first_seen": "2026-11-22T13:13:03Z"
+   "snippet": "You can be in any country, as long as you can work Pacific hours. JOIN reputed company’S TEAM OF HEALTHCARE INSURANCE LINGUISTS! Are you a skilled freelance translator or editor with experience in the healthcare field? reputed company is looking for reputed company linguists to support an upcoming project involving member communications for a reputed company healthcare insurance provider. We specialize in translating",
+   "details": "You can be in any country, as long as you can work Pacific hours. JOIN reputed company’S TEAM OF HEALTHCARE INSURANCE LINGUISTS! Are you a skilled freelance translator or editor with experience in the healthcare field? reputed company is looking for reputed company linguists to support an upcoming project involving member communications for a reputed company healthcare insurance provider. We specialize in translating member letters and other critical documents that help individuals understand and manage their healthcare coverage. If you’re passionate about clear, culturally appropriate communication and want to make a difference, we’d love to hear from you! We’re currently seeking linguists working from English into Arabic Requirements: • Native speaker of Arabic • Proven experience in healthcare, health insurance, or medical translation • Strong attention to detail • Experience with CAT tools (XTM preferred) • Experience with XTRF is a plus • Availability to work during PST time • Availability to work on same-day reputed company projects • ATA certification is a plus Why Work With reputed company? • Flexible reputed company with a supportive team • Long-term collaboration opportunities • Meaningful projects that impact real lives • Competitive rates and consistent workflow • Inclusive and respectful work environment reputed company reputed company? If you're a dedicated linguist with healthcare expertise looking for a rewarding freelance opportunity, we invite you to apply and become part of our mission to improve lives through language. Apply To reputed company Job",
+   "first_seen": "2026-11-17T14:15:10Z"
+  },
+  {
+   "id": "interpreterarabicparttimenewdutechsystems",
+   "title": "Interpreter – Arabic - part-time NEW",
+   "org": "Dutech Systems",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/interpreter-arabic-part-time-new--springdale--eab70bd036a9b12eff63c6f056cc25a15",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-16T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "facts": {
+    "years": 1,
+    "contract": "Part-time"
+   },
+   "apply_email": "",
+   "snippet": "We are seeking a qualified Arabic Interpreter and Translator for a part-time, fully remote, project-based position. The selected candidate will translate written content between English and Arabic, review and edit translations, and occasionally provide spoken interpretation as needed. Weekly hours are flexible and will depend on project availability, workload, and business needs. This position does not guarantee a mi",
+   "details": "We are seeking a qualified Arabic Interpreter and Translator for a part-time, fully remote, project-based position. The selected candidate will translate written content between English and Arabic, review and edit translations, and occasionally provide spoken interpretation as needed. Weekly hours are flexible and will depend on project availability, workload, and business needs. This position does not guarantee a minimum number of weekly hours. Key Responsibilities • Translate written documents and materials between English and Arabic. • Review, proofread, and edit translated content for accuracy, grammar, clarity, and consistency. • Accurately convey the original meaning, tone, and intent across languages. • Provide occasional phone, video, or spoken interpretation as requested. • Support translation projects related to employment, training, orientation, meetings, human resources, health services, and other operational activities. • Complete voice recordings and other language-related assignments as required. • Maintain strict confidentiality when handling sensitive information. • Manage multiple assignments and meet project deadlines. • Communicate proactively with team members to clarify project requirements. Required Qualifications • Must be proficient in Arabic and English, particularly written translation. • Must pass the interpreter/translation assessment with an average total score of 90% or higher. • Strong written communication skills in both English and Arabic. • Strong verbal communication skills in English and Arabic for occasional interpretation assignments. • Excellent attention to detail and organizational skills. • Ability to work independently in a fully remote environment. • Reliable internet connection and basic computer and typing skills. • Ability",
+   "first_seen": "2026-11-23T15:49:58Z"
+  },
+  {
+   "id": "arabictoenglishpatentlinguistweloglobalinc",
+   "title": "Arabic to English Patent Linguist",
+   "org": "Welo Global, Inc.",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.virtualvocations.com/job/arabic-to-english-patent-linguist-3329680-i.html",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-03T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Arabic"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Arabic → English",
+    "years": 2,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Seeking experienced Arabic to English Patent Linguists for a freelance remote opportunity, the role involves translating and reviewing patent-related content in fields such as Mechanics, Computer Science, and Chemistry, ensuring clarity and adherence to client style guidelines. Key responsibilities • Translate and review patent-related content from Arabic to English, maintaining original meaning and readability • Ens",
+   "details": "Seeking experienced Arabic to English Patent Linguists for a freelance remote opportunity, the role involves translating and reviewing patent-related content in fields such as Mechanics, Computer Science, and Chemistry, ensuring clarity and adherence to client style guidelines. Key responsibilities • Translate and review patent-related content from Arabic to English, maintaining original meaning and readability • Ensure style adequacy and follow specific instructions regarding translation processes and CAT tool usage • Communicate effectively and respond promptly in English Required qualifications • Degree in linguistics, translation, or equivalent experience • Minimum 2 years' experience in the translation and/or editing of patent documents • Proficiency in CAT tools, especially XTM • Good availability and quick response times",
+   "first_seen": "2026-11-20T13:56:15Z"
   },
   {
    "id": "translationandlocalizationprojectmanagementspecialistfuturegroup",
@@ -589,36 +491,9 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (24 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
-   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (24 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsible for the internal and external commun",
+   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (23 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
+   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (23 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsible for the internal and external commun",
    "first_seen": "2026-11-19T14:16:15Z"
-  },
-  {
-   "id": "linguisticqatesterremotekazakhstanwelocalize",
-   "title": "Linguistic QA Tester Remote - Kazakhstan",
-   "org": "Welocalize",
-   "source": "Welocalize",
-   "feed": "UNHCR, WFP, IMF, Welocalize",
-   "url": "https://welocalize.wd1.myworkdayjobs.com/Welocalize/job/Milan-Italy/Linguistic-QA-Tester-Remote---Kazakhstan_R0007927",
-   "location": "Milan, Italy",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": "2026-12-31T00:00:00Z",
-   "posted": null,
-   "score": 55,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [],
-   "role": true,
-   "facts": {},
-   "apply_email": "servicedesk@welocalize.com",
-   "snippet": "If you have a Candidate Login already, but have forgotten your password please use the steps to reset your password. If you have forgotten your email login, please contact servicedesk@welocalize.com subject Workday Candidate Login When creating your Workday account and entering personal information like name, address, please do not use ALL CAPS. Thank you! NOTICE: For Privacy Policy please review here Job Responsibil",
-   "details": "If you have a Candidate Login already, but have forgotten your password please use the steps to reset your password. If you have forgotten your email login, please contact servicedesk@welocalize.com subject Workday Candidate Login When creating your Workday account and entering personal information like name, address, please do not use ALL CAPS. Thank you! NOTICE: For Privacy Policy please review here Job Responsibilities: Job Title Linguistic QA Tester Department Staffing/Quality Management Reports To Vendor Project Manager MAIN PURPOSE OF JOB As a Linguistic QA Tester, you will primarily be proofreading and editing content already localized to your native language, making sure you catch any errors in the content, such as: grammar, typos, syntax, punctuation, capitalization, political incorrectness, inconsistencies, and extra spaces between words or characters. You will sometimes be translating content from English to your native language. You will also be checking UIs for functional issues. MAIN DUTIES The following is a non-exhaustive list of responsibilities and areas of ownership for this role: Write and report relevant bugs and errors using best practices through internal database system. Ability to under and prioritize task and issues quickly and efficiently. Native language skills and cultural awareness of native country. Good oral and written communication. Highly organized with attention to detail and a commitment to quality. QA various products in by accurately following testing instructions and test cases Discover and report defects (bugs) using client specific bug tracking tools Evaluate translations in the context of software, mobile apps and documentation Be a subject matter expert for linguistic issues in the target language; be able to research and reso",
-   "first_seen": "2026-11-18T13:47:13Z"
   },
   {
    "id": "cfndnelgacommunicationspecialist",
@@ -885,14 +760,15 @@
   "medicaltranslatorkoreanenglishtransperfect": "2026-11-22T13:13:03Z",
   "englishtosouthkoreantranslatorplainbearingspolymercoatingsconfidentialclientvi": "2026-11-22T13:13:03Z",
   "expertsouthkoreanenglishreputedcompanytranslatorinterpreterandprofessionalconten": "2026-11-22T13:13:03Z",
-  "freelanceacademictranslatorkoreantoenglishstemcactuscommunications": "2026-11-22T13:13:03Z"
+  "freelanceacademictranslatorkoreantoenglishstemcactuscommunications": "2026-11-22T13:13:03Z",
+  "interpreterarabicparttimenewdutechsystems": "2026-11-23T15:49:58Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 64,
-  "last_day": "2026-11-22"
+  "used": 67,
+  "last_day": "2026-11-23"
  },
- "quote_index": 19,
+ "quote_index": 20,
  "links": {
   "un-exams": {
    "state": "ok",
@@ -991,21 +867,21 @@
   }
  },
  "health": {
-  "Jobicy": 0,
   "Remotive": 0,
+  "Jobicy": 0,
   "Working Nomads": 0,
-  "RemoteOK": 0,
   "Company boards": 0,
+  "RemoteOK": 0,
+  "Translation agencies": 0,
   "ReliefWeb": 0,
   "UNESCO": 0,
   "Green Climate Fund": 0,
   "Google Jobs": 0,
-  "UN Careers": 0,
   "CLEAR Global": 0,
-  "Translation agencies": 0,
-  "ICRC": 0,
   "UNDP": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
+  "ICRC": 0,
+  "UN Careers": 0,
   "Himalayas": 0,
   "Impactpool": 0
  }
