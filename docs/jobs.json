@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-23T15:49:58Z",
+ "updated": "2026-11-24T15:41:14Z",
  "sources": {
   "Remotive": {
    "ok": true,
-   "count": 16
+   "count": 15
   },
   "Jobicy": {
    "ok": true,
@@ -13,21 +13,17 @@
    "ok": true,
    "count": 37
   },
-  "Company boards": {
-   "ok": true,
-   "count": 210
-  },
   "RemoteOK": {
    "ok": true,
    "count": 100
   },
-  "Translation agencies": {
+  "Company boards": {
    "ok": true,
-   "count": 192
+   "count": 205
   },
   "ReliefWeb": {
    "ok": true,
-   "count": 1146
+   "count": 1156
   },
   "UNESCO": {
    "ok": true,
@@ -37,37 +33,41 @@
    "ok": true,
    "count": 2
   },
-  "Google Jobs": {
+  "Translation agencies": {
    "ok": true,
-   "count": 12
-  },
-  "CLEAR Global": {
-   "ok": true,
-   "count": 17
-  },
-  "UNDP": {
-   "ok": true,
-   "count": 7
-  },
-  "UNHCR, WFP, IMF, Welocalize": {
-   "ok": true,
-   "count": 19
-  },
-  "ICRC": {
-   "ok": true,
-   "count": 11
+   "count": 192
   },
   "UN Careers": {
    "ok": true,
    "count": 423
   },
+  "CLEAR Global": {
+   "ok": true,
+   "count": 17
+  },
+  "ICRC": {
+   "ok": true,
+   "count": 10
+  },
+  "UNDP": {
+   "ok": true,
+   "count": 10
+  },
+  "UNHCR, WFP, IMF, Welocalize": {
+   "ok": true,
+   "count": 18
+  },
   "Himalayas": {
    "ok": true,
    "count": 119
   },
+  "Google Jobs": {
+   "ok": true,
+   "count": 11
+  },
   "Impactpool": {
    "ok": true,
-   "count": 133
+   "count": 131
   }
  },
  "jobs": [
@@ -133,12 +133,45 @@
    "first_seen": "2026-11-19T14:16:15Z"
   },
   {
-   "id": "remotearabicinterpretertranslatorparttimedutechsystems",
-   "title": "Remote Arabic Interpreter & Translator (Part-Time)",
-   "org": "Dutech Systems",
+   "id": "frenchenglishinterpretercontactlinksolutions",
+   "title": "French – English Interpreter",
+   "org": "ContactLink Solutions LLC",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-arabic-interpreter-translator-part-time--springdale--ef48017b0249d463ed69c1c0321cfd547",
+   "url": "https://www.remoterocketship.com/us/company/contactlinksolutions/jobs/french-english-interpreter-united-states-remote-3/",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-22T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "French ↔ English",
+    "years": 2,
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "Job Description: • Facilitate vital communication between French and English speakers, primarily within healthcare and medical sectors. • Process information quickly and accurately while maintaining a professional environment. • Handle interpretation calls professionally following the interpreter’s code of conduct. • Master industry-specific healthcare/medical vocabulary through provided training. • Collaborate close",
+   "details": "Job Description: • Facilitate vital communication between French and English speakers, primarily within healthcare and medical sectors. • Process information quickly and accurately while maintaining a professional environment. • Handle interpretation calls professionally following the interpreter’s code of conduct. • Master industry-specific healthcare/medical vocabulary through provided training. • Collaborate closely with the Team Leader and participate in ongoing quality sessions. Requirements: • Near-native fluency in both English (90%+) and French. • Minimum 2 years of interpretation experience preferred (but we value linguistic talent and potential!). • Excellent listening, retention, and note-taking abilities to ensure 100% accuracy without omissions or additions. • Ability to explain cultural concepts to prevent miscommunication when necessary. • Steady wired internet connection. • USB wired headset. • PC/Laptop with Windows 10 or Mac. • A quiet, secure, and distraction-free workspace. • Language testing and background checks may be required based on location. Benefits: • Fully Remote: Work from the comfort of your home office. • Specialized Training: We provide internal professional training to certify you as a Medical Interpreter. • Stability: Full-time contractor position with immediate availability. • Professional Growth: Monthly payments and a supportive team environment with dedicated Team Leaders.",
+   "first_seen": "2026-11-24T15:41:14Z"
+  },
+  {
+   "id": "englishfrenchtopulaarfreelanceremoteinterpretertonguepoint",
+   "title": "English & French to Pulaar Freelance Remote Interpreter",
+   "org": "Tonguepoint",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/english-french-to-pulaar-freelance-remote-interpreter--new-york--e6517319fc7d9ae125f3294d796e7aac6",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
@@ -152,24 +185,55 @@
     "Remote / home-based"
    ],
    "langs": [
-    "Arabic"
+    "French"
    ],
    "role": true,
    "facts": {
-    "contract": "Part-time"
+    "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior transla",
-   "details": "Dutech Systems is seeking an Arabic Interpreter and Translator for a part-time, fully remote, project-based role. You will translate documents between English and Arabic, review translations for accuracy, and occasionally provide spoken interpretation. Flex hours depend on project workload with no guaranteed minimum weekly hours. Strong emphasis on confidentiality and independent work in a remote setup. Prior translation certification and experience are preferred.",
-   "first_seen": "2026-11-05T04:58:44Z"
+   "snippet": "Urgently Hiring For: English & French to Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills",
+   "details": "Urgently Hiring For: English & French to Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, join us to bridge critical communication gaps in moments that matter. Key Responsibilities Provide accurate, real-time consecutive interpretation (English+Pulaar and French+Pulaar). Facilitate clear communication in high-stakes settings (e.g., healthcare, legal). Maintain strict confidentiality, neutrality, and professionalism. Manage your own schedule and log in reliably to handle calls. Qualifications & Tech Requirements Language: Native or near-native fluency in English, French, and Pulaar. Skills: Strong active listening, cultural sensitivity, and emotional resilience. Experience: Beginners welcome; prior interpreting experience is a plus. Workspace: A quiet, distraction-free home environment. Tech Setup: Dedicated computer, high-speed internet (wired preferred for VRI), and a noise-canceling USB headset. What We Offer Ultimate Flexibility: 100% remote work. Choose your own hours (daytime, evening, overnight). Steady Income: Competitive per-minute rates backed by reliable call volume. Growth: Free comprehensive onboarding and ongoing professional training. Referral Program: Refer qualified speakers of our in-demand languages and earn a bonus when your referral is successfully onboarded.",
+   "first_seen": "2026-11-24T15:41:14Z"
   },
   {
-   "id": "translatorwitharabicfreelanceremoteremotequestjobs",
-   "title": "Translator with Arabic - freelance (Remote)",
+   "id": "frenchtranslatorremotequestjobs",
+   "title": "French Translator",
    "org": "remote quest jobs",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/translator-with-arabic-freelance-remote",
+   "url": "https://us.remotejobs.dedyn.io/job/french-translator-b95f8970",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-17T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "You’ll feel great about a career with reputed company At reputed company, our collective work matters. As a leading national charity backed by a history of more than 70 years of impact, we’re dedicated to being Canada’s leading service provider, resource, and advocate, empowering people with disabilities to live and thrive in communities nationwide. Our collective efforts are reputed company in our Purpose, Vision, a",
+   "details": "You’ll feel great about a career with reputed company At reputed company, our collective work matters. As a leading national charity backed by a history of more than 70 years of impact, we’re dedicated to being Canada’s leading service provider, resource, and advocate, empowering people with disabilities to live and thrive in communities nationwide. Our collective efforts are reputed company in our Purpose, Vision, and Mission, which inform how we drive all our work forward. • Purpose: Champion equity. Empower ability. • Vision: An inclusive, barrier-free society for people with disabilities. • Mission: To be Canada’s leading service provider, resource, and advocate, empowering people with disabilities to live and thrive in communities nationwide. Skills Development and Employment ensures that people with disabilities find and keep meaningful jobs by matching them with employers seeking qualified job candidates. In addition, they offer support with assessments, rehabilitation and child and youth programs. L’occasion reputed company la responsabilité d’un directeur de la Marche des dix reputed company du Canada, le ou la traducteur(trice) réalise principalement des projets de traduction de l’anglais vers le français pour les différents services de l’organisation. La personne titulaire du poste assure la traduction de divers documents administratifs et organisationnels, en veillant à fournir des traductions de qualité dans les délais reputed company.",
+   "first_seen": "2026-11-06T12:50:29Z"
+  },
+  {
+   "id": "remotefrenchmedicalinterpreterperminutepayoneworldglobalservic",
+   "title": "Remote French Medical Interpreter - Per Minute Pay",
+   "org": "One World Global Services",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-french-medical-interpreter-per-minute-pay--new-england--e401c6ed1f9f9178e0c33e193946a619d",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
@@ -183,112 +247,147 @@
     "Remote / home-based"
    ],
    "langs": [
-    "Arabic"
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "years": 1,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Wishalicious is hiring experienced French interpreters for a fully remote role with a clear schedule. Offers either full-time or part-time positions and confirms monthly payments, with options for per-minute or fixed-rate compensation. Immediate onboarding is available. You will handle professional calls, especially in healthcare contexts, and adhere to interpreter conduct. English proficiency at native/bilingual lev",
+   "details": "Wishalicious is hiring experienced French interpreters for a fully remote role with a clear schedule. Offers either full-time or part-time positions and confirms monthly payments, with options for per-minute or fixed-rate compensation. Immediate onboarding is available. You will handle professional calls, especially in healthcare contexts, and adhere to interpreter conduct. English proficiency at native/bilingual level and at least 1 year of interpreting experience are preferred.",
+   "first_seen": "2026-11-18T13:47:13Z"
+  },
+  {
+   "id": "englishfrenchpulaarfreelanceremoteinterpretertonguepoint",
+   "title": "English + French Pulaar Freelance Remote Interpreter",
+   "org": "Tonguepoint",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.linkedin.com/jobs/view/english-%2B-french-pulaar-freelance-remote-interpreter-at-tonguepoint-4489023188",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-11T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
    ],
    "role": true,
    "facts": {
     "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "reputed company a Full Remote job, the offer is available from: reputed company Arab Emirates reputed company is a leading provider of Localization Services to the international computer and software sectors with headquarters in Ireland and subsidiaries in Europe. We work with the world's most innovative companies. We help them to grow and expand in new markets providing experts and cultural awareness. reputed compan",
-   "details": "reputed company a Full Remote job, the offer is available from: reputed company Arab Emirates reputed company is a leading provider of Localization Services to the international computer and software sectors with headquarters in Ireland and subsidiaries in Europe. We work with the world's most innovative companies. We help them to grow and expand in new markets providing experts and cultural awareness. reputed company is recruiting Freelance translators with Arabic willing to provide translation and localization services in Marketing and IT sectors. For reputed company role, you will be working as part of a dynamic team and in an international environment. Specific responsibilities include marketing and IT translations, linguistic review and QA, checking of terminology consistency through the management of TMs, glossaries and style guides to guarantee the quality of deliverables. Field of expertise: Marketing and IT translation reputed company project is ongoing with a start date to be determined (approximately 1 week advanced notice will be given). Job Title: Translator with Arabic Location: Remote (Must be located in Dubai) Schedule: reputed company work is based on project need. Hours can therefore vary and flexibility with a changing schedule is very important. Expect full days of work in a row several times per year. Start date: TBD Project Duration: Ongoing Employment Type: Freelance Must have valid work authorization in UAE (reputed company does not sponsor VISAs) Requirements Main requirements: • Native in target language with a degree in Applied Linguistics, Translation or equivalent experience • IT skilled with knowledge and experience of SDL reputed company and CAT tools • Preferred experience as a translator specialized in translation and proofreading of the",
-   "first_seen": "2026-11-20T13:56:15Z"
+   "snippet": "Urgently Hiring For: English + French Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills an",
+   "details": "Urgently Hiring For: English + French Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, join us to bridge critical communication gaps in moments that matter. Key Responsibilities Provide accurate, real-time consecutive interpretation (English+Pulaar and French+Pulaar). Facilitate clear communication in high-stakes settings (e.g., healthcare, legal). Maintain strict confidentiality, neutrality, and professionalism. Manage your own schedule and log in reliably to handle calls. Qualifications & Tech Requirements Language: Native or near-native fluency in English, French, and Pulaar. Skills: Strong active listening, cultural sensitivity, and emotional resilience. Experience: Beginners welcome; prior interpreting experience is a plus. Workspace: A quiet, distraction-free home environment. Tech Setup: Dedicated computer, high-speed internet (wired preferred for VRI), and a noise-canceling USB headset. What We Offer Ultimate Flexibility: 100% remote work. Choose your own hours (daytime, evening, overnight). Steady Income: Competitive per-minute rates backed by reliable call volume. Growth: Free comprehensive onboarding and ongoing professional training. Referral Program: Refer qualified speakers of our in-demand languages and earn a bonus when your referral is successfully onboarded. To Apply: Ready to begin? Please submit your updated resume highlighting your language proficiency.",
+   "first_seen": "2026-11-18T13:47:13Z"
   },
   {
-   "id": "freelancetranslatorarabicremotequestjobs",
-   "title": "Freelance Translator - Arabic",
+   "id": "remotefrenchenglishopiinterpretermagik",
+   "title": "Remote French–English OPI Interpreter",
+   "org": "Magi-K",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-french-english-opi-interpreter--orlando--e7aa4a44481e127a4984e6acd812bb593",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-09T00:00:00Z",
+   "score": 90,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "French ↔ English",
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Magi-K is hiring French–English Over-the-Phone Interpreters (OPI) on a freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate in important conversations. This is a 100% remote position with monthly payment in USD, boasting fast onboarding and a growing international team. Required qualifications include bilingual English (C1) proficiency and a computer with camera, h",
+   "details": "Magi-K is hiring French–English Over-the-Phone Interpreters (OPI) on a freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate in important conversations. This is a 100% remote position with monthly payment in USD, boasting fast onboarding and a growing international team. Required qualifications include bilingual English (C1) proficiency and a computer with camera, headset, and reliable internet.",
+   "first_seen": "2026-11-18T13:47:13Z"
+  },
+  {
+   "id": "translatorenglishtofrench10monthcontractremoteremotequestjobs",
+   "title": "Translator (English to French) – 10-Month Contract - Remote",
    "org": "remote quest jobs",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/freelance-translator-arabic-f5a4b436",
+   "url": "https://us.remotejobs.dedyn.io/job/translator-english-to-french-10-month-contract-remote-dfeb98ff",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-20T00:00:00Z",
-   "score": 90,
+   "score": 82,
    "reasons": [
     "Translation / language role",
-    "Remote / home-based"
+    "Check country eligibility",
+    "Remote / home-based",
+    "Asks 5+ years"
    ],
    "langs": [
-    "Arabic"
+    "French"
    ],
    "role": true,
    "facts": {
-    "pair": "English → Arabic",
-    "contract": "Freelance"
+    "pair": "English → French",
+    "years": 5,
+    "contract": "Full-time"
    },
    "apply_email": "",
-   "snippet": "You can be in any country, as long as you can work Pacific hours. JOIN reputed company’S TEAM OF HEALTHCARE INSURANCE LINGUISTS! Are you a skilled freelance translator or editor with experience in the healthcare field? reputed company is looking for reputed company linguists to support an upcoming project involving member communications for a reputed company healthcare insurance provider. We specialize in translating",
-   "details": "You can be in any country, as long as you can work Pacific hours. JOIN reputed company’S TEAM OF HEALTHCARE INSURANCE LINGUISTS! Are you a skilled freelance translator or editor with experience in the healthcare field? reputed company is looking for reputed company linguists to support an upcoming project involving member communications for a reputed company healthcare insurance provider. We specialize in translating member letters and other critical documents that help individuals understand and manage their healthcare coverage. If you’re passionate about clear, culturally appropriate communication and want to make a difference, we’d love to hear from you! We’re currently seeking linguists working from English into Arabic Requirements: • Native speaker of Arabic • Proven experience in healthcare, health insurance, or medical translation • Strong attention to detail • Experience with CAT tools (XTM preferred) • Experience with XTRF is a plus • Availability to work during PST time • Availability to work on same-day reputed company projects • ATA certification is a plus Why Work With reputed company? • Flexible reputed company with a supportive team • Long-term collaboration opportunities • Meaningful projects that impact real lives • Competitive rates and consistent workflow • Inclusive and respectful work environment reputed company reputed company? If you're a dedicated linguist with healthcare expertise looking for a rewarding freelance opportunity, we invite you to apply and become part of our mission to improve lives through language. Apply To reputed company Job",
-   "first_seen": "2026-11-17T14:15:10Z"
+   "snippet": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company reputed company that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, hel",
+   "details": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company reputed company that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, helping ensure consistency and clarity at reputed company stage of the rollout. Requirements • Bachelor's degree in translation (English to French specialization) • At least five years of relevant experience, including technical translation • Excellent command of both English and French, with native-level proficiency in French • Strong familiarity with translation tools such as Trados reputed company or similar environments • Terminology databases and emerging reputed company technologies • reputed company understanding of terminology across core business functions—including Finance, reputed company Chain, HR, and reputed company operations Benefits • Competitive salary • Bonus • reputed company • Health spending account • Fitness & wellness subsidy • Employee & family assistance reputed company • TFSA & RRSP • Electric vehicle subsidy • Summer hours • Holiday office reputed company Originally posted on Himalayas Apply To reputed company Job",
+   "first_seen": "2026-11-03T23:20:55Z"
   },
   {
-   "id": "interpreterarabicparttimenewdutechsystems",
-   "title": "Interpreter – Arabic - part-time NEW",
-   "org": "Dutech Systems",
+   "id": "remotefreelanceinterpreterenglishfrenchtofulanitonguepoint",
+   "title": "Remote Freelance Interpreter: English/French to Fulani",
+   "org": "Tonguepoint",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/interpreter-arabic-part-time-new--springdale--eab70bd036a9b12eff63c6f056cc25a15",
+   "url": "https://jooble.org/jdp/138611263768503962",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-16T00:00:00Z",
-   "score": 90,
+   "score": 70,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
+    "Needs Fulani",
     "Remote / home-based"
    ],
    "langs": [
-    "Arabic"
+    "French"
    ],
    "role": true,
    "facts": {
-    "years": 1,
-    "contract": "Part-time"
+    "pair": "French → Fulani",
+    "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "We are seeking a qualified Arabic Interpreter and Translator for a part-time, fully remote, project-based position. The selected candidate will translate written content between English and Arabic, review and edit translations, and occasionally provide spoken interpretation as needed. Weekly hours are flexible and will depend on project availability, workload, and business needs. This position does not guarantee a mi",
-   "details": "We are seeking a qualified Arabic Interpreter and Translator for a part-time, fully remote, project-based position. The selected candidate will translate written content between English and Arabic, review and edit translations, and occasionally provide spoken interpretation as needed. Weekly hours are flexible and will depend on project availability, workload, and business needs. This position does not guarantee a minimum number of weekly hours. Key Responsibilities • Translate written documents and materials between English and Arabic. • Review, proofread, and edit translated content for accuracy, grammar, clarity, and consistency. • Accurately convey the original meaning, tone, and intent across languages. • Provide occasional phone, video, or spoken interpretation as requested. • Support translation projects related to employment, training, orientation, meetings, human resources, health services, and other operational activities. • Complete voice recordings and other language-related assignments as required. • Maintain strict confidentiality when handling sensitive information. • Manage multiple assignments and meet project deadlines. • Communicate proactively with team members to clarify project requirements. Required Qualifications • Must be proficient in Arabic and English, particularly written translation. • Must pass the interpreter/translation assessment with an average total score of 90% or higher. • Strong written communication skills in both English and Arabic. • Strong verbal communication skills in English and Arabic for occasional interpretation assignments. • Excellent attention to detail and organizational skills. • Ability to work independently in a fully remote environment. • Reliable internet connection and basic computer and typing skills. • Ability",
-   "first_seen": "2026-11-23T15:49:58Z"
-  },
-  {
-   "id": "arabictoenglishpatentlinguistweloglobalinc",
-   "title": "Arabic to English Patent Linguist",
-   "org": "Welo Global, Inc.",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.virtualvocations.com/job/arabic-to-english-patent-linguist-3329680-i.html",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-03T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "Arabic → English",
-    "years": 2,
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Seeking experienced Arabic to English Patent Linguists for a freelance remote opportunity, the role involves translating and reviewing patent-related content in fields such as Mechanics, Computer Science, and Chemistry, ensuring clarity and adherence to client style guidelines. Key responsibilities • Translate and review patent-related content from Arabic to English, maintaining original meaning and readability • Ens",
-   "details": "Seeking experienced Arabic to English Patent Linguists for a freelance remote opportunity, the role involves translating and reviewing patent-related content in fields such as Mechanics, Computer Science, and Chemistry, ensuring clarity and adherence to client style guidelines. Key responsibilities • Translate and review patent-related content from Arabic to English, maintaining original meaning and readability • Ensure style adequacy and follow specific instructions regarding translation processes and CAT tool usage • Communicate effectively and respond promptly in English Required qualifications • Degree in linguistics, translation, or equivalent experience • Minimum 2 years' experience in the translation and/or editing of patent documents • Proficiency in CAT tools, especially XTM • Good availability and quick response times",
-   "first_seen": "2026-11-20T13:56:15Z"
+   "snippet": "Tonguepoint is urgently hiring freelance remote interpreters fluent in English, French, and Fulani to provide OPI and VRI. Remote, flexible schedule, no prior experience required as training is provided. You will manage your own calls, work from a quiet home setup, and earn competitive per-minute rates with onboarding and ongoing training. A referral program offers bonuses for onboarding referrals. #J-18808-Ljbffr To",
+   "details": "Tonguepoint is urgently hiring freelance remote interpreters fluent in English, French, and Fulani to provide OPI and VRI. Remote, flexible schedule, no prior experience required as training is provided. You will manage your own calls, work from a quiet home setup, and earn competitive per-minute rates with onboarding and ongoing training. A referral program offers bonuses for onboarding referrals. #J-18808-Ljbffr Tonguepoint",
+   "first_seen": "2026-11-18T13:47:13Z"
   },
   {
    "id": "translationandlocalizationprojectmanagementspecialistfuturegroup",
@@ -350,34 +449,6 @@
    "snippet": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Cour",
    "details": "English-language legal translators CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international AD-7, Administrator - Open to citizens of an EU country level Speaks English, French Apply Summary by Impactpool The Court of Justice of the European Union is seeking English-language legal translators to support its Translation Unit in Luxembourg. The role involves translating the Court's judgments, Opinions of the Advocates General, and other legal documents into English. Candidates must meet specific legal education requirements and possess strong language skills. The position offers a multicultural environment, flexible working hours, and opportunities for professional development. Candidate Requirements: Degree in law or equivalent Perfect command of English Thorough knowledge of French Satisfactory knowledge of a third EU language Interest in legal translation The essentials Location : Luxembourg Grade : AD 7 Contract type : Temporary Agent The Court of Justice of the European Union regularly seeks to recruit English-language legal translators to assist with the increasing workload of its English-language Translation Unit in Luxembourg. The work of the unit consists in the translation into English of the Court's judgments and the Opinions of the Advocates General for publication in the European Court Reports, and of requests from national courts for preliminary rulings and other documents required for procedural purposes. To be eligible to perform these demanding duties, applicants must satisfy, in addition to the general conditions common to all the institutions, the following minimum requirements : Have successfully completed a suitable course in law (i.e. hold a degree in law or its equivalent awarded in Ireland or have qualified ",
    "first_seen": "2026-11-03T22:17:21Z"
-  },
-  {
-   "id": "managementservicesassociate",
-   "title": "Management Services Associate",
-   "org": "WFP",
-   "source": "WFP",
-   "feed": "UNHCR, WFP, IMF, Welocalize",
-   "url": "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings/job/Cairo-Egypt-Republic-of/Management-Services-Associate_JR128525",
-   "location": "Cairo, Egypt, Republic of",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": "2026-11-25T00:00:00Z",
-   "posted": null,
-   "score": 62,
-   "reasons": [
-    "Mentions translation",
-    "Based in Egypt"
-   ],
-   "langs": [
-    "Arabic"
-   ],
-   "role": false,
-   "facts": {},
-   "apply_email": "global.hrerecruitment@wfp.org",
-   "snippet": "DEADLINE FOR APPLICATIONS 24 November 2026-23:59-GMT+02:00 Eastern European Standard Time (Cairo) WFP celebrates and embraces diversity. It is committed to the principle of equal employment opportunity for all its employees and encourages qualified candidates to apply irrespective of race, colour, national origin, ethnic or social background, genetic information, gender, gender identity and/or expression, sexual orie",
-   "details": "DEADLINE FOR APPLICATIONS 24 November 2026-23:59-GMT+02:00 Eastern European Standard Time (Cairo) WFP celebrates and embraces diversity. It is committed to the principle of equal employment opportunity for all its employees and encourages qualified candidates to apply irrespective of race, colour, national origin, ethnic or social background, genetic information, gender, gender identity and/or expression, sexual orientation, religion or belief, HIV status or disability. ABOUT WFP The World Food Programme is the world’s largest humanitarian organization saving lives in emergencies and using food assistance to build a pathway to peace, stability and prosperity, for people recovering from conflict, disasters and the impact of extreme weather shocks. At WFP, people are at the heart of everything we do and the vision of the future WFP workforce is one of diverse, committed, skilled, and high performing teams, selected on merit, operating in a healthy and inclusive work environment, living WFP's values (Integrity, Collaboration, Commitment, Humanity, and Inclusion) and working with partners to save and change the lives of those WFP serves. To learn more about WFP, visit our website: https://www.wfp.org and follow us on social media to keep up with our latest news: YouTube , LinkedIn , Instagram , Facebook , Twitter , TikTok . WHY JOIN WFP? WFP is a 2020 Nobel Peace Prize Laureate. WFP offers a highly inclusive, diverse, and multicultural working environment. WFP invests in the personal & professional development of its employees through a range of training, accreditation, coaching, mentorship, and other programs as well as through internal mobility opportunities. A career path in WFP provides an exciting opportunity to work across the various country, regional and global offi",
-   "first_seen": "2026-11-17T16:32:28Z"
   },
   {
    "id": "volunteerlegalcaseworkerihaverights",
@@ -466,6 +537,36 @@
    "first_seen": "2026-11-11T12:35:33Z"
   },
   {
+   "id": "communicationsandbrandingconsultancyunarmedcivilianprotectionucpacademy",
+   "title": "Communications and Branding Consultancy – Unarmed Civilian Protection (UCP) Academy",
+   "org": "Nonviolent Peaceforce",
+   "source": "ReliefWeb",
+   "feed": "ReliefWeb",
+   "url": "https://reliefweb.int/node/4239682",
+   "location": "",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-12-01T00:00:00Z",
+   "posted": "2026-11-24T09:08:37Z",
+   "score": 57,
+   "reasons": [
+    "Mentions translation",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "French"
+   ],
+   "role": false,
+   "facts": {
+    "contract": "Consultancy"
+   },
+   "apply_email": "",
+   "snippet": "**Job Title:** Communications and Branding Consultancy – Unarmed Civilian Protection (UCP) Academy **Department:** Programming **Duty Station:** Remote **Administrative Line Manager:** UCP Academy Manager **Position Type:** Consultancy **1. Background** Nonviolent Peaceforce (NP) advances civilian-led, nonviolent approaches to the protection of civilians and the prevention and reduction of violence. The UCP Academy i",
+   "details": "**Job Title:** Communications and Branding Consultancy – Unarmed Civilian Protection (UCP) Academy **Department:** Programming **Duty Station:** Remote **Administrative Line Manager:** UCP Academy Manager **Position Type:** Consultancy **1. Background** Nonviolent Peaceforce (NP) advances civilian-led, nonviolent approaches to the protection of civilians and the prevention and reduction of violence. The UCP Academy is an online learning initiative supporting accessible, high-quality learning on Unarmed Civilian Protection and related practice. As its digital platform is being strengthened, the Academy is preparing for its hard launch in the first half of 2027. In parallel, the Academy is running a three-month pilot with Viamo that adapts NP’s Introduction to UCP course into an interactive, voice-based learning experience delivered by basic mobile phone in the Democratic Republic of the Congo (DRC). The pilot tests a scalable way to reach people who face barriers to conventional online or in-person training, such as limited connectivity, no access to smartphones or computers, low digital literacy, geographic isolation or a preference for oral learning. The Academy seeks a Communications and Branding Consultant to complement the work of its Web Design Consultant with a focus on five priorities: defining a branding strategy for the Academy that is rooted in NP’s brand while creating space for partnerships; documenting the Viamo voice-training pilot through case studies; designing a marketing strategy for the launch of the Academy’s online platform; developing the Academy’s social media strategy and branding; and establishing a consistent brand system across Academy products and publications. **2. Objective** The objective of this consultancy is to strengthen the UCP Academ",
+   "first_seen": "2026-11-24T15:41:14Z"
+  },
+  {
    "id": "socialmediacontentcreator",
    "title": "Social Media Content Creator",
    "org": "CJEU - Court of Justice of the European Union",
@@ -491,8 +592,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (23 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
-   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (23 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsible for the internal and external commun",
+   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (22 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
+   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (22 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsible for the internal and external commun",
    "first_seen": "2026-11-19T14:16:15Z"
   },
   {
@@ -524,35 +625,6 @@
    "snippet": "Result of Service The ultimate result of service is capacity enhanced to implement the AU agenda on land through universities especially, including the Network of Excellence on Land Policy in Africa (NELGA) Work Location Remotely Expected duration 6 months Duties and Responsibilities Background A Memorandum of Understanding (MoU) has been entered between the United Nations Economic Commission for Africa, (ECA) and Un",
    "details": "Result of Service The ultimate result of service is capacity enhanced to implement the AU agenda on land through universities especially, including the Network of Excellence on Land Policy in Africa (NELGA) Work Location Remotely Expected duration 6 months Duties and Responsibilities Background A Memorandum of Understanding (MoU) has been entered between the United Nations Economic Commission for Africa, (ECA) and University of Westen Cape (UWC) to enhance a long standing partnership between the two entities in November 2025. The following are the main areas of cooperation: 1. Collaboration on strategic foresight to support member States in advancing a just and sustainable economic transition in Africa, including through joint planning, sharing of knowledge products, peer review, and dissemination of research findings and recommendations to key decision-makers; 2. Joint development and delivery of executive education and leadership programmes targeting public and private sector actors, including policymakers, regulators, and development partners, to build institutional capacity and sustainability leadership across the continent; 3. Convening of multi-stakeholder dialogues and corporate leadership forums to strengthen engagement with both public and private actors and promote the uptake of evidence-based recommendations and sustainability-aligned strategies; and 4. Joint advocacy, communication, and public engagement initiatives—such as webinars, podcasts, and other thought leadership platforms—to raise awareness and build political and cultural support for inclusive and sustainable development in Africa. The ECA and the UWC has a long-standing collaboration that focuses on land governance, through the African Land Policy Centre and the Institute for Poverty, Land and Ag",
    "first_seen": "2026-11-21T13:20:39Z"
-  },
-  {
-   "id": "junioraccountantadminassistant",
-   "title": "Junior Accountant/Admin Assistant",
-   "org": "ICRC",
-   "source": "ICRC",
-   "feed": "ICRC",
-   "url": "https://careers.icrc.org/job/Cairo-%28CAI%29-Junior-AccountantAdmin-Assistant-33537/1442838833/",
-   "location": "Egypt",
-   "remote": false,
-   "egypt": true,
-   "intl": true,
-   "deadline": null,
-   "posted": null,
-   "score": 50,
-   "reasons": [
-    "Based in Egypt"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "years": 2
-   },
-   "apply_email": "",
-   "snippet": "Junior Accountant/Admin Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We",
-   "details": "Junior Accountant/Admin Assistant Job Details | icrc We use cookies to enhance your website experience. Your preferences will be saved in your browser. You can accept or opt out of cookies anytime to improve site performance and tailor content. Note that declining some cookies may impact your experience. Modify Cookie Preferences Reject All Cookies Accept All Cookies Skip to main content Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities & Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Candidate log in Language English (United Kingdom) Français (France) Candidate log in Candidate log in Open Jobs Life at ICRC Who We Are What We Look For Graduates and Students Opportunities and Benefits How to Apply FAQ Media Hub Latest Updates Employee Stories Language English (United Kingdom) Français (France) Search by Keyword Show More Options Loading... Region All Country All Job location All Job category All Contract type All Clear Create a job alert: select how often (in days) to receive an alert: Create Alert × Create a job alert: select how often (in days) to receive an alert: Apply now » Junior Accountant/Admin Assistant Purpose Junior Accountant /Admin Assistant is accountable for the physical processing of cash transactions and the integrity of physical cash balances in a (sub-)delegation, strictly respecting and applying the ICRC's rules on financial management. Accountabiliti",
-   "first_seen": "2026-11-16T13:29:28Z"
   }
  ],
  "seen": {
@@ -761,14 +833,17 @@
   "englishtosouthkoreantranslatorplainbearingspolymercoatingsconfidentialclientvi": "2026-11-22T13:13:03Z",
   "expertsouthkoreanenglishreputedcompanytranslatorinterpreterandprofessionalconten": "2026-11-22T13:13:03Z",
   "freelanceacademictranslatorkoreantoenglishstemcactuscommunications": "2026-11-22T13:13:03Z",
-  "interpreterarabicparttimenewdutechsystems": "2026-11-23T15:49:58Z"
+  "interpreterarabicparttimenewdutechsystems": "2026-11-23T15:49:58Z",
+  "frenchenglishinterpretercontactlinksolutions": "2026-11-24T15:41:14Z",
+  "englishfrenchtopulaarfreelanceremoteinterpretertonguepoint": "2026-11-24T15:41:14Z",
+  "communicationsandbrandingconsultancyunarmedcivilianprotectionucpacademy": "2026-11-24T15:41:14Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 67,
-  "last_day": "2026-11-23"
+  "used": 70,
+  "last_day": "2026-11-24"
  },
- "quote_index": 20,
+ "quote_index": 21,
  "links": {
   "un-exams": {
    "state": "ok",
@@ -841,8 +916,8 @@
    "fails": 0
   },
   "gengo": {
-   "state": "unknown",
-   "code": 502,
+   "state": "ok",
+   "code": 200,
    "fails": 0
   },
   "translated": {
@@ -870,19 +945,19 @@
   "Remotive": 0,
   "Jobicy": 0,
   "Working Nomads": 0,
-  "Company boards": 0,
   "RemoteOK": 0,
-  "Translation agencies": 0,
+  "Company boards": 0,
   "ReliefWeb": 0,
   "UNESCO": 0,
   "Green Climate Fund": 0,
-  "Google Jobs": 0,
+  "Translation agencies": 0,
+  "UN Careers": 0,
   "CLEAR Global": 0,
+  "ICRC": 0,
   "UNDP": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
-  "ICRC": 0,
-  "UN Careers": 0,
   "Himalayas": 0,
+  "Google Jobs": 0,
   "Impactpool": 0
  }
 }
