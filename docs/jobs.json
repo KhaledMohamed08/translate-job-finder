@@ -1,73 +1,73 @@
 {
- "updated": "2026-11-24T15:41:14Z",
+ "updated": "2026-11-25T15:26:01Z",
  "sources": {
-  "Remotive": {
-   "ok": true,
-   "count": 15
-  },
   "Jobicy": {
    "ok": true,
    "count": 100
   },
-  "Working Nomads": {
+  "Remotive": {
    "ok": true,
-   "count": 37
+   "count": 15
   },
   "RemoteOK": {
    "ok": true,
    "count": 100
   },
+  "Working Nomads": {
+   "ok": true,
+   "count": 38
+  },
   "Company boards": {
    "ok": true,
    "count": 205
   },
+  "Translation agencies": {
+   "ok": true,
+   "count": 193
+  },
   "ReliefWeb": {
    "ok": true,
-   "count": 1156
-  },
-  "UNESCO": {
-   "ok": true,
-   "count": 2
+   "count": 1189
   },
   "Green Climate Fund": {
    "ok": true,
    "count": 2
   },
-  "Translation agencies": {
+  "UNESCO": {
    "ok": true,
-   "count": 192
-  },
-  "UN Careers": {
-   "ok": true,
-   "count": 423
+   "count": 2
   },
   "CLEAR Global": {
    "ok": true,
    "count": 17
   },
+  "UN Careers": {
+   "ok": true,
+   "count": 438
+  },
+  "UNDP": {
+   "ok": true,
+   "count": 11
+  },
+  "UNHCR, WFP, IMF, Welocalize": {
+   "ok": true,
+   "count": 21
+  },
   "ICRC": {
    "ok": true,
    "count": 10
   },
-  "UNDP": {
+  "Google Jobs": {
    "ok": true,
-   "count": 10
-  },
-  "UNHCR, WFP, IMF, Welocalize": {
-   "ok": true,
-   "count": 18
+   "count": 13
   },
   "Himalayas": {
    "ok": true,
    "count": 119
   },
-  "Google Jobs": {
-   "ok": true,
-   "count": 11
-  },
   "Impactpool": {
    "ok": true,
-   "count": 131
+   "count": 127
   }
  },
  "jobs": [
@@ -133,261 +133,324 @@
    "first_seen": "2026-11-19T14:16:15Z"
   },
   {
-   "id": "frenchenglishinterpretercontactlinksolutions",
-   "title": "French – English Interpreter",
-   "org": "ContactLink Solutions LLC",
+   "id": "remotekoreaninterpreterfluentaccurateondemandcontactlinksolutions",
+   "title": "Remote Korean Interpreter: Fluent, Accurate, On-Demand",
+   "org": "ContactLink Solutions",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.remoterocketship.com/us/company/contactlinksolutions/jobs/french-english-interpreter-united-states-remote-3/",
+   "url": "https://www.jobleads.com/us/job/remote-korean-interpreter-fluent-accurate-on-demand--united-states--e40cafc96cab9b2ea8dc7622c90f3b9d6",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-21T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "years": 2,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Jobmington is seeking skilled Korean-English interpreters for a fully remote, full-time contractor role. You will interpret between Korean and English, maintain confidentiality, and work from a quiet, secure home office. The position requires on-time availability, strong linguistic accuracy, and adherence to professional codes of conduct with ongoing training. Candidates should have 2+ years of interpretation experie",
+   "details": "Jobmington is seeking skilled Korean-English interpreters for a fully remote, full-time contractor role. You will interpret between Korean and English, maintain confidentiality, and work from a quiet, secure home office. The position requires on-time availability, strong linguistic accuracy, and adherence to professional codes of conduct with ongoing training. Candidates should have 2+ years of interpretation experience, excellent listening and note-taking skills, and the ability to handle",
+   "first_seen": "2026-11-25T15:26:01Z"
+  },
+  {
+   "id": "southkoreantranslatorinterpreterkoreanwriterparttimeonlineriver",
+   "title": "South Korean Translator / Interpreter/ Korean Writer- Part-Time",
+   "org": "Online River",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://himalayas.app/companies/online-river/jobs/south-korean-translator-interpreter-korean-writer-part-time",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-05T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Korean → English",
+    "contract": "Part-time"
+   },
+   "apply_email": "",
+   "snippet": "We are seeking a skilled and detail-oriented Korean Translator to join our team. As a translator, you will be responsible for translating written and spoken content from Korean to English and vice versa. Your translations should be accurate, culturally appropriate, and timely to ensure clear communication between our organization and Korean-speaking clients, partners, or internal teams. Key Responsibilities • Transla",
+   "details": "We are seeking a skilled and detail-oriented Korean Translator to join our team. As a translator, you will be responsible for translating written and spoken content from Korean to English and vice versa. Your translations should be accurate, culturally appropriate, and timely to ensure clear communication between our organization and Korean-speaking clients, partners, or internal teams. Key Responsibilities • Translation of Documents: Translate various types of documents (business, legal, technical, marketing) from Korean to English and from English to Korean, ensuring accuracy and clarity. • Interpretation Services: Provide oral translation for meetings, video conferences, and phone calls when needed. • Cultural Context: Adapt translations to suit the cultural context of the target language, ensuring the intended message is clearly conveyed. • Proofreading and Editing: Review translated documents for grammar, punctuation, spelling, and accuracy to maintain a high standard of work. • Collaboration: Work closely with internal teams (marketing, legal, technical) to ensure that translations meet specific requirements. • Terminology Management: Maintain glossaries and translation memory databases to ensure consistency across all materials. • Confidentiality: Handle sensitive information with utmost discretion and adhere to confidentiality guidelines. • Timely Delivery: Manage multiple projects simultaneously and meet tight deadlines. Skills, Knowledge and Expertise • Fluency in Korean and English: Must have excellent written and spoken proficiency in both languages. • Experience: Proven experience in translation (2+ years preferred). • Attention to Detail: Ability to produce error-free, high-quality translations. • Cultural Awareness: Strong understanding of Korean and West",
+   "first_seen": "2026-11-07T11:37:44Z"
+  },
+  {
+   "id": "remoteenglishtokoreanpatenttranslatorweloglobal",
+   "title": "Remote English-to-Korean Patent Translator",
+   "org": "Welo Global",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-english-to-korean-patent-translator--united-states--eca92ff2a6322eeafcaeb6e023b15059f",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-23T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → Korean",
+    "years": 2,
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Welocalize is seeking experienced translators for English into Korean patent translation projects. This freelance remote role offers steady volumes and long-term collaboration with a global production team across multiple domains including chemistry, biology, computer science, and engineering. Ideal candidates have at least 2 years of patent translation/editing experience, strong CAT tool skills (Trados, XTM) and the",
+   "details": "Welocalize is seeking experienced translators for English into Korean patent translation projects. This freelance remote role offers steady volumes and long-term collaboration with a global production team across multiple domains including chemistry, biology, computer science, and engineering. Ideal candidates have at least 2 years of patent translation/editing experience, strong CAT tool skills (Trados, XTM) and the ability to deliver in K-Editor formats.",
+   "first_seen": "2026-11-13T12:57:40Z"
+  },
+  {
+   "id": "remotekoreanenglishinterpreterfreelanceflexiblehourstonguepoint",
+   "title": "Remote Korean-English Interpreter (Freelance, Flexible Hours)",
+   "org": "Tonguepoint",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.recruit.net/job/korean-english-interpreter-freelance-jobs/A22A31954B2BCA4C",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-22T00:00:00Z",
-   "score": 90,
+   "score": 95,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
-    "pair": "French ↔ English",
-    "years": 2,
-    "contract": "Contract"
+    "pair": "Korean ↔ English",
+    "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "Job Description: • Facilitate vital communication between French and English speakers, primarily within healthcare and medical sectors. • Process information quickly and accurately while maintaining a professional environment. • Handle interpretation calls professionally following the interpreter’s code of conduct. • Master industry-specific healthcare/medical vocabulary through provided training. • Collaborate close",
-   "details": "Job Description: • Facilitate vital communication between French and English speakers, primarily within healthcare and medical sectors. • Process information quickly and accurately while maintaining a professional environment. • Handle interpretation calls professionally following the interpreter’s code of conduct. • Master industry-specific healthcare/medical vocabulary through provided training. • Collaborate closely with the Team Leader and participate in ongoing quality sessions. Requirements: • Near-native fluency in both English (90%+) and French. • Minimum 2 years of interpretation experience preferred (but we value linguistic talent and potential!). • Excellent listening, retention, and note-taking abilities to ensure 100% accuracy without omissions or additions. • Ability to explain cultural concepts to prevent miscommunication when necessary. • Steady wired internet connection. • USB wired headset. • PC/Laptop with Windows 10 or Mac. • A quiet, secure, and distraction-free workspace. • Language testing and background checks may be required based on location. Benefits: • Fully Remote: Work from the comfort of your home office. • Specialized Training: We provide internal professional training to certify you as a Medical Interpreter. • Stability: Full-time contractor position with immediate availability. • Professional Growth: Monthly payments and a supportive team environment with dedicated Team Leaders.",
-   "first_seen": "2026-11-24T15:41:14Z"
+   "snippet": "Tonguepoint is actively seeking freelance remote interpreters fluent in Korean and English to provide on-demand interpretation services. You will join a roster of interpreters delivering OPI and VRI with training provided and flexible scheduling. As a freelancer, you will handle calls from various sectors such as healthcare and legal, ensuring accuracy, confidentiality, and professionalism while working from a quiet ",
+   "details": "Tonguepoint is actively seeking freelance remote interpreters fluent in Korean and English to provide on-demand interpretation services. You will join a roster of interpreters delivering OPI and VRI with training provided and flexible scheduling. As a freelancer, you will handle calls from various sectors such as healthcare and legal, ensuring accuracy, confidentiality, and professionalism while working from a quiet home setup and a reliable wired internet connection. #J-18808-Ljbffr",
+   "first_seen": "2026-11-25T15:26:01Z"
   },
   {
-   "id": "englishfrenchtopulaarfreelanceremoteinterpretertonguepoint",
-   "title": "English & French to Pulaar Freelance Remote Interpreter",
-   "org": "Tonguepoint",
+   "id": "freelancekoreanenglishtranslatorinvestmentbankingtransperfect",
+   "title": "Freelance Korean <> English Translator - Investment Banking",
+   "org": "TransPerfect",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/english-french-to-pulaar-freelance-remote-interpreter--new-york--e6517319fc7d9ae125f3294d796e7aac6",
+   "url": "https://dailyremote.com/remote-job/freelance-korean-english-translator-investment-banking-5851000",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-11-16T00:00:00Z",
-   "score": 90,
+   "posted": "2026-11-02T00:00:00Z",
+   "score": 95,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
+    "pair": "Korean ↔ English",
+    "years": 2,
     "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "Urgently Hiring For: English & French to Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills",
-   "details": "Urgently Hiring For: English & French to Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, join us to bridge critical communication gaps in moments that matter. Key Responsibilities Provide accurate, real-time consecutive interpretation (English+Pulaar and French+Pulaar). Facilitate clear communication in high-stakes settings (e.g., healthcare, legal). Maintain strict confidentiality, neutrality, and professionalism. Manage your own schedule and log in reliably to handle calls. Qualifications & Tech Requirements Language: Native or near-native fluency in English, French, and Pulaar. Skills: Strong active listening, cultural sensitivity, and emotional resilience. Experience: Beginners welcome; prior interpreting experience is a plus. Workspace: A quiet, distraction-free home environment. Tech Setup: Dedicated computer, high-speed internet (wired preferred for VRI), and a noise-canceling USB headset. What We Offer Ultimate Flexibility: 100% remote work. Choose your own hours (daytime, evening, overnight). Steady Income: Competitive per-minute rates backed by reliable call volume. Growth: Free comprehensive onboarding and ongoing professional training. Referral Program: Refer qualified speakers of our in-demand languages and earn a bonus when your referral is successfully onboarded.",
-   "first_seen": "2026-11-24T15:41:14Z"
+   "snippet": "Position Summary: • Linguists are key players at TransPerfect. Your particular language skills and subject matter expertise will allow you to create and finalize the end product before it goes to the client. Under the guidance of your manager and in collaboration with Project Managers, you’ll be responsible for handling documents pertaining to a variety of clients in the Investment Banking sectors. TransPerfect offer",
+   "details": "Position Summary: • Linguists are key players at TransPerfect. Your particular language skills and subject matter expertise will allow you to create and finalize the end product before it goes to the client. Under the guidance of your manager and in collaboration with Project Managers, you’ll be responsible for handling documents pertaining to a variety of clients in the Investment Banking sectors. TransPerfect offers the possibility to work remotely anywhere in the world. • In order to meet the translation needs of our international clients, we are currently looking to expand our database of freelance linguists who translate from Korean to English and vice versa for the following material: • Investment Banking - Market Commentary • Qualifications, Skills & Experience: • Excellent written and verbal communication skills in Korean and English. • Specialized in any of the field above. • Acute attention to detail, spelling and grammar. • Ability to maintain professionalism in all situations, especially under tight deadlines. • Asian time zone preferred. • IMPORTANT NOTE: • Applicants will be asked to sign a confidentiality agreement and complete free Translation, and MTPE tests respectively to evaluate their skills. • In case this skillset matches your profile, please apply directly in this job post with a latest CV attached. In your CV, please include below: • a) your relevant Translation and MTPE experience; • b) your proposed best Translation per word rate and MTPE hourly rate in USD. Only applicants who meet the above criteria will be contacted. By applying, I confirm I have read and accept TransPerfect's Privacy Policy: https://www.transperfect.com/about/data-privacy-recruiting Candidates MUST also fulfil any ONE of the following requirements: • A Degree in Translatio",
+   "first_seen": "2026-11-13T12:57:40Z"
   },
   {
-   "id": "frenchtranslatorremotequestjobs",
-   "title": "French Translator",
-   "org": "remote quest jobs",
+   "id": "freelancekoreanenglishtranslatorconfidentialclientvi",
+   "title": "Freelance Korean<> English Translator",
+   "org": "Confidential client via ProZ.com",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/french-translator-b95f8970",
+   "url": "https://www.proz.com/translation-jobs/2279954",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-17T00:00:00Z",
-   "score": 90,
+   "score": 95,
    "reasons": [
     "Translation / language role",
-    "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "You’ll feel great about a career with reputed company At reputed company, our collective work matters. As a leading national charity backed by a history of more than 70 years of impact, we’re dedicated to being Canada’s leading service provider, resource, and advocate, empowering people with disabilities to live and thrive in communities nationwide. Our collective efforts are reputed company in our Purpose, Vision, a",
-   "details": "You’ll feel great about a career with reputed company At reputed company, our collective work matters. As a leading national charity backed by a history of more than 70 years of impact, we’re dedicated to being Canada’s leading service provider, resource, and advocate, empowering people with disabilities to live and thrive in communities nationwide. Our collective efforts are reputed company in our Purpose, Vision, and Mission, which inform how we drive all our work forward. • Purpose: Champion equity. Empower ability. • Vision: An inclusive, barrier-free society for people with disabilities. • Mission: To be Canada’s leading service provider, resource, and advocate, empowering people with disabilities to live and thrive in communities nationwide. Skills Development and Employment ensures that people with disabilities find and keep meaningful jobs by matching them with employers seeking qualified job candidates. In addition, they offer support with assessments, rehabilitation and child and youth programs. L’occasion reputed company la responsabilité d’un directeur de la Marche des dix reputed company du Canada, le ou la traducteur(trice) réalise principalement des projets de traduction de l’anglais vers le français pour les différents services de l’organisation. La personne titulaire du poste assure la traduction de divers documents administratifs et organisationnels, en veillant à fournir des traductions de qualité dans les délais reputed company.",
-   "first_seen": "2026-11-06T12:50:29Z"
-  },
-  {
-   "id": "remotefrenchmedicalinterpreterperminutepayoneworldglobalservic",
-   "title": "Remote French Medical Interpreter - Per Minute Pay",
-   "org": "One World Global Services",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-french-medical-interpreter-per-minute-pay--new-england--e401c6ed1f9f9178e0c33e193946a619d",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-19T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "years": 1,
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Wishalicious is hiring experienced French interpreters for a fully remote role with a clear schedule. Offers either full-time or part-time positions and confirms monthly payments, with options for per-minute or fixed-rate compensation. Immediate onboarding is available. You will handle professional calls, especially in healthcare contexts, and adhere to interpreter conduct. English proficiency at native/bilingual lev",
-   "details": "Wishalicious is hiring experienced French interpreters for a fully remote role with a clear schedule. Offers either full-time or part-time positions and confirms monthly payments, with options for per-minute or fixed-rate compensation. Immediate onboarding is available. You will handle professional calls, especially in healthcare contexts, and adhere to interpreter conduct. English proficiency at native/bilingual level and at least 1 year of interpreting experience are preferred.",
-   "first_seen": "2026-11-18T13:47:13Z"
-  },
-  {
-   "id": "englishfrenchpulaarfreelanceremoteinterpretertonguepoint",
-   "title": "English + French Pulaar Freelance Remote Interpreter",
-   "org": "Tonguepoint",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://www.linkedin.com/jobs/view/english-%2B-french-pulaar-freelance-remote-interpreter-at-tonguepoint-4489023188",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-11T00:00:00Z",
-   "score": 90,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
+    "pair": "Korean ↔ English",
+    "years": 2,
     "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "Urgently Hiring For: English + French Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills an",
-   "details": "Urgently Hiring For: English + French Pulaar. Job Title: Freelance Remote Interpreter (English + French / Pulaar) Location: 100% Remote | Type: Freelance/Independent Contractor | Schedule: Flexible Job Summary We are seeking fluent multilingual speakers to provide Over-the-Phone (OPI) and Video Remote Interpretation (VRI). No prior experience is required—we provide full training. If you have strong language skills and a professional attitude, join us to bridge critical communication gaps in moments that matter. Key Responsibilities Provide accurate, real-time consecutive interpretation (English+Pulaar and French+Pulaar). Facilitate clear communication in high-stakes settings (e.g., healthcare, legal). Maintain strict confidentiality, neutrality, and professionalism. Manage your own schedule and log in reliably to handle calls. Qualifications & Tech Requirements Language: Native or near-native fluency in English, French, and Pulaar. Skills: Strong active listening, cultural sensitivity, and emotional resilience. Experience: Beginners welcome; prior interpreting experience is a plus. Workspace: A quiet, distraction-free home environment. Tech Setup: Dedicated computer, high-speed internet (wired preferred for VRI), and a noise-canceling USB headset. What We Offer Ultimate Flexibility: 100% remote work. Choose your own hours (daytime, evening, overnight). Steady Income: Competitive per-minute rates backed by reliable call volume. Growth: Free comprehensive onboarding and ongoing professional training. Referral Program: Refer qualified speakers of our in-demand languages and earn a bonus when your referral is successfully onboarded. To Apply: Ready to begin? Please submit your updated resume highlighting your language proficiency.",
-   "first_seen": "2026-11-18T13:47:13Z"
+   "snippet": "Services required: Translation Language pairs: English to Korean, Korean to English Subject fields: Medical (general) Description: Editage, the flagship brand of CACTUS, provides translation services to help ESL (English-as-a-second-language) researchers communicate their science to the global scientific community. We are currently looking for skilled freelance translators to join our global network of experts. As a ",
+   "details": "Services required: Translation Language pairs: English to Korean, Korean to English Subject fields: Medical (general) Description: Editage, the flagship brand of CACTUS, provides translation services to help ESL (English-as-a-second-language) researchers communicate their science to the global scientific community. We are currently looking for skilled freelance translators to join our global network of experts. As a Translator, you will combine your language skills and subject-area expertise to help researchers worldwide publish cutting-edge research in prestigious journals. Job Description We are looking for translators to work on academic manuscripts across the following subject areas: Medicine, Dentistry, Public Health, Geriatrics, Nursing, Occupational Health, Allied Healthcare, Radiotherapy Planning, Neuroscience and Neurology, Psychology, Pharmaceutical Sciences, Biochemistry, Genetics and Molecular Biology, Ecology, Plant and Animal Science, Electronics and Electrical Engineering, Computer Science and Mathematics, Engineering and Technology, Materials Science, Physics, Chemistry, Environmental Science, Earth and Planetary Science, Archaeology, Philosophy, Sociology, Economics and Statistics, Literature and Linguistics, Business and Finance, Education, Arts, Media and Communication, and Performance and Fine Arts. To qualify, you must have technical expertise in your field. Experience working in a foreign-language setting will be preferred. Your work will primarily involve translating academic research papers from the source language into native English or vice versa while maintaining technical accuracy and clarity. Eligibility Criteria Applicants must meet any one of the following criteria: • A degree in Translation or an equivalent qualification with significant ",
+   "first_seen": "2026-11-25T15:26:01Z"
   },
   {
-   "id": "remotefrenchenglishopiinterpretermagik",
-   "title": "Remote French–English OPI Interpreter",
-   "org": "Magi-K",
+   "id": "remotekoreanenglishacademictranslatorcactuscommunications",
+   "title": "Remote Korean-English Academic Translator",
+   "org": "Cactus Communications Pvt. Ltd.",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://www.jobleads.com/us/job/remote-french-english-opi-interpreter--orlando--e7aa4a44481e127a4984e6acd812bb593",
+   "url": "https://us.trabajo.org/job-5381-cdec90f98de9701dac9db40f2166cc55",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
-   "posted": "2026-11-09T00:00:00Z",
-   "score": 90,
+   "posted": "2026-11-23T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "Korean ↔ English",
+    "contract": "Full-time"
+   },
+   "apply_email": "",
+   "snippet": "Editage, the flagship brand of CACTUS, is seeking researchers and editors who can provide detailed assessments of manuscripts similar to journal peer reviews. This remote role offers flexibility to telecommute from anywhere and allows outside work with deadlines met. Applicants may hold a translation-related degree or equivalent, or have substantial translation experience. The role includes access to industry resourc",
+   "details": "Editage, the flagship brand of CACTUS, is seeking researchers and editors who can provide detailed assessments of manuscripts similar to journal peer reviews. This remote role offers flexibility to telecommute from anywhere and allows outside work with deadlines met. Applicants may hold a translation-related degree or equivalent, or have substantial translation experience. The role includes access to industry resources and learning materials. J-18808-Ljbffr",
+   "first_seen": "2026-11-25T15:26:01Z"
+  },
+  {
+   "id": "remotekoreanenglishlifesciencestranslatorfreelanceulatus",
+   "title": "Remote Korean–English Life Sciences Translator (Freelance)",
+   "org": "Ulatus",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.jobleads.com/us/job/remote-korean-english-life-sciences-translator-freelance--newark--e7b3869018b4839f87e87f061d074fc0f",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-04T00:00:00Z",
+   "score": 95,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
-    "pair": "French ↔ English",
-    "contract": "Full-time"
+    "pair": "Korean ↔ English",
+    "contract": "Freelance"
    },
    "apply_email": "",
-   "snippet": "Magi-K is hiring French–English Over-the-Phone Interpreters (OPI) on a freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate in important conversations. This is a 100% remote position with monthly payment in USD, boasting fast onboarding and a growing international team. Required qualifications include bilingual English (C1) proficiency and a computer with camera, h",
-   "details": "Magi-K is hiring French–English Over-the-Phone Interpreters (OPI) on a freelance contract. You will provide consecutive, bidirectional interpretation to help people communicate in important conversations. This is a 100% remote position with monthly payment in USD, boasting fast onboarding and a growing international team. Required qualifications include bilingual English (C1) proficiency and a computer with camera, headset, and reliable internet.",
-   "first_seen": "2026-11-18T13:47:13Z"
+   "snippet": "Ulatus is seeking talented translators for Korean to English and English to Korean life sciences translations. The role focuses on faithful rendering of manuscripts, clinical information, drug trials, safety reporting, and related documents from academic and life sciences sources. Applicants should have a recognized translation qualification or substantial translation experience, native level Korean or English, and t",
+   "details": "Ulatus is seeking talented translators for Korean to English and English to Korean life sciences translations. The role focuses on faithful rendering of manuscripts, clinical information, drug trials, safety reporting, and related documents from academic and life sciences sources. Applicants should have a recognized translation qualification or substantial translation experience, native level Korean or English, and the ability to work from home with flexible hours.",
+   "first_seen": "2026-11-25T15:26:01Z"
   },
   {
-   "id": "translatorenglishtofrench10monthcontractremoteremotequestjobs",
-   "title": "Translator (English to French) – 10-Month Contract - Remote",
-   "org": "remote quest jobs",
+   "id": "urgentkoreaninterpreterrequiredtodaywithhighestrateconfidentialclientvi",
+   "title": "Urgent Korean Interpreter Required today with Highest rate",
+   "org": "Confidential client via ProZ.com",
    "source": "Google Jobs",
    "feed": "Google Jobs",
-   "url": "https://us.remotejobs.dedyn.io/job/translator-english-to-french-10-month-contract-remote-dfeb98ff",
+   "url": "https://www.proz.com/translation-jobs/2279384",
+   "location": "Remote (check eligibility)",
+   "remote": true,
+   "egypt": false,
+   "intl": false,
+   "deadline": null,
+   "posted": "2026-11-12T00:00:00Z",
+   "score": 95,
+   "reasons": [
+    "Translation / language role",
+    "Check country eligibility",
+    "Remote / home-based"
+   ],
+   "langs": [
+    "Korean"
+   ],
+   "role": true,
+   "facts": {
+    "pair": "English → Korean",
+    "contract": "Contract"
+   },
+   "apply_email": "",
+   "snippet": "Services required: Interpreting, Consecutive Language pairs: English to Korean Subject fields: Medical: Health Care Description: 🚨 URGENT — HIRING TODAY: Experienced Korean Interpreters We need experienced Korean interpreters right now — and we're hiring today. If you're a Korean–English interpreter with proven professional experience and you're available to start immediately, we want to hear from you today. Here's w",
+   "details": "Services required: Interpreting, Consecutive Language pairs: English to Korean Subject fields: Medical: Health Care Description: 🚨 URGENT — HIRING TODAY: Experienced Korean Interpreters We need experienced Korean interpreters right now — and we're hiring today. If you're a Korean–English interpreter with proven professional experience and you're available to start immediately, we want to hear from you today. Here's what we offer: 💰 The highest rate for Korean interpreters — because great interpreting deserves great pay 🏠 100% remote — work from the comfort of your home 🌍 Connect with people from different cultures every single day 🤝 A professional, supportive team that actually has your back What we're looking for: ✔️ Proven professional interpreting experience (OPI / VRI — medical, legal, or community settings) ✔️ Strong Korean & English communication skills ✔️ A quiet home setup and a reliable internet connection ✔️ Available to start right away ⏰ Don't wait — spots are limited and we're hiring today. If this is you, apply now and let's get you started. 📩 Apply today: [HIDDEN] Or connect with me here on LinkedIn — let's talk. Know an experienced Korean interpreter who's available now? Tag them below or share this post — you might just change someone's career. 💙 #UrgentHiring #HiringNow #KoreanInterpreter #ExperiencedInterpreter #RemoteJobs #WorkFromHome #InterpreterJobs #BilingualJobs #LanguageJobs #OPI",
+   "first_seen": "2026-11-19T14:16:15Z"
+  },
+  {
+   "id": "koreaninterpretersforportobarcelonavisits1517dec2026confidentialclientvi",
+   "title": "Korean interpreters for Porto & Barcelona visits — 15 & 17 Dec 2026",
+   "org": "Confidential client via ProZ.com",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://www.proz.com/translation-jobs/2280625",
    "location": "Remote (check eligibility)",
    "remote": true,
    "egypt": false,
    "intl": false,
    "deadline": null,
    "posted": "2026-11-20T00:00:00Z",
-   "score": 82,
+   "score": 95,
    "reasons": [
     "Translation / language role",
     "Check country eligibility",
-    "Remote / home-based",
-    "Asks 5+ years"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": true,
-   "facts": {
-    "pair": "English → French",
-    "years": 5,
-    "contract": "Full-time"
-   },
-   "apply_email": "",
-   "snippet": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company reputed company that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, hel",
-   "details": "Join IAMGOLD for a 10-month contract to support Project Nova, our company-wide implementation of reputed company reputed company that is transforming how we work across Finance, reputed company Chain, HR, and other core functions. The Translator will work across a wide range of materials, including user acceptance testing (UAT) content, training materials, system and platform language, and project communications, helping ensure consistency and clarity at reputed company stage of the rollout. Requirements • Bachelor's degree in translation (English to French specialization) • At least five years of relevant experience, including technical translation • Excellent command of both English and French, with native-level proficiency in French • Strong familiarity with translation tools such as Trados reputed company or similar environments • Terminology databases and emerging reputed company technologies • reputed company understanding of terminology across core business functions—including Finance, reputed company Chain, HR, and reputed company operations Benefits • Competitive salary • Bonus • reputed company • Health spending account • Fitness & wellness subsidy • Employee & family assistance reputed company • TFSA & RRSP • Electric vehicle subsidy • Summer hours • Holiday office reputed company Originally posted on Himalayas Apply To reputed company Job",
-   "first_seen": "2026-11-03T23:20:55Z"
-  },
-  {
-   "id": "remotefreelanceinterpreterenglishfrenchtofulanitonguepoint",
-   "title": "Remote Freelance Interpreter: English/French to Fulani",
-   "org": "Tonguepoint",
-   "source": "Google Jobs",
-   "feed": "Google Jobs",
-   "url": "https://jooble.org/jdp/138611263768503962",
-   "location": "Remote (check eligibility)",
-   "remote": true,
-   "egypt": false,
-   "intl": false,
-   "deadline": null,
-   "posted": "2026-11-16T00:00:00Z",
-   "score": 70,
-   "reasons": [
-    "Translation / language role",
-    "Check country eligibility",
-    "Needs Fulani",
     "Remote / home-based"
    ],
    "langs": [
-    "French"
+    "Korean"
    ],
    "role": true,
    "facts": {
-    "pair": "French → Fulani",
-    "contract": "Freelance"
+    "pair": "Catalan → Korean",
+    "contract": "Contract"
    },
    "apply_email": "",
-   "snippet": "Tonguepoint is urgently hiring freelance remote interpreters fluent in English, French, and Fulani to provide OPI and VRI. Remote, flexible schedule, no prior experience required as training is provided. You will manage your own calls, work from a quiet home setup, and earn competitive per-minute rates with onboarding and ongoing training. A referral program offers bonuses for onboarding referrals. #J-18808-Ljbffr To",
-   "details": "Tonguepoint is urgently hiring freelance remote interpreters fluent in English, French, and Fulani to provide OPI and VRI. Remote, flexible schedule, no prior experience required as training is provided. You will manage your own calls, work from a quiet home setup, and earn competitive per-minute rates with onboarding and ongoing training. A referral program offers bonuses for onboarding referrals. #J-18808-Ljbffr Tonguepoint",
-   "first_seen": "2026-11-18T13:47:13Z"
+   "snippet": "Services required: Interpreting, Consecutive Language pairs: Catalan to Korean, Portuguese to Korean, Spanish to Korean Subject fields: Art, Arts & Crafts, Painting, Art/Literary Description: LocalBridge Travel is seeking local freelance interpreters for two separate institutional visits by a Korean design and cultural organization in December 2026. The visit dates are confirmed. Interpreter selection and final assig",
+   "details": "Services required: Interpreting, Consecutive Language pairs: Catalan to Korean, Portuguese to Korean, Spanish to Korean Subject fields: Art, Arts & Crafts, Painting, Art/Literary Description: LocalBridge Travel is seeking local freelance interpreters for two separate institutional visits by a Korean design and cultural organization in December 2026. The visit dates are confirmed. Interpreter selection and final assignment details will be confirmed after reviewing applications. Applicants may apply for either location. Each assignment requires two-way interpreting between Korean and the relevant local language. 1. PORTO / MATOSINHOS, PORTUGAL Date: Tuesday, 15 December 2026 Scheduled time: 10:00–12:00, local time (2 hours) Venue: esad—idea research centre in Matosinhos Languages: Korean ↔ Portuguese Scope: - Interpret introductions to the research centre and the Porto Design Biennale. - Facilitate discussions about planning and operating design events. - Interpret discussions about international exchange and potential cooperation. 2. BARCELONA, SPAIN Date: Thursday, 17 December 2026 Scheduled time: 13:00–16:00, local time (3 hours) Venue: FAD at Disseny Hub Barcelona (DHub) Languages: Korean ↔ Spanish and/or Korean ↔ Catalan Please specify which language pair(s) you can interpret professionally. The working language for this visit will be confirmed before an interpreter is selected. Scope: - Interpret a meeting with FAD representatives about design and cultural programmes. - Facilitate discussions about international exchange and potential cooperation. - If available within the scheduled visit, interpret explanations and questions during a tour of DHub facilities and exhibition spaces. Both visits focus on institutional introductions, professional exchange and questions ",
+   "first_seen": "2026-11-25T15:26:01Z"
   },
   {
    "id": "translationandlocalizationprojectmanagementspecialistfuturegroup",
@@ -418,6 +481,35 @@
    "snippet": "About the Role We are seeking a detail-oriented Project Management Officer to support our translation and localization operations. This role will coordinate projects across internal teams and external suppliers, ensuring timely delivery, quality, and cost control for multilingual content and localization initiatives. The successful candidate will be organized, communicative, and familiar with translation workflows, C",
    "details": "About the Role We are seeking a detail-oriented Project Management Officer to support our translation and localization operations. This role will coordinate projects across internal teams and external suppliers, ensuring timely delivery, quality, and cost control for multilingual content and localization initiatives. The successful candidate will be organized, communicative, and familiar with translation workflows, CAT tools, and vendor management. Key Responsibilities: Project Coordination & Delivery Manage end-to-end translation and localization projects from intake to delivery, tracking schedules, milestones and deliverables Vendor & Supplier Management Onboard, evaluate and coordinate freelance linguists and translation agencies Negotiate rates, manage purchase orders and monitor vendor performance against SLAs Quality Assurance Implement QA checks and post-editing guidelines to ensure linguistic and functional quality Co-ordinate linguistic reviews, in-country testing and bug tracking with product and QA teams Qualifications & Requirements: 2–3 years of experience as a Localization Project Manager or in a similar role University graduate (Bachelors degree or equivalent) For male candidates: completion of military service or official exemption (if applicable) Proven experience in the translation and localization industry Strong understanding of: Localization workflows MTPE processes QA/QC practices CAT tools and TMS platforms Ability to manage multiple projects simultaneously under tight deadlines Excellent English communication skills (written and spoken) Strong organizational and problem-solving skills Comfortable working full-time in the US time zone Based in Egypt with a reliable internet connection and remote-work setup Proactive, detail-oriented and comfortabl",
    "first_seen": "2026-11-04T12:53:22Z"
+  },
+  {
+   "id": "futuregrouptranslationservicesmarketinginternshipfuturegrouplanguages",
+   "title": "تدريب التسويق من مجموعة فيوتشر لخدمات الترجمة Future Group Translation Services Marketing internship",
+   "org": "مجموعة فيوتشر لحلول اللغة Future Group Language Solutions",
+   "source": "Google Jobs",
+   "feed": "Google Jobs",
+   "url": "https://egyincs.com/opportunities/future-group-translation-services-marketing-internship/",
+   "location": "الجيزة، قسم العمرانية, Egypt",
+   "remote": false,
+   "egypt": true,
+   "intl": false,
+   "deadline": null,
+   "posted": null,
+   "score": 65,
+   "reasons": [
+    "Translation / language role",
+    "Based in Egypt",
+    "Internships are usually for students"
+   ],
+   "langs": [],
+   "role": true,
+   "facts": {
+    "contract": "Internship"
+   },
+   "apply_email": "",
+   "snippet": "انضم إلى فريقنا: متدرب تسويق كن جزءًا من Yaddly ، إحدى الشركات التابعة لمجموعة Future Group، المتخصصة في التسويق منذ إنشائها في عام 1994، لقد كرسنا جهودنا لفتح آفاق جديدة وتقديم حلول مناسبة عبر القارات. مع توسعنا في الخدمات، يسعدنا أن نعلن عن فتح باب التدريب الداخلي في مجال التسويق . يوفر هذا المنصب فرصة عملية للتعمق في العمليات التسويقية لشركة معترف بها عالميًا وإحداث تأثير ملموس. نظرة عامة على التدريب: باعتبارك متد",
+   "details": "انضم إلى فريقنا: متدرب تسويق كن جزءًا من Yaddly ، إحدى الشركات التابعة لمجموعة Future Group، المتخصصة في التسويق منذ إنشائها في عام 1994، لقد كرسنا جهودنا لفتح آفاق جديدة وتقديم حلول مناسبة عبر القارات. مع توسعنا في الخدمات، يسعدنا أن نعلن عن فتح باب التدريب الداخلي في مجال التسويق . يوفر هذا المنصب فرصة عملية للتعمق في العمليات التسويقية لشركة معترف بها عالميًا وإحداث تأثير ملموس. نظرة عامة على التدريب: باعتبارك متدربًا في مجال التسويق، ستتاح لك الفرصة لاكتساب خبرة عملية والمساهمة في مبادرات التسويق المختلفة داخل مؤسستنا. بتوجيه من فريق التسويق، ستساعد في تنفيذ الحملات التسويقية وإجراء أبحاث السوق وتحليل البيانات ودعم الأنشطة التسويقية اليومية. تم تصميم هذا التدريب لتوفير عرض قيم لمجال التسويق وتطوير المهارات الأساسية لمهنة تسويق ناجحة. المسؤوليات الرئيسية لشركة Yaddly: المساعدة في تطوير وتنفيذ الحملات التسويقية عبر القنوات المختلفة، بما في ذلك التسويق الرقمي ووسائل التواصل الاجتماعي والبريد الإلكتروني والتسويق التقليدي. إجراء أبحاث السوق لتحديد اتجاهات الصناعة والتحليل التنافسي ورؤى العملاء. تعاون مع فريق التسويق لإنشاء محتوى لضمانات التسويق، مثل الكتيبات والعروض التقديمية ومنشورات المدونات ومحتوى الوسائط الاجتماعية. دعم تخطيط وتنسيق الأحداث التسويقية، مثل المعارض التجارية أو المؤتمرات أو الندوات عبر الإنترنت أو إطلاق المنتجات. المساعدة في تحليل بيانات ومقاييس التسويق لتقييم أداء الحملة وتقديم توصيات للتحسين. مراقبة منصات التواصل الاجتماعي والتفاعل معها لبناء الوعي بالعلامة التجارية والتفاعل مع الجمهور المستهدف. المشاركة في جلسات العصف الذهني والمساهمة بأفكار إبداعية للحملات والمبادرات التسويقية. المساعدة في الحفاظ على قاعدة بيانات التسويق وتحديث معلومات العملاء وضمان دقة البيانات. التعاون مع فرق متعددة الوظائف، مثل المبيعات وتطوير المنتجات، لضمان المواءمة والتواصل الفعال للمبادرات التسويقية. متطلبات التدريب: تسعى حاليًا للحصول على شهادة في التسويق أو إدارة الأعمال أو",
+   "first_seen": "2026-11-25T15:26:01Z"
   },
   {
    "id": "englishlanguagelegaltranslators",
@@ -507,36 +599,6 @@
    "first_seen": "2026-11-18T13:47:13Z"
   },
   {
-   "id": "consultantnationalechargdeproductionde22vidosetlesproduitsquilesaccompagnentunic",
-   "title": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901",
-   "org": "UNICEF - United Nations Children’s Fund",
-   "source": "Impactpool",
-   "feed": "Impactpool",
-   "url": "https://www.impactpool.org/jobs/1247200",
-   "location": "Remote | Bangui",
-   "remote": true,
-   "egypt": false,
-   "intl": true,
-   "deadline": "2026-11-25T00:00:00Z",
-   "posted": null,
-   "score": 57,
-   "reasons": [
-    "Mentions translation",
-    "Remote / home-based"
-   ],
-   "langs": [
-    "French"
-   ],
-   "role": false,
-   "facts": {
-    "contract": "Consultancy"
-   },
-   "apply_email": "",
-   "snippet": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 Closing soon Apply Summary by Impactpool L'UNICEF recherche un consul",
-   "details": "Consultant nationale chargé de production de 22 vidéos et les produits qui les accompagnent UNICEF Section de communication, Bangui, À distance avec possible déplacements, 11 Mois 596901 UNICEF - United Nations Children’s Fund Remote | Bangui International Consultant - Contractors Agreement level Speaks Sango Application deadline: November 25, 2026 Closing soon Apply Summary by Impactpool L'UNICEF recherche un consultant pour la production de 22 vidéos et de supports multimédias associés, dans le cadre de sa mission de communication en République centrafricaine. Le consultant sera responsable de la réalisation, de la révision et de la livraison de contenus vidéo et photo, ainsi que de travaux de conception graphique. Ce contrat de 11 mois inclut des déplacements sur le terrain selon les besoins. Le candidat idéal aura une solide expérience en production multimédia, notamment dans le secteur humanitaire ou du développement. Candidate Requirements: Licence en communication numérique, journalisme ou domaine connexe Au moins cinq ans d'expérience en production multimédia Maîtrise de la suite Adobe Creative Portfolio solide en production vidéo Compétences en conception graphique Français et sango requis L'équipe Communication et Plaidoyer de l'UNICEF en République centrafricaine œuvre pour défendre les droits des enfants et mettre en lumière l'impact des programmes soutenus par les donateurs, grâce à des contenus multimédias de qualité et à la narration numérique. Au cours des prochains mois, plusieurs initiatives majeures nécessiteront la réalisation de vidéos et d'autres supports multimédias ; ceux-ci seront élaborés à partir d'éléments recueillis sur le terrain, puis soumis à un processus de production et de validation avant leur diffusion sur nos plateformes numériques. ",
-   "first_seen": "2026-11-11T12:35:33Z"
-  },
-  {
    "id": "communicationsandbrandingconsultancyunarmedcivilianprotectionucpacademy",
    "title": "Communications and Branding Consultancy – Unarmed Civilian Protection (UCP) Academy",
    "org": "Nonviolent Peaceforce",
@@ -592,8 +654,8 @@
     "contract": "Consultancy"
    },
    "apply_email": "",
-   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (22 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
-   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (22 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsible for the internal and external commun",
+   "snippet": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (21 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role invo",
+   "details": "Social Media Content Creator CJEU - Court of Justice of the European Union Remote | Luxembourg Both national and international FG IV, Function Group 4, Contract Agent level Speaks English, French Application deadline: December 16, 2026 (21 days) Apply Summary by Impactpool The Court of Justice of the European Union (CJEU) is seeking a social media content creator to join its Communications Directorate. This role involves producing creative content for social media, managing daily posts, and collaborating with various teams to ensure consistent messaging. The ideal candidate will participate in covering institutional projects and events on digital platforms. The position offers a multicultural environment and flexible working conditions. Candidate Requirements: EU national Post-secondary education (3 years) Thorough knowledge of one EU language Satisfactory knowledge of another EU language Diploma in communication (desirable) Experience in audiovisual production (desirable) Experience in legal or EU institutions (desirable) Skills in creative writing Experience in social media communication The essentials Location : Luxembourg Deadline : 16/12/2026 Grade : FG IV Contract type : Contract Agent The Court’s mission The Court of Justice of the European Union (CJEU) lies at the heart of European justice. As the judicial authority of the Union, it works in close collaboration with national jurisdictions of the Member States to ensure the consistent interpretation and application of the EU Treaties and law. As an employer, the CJEU strives for excellence and values multilingualism, inclusiveness, diversity, and collaboration. Who will be your team? The Communications Directorate, within the Directorate-General for Information, is responsible for the internal and external commun",
    "first_seen": "2026-11-19T14:16:15Z"
   },
   {
@@ -625,6 +687,35 @@
    "snippet": "Result of Service The ultimate result of service is capacity enhanced to implement the AU agenda on land through universities especially, including the Network of Excellence on Land Policy in Africa (NELGA) Work Location Remotely Expected duration 6 months Duties and Responsibilities Background A Memorandum of Understanding (MoU) has been entered between the United Nations Economic Commission for Africa, (ECA) and Un",
    "details": "Result of Service The ultimate result of service is capacity enhanced to implement the AU agenda on land through universities especially, including the Network of Excellence on Land Policy in Africa (NELGA) Work Location Remotely Expected duration 6 months Duties and Responsibilities Background A Memorandum of Understanding (MoU) has been entered between the United Nations Economic Commission for Africa, (ECA) and University of Westen Cape (UWC) to enhance a long standing partnership between the two entities in November 2025. The following are the main areas of cooperation: 1. Collaboration on strategic foresight to support member States in advancing a just and sustainable economic transition in Africa, including through joint planning, sharing of knowledge products, peer review, and dissemination of research findings and recommendations to key decision-makers; 2. Joint development and delivery of executive education and leadership programmes targeting public and private sector actors, including policymakers, regulators, and development partners, to build institutional capacity and sustainability leadership across the continent; 3. Convening of multi-stakeholder dialogues and corporate leadership forums to strengthen engagement with both public and private actors and promote the uptake of evidence-based recommendations and sustainability-aligned strategies; and 4. Joint advocacy, communication, and public engagement initiatives—such as webinars, podcasts, and other thought leadership platforms—to raise awareness and build political and cultural support for inclusive and sustainable development in Africa. The ECA and the UWC has a long-standing collaboration that focuses on land governance, through the African Land Policy Centre and the Institute for Poverty, Land and Ag",
    "first_seen": "2026-11-21T13:20:39Z"
+  },
+  {
+   "id": "technicaleditoreconomicandsocialcom",
+   "title": "Technical Editor",
+   "org": "Economic And Social Commission For Asia And The Pacific",
+   "source": "UN Careers",
+   "feed": "UN Careers",
+   "url": "https://careers.un.org/jobSearchDescription/288711?language=en",
+   "location": "Remotely",
+   "remote": true,
+   "egypt": false,
+   "intl": true,
+   "deadline": "2026-12-03T04:59:59Z",
+   "posted": "2026-11-25T05:00:00Z",
+   "score": 50,
+   "reasons": [
+    "Translation / language role",
+    "Remote / home-based",
+    "Asks 7+ years"
+   ],
+   "langs": [],
+   "role": true,
+   "facts": {
+    "years": 15
+   },
+   "apply_email": "",
+   "snippet": "Result of Service A fully edited, publication-ready manuscript of the Asia-Pacific Disaster Report 2027, including an executive summary, foreword, annexes and associated outreach products, consistent with United Nations editorial standards. Work Location Remotely Expected duration 6 months Duties and Responsibilities Background The Asia-Pacific Disaster Report (APDR) is a biennial flagship publication of the Informat",
+   "details": "Result of Service A fully edited, publication-ready manuscript of the Asia-Pacific Disaster Report 2027, including an executive summary, foreword, annexes and associated outreach products, consistent with United Nations editorial standards. Work Location Remotely Expected duration 6 months Duties and Responsibilities Background The Asia-Pacific Disaster Report (APDR) is a biennial flagship publication of the Information and Communications Technology and Disaster Risk Reduction Division of the United Nations Economic and Social Commission for Asia and the Pacific. The Report aims to deepen understanding of disaster risk and its implications for sustainable development in Asia and the Pacific. It provides evidence-based analysis, policy options and practical tools to support governments and stakeholders in addressing the region's evolving risk landscape. The Report is intended for policymakers, practitioners, researchers, development partners, and civil society organizations engaged in disaster risk reduction and resilience-building. The 2027 edition of the Report will contribute to strengthening the capacity of countries facing heightened vulnerability to emerging and cascading crises, particularly least developed countries (LDCs) and landlocked developing countries (LLDCs) in mountain regions of Asia and the Pacific. The devastating Bhotekoshi-Trishuli Disaster in Nepal in August 2026 underscored the growing complexity of risk in mountain environments, where climate- and geophysical-related hazards can interact to produce cascading impacts across infrastructure, livelihoods, critical services and economic systems. Mountain Countries such as Nepal, Bhutan, Tajikistan and Kyrgyzstan are increasingly exposed to interconnected risks arising from glacier retreat, permafrost ",
+   "first_seen": "2026-11-25T15:26:01Z"
   }
  ],
  "seen": {
@@ -836,14 +927,22 @@
   "interpreterarabicparttimenewdutechsystems": "2026-11-23T15:49:58Z",
   "frenchenglishinterpretercontactlinksolutions": "2026-11-24T15:41:14Z",
   "englishfrenchtopulaarfreelanceremoteinterpretertonguepoint": "2026-11-24T15:41:14Z",
-  "communicationsandbrandingconsultancyunarmedcivilianprotectionucpacademy": "2026-11-24T15:41:14Z"
+  "communicationsandbrandingconsultancyunarmedcivilianprotectionucpacademy": "2026-11-24T15:41:14Z",
+  "remotekoreaninterpreterfluentaccurateondemandcontactlinksolutions": "2026-11-25T15:26:01Z",
+  "remotekoreanenglishinterpreterfreelanceflexiblehourstonguepoint": "2026-11-25T15:26:01Z",
+  "freelancekoreanenglishtranslatorconfidentialclientvi": "2026-11-25T15:26:01Z",
+  "remotekoreanenglishacademictranslatorcactuscommunications": "2026-11-25T15:26:01Z",
+  "remotekoreanenglishlifesciencestranslatorfreelanceulatus": "2026-11-25T15:26:01Z",
+  "koreaninterpretersforportobarcelonavisits1517dec2026confidentialclientvi": "2026-11-25T15:26:01Z",
+  "futuregrouptranslationservicesmarketinginternshipfuturegrouplanguages": "2026-11-25T15:26:01Z",
+  "technicaleditoreconomicandsocialcom": "2026-11-25T15:26:01Z"
  },
  "jsearch": {
   "month": "2026-11",
-  "used": 70,
-  "last_day": "2026-11-24"
+  "used": 73,
+  "last_day": "2026-11-25"
  },
- "quote_index": 21,
+ "quote_index": 22,
  "links": {
   "un-exams": {
    "state": "ok",
@@ -936,28 +1035,28 @@
    "fails": 0
   },
   "bayt": {
-   "state": "unknown",
-   "code": 403,
+   "state": "ok",
+   "code": 200,
    "fails": 0
   }
  },
  "health": {
-  "Remotive": 0,
   "Jobicy": 0,
-  "Working Nomads": 0,
+  "Remotive": 0,
   "RemoteOK": 0,
+  "Working Nomads": 0,
   "Company boards": 0,
-  "ReliefWeb": 0,
-  "UNESCO": 0,
-  "Green Climate Fund": 0,
   "Translation agencies": 0,
-  "UN Careers": 0,
+  "ReliefWeb": 0,
+  "Green Climate Fund": 0,
+  "UNESCO": 0,
   "CLEAR Global": 0,
-  "ICRC": 0,
+  "UN Careers": 0,
   "UNDP": 0,
   "UNHCR, WFP, IMF, Welocalize": 0,
-  "Himalayas": 0,
+  "ICRC": 0,
   "Google Jobs": 0,
+  "Himalayas": 0,
   "Impactpool": 0
  }
 }
